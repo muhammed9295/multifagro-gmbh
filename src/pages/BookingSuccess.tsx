@@ -132,7 +132,7 @@ const BookingSuccess = () => {
               <div className="flex justify-between items-center">
                 <span className="text-muted-foreground">Total Amount</span>
                 <span className="text-2xl font-heading font-bold text-primary">
-                  SAR {bookingData.total.toLocaleString()}
+                  CHF {bookingData.total.toLocaleString()}
                 </span>
               </div>
               <p className="text-xs text-muted-foreground mt-2">

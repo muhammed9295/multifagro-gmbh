@@ -43,7 +43,7 @@ const About = () => {
                 Making Moving Simple
               </h1>
               <p className="text-lg sm:text-xl text-muted-foreground leading-relaxed">
-                We're on a mission to transform the moving experience by connecting customers with trusted, professional movers across Saudi Arabia.
+                We're on a mission to transform the moving experience by connecting customers with trusted, professional movers across Switzerland.
               </p>
             </div>
           </div>
@@ -83,7 +83,7 @@ const About = () => {
                     We built MoveEasy to be the trusted platform that brings transparency, choice, and peace of mind to every move. By carefully vetting our partners and providing instant quotes, we've helped thousands of families and businesses relocate with confidence.
                   </p>
                   <p>
-                    Today, we're proud to be Saudi Arabia's leading moving marketplace, connecting customers with the best professional movers in the industry. But we're just getting started.
+                    Today, we're proud to be Switzerland's leading moving marketplace, connecting customers with the best professional movers in the industry. But we're just getting started.
                   </p>
                 </div>
               </div>

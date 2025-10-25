@@ -16,21 +16,21 @@ const Pricing = () => {
   const estimates = [
     {
       size: "Studio/1 Bedroom",
-      local: "SAR 800 - 1,200",
-      distance: "SAR 2,000 - 3,500",
+      local: "CHF 300 - 450",
+      distance: "CHF 800 - 1,400",
       features: ["1-2 movers", "Small truck", "3-4 hours", "Basic insurance"],
     },
     {
       size: "2 Bedroom",
-      local: "SAR 1,200 - 1,800",
-      distance: "SAR 3,500 - 5,000",
+      local: "CHF 450 - 700",
+      distance: "CHF 1,400 - 2,000",
       features: ["2-3 movers", "Medium truck", "4-6 hours", "Full insurance"],
       popular: true,
     },
     {
       size: "3-4 Bedroom",
-      local: "SAR 1,800 - 2,800",
-      distance: "SAR 5,000 - 8,000",
+      local: "CHF 700 - 1,100",
+      distance: "CHF 2,000 - 3,200",
       features: ["3-4 movers", "Large truck", "6-8 hours", "Premium insurance"],
     },
   ];
@@ -165,12 +165,12 @@ const Pricing = () => {
 
             <div className="grid sm:grid-cols-2 gap-4">
               {[
-                { service: "Professional Packing", price: "SAR 200 - 500" },
-                { service: "Unpacking Service", price: "SAR 150 - 350" },
-                { service: "Packing Materials", price: "SAR 100 - 300" },
-                { service: "Furniture Assembly", price: "SAR 150 - 400" },
-                { service: "Post-Move Cleaning", price: "SAR 250 - 600" },
-                { service: "Storage (per month)", price: "SAR 300 - 800" },
+                { service: "Professional Packing", price: "CHF 80 - 200" },
+                { service: "Unpacking Service", price: "CHF 60 - 140" },
+                { service: "Packing Materials", price: "CHF 40 - 120" },
+                { service: "Furniture Assembly", price: "CHF 60 - 160" },
+                { service: "Post-Move Cleaning", price: "CHF 100 - 240" },
+                { service: "Storage (per month)", price: "CHF 120 - 320" },
               ].map((item, index) => (
                 <div
                   key={index}

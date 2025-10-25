@@ -8,14 +8,14 @@ const Testimonials = () => {
   const testimonials = [
     {
       name: "Ahmed Al-Rashid",
-      city: "Riyadh",
+      city: "Zurich",
       rating: 5,
       text: "Moving with MoveEasy was seamless. The movers were professional, punctual, and handled everything with care. Highly recommended!",
       date: "2 weeks ago",
     },
     {
-      name: "Sarah Mohammed",
-      city: "Jeddah",
+      name: "Sarah Mueller",
+      city: "Geneva",
       rating: 5,
       text: "I was dreading the move, but MoveEasy made it so easy! Got multiple quotes instantly and found the perfect mover within my budget.",
       date: "1 month ago",
@@ -29,7 +29,7 @@ const Testimonials = () => {
     },
     {
       name: "Fatima Hassan",
-      city: "Riyadh",
+      city: "Basel",
       rating: 5,
       text: "Professional, reliable, and affordable. The customer support team was always available to answer my questions. Thank you MoveEasy!",
       date: "2 months ago",

@@ -72,7 +72,7 @@ const Hero = () => {
                   <Input
                     id="fromPostcode"
                     type="text"
-                    placeholder="e.g., Riyadh"
+                    placeholder="e.g., Zurich"
                     value={formData.fromPostcode}
                     onChange={(e) => setFormData({ ...formData, fromPostcode: e.target.value })}
                     className="h-11"
@@ -88,7 +88,7 @@ const Hero = () => {
                   <Input
                     id="toPostcode"
                     type="text"
-                    placeholder="e.g., Jeddah"
+                    placeholder="e.g., Geneva"
                     value={formData.toPostcode}
                     onChange={(e) => setFormData({ ...formData, toPostcode: e.target.value })}
                     className="h-11"

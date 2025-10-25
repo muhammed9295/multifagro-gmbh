@@ -171,7 +171,7 @@ const Quote = () => {
                     </Label>
                     <Input
                       id="fromAddress"
-                      placeholder="e.g., Al Malqa, Riyadh"
+                      placeholder="e.g., Oerlikon, Zurich"
                       value={formData.fromAddress}
                       onChange={(e) => setFormData({ ...formData, fromAddress: e.target.value })}
                       className={errors.fromAddress ? "border-destructive" : ""}
@@ -188,7 +188,7 @@ const Quote = () => {
                     </Label>
                     <Input
                       id="toAddress"
-                      placeholder="e.g., Al Hamra, Jeddah"
+                      placeholder="e.g., Plainpalais, Geneva"
                       value={formData.toAddress}
                       onChange={(e) => setFormData({ ...formData, toAddress: e.target.value })}
                       className={errors.toAddress ? "border-destructive" : ""}

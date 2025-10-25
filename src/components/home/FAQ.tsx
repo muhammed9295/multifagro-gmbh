@@ -17,7 +17,7 @@ const FAQ = () => {
     },
     {
       question: "How much does a move cost?",
-      answer: "Moving costs vary based on distance, volume, and services needed. Our platform shows transparent pricing from multiple movers so you can compare and choose the best option for your budget. Most local moves range from SAR 800-2,500.",
+      answer: "Moving costs vary based on distance, volume, and services needed. Our platform shows transparent pricing from multiple movers so you can compare and choose the best option for your budget. Most local moves range from CHF 300-1,000.",
     },
     {
       question: "Can I get help with packing?",
@@ -33,7 +33,7 @@ const FAQ = () => {
     },
     {
       question: "Do you serve my area?",
-      answer: "We currently serve all major cities in Saudi Arabia including Riyadh, Jeddah, Dammam, Khobar, Mecca, and Medina. Enter your postcodes to see available movers in your area.",
+      answer: "We currently serve all major cities in Switzerland including Zurich, Geneva, Basel, Bern, Lausanne, and Lucerne. Enter your postcodes to see available movers in your area.",
     },
     {
       question: "Can I reschedule my move?",

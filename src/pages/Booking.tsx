@@ -187,7 +187,7 @@ const Booking = () => {
                 <div className="space-y-4 mb-6">
                   <div className="flex justify-between text-sm">
                     <span className="text-muted-foreground">Base Moving Service</span>
-                    <span className="font-medium text-foreground">SAR {offer.price.toLocaleString()}</span>
+                    <span className="font-medium text-foreground">CHF {offer.price.toLocaleString()}</span>
                   </div>
 
                   {selectedAddOns.length > 0 && (
@@ -196,7 +196,7 @@ const Booking = () => {
                       {selectedAddOns.map((addon, idx) => (
                         <div key={idx} className="flex justify-between text-sm mb-2">
                           <span className="text-muted-foreground">{addon.name}</span>
-                          <span className="font-medium text-foreground">SAR {addon.price}</span>
+                          <span className="font-medium text-foreground">CHF {addon.price}</span>
                         </div>
                       ))}
                     </div>
@@ -205,11 +205,11 @@ const Booking = () => {
                   <div className="pt-4 border-t border-border space-y-2">
                     <div className="flex justify-between text-sm">
                       <span className="text-muted-foreground">Subtotal</span>
-                      <span className="font-medium text-foreground">SAR {subtotal.toLocaleString()}</span>
+                      <span className="font-medium text-foreground">CHF {subtotal.toLocaleString()}</span>
                     </div>
                     <div className="flex justify-between text-sm">
                       <span className="text-muted-foreground">VAT (15%)</span>
-                      <span className="font-medium text-foreground">SAR {vat.toFixed(2)}</span>
+                      <span className="font-medium text-foreground">CHF {vat.toFixed(2)}</span>
                     </div>
                   </div>
 
@@ -217,7 +217,7 @@ const Booking = () => {
                     <div className="flex justify-between">
                       <span className="font-heading font-semibold text-foreground">Total</span>
                       <span className="text-2xl font-heading font-bold text-primary">
-                        SAR {total.toLocaleString()}
+                        CHF {total.toLocaleString()}
                       </span>
                     </div>
                   </div>

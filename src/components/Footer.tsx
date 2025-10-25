@@ -17,7 +17,7 @@ const Footer = () => {
               <span className="text-xl font-heading font-bold text-foreground">MoveEasy</span>
             </div>
             <p className="text-sm text-muted-foreground leading-relaxed">
-              Professional moving and packing services with transparent pricing and verified partners across Saudi Arabia.
+              Professional moving and packing services with transparent pricing and verified partners across Switzerland.
             </p>
             <div className="flex space-x-3">
               <a href="#" className="p-2 rounded-lg bg-background hover:bg-primary hover:text-primary-foreground transition-colors shadow-soft">
@@ -123,7 +123,7 @@ const Footer = () => {
                 <MapPin className="h-5 w-5 text-primary mt-0.5 flex-shrink-0" />
                 <div>
                   <p className="text-sm text-muted-foreground">
-                    Riyadh, Jeddah, Dammam<br />Saudi Arabia
+                    Zurich, Geneva, Basel<br />Switzerland
                   </p>
                 </div>
               </li>

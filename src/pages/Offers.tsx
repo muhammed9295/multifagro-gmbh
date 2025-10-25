@@ -92,9 +92,9 @@ const Offers = () => {
             </p>
             <div className="mt-4 p-4 bg-background rounded-lg border border-border inline-flex items-center space-x-2 text-sm">
               <span className="text-muted-foreground">Moving from</span>
-              <span className="font-medium text-foreground">{quoteData.fromAddress || "Riyadh"}</span>
+              <span className="font-medium text-foreground">{quoteData.fromAddress || "Zurich"}</span>
               <span className="text-muted-foreground">to</span>
-              <span className="font-medium text-foreground">{quoteData.toAddress || "Jeddah"}</span>
+              <span className="font-medium text-foreground">{quoteData.toAddress || "Geneva"}</span>
             </div>
           </div>
 
@@ -141,7 +141,7 @@ const Offers = () => {
                           </h3>
                           <div className="flex flex-col items-end">
                             <div className="text-3xl font-heading font-bold text-primary">
-                              SAR {offer.price.toLocaleString()}
+                              CHF {offer.price.toLocaleString()}
                             </div>
                             <div className="text-xs text-muted-foreground">Total estimate</div>
                           </div>

@@ -68,7 +68,7 @@ const Contact = () => {
     {
       icon: MapPin,
       title: "Locations",
-      detail: "Riyadh • Jeddah • Dammam",
+      detail: "Zurich • Geneva • Basel",
       link: null,
     },
   ];
