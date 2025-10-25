@@ -26,7 +26,7 @@ const FinalCTA = () => {
               Ready to Make Your Move?
             </h2>
             <p className="text-lg sm:text-xl text-primary-foreground/90 max-w-2xl mx-auto leading-relaxed">
-              Join thousands of satisfied customers who chose MoveEasy for their relocation needs
+              Join thousands of satisfied customers who chose Movu for their relocation needs
             </p>
           </div>
 

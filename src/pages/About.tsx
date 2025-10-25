@@ -77,10 +77,10 @@ const About = () => {
                 </h2>
                 <div className="space-y-4 text-muted-foreground leading-relaxed">
                   <p>
-                    MoveEasy was born from a simple observation: moving shouldn't be stressful. After experiencing the challenges of coordinating moves firsthand, our founders realized there had to be a better way.
+                    Movu was born from a simple observation: moving shouldn't be stressful. After experiencing the challenges of coordinating moves firsthand, our founders realized there had to be a better way.
                   </p>
                   <p>
-                    We built MoveEasy to be the trusted platform that brings transparency, choice, and peace of mind to every move. By carefully vetting our partners and providing instant quotes, we've helped thousands of families and businesses relocate with confidence.
+                    We built Movu to be the trusted platform that brings transparency, choice, and peace of mind to every move. By carefully vetting our partners and providing instant quotes, we've helped thousands of families and businesses relocate with confidence.
                   </p>
                   <p>
                     Today, we're proud to be Switzerland's leading moving marketplace, connecting customers with the best professional movers in the industry. But we're just getting started.
@@ -191,7 +191,7 @@ const About = () => {
               Ready to Experience the Difference?
             </h2>
             <p className="text-lg text-primary-foreground/90 mb-8 max-w-2xl mx-auto">
-              Join thousands of satisfied customers who chose MoveEasy for their relocation
+              Join thousands of satisfied customers who chose Movu for their relocation
             </p>
             <Button
               asChild

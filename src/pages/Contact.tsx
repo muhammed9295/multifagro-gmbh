@@ -62,8 +62,8 @@ const Contact = () => {
     {
       icon: Mail,
       title: "Email",
-      detail: "support@moveeasy.sa",
-      link: "mailto:support@moveeasy.sa",
+      detail: "support@movu.ch",
+      link: "mailto:support@movu.ch",
     },
     {
       icon: MapPin,

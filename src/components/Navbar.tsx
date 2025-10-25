@@ -29,7 +29,7 @@ const Navbar = () => {
             <div className="flex items-center justify-center w-10 h-10 rounded-lg bg-primary">
               <span className="text-2xl font-bold text-primary-foreground">M</span>
             </div>
-            <span className="text-xl font-heading font-bold text-foreground">MoveEasy</span>
+            <span className="text-xl font-heading font-bold text-foreground">Movu</span>
           </Link>
 
           {/* Desktop Navigation */}

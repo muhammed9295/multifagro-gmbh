@@ -8,7 +8,7 @@ import {
 const FAQ = () => {
   const faqs = [
     {
-      question: "How does MoveEasy work?",
+      question: "How does Movu work?",
       answer: "Simply fill out our quick form with your moving details. You'll receive multiple quotes from verified movers within minutes. Compare prices, read reviews, and book directly through our platform. It's that easy!",
     },
     {

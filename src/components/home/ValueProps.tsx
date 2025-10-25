@@ -30,7 +30,7 @@ const ValueProps = () => {
         {/* Section Header */}
         <div className="text-center space-y-4 mb-16">
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-heading font-bold text-foreground">
-            Why Choose MoveEasy
+            Why Choose Movu
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
             We make moving simple, safe, and stress-free

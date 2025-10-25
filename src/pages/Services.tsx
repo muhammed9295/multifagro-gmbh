@@ -162,7 +162,7 @@ const Services = () => {
           <div className="container mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-16">
               <h2 className="text-3xl sm:text-4xl lg:text-5xl font-heading font-bold text-foreground mb-4">
-                Why Choose MoveEasy
+                Why Choose Movu
               </h2>
               <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
                 We're committed to making your move as smooth and stress-free as possible

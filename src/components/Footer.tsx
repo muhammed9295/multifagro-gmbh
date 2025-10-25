@@ -14,7 +14,7 @@ const Footer = () => {
               <div className="flex items-center justify-center w-10 h-10 rounded-lg bg-primary">
                 <span className="text-2xl font-bold text-primary-foreground">M</span>
               </div>
-              <span className="text-xl font-heading font-bold text-foreground">MoveEasy</span>
+              <span className="text-xl font-heading font-bold text-foreground">Movu</span>
             </div>
             <p className="text-sm text-muted-foreground leading-relaxed">
               Professional moving and packing services with transparent pricing and verified partners across Switzerland.
@@ -114,8 +114,8 @@ const Footer = () => {
               <li className="flex items-start space-x-3">
                 <Mail className="h-5 w-5 text-primary mt-0.5 flex-shrink-0" />
                 <div>
-                  <a href="mailto:support@moveeasy.sa" className="text-sm text-muted-foreground hover:text-primary transition-colors">
-                    support@moveeasy.sa
+                  <a href="mailto:support@movu.ch" className="text-sm text-muted-foreground hover:text-primary transition-colors">
+                    support@movu.ch
                   </a>
                 </div>
               </li>
@@ -135,7 +135,7 @@ const Footer = () => {
         <div className="pt-8 border-t border-border">
           <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
             <p className="text-sm text-muted-foreground text-center md:text-left">
-              © {currentYear} MoveEasy. All rights reserved.
+              © {currentYear} Movu. All rights reserved.
             </p>
             <div className="flex flex-wrap justify-center gap-4">
               <Link to="/legal/terms" className="text-sm text-muted-foreground hover:text-primary transition-colors">

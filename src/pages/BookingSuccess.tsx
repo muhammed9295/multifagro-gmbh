@@ -166,9 +166,9 @@ const BookingSuccess = () => {
                 <Phone className="h-4 w-4 mr-2" />
                 <span className="font-medium">+966 12 345 6789</span>
               </a>
-              <a href="mailto:support@moveeasy.sa" className="flex items-center text-primary hover:text-primary-hover transition-colors">
+              <a href="mailto:support@movu.ch" className="flex items-center text-primary hover:text-primary-hover transition-colors">
                 <Mail className="h-4 w-4 mr-2" />
-                <span className="font-medium">support@moveeasy.sa</span>
+                <span className="font-medium">support@movu.ch</span>
               </a>
             </div>
           </div>
