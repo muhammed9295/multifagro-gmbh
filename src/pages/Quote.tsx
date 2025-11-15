@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { useNavigate, useLocation } from "react-router-dom";
+import { useTranslation } from "react-i18next";
 import { ArrowRight, ArrowLeft, MapPin, Home as HomeIcon, Calendar, User, Mail, Phone } from "lucide-react";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
@@ -12,6 +13,7 @@ import { Checkbox } from "@/components/ui/checkbox";
 import { toast } from "sonner";
 
 const Quote = () => {
+  const { t } = useTranslation();
   const navigate = useNavigate();
   const location = useLocation();
   const initialData = location.state || {};
@@ -49,23 +51,23 @@ const Quote = () => {
     const newErrors: Record<string, string> = {};
 
     if (currentStep === 1) {
-      if (!formData.fromAddress) newErrors.fromAddress = "Moving from is required";
-      if (!formData.toAddress) newErrors.toAddress = "Moving to is required";
-      if (!formData.moveSize) newErrors.moveSize = "Move size is required";
-      if (!formData.floors) newErrors.floors = "Number of floors is required";
+      if (!formData.fromAddress) newErrors.fromAddress = t("quotePage.validation.movingFromRequired");
+      if (!formData.toAddress) newErrors.toAddress = t("quotePage.validation.movingToRequired");
+      if (!formData.moveSize) newErrors.moveSize = t("quotePage.validation.moveSizeRequired");
+      if (!formData.floors) newErrors.floors = t("quotePage.validation.floorsRequired");
     }
 
     if (currentStep === 3) {
-      if (!formData.moveDate) newErrors.moveDate = "Move date is required";
-      if (!formData.timeWindow) newErrors.timeWindow = "Time window is required";
+      if (!formData.moveDate) newErrors.moveDate = t("quotePage.validation.moveDateRequired");
+      if (!formData.timeWindow) newErrors.timeWindow = t("quotePage.validation.timeWindowRequired");
     }
 
     if (currentStep === 4) {
-      if (!formData.name) newErrors.name = "Name is required";
-      if (!formData.email) newErrors.email = "Email is required";
-      if (!formData.phone) newErrors.phone = "Phone is required";
+      if (!formData.name) newErrors.name = t("quotePage.validation.nameRequired");
+      if (!formData.email) newErrors.email = t("quotePage.validation.emailRequired");
+      if (!formData.phone) newErrors.phone = t("quotePage.validation.phoneRequired");
       if (formData.email && !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(formData.email)) {
-        newErrors.email = "Invalid email address";
+        newErrors.email = t("quotePage.validation.invalidEmail");
       }
     }
 
@@ -90,17 +92,17 @@ const Quote = () => {
 
   const handleSubmit = () => {
     localStorage.setItem("quoteRequest", JSON.stringify(formData));
-    toast.success("Quote request submitted! Redirecting to offers...");
+    toast.success(t("quotePage.success.message"));
     setTimeout(() => {
       navigate("/offers", { state: formData });
     }, 1500);
   };
 
   const steps = [
-    { number: 1, title: "Details" },
-    { number: 2, title: "Options" },
-    { number: 3, title: "Schedule" },
-    { number: 4, title: "Contact" },
+    { number: 1, title: t("quotePage.steps.details") },
+    { number: 2, title: t("quotePage.steps.options") },
+    { number: 3, title: t("quotePage.steps.schedule") },
+    { number: 4, title: t("quotePage.steps.contact") },
   ];
 
   return (
@@ -112,10 +114,10 @@ const Quote = () => {
           {/* Header */}
           <div className="text-center mb-12">
             <h1 className="text-3xl sm:text-4xl font-heading font-bold text-foreground mb-3">
-              Get Your Free Quote
+              {t("quotePage.hero.title")}
             </h1>
             <p className="text-muted-foreground">
-              Complete the form to receive personalized quotes from verified movers
+              {t("quotePage.hero.subtitle")}
             </p>
           </div>
 
@@ -160,18 +162,18 @@ const Quote = () => {
             {step === 1 && (
               <div className="space-y-6">
                 <h2 className="text-2xl font-heading font-semibold text-foreground mb-6">
-                  Moving Details
+                  {t("quotePage.step1.title")}
                 </h2>
                 
                 <div className="grid md:grid-cols-2 gap-6">
                   <div className="space-y-2">
                     <Label htmlFor="fromAddress" className="flex items-center space-x-2">
                       <MapPin className="h-4 w-4 text-primary" />
-                      <span>Moving From *</span>
+                      <span>{t("quotePage.step1.movingFrom")} {t("common.required")}</span>
                     </Label>
                     <Input
                       id="fromAddress"
-                      placeholder="e.g., Oerlikon, Zurich"
+                      placeholder={t("quotePage.step1.fromPlaceholder")}
                       value={formData.fromAddress}
                       onChange={(e) => setFormData({ ...formData, fromAddress: e.target.value })}
                       className={errors.fromAddress ? "border-destructive" : ""}
@@ -184,11 +186,11 @@ const Quote = () => {
                   <div className="space-y-2">
                     <Label htmlFor="toAddress" className="flex items-center space-x-2">
                       <MapPin className="h-4 w-4 text-primary" />
-                      <span>Moving To *</span>
+                      <span>{t("quotePage.step1.movingTo")} {t("common.required")}</span>
                     </Label>
                     <Input
                       id="toAddress"
-                      placeholder="e.g., Plainpalais, Geneva"
+                      placeholder={t("quotePage.step1.toPlaceholder")}
                       value={formData.toAddress}
                       onChange={(e) => setFormData({ ...formData, toAddress: e.target.value })}
                       className={errors.toAddress ? "border-destructive" : ""}
@@ -200,18 +202,18 @@ const Quote = () => {
                 </div>
 
                 <div className="space-y-2">
-                  <Label htmlFor="moveSize">Move Size *</Label>
+                  <Label htmlFor="moveSize">{t("quotePage.step1.moveSize")} {t("common.required")}</Label>
                   <Select value={formData.moveSize} onValueChange={(value) => setFormData({ ...formData, moveSize: value })}>
                     <SelectTrigger className={errors.moveSize ? "border-destructive" : ""}>
-                      <SelectValue placeholder="Select move size" />
+                      <SelectValue placeholder={t("quotePage.step1.selectMoveSize")} />
                     </SelectTrigger>
                     <SelectContent>
-                      <SelectItem value="studio">Studio Apartment (1-2 rooms)</SelectItem>
-                      <SelectItem value="1bed">1 Bedroom (2-3 rooms)</SelectItem>
-                      <SelectItem value="2bed">2 Bedroom (3-4 rooms)</SelectItem>
-                      <SelectItem value="3bed">3 Bedroom (4-5 rooms)</SelectItem>
-                      <SelectItem value="4bed+">4+ Bedroom (6+ rooms)</SelectItem>
-                      <SelectItem value="office">Office Space</SelectItem>
+                      <SelectItem value="studio">{t("quotePage.step1.sizes.studio")}</SelectItem>
+                      <SelectItem value="1bed">{t("quotePage.step1.sizes.1bed")}</SelectItem>
+                      <SelectItem value="2bed">{t("quotePage.step1.sizes.2bed")}</SelectItem>
+                      <SelectItem value="3bed">{t("quotePage.step1.sizes.3bed")}</SelectItem>
+                      <SelectItem value="4bed+">{t("quotePage.step1.sizes.4bed+")}</SelectItem>
+                      <SelectItem value="office">{t("quotePage.step1.sizes.office")}</SelectItem>
                     </SelectContent>
                   </Select>
                   {errors.moveSize && (
@@ -221,17 +223,17 @@ const Quote = () => {
 
                 <div className="grid md:grid-cols-2 gap-6">
                   <div className="space-y-2">
-                    <Label htmlFor="floors">Current Floor *</Label>
+                    <Label htmlFor="floors">{t("quotePage.step1.currentFloor")} {t("common.required")}</Label>
                     <Select value={formData.floors} onValueChange={(value) => setFormData({ ...formData, floors: value })}>
                       <SelectTrigger className={errors.floors ? "border-destructive" : ""}>
-                        <SelectValue placeholder="Select floor" />
+                        <SelectValue placeholder={t("quotePage.step1.selectFloor")} />
                       </SelectTrigger>
                       <SelectContent>
-                        <SelectItem value="ground">Ground Floor</SelectItem>
-                        <SelectItem value="1">1st Floor</SelectItem>
-                        <SelectItem value="2">2nd Floor</SelectItem>
-                        <SelectItem value="3">3rd Floor</SelectItem>
-                        <SelectItem value="4+">4th Floor or Higher</SelectItem>
+                        <SelectItem value="ground">{t("quotePage.step1.floors.ground")}</SelectItem>
+                        <SelectItem value="1">{t("quotePage.step1.floors.1")}</SelectItem>
+                        <SelectItem value="2">{t("quotePage.step1.floors.2")}</SelectItem>
+                        <SelectItem value="3">{t("quotePage.step1.floors.3")}</SelectItem>
+                        <SelectItem value="4+">{t("quotePage.step1.floors.4+")}</SelectItem>
                       </SelectContent>
                     </Select>
                     {errors.floors && (
@@ -247,7 +249,7 @@ const Quote = () => {
                         onCheckedChange={(checked) => setFormData({ ...formData, elevator: checked as boolean })}
                       />
                       <Label htmlFor="elevator" className="cursor-pointer">
-                        Elevator available
+                        {t("quotePage.step1.elevatorAvailable")}
                       </Label>
                     </div>
                   </div>
@@ -259,19 +261,19 @@ const Quote = () => {
             {step === 2 && (
               <div className="space-y-6">
                 <h2 className="text-2xl font-heading font-semibold text-foreground mb-6">
-                  Additional Services
+                  {t("quotePage.step2.title")}
                 </h2>
                 <p className="text-muted-foreground mb-6">
-                  Select any additional services you need (optional)
+                  {t("quotePage.step2.subtitle")}
                 </p>
 
                 <div className="space-y-4">
                   {[
-                    { id: "packing", label: "Professional Packing", desc: "Let our team pack your belongings safely" },
-                    { id: "unpacking", label: "Unpacking Service", desc: "We'll unpack and arrange items in your new place" },
-                    { id: "boxes", label: "Packing Materials", desc: "Boxes, bubble wrap, tape, and other supplies" },
-                    { id: "cleaning", label: "Post-Move Cleaning", desc: "Deep cleaning of your old residence" },
-                    { id: "assembly", label: "Furniture Assembly", desc: "Assembly and disassembly of furniture" },
+                    { id: "packing", key: "packing" },
+                    { id: "unpacking", key: "unpacking" },
+                    { id: "boxes", key: "boxes" },
+                    { id: "cleaning", key: "cleaning" },
+                    { id: "assembly", key: "assembly" },
                   ].map((service) => (
                     <div
                       key={service.id}
@@ -290,9 +292,11 @@ const Quote = () => {
                         checkbox?.click();
                       }}>
                         <Label htmlFor={service.id} className="font-medium cursor-pointer">
-                          {service.label}
+                          {t(`quotePage.step2.services.${service.key}.label`)}
                         </Label>
-                        <p className="text-sm text-muted-foreground">{service.desc}</p>
+                        <p className="text-sm text-muted-foreground">
+                          {t(`quotePage.step2.services.${service.key}.description`)}
+                        </p>
                       </div>
                     </div>
                   ))}
@@ -304,13 +308,13 @@ const Quote = () => {
             {step === 3 && (
               <div className="space-y-6">
                 <h2 className="text-2xl font-heading font-semibold text-foreground mb-6">
-                  Schedule Your Move
+                  {t("quotePage.step3.title")}
                 </h2>
 
                 <div className="space-y-2">
                   <Label htmlFor="moveDate" className="flex items-center space-x-2">
                     <Calendar className="h-4 w-4 text-primary" />
-                    <span>Preferred Move Date *</span>
+                    <span>{t("quotePage.step3.preferredMoveDate")} {t("common.required")}</span>
                   </Label>
                   <Input
                     id="moveDate"
@@ -326,16 +330,16 @@ const Quote = () => {
                 </div>
 
                 <div className="space-y-2">
-                  <Label htmlFor="timeWindow">Preferred Time Window *</Label>
+                  <Label htmlFor="timeWindow">{t("quotePage.step3.preferredTimeWindow")} {t("common.required")}</Label>
                   <Select value={formData.timeWindow} onValueChange={(value) => setFormData({ ...formData, timeWindow: value })}>
                     <SelectTrigger className={errors.timeWindow ? "border-destructive" : ""}>
-                      <SelectValue placeholder="Select time window" />
+                      <SelectValue placeholder={t("quotePage.step3.selectTimeWindow")} />
                     </SelectTrigger>
                     <SelectContent>
-                      <SelectItem value="morning">Morning (8am - 12pm)</SelectItem>
-                      <SelectItem value="afternoon">Afternoon (12pm - 4pm)</SelectItem>
-                      <SelectItem value="evening">Evening (4pm - 8pm)</SelectItem>
-                      <SelectItem value="flexible">Flexible</SelectItem>
+                      <SelectItem value="morning">{t("quotePage.step3.timeWindows.morning")}</SelectItem>
+                      <SelectItem value="afternoon">{t("quotePage.step3.timeWindows.afternoon")}</SelectItem>
+                      <SelectItem value="evening">{t("quotePage.step3.timeWindows.evening")}</SelectItem>
+                      <SelectItem value="flexible">{t("quotePage.step3.timeWindows.flexible")}</SelectItem>
                     </SelectContent>
                   </Select>
                   {errors.timeWindow && (
@@ -344,10 +348,10 @@ const Quote = () => {
                 </div>
 
                 <div className="space-y-2">
-                  <Label htmlFor="notes">Additional Notes (Optional)</Label>
+                  <Label htmlFor="notes">{t("quotePage.step3.additionalNotes")}</Label>
                   <Textarea
                     id="notes"
-                    placeholder="Any special requirements or items that need extra care?"
+                    placeholder={t("quotePage.step3.notesPlaceholder")}
                     value={formData.notes}
                     onChange={(e) => setFormData({ ...formData, notes: e.target.value })}
                     rows={4}
@@ -360,17 +364,17 @@ const Quote = () => {
             {step === 4 && (
               <div className="space-y-6">
                 <h2 className="text-2xl font-heading font-semibold text-foreground mb-6">
-                  Contact Information
+                  {t("quotePage.step4.title")}
                 </h2>
 
                 <div className="space-y-2">
                   <Label htmlFor="name" className="flex items-center space-x-2">
                     <User className="h-4 w-4 text-primary" />
-                    <span>Full Name *</span>
+                    <span>{t("quotePage.step4.fullName")} {t("common.required")}</span>
                   </Label>
                   <Input
                     id="name"
-                    placeholder="Ahmed Al-Rashid"
+                    placeholder={t("quotePage.step4.namePlaceholder")}
                     value={formData.name}
                     onChange={(e) => setFormData({ ...formData, name: e.target.value })}
                     className={errors.name ? "border-destructive" : ""}
@@ -383,12 +387,12 @@ const Quote = () => {
                 <div className="space-y-2">
                   <Label htmlFor="email" className="flex items-center space-x-2">
                     <Mail className="h-4 w-4 text-primary" />
-                    <span>Email Address *</span>
+                    <span>{t("quotePage.step4.emailAddress")} {t("common.required")}</span>
                   </Label>
                   <Input
                     id="email"
                     type="email"
-                    placeholder="ahmed@example.com"
+                    placeholder={t("quotePage.step4.emailPlaceholder")}
                     value={formData.email}
                     onChange={(e) => setFormData({ ...formData, email: e.target.value })}
                     className={errors.email ? "border-destructive" : ""}
@@ -401,12 +405,12 @@ const Quote = () => {
                 <div className="space-y-2">
                   <Label htmlFor="phone" className="flex items-center space-x-2">
                     <Phone className="h-4 w-4 text-primary" />
-                    <span>Phone Number *</span>
+                    <span>{t("quotePage.step4.phoneNumber")} {t("common.required")}</span>
                   </Label>
                   <Input
                     id="phone"
                     type="tel"
-                    placeholder="+966 5X XXX XXXX"
+                    placeholder={t("quotePage.step4.phonePlaceholder")}
                     value={formData.phone}
                     onChange={(e) => setFormData({ ...formData, phone: e.target.value })}
                     className={errors.phone ? "border-destructive" : ""}
@@ -417,7 +421,7 @@ const Quote = () => {
                 </div>
 
                 <div className="bg-muted rounded-lg p-4 text-sm text-muted-foreground">
-                  By submitting this form, you agree to receive quotes from verified moving partners. Your information is secure and will not be shared with third parties.
+                  {t("quotePage.step4.privacyNotice")}
                 </div>
               </div>
             )}
@@ -427,14 +431,14 @@ const Quote = () => {
               {step > 1 ? (
                 <Button variant="outline" onClick={handleBack}>
                   <ArrowLeft className="mr-2 h-4 w-4" />
-                  Back
+                  {t("quotePage.buttons.back")}
                 </Button>
               ) : (
                 <div></div>
               )}
               
               <Button variant="hero" onClick={handleNext}>
-                {step === 4 ? "Get My Quotes" : "Continue"}
+                {step === 4 ? t("quotePage.buttons.getMyQuotes") : t("quotePage.buttons.continue")}
                 <ArrowRight className="ml-2 h-4 w-4" />
               </Button>
             </div>

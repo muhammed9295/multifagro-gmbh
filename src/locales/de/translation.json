@@ -1,0 +1,526 @@
+{
+  "navbar": {
+    "services": "Dienstleistungen",
+    "howItWorks": "So funktioniert's",
+    "pricing": "Preise",
+    "about": "Über uns",
+    "contact": "Kontakt",
+    "getFreeQuotes": "Kostenlose Angebote"
+  },
+  "hero": {
+    "title": "Umziehen mit",
+    "titleHighlight": "Vertrauen",
+    "subtitle": "Erhalten Sie sofortige Angebote von geprüften Umzugsunternehmen. Vergleichen Sie Preise, lesen Sie Bewertungen und buchen Sie Ihren perfekten Umzugspartner in Minuten.",
+    "trustBadges": {
+      "fullyInsured": "Vollständig versichert",
+      "verifiedPartners": "Geprüfte Partner",
+      "movesPerMonth": "500+ Umzüge/Monat"
+    },
+    "form": {
+      "title": "Kostenloses Angebot erhalten",
+      "movingFrom": "Umzug von",
+      "movingTo": "Umzug nach",
+      "fromPlaceholder": "z.B. Zürich",
+      "toPlaceholder": "z.B. Genf",
+      "compareOffers": "Umzugsangebote vergleichen",
+      "disclaimer": "Kostenlose Angebote • Keine Verpflichtung • Sofortiger Vergleich"
+    },
+    "stats": {
+      "satisfaction": "Zufriedenheit",
+      "support": "Support",
+      "moves": "Umzüge"
+    }
+  },
+  "howItWorks": {
+    "title": "So funktioniert's",
+    "subtitle": "Ihren perfekten Umzugspartner zu finden ist einfach und stressfrei",
+    "steps": {
+      "step1": {
+        "title": "Umzug anfordern",
+        "description": "Füllen Sie ein einfaches Formular mit Ihren Umzugsdetails aus. Dauert weniger als 2 Minuten."
+      },
+      "step2": {
+        "title": "Angebote vergleichen",
+        "description": "Erhalten Sie Angebote von geprüften Umzugsunternehmen. Vergleichen Sie Preise, Bewertungen und Dienstleistungen."
+      },
+      "step3": {
+        "title": "Buchen & Entspannen",
+        "description": "Wählen Sie Ihren bevorzugten Umzugsunternehmer und bestätigen Sie. Wir kümmern uns um den Rest."
+      }
+    }
+  },
+  "services": {
+    "title": "Unsere Dienstleistungen",
+    "subtitle": "Umfassende Umzugslösungen, die auf Ihre Bedürfnisse zugeschnitten sind",
+    "viewAll": "Alle Dienstleistungen anzeigen",
+    "items": {
+      "homeMoving": {
+        "title": "Wohnungsumzug",
+        "description": "Komplette Umzugsdienstleistungen für Wohnungen mit sorgfältiger Behandlung Ihrer Habseligkeiten.",
+        "features": ["Packhilfe", "Möbelmontage", "Sicherer Transport"]
+      },
+      "officeMoving": {
+        "title": "Büroumzug",
+        "description": "Minimieren Sie Ausfallzeiten mit unseren effizienten Firmenumzugsdienstleistungen.",
+        "features": ["Umzüge außerhalb der Geschäftszeiten", "IT-Ausrüstungspflege", "Grundrissplanung"]
+      },
+      "packing": {
+        "title": "Verpackungsservice",
+        "description": "Professionelle Verpackung mit hochwertigen Materialien zum Schutz Ihrer Gegenstände.",
+        "features": ["Hochwertige Materialien", "Erfahrene Packer", "Beschriftungssystem"]
+      },
+      "storage": {
+        "title": "Lagerlösungen",
+        "description": "Sichere, klimatisierte Lagerung für kurzfristige oder langfristige Bedürfnisse.",
+        "features": ["24/7 Sicherheit", "Klimakontrolle", "Flexible Bedingungen"]
+      },
+      "assembly": {
+        "title": "Möbelmontage",
+        "description": "Fachmännische Montage und Demontage von Möbeln und Geräten.",
+        "features": ["Alle Möbeltypen", "Werkzeug bereitgestellt", "Schneller Service"]
+      },
+      "cleaning": {
+        "title": "Reinigung nach Umzug",
+        "description": "Hinterlassen Sie Ihre alte Wohnung makellos mit unserem gründlichen Reinigungsservice.",
+        "features": ["Tiefenreinigung", "Umweltfreundliche Produkte", "Auszugsfähig"]
+      }
+    }
+  },
+  "footer": {
+    "description": "Professionelle Umzugs- und Verpackungsdienstleistungen mit transparenten Preisen und geprüften Partnern in der gesamten Schweiz.",
+    "services": "Dienstleistungen",
+    "company": "Unternehmen",
+    "contactUs": "Kontaktieren Sie uns",
+    "allRightsReserved": "Alle Rechte vorbehalten",
+    "servicesLinks": {
+      "homeMoving": "Wohnungsumzug",
+      "officeRelocation": "Büroumzug",
+      "packingServices": "Verpackungsservice",
+      "storageSolutions": "Lagerlösungen",
+      "furnitureAssembly": "Möbelmontage"
+    },
+    "companyLinks": {
+      "aboutUs": "Über uns",
+      "pricing": "Preise",
+      "contact": "Kontakt",
+      "terms": "Allgemeine Geschäftsbedingungen",
+      "privacy": "Datenschutzrichtlinie"
+    },
+    "bottomLinks": {
+      "terms": "AGB",
+      "privacy": "Datenschutz",
+      "cookies": "Cookies"
+    }
+  },
+  "contact": {
+    "title": "Kontaktieren Sie uns",
+    "subtitle": "Haben Sie Fragen? Wir sind hier, um zu helfen. Kontaktieren Sie uns und wir werden so schnell wie möglich antworten.",
+    "phone": "Telefon",
+    "email": "E-Mail",
+    "locations": "Standorte",
+    "locationsText": "Zürich • Genf • Basel",
+    "businessHours": "Geschäftszeiten",
+    "mondayFriday": "Montag - Freitag",
+    "saturdaySunday": "Samstag - Sonntag",
+    "closed": "Geschlossen",
+    "hours": "8:00 - 18:00 Uhr",
+    "form": {
+      "title": "Senden Sie uns eine Nachricht",
+      "fullName": "Vollständiger Name",
+      "emailAddress": "E-Mail-Adresse",
+      "phoneNumber": "Telefonnummer (Optional)",
+      "subject": "Betreff (Optional)",
+      "message": "Nachricht",
+      "sendMessage": "Nachricht senden",
+      "placeholders": {
+        "name": "Max Mustermann",
+        "email": "max@beispiel.com",
+        "phone": "078 XXX XX XX",
+        "subject": "Wie können wir helfen?",
+        "message": "Teilen Sie uns mehr über Ihre Anfrage mit..."
+      }
+    },
+    "faqLink": {
+      "title": "Suchen Sie schnelle Antworten?",
+      "subtitle": "Schauen Sie sich unseren FAQ-Bereich für sofortige Antworten auf häufige Fragen an",
+      "button": "FAQ anzeigen"
+    }
+  },
+  "servicesPage": {
+    "hero": {
+      "title": "Umfassende Umzugsdienstleistungen",
+      "subtitle": "Von der Verpackung bis zum Auspacken, von der Lagerung bis zur Montage — wir kümmern uns mit Professionalität und Sorgfalt um jeden Aspekt Ihres Umzugs.",
+      "cta": "Kostenlose Angebote"
+    },
+    "services": {
+      "residential": {
+        "title": "Wohnungsumzug",
+        "description": "Stressfreie Umzugsdienstleistungen für Wohnungen mit erfahrenen Umzugsunternehmen, die Ihre Habseligkeiten sorgfältig behandeln.",
+        "features": [
+          "Komplettes Packen und Auspacken",
+          "Möbelmontage und -demontage",
+          "Sicheres Laden und Transport",
+          "Versicherungsschutz inbegriffen",
+          "Flexible Terminplanung"
+        ]
+      },
+      "office": {
+        "title": "Büroumzug",
+        "description": "Minimieren Sie Ausfallzeiten mit unseren effizienten Firmenumzugsdienstleistungen für Unternehmen jeder Größe.",
+        "features": [
+          "Umzüge außerhalb der Geschäftszeiten und am Wochenende",
+          "Spezialisierte Handhabung von IT-Ausrüstung",
+          "Bürolayout und -planung",
+          "Minimale Geschäftsunterbrechung",
+          "Dedizierter Umzugskoordinator"
+        ]
+      },
+      "packing": {
+        "title": "Verpackungsservice",
+        "description": "Professionelle Verpackung mit hochwertigen Materialien, um sicherzustellen, dass Ihre Gegenstände sicher an Ihrem neuen Standort ankommen.",
+        "features": [
+          "Hochwertige Verpackungsmaterialien",
+          "Erfahrene Verpackungstechniken",
+          "Systematisches Beschriftungssystem",
+          "Schutz für zerbrechliche Gegenstände",
+          "Auspackservice verfügbar"
+        ]
+      },
+      "storage": {
+        "title": "Lagerlösungen",
+        "description": "Sichere, klimatisierte Lagerungsanlagen für kurzfristige oder langfristige Bedürfnisse während Ihres Umzugs.",
+        "features": [
+          "24/7 Sicherheitsüberwachung",
+          "Klimatisierte Einheiten",
+          "Flexible Mietbedingungen",
+          "Verschiedene Einheitsgrößen",
+          "Einfacher Zugang"
+        ]
+      },
+      "assembly": {
+        "title": "Möbelmontage",
+        "description": "Fachmännische Möbelmontage- und -demontagedienstleistungen, um Ihren Umzug einfacher und effizienter zu gestalten.",
+        "features": [
+          "Alle Möbeltypen",
+          "Professionelle Werkzeuge bereitgestellt",
+          "Schnell und effizient",
+          "Wiedermontage am Zielort",
+          "Erfahrene Techniker"
+        ]
+      },
+      "cleaning": {
+        "title": "Reinigung nach Umzug",
+        "description": "Hinterlassen Sie Ihre alte Wohnung makellos mit unserem gründlichen Tiefenreinigungsservice nach Ihrem Auszug.",
+        "features": [
+          "Komplette Tiefenreinigung",
+          "Umweltfreundliche Produkte",
+          "Bereit für Auszugsinspektion",
+          "Fokus auf Küche und Badezimmer",
+          "Zufriedenheitsgarantie"
+        ]
+      }
+    },
+    "whyChoose": {
+      "title": "Warum Movu wählen?",
+      "subtitle": "Wir sind bestrebt, Ihren Umzug so reibungslos und stressfrei wie möglich zu gestalten",
+      "items": {
+        "licensed": {
+          "title": "Vollständig lizenziert & versichert",
+          "description": "Alle unsere Umzugsunternehmen sind lizenzierte Fachkräfte mit umfassendem Versicherungsschutz."
+        },
+        "pricing": {
+          "title": "Transparente Preise",
+          "description": "Klare, vorab festgelegte Angebote ohne versteckte Gebühren. Was Sie sehen, ist das, was Sie zahlen."
+        },
+        "guarantee": {
+          "title": "Pünktlichkeitsgarantie",
+          "description": "Wir schätzen Ihre Zeit. Unsere Umzugsunternehmen kommen pünktlich, jedes Mal."
+        }
+      }
+    },
+    "cta": {
+      "title": "Bereit loszulegen?",
+      "subtitle": "Erhalten Sie sofortige Angebote von geprüften Umzugsunternehmen und buchen Sie noch heute Ihren perfekten Umzugspartner",
+      "button": "Kostenlose Angebote anfordern"
+    }
+  },
+  "pricingPage": {
+    "hero": {
+      "title": "Transparente Preise",
+      "subtitle": "Keine versteckten Gebühren. Erhalten Sie sofortige Angebote und vergleichen Sie Preise von geprüften Umzugsunternehmen.",
+      "cta": "Kostenloses Angebot erhalten"
+    },
+    "factors": {
+      "title": "Was beeinflusst die Umzugskosten?",
+      "subtitle": "Mehrere Faktoren beeinflussen den endgültigen Preis Ihres Umzugs",
+      "items": {
+        "distance": {
+          "title": "Entfernung",
+          "description": "Lokale Umzüge innerhalb derselben Stadt sind in der Regel günstiger als Fernumzüge."
+        },
+        "volume": {
+          "title": "Volumen",
+          "description": "Die Menge der Gegenstände und Möbel beeinflusst direkt die benötigte Lkw-Größe und Besatzung."
+        },
+        "accessibility": {
+          "title": "Zugänglichkeit",
+          "description": "Treppen, Aufzüge und Parkplatzverfügbarkeit können die Umzugszeit und -kosten beeinflussen."
+        },
+        "services": {
+          "title": "Dienstleistungen",
+          "description": "Zusätzliche Dienstleistungen wie Verpackung, Auspackung und Lagerung erhöhen die Gesamtkosten."
+        },
+        "timing": {
+          "title": "Timing",
+          "description": "Hauptsaison (Sommer) und Wochenendumzüge können höhere Tarife haben als Nebensaisonzeiten."
+        }
+      }
+    },
+    "estimates": {
+      "title": "Geschätzte Preisbereiche",
+      "subtitle": "Machen Sie sich ein Bild davon, was Ihr Umzug kosten könnte (Preise variieren je nach spezifischen Details)",
+      "mostPopular": "Am beliebtesten",
+      "localMove": "Lokaler Umzug",
+      "longDistance": "Fernumzug",
+      "typicallyIncludes": "Typischerweise enthalten:",
+      "disclaimer": "* Preise sind Schätzungen und können je nach spezifischen Anforderungen, Entfernung und zusätzlichen Dienstleistungen variieren. Erhalten Sie ein genaues Angebot, indem Sie unser Formular ausfüllen.",
+      "sizes": {
+        "studio": {
+          "title": "Studio/1 Schlafzimmer",
+          "local": "CHF 300 - 450",
+          "distance": "CHF 800 - 1,400",
+          "features": ["1-2 Umzugshelfer", "Kleiner Lkw", "3-4 Stunden", "Grundversicherung"]
+        },
+        "twoBedroom": {
+          "title": "2 Schlafzimmer",
+          "local": "CHF 450 - 700",
+          "distance": "CHF 1,400 - 2,000",
+          "features": ["2-3 Umzugshelfer", "Mittlerer Lkw", "4-6 Stunden", "Vollversicherung"]
+        },
+        "threeFourBedroom": {
+          "title": "3-4 Schlafzimmer",
+          "local": "CHF 700 - 1,100",
+          "distance": "CHF 2,000 - 3,200",
+          "features": ["3-4 Umzugshelfer", "Großer Lkw", "6-8 Stunden", "Premium-Versicherung"]
+        }
+      }
+    },
+    "addOns": {
+      "title": "Zusatzleistungen",
+      "items": {
+        "packing": "Professionelle Verpackung",
+        "unpacking": "Auspackservice",
+        "materials": "Verpackungsmaterialien",
+        "assembly": "Möbelmontage",
+        "cleaning": "Reinigung nach Umzug",
+        "storage": "Lagerung (pro Monat)"
+      },
+      "prices": {
+        "packing": "CHF 80 - 200",
+        "unpacking": "CHF 60 - 140",
+        "materials": "CHF 40 - 120",
+        "assembly": "CHF 60 - 160",
+        "cleaning": "CHF 100 - 240",
+        "storage": "CHF 120 - 320"
+      }
+    },
+    "cta": {
+      "title": "Bereit für Ihr genaues Angebot?",
+      "subtitle": "Erhalten Sie personalisierte Angebote von mehreren Umzugsunternehmen in Minuten — völlig kostenlos",
+      "button": "Jetzt kostenlose Angebote erhalten"
+    }
+  },
+  "aboutPage": {
+    "hero": {
+      "title": "Umzüge einfach machen",
+      "subtitle": "Wir haben es uns zur Aufgabe gemacht, das Umzugserlebnis zu transformieren, indem wir Kunden mit vertrauenswürdigen, professionellen Umzugsunternehmen in der gesamten Schweiz verbinden."
+    },
+    "stats": {
+      "successfulMoves": "Erfolgreiche Umzüge",
+      "verifiedPartners": "Geprüfte Partner",
+      "satisfactionRate": "Zufriedenheitsrate",
+      "customerSupport": "Kundensupport"
+    },
+    "story": {
+      "title": "Unsere Geschichte",
+      "paragraph1": "Movu wurde aus einer einfachen Beobachtung geboren: Umzüge sollten nicht stressig sein. Nachdem unsere Gründer die Herausforderungen der Umzugskoordination aus erster Hand erlebt hatten, erkannten sie, dass es einen besseren Weg geben musste.",
+      "paragraph2": "Wir haben Movu als vertrauenswürdige Plattform aufgebaut, die Transparenz, Wahlfreiheit und Seelenfrieden in jeden Umzug bringt. Durch sorgfältige Überprüfung unserer Partner und die Bereitstellung sofortiger Angebote haben wir Tausenden von Familien und Unternehmen geholfen, mit Vertrauen umzuziehen.",
+      "paragraph3": "Heute sind wir stolz darauf, die führende Umzugsplattform der Schweiz zu sein, die Kunden mit den besten professionellen Umzugsunternehmen der Branche verbindet. Aber wir fangen gerade erst an."
+    },
+    "mission": {
+      "title": "Unsere Mission",
+      "description": "Jeden Umzug einfach, transparent und stressfrei zu gestalten, indem wir Menschen mit vertrauenswürdigen Fachleuten und innovativen Tools verbinden, die den gesamten Umzugsprozess optimieren."
+    },
+    "values": {
+      "title": "Unsere Werte",
+      "subtitle": "Diese Prinzipien leiten alles, was wir tun",
+      "items": {
+        "customerFirst": {
+          "title": "Kunde zuerst",
+          "description": "Ihre Zufriedenheit und Ihr Seelenfrieden sind unsere obersten Prioritäten bei jedem Umzug."
+        },
+        "trust": {
+          "title": "Vertrauen & Sicherheit",
+          "description": "Wir überprüfen jeden Partner und stellen einen vollständigen Versicherungsschutz zu Ihrem Schutz sicher."
+        },
+        "excellence": {
+          "title": "Exzellenz",
+          "description": "Wir sind bestrebt, bei jedem einzelnen Umzug außergewöhnlichen Service zu bieten."
+        }
+      }
+    },
+    "different": {
+      "title": "Wie wir uns unterscheiden",
+      "items": {
+        "verified": {
+          "title": "Nur geprüfte Partner",
+          "description": "Jedes Umzugsunternehmen wird gründlich überprüft, lizenziert und versichert, bevor es unserer Plattform beitritt."
+        },
+        "transparent": {
+          "title": "Transparente Preise",
+          "description": "Erhalten Sie detaillierte Angebote im Voraus ohne versteckte Gebühren. Vergleichen und wählen Sie mit Vertrauen."
+        },
+        "protection": {
+          "title": "Kundenschutz",
+          "description": "Alle Umzüge umfassen Versicherungsschutz und unsere Zufriedenheitsgarantie."
+        },
+        "support": {
+          "title": "24/7 Support",
+          "description": "Unser Team ist immer verfügbar, um Ihnen vor, während und nach Ihrem Umzug zu helfen."
+        }
+      }
+    },
+    "cta": {
+      "title": "Bereit, den Unterschied zu erleben?",
+      "subtitle": "Schließen Sie sich Tausenden zufriedener Kunden an, die Movu für ihren Umzug gewählt haben",
+      "button": "Heute loslegen"
+    }
+  },
+  "quotePage": {
+    "hero": {
+      "title": "Kostenloses Angebot erhalten",
+      "subtitle": "Füllen Sie das Formular aus, um personalisierte Angebote von geprüften Umzugsunternehmen zu erhalten"
+    },
+    "steps": {
+      "details": "Details",
+      "options": "Optionen",
+      "schedule": "Termin",
+      "contact": "Kontakt"
+    },
+    "step1": {
+      "title": "Umzugsdetails",
+      "movingFrom": "Umzug von",
+      "movingTo": "Umzug nach",
+      "fromPlaceholder": "z.B. Oerlikon, Zürich",
+      "toPlaceholder": "z.B. Plainpalais, Genf",
+      "moveSize": "Umzugsgröße",
+      "selectMoveSize": "Umzugsgröße auswählen",
+      "sizes": {
+        "studio": "Studio-Wohnung (1-2 Zimmer)",
+        "1bed": "1 Schlafzimmer (2-3 Zimmer)",
+        "2bed": "2 Schlafzimmer (3-4 Zimmer)",
+        "3bed": "3 Schlafzimmer (4-5 Zimmer)",
+        "4bed+": "4+ Schlafzimmer (6+ Zimmer)",
+        "office": "Büroräume"
+      },
+      "currentFloor": "Aktuelle Etage",
+      "selectFloor": "Etage auswählen",
+      "floors": {
+        "ground": "Erdgeschoss",
+        "1": "1. Stock",
+        "2": "2. Stock",
+        "3": "3. Stock",
+        "4+": "4. Stock oder höher"
+      },
+      "elevatorAvailable": "Aufzug verfügbar"
+    },
+    "step2": {
+      "title": "Zusatzleistungen",
+      "subtitle": "Wählen Sie alle zusätzlichen Dienstleistungen aus, die Sie benötigen (optional)",
+      "services": {
+        "packing": {
+          "label": "Professionelle Verpackung",
+          "description": "Lassen Sie unser Team Ihre Habseligkeiten sicher verpacken"
+        },
+        "unpacking": {
+          "label": "Auspackservice",
+          "description": "Wir packen aus und räumen die Gegenstände in Ihrer neuen Wohnung ein"
+        },
+        "boxes": {
+          "label": "Verpackungsmaterialien",
+          "description": "Kartons, Luftpolsterfolie, Klebeband und andere Materialien"
+        },
+        "cleaning": {
+          "label": "Reinigung nach Umzug",
+          "description": "Tiefenreinigung Ihrer alten Wohnung"
+        },
+        "assembly": {
+          "label": "Möbelmontage",
+          "description": "Montage und Demontage von Möbeln"
+        }
+      }
+    },
+    "step3": {
+      "title": "Umzugstermin planen",
+      "preferredMoveDate": "Bevorzugtes Umzugsdatum",
+      "preferredTimeWindow": "Bevorzugtes Zeitfenster",
+      "selectTimeWindow": "Zeitfenster auswählen",
+      "timeWindows": {
+        "morning": "Vormittag (8:00 - 12:00 Uhr)",
+        "afternoon": "Nachmittag (12:00 - 16:00 Uhr)",
+        "evening": "Abend (16:00 - 20:00 Uhr)",
+        "flexible": "Flexibel"
+      },
+      "additionalNotes": "Zusätzliche Hinweise (Optional)",
+      "notesPlaceholder": "Besondere Anforderungen oder Gegenstände, die besondere Sorgfalt erfordern?"
+    },
+    "step4": {
+      "title": "Kontaktinformationen",
+      "fullName": "Vollständiger Name",
+      "emailAddress": "E-Mail-Adresse",
+      "phoneNumber": "Telefonnummer",
+      "namePlaceholder": "Max Mustermann",
+      "emailPlaceholder": "max@beispiel.com",
+      "phonePlaceholder": "078 XXX XX XX",
+      "privacyNotice": "Durch das Absenden dieses Formulars stimmen Sie zu, Angebote von geprüften Umzugspartnern zu erhalten. Ihre Informationen sind sicher und werden nicht an Dritte weitergegeben."
+    },
+    "validation": {
+      "movingFromRequired": "Umzug von ist erforderlich",
+      "movingToRequired": "Umzug nach ist erforderlich",
+      "moveSizeRequired": "Umzugsgröße ist erforderlich",
+      "floorsRequired": "Anzahl der Etagen ist erforderlich",
+      "moveDateRequired": "Umzugsdatum ist erforderlich",
+      "timeWindowRequired": "Zeitfenster ist erforderlich",
+      "nameRequired": "Name ist erforderlich",
+      "emailRequired": "E-Mail ist erforderlich",
+      "phoneRequired": "Telefon ist erforderlich",
+      "invalidEmail": "Ungültige E-Mail-Adresse"
+    },
+    "buttons": {
+      "back": "Zurück",
+      "continue": "Weiter",
+      "getMyQuotes": "Meine Angebote erhalten"
+    },
+    "success": {
+      "message": "Angebotsanfrage übermittelt! Weiterleitung zu den Angeboten..."
+    }
+  },
+  "common": {
+    "required": "*",
+    "optional": "(Optional)",
+    "loading": "Lädt...",
+    "error": "Fehler",
+    "success": "Erfolg",
+    "close": "Schließen",
+    "cancel": "Abbrechen",
+    "confirm": "Bestätigen",
+    "save": "Speichern",
+    "delete": "Löschen",
+    "edit": "Bearbeiten",
+    "next": "Weiter",
+    "previous": "Zurück",
+    "back": "Zurück",
+    "submit": "Absenden"
+  }
+}
+

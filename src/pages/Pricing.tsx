@@ -1,37 +1,82 @@
 import { Check } from "lucide-react";
 import { Link } from "react-router-dom";
+import { useTranslation } from "react-i18next";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import { Button } from "@/components/ui/button";
 
 const Pricing = () => {
+  const { t } = useTranslation();
+
   const factors = [
-    { title: "Distance", description: "Local moves within the same city are typically less expensive than long-distance relocations." },
-    { title: "Volume", description: "The amount of items and furniture directly affects the truck size and crew needed." },
-    { title: "Accessibility", description: "Stairs, elevators, and parking availability can impact the moving time and cost." },
-    { title: "Services", description: "Additional services like packing, unpacking, and storage add to the total cost." },
-    { title: "Timing", description: "Peak season (summer) and weekend moves may have higher rates than off-peak times." },
+    { 
+      title: t("pricingPage.factors.items.distance.title"), 
+      description: t("pricingPage.factors.items.distance.description") 
+    },
+    { 
+      title: t("pricingPage.factors.items.volume.title"), 
+      description: t("pricingPage.factors.items.volume.description") 
+    },
+    { 
+      title: t("pricingPage.factors.items.accessibility.title"), 
+      description: t("pricingPage.factors.items.accessibility.description") 
+    },
+    { 
+      title: t("pricingPage.factors.items.services.title"), 
+      description: t("pricingPage.factors.items.services.description") 
+    },
+    { 
+      title: t("pricingPage.factors.items.timing.title"), 
+      description: t("pricingPage.factors.items.timing.description") 
+    },
   ];
 
   const estimates = [
     {
-      size: "Studio/1 Bedroom",
-      local: "CHF 300 - 450",
-      distance: "CHF 800 - 1,400",
-      features: ["1-2 movers", "Small truck", "3-4 hours", "Basic insurance"],
+      size: t("pricingPage.estimates.sizes.studio.title"),
+      local: t("pricingPage.estimates.sizes.studio.local"),
+      distance: t("pricingPage.estimates.sizes.studio.distance"),
+      features: t("pricingPage.estimates.sizes.studio.features", { returnObjects: true }) as string[],
     },
     {
-      size: "2 Bedroom",
-      local: "CHF 450 - 700",
-      distance: "CHF 1,400 - 2,000",
-      features: ["2-3 movers", "Medium truck", "4-6 hours", "Full insurance"],
+      size: t("pricingPage.estimates.sizes.twoBedroom.title"),
+      local: t("pricingPage.estimates.sizes.twoBedroom.local"),
+      distance: t("pricingPage.estimates.sizes.twoBedroom.distance"),
+      features: t("pricingPage.estimates.sizes.twoBedroom.features", { returnObjects: true }) as string[],
       popular: true,
     },
     {
-      size: "3-4 Bedroom",
-      local: "CHF 700 - 1,100",
-      distance: "CHF 2,000 - 3,200",
-      features: ["3-4 movers", "Large truck", "6-8 hours", "Premium insurance"],
+      size: t("pricingPage.estimates.sizes.threeFourBedroom.title"),
+      local: t("pricingPage.estimates.sizes.threeFourBedroom.local"),
+      distance: t("pricingPage.estimates.sizes.threeFourBedroom.distance"),
+      features: t("pricingPage.estimates.sizes.threeFourBedroom.features", { returnObjects: true }) as string[],
+    },
+  ];
+
+  const addOnServices = [
+    { 
+      service: t("pricingPage.addOns.items.packing"), 
+      price: t("pricingPage.addOns.prices.packing") 
+    },
+    { 
+      service: t("pricingPage.addOns.items.unpacking"), 
+      price: t("pricingPage.addOns.prices.unpacking") 
+    },
+    { 
+      service: t("pricingPage.addOns.items.materials"), 
+      price: t("pricingPage.addOns.prices.materials") 
+    },
+    { 
+      service: t("pricingPage.addOns.items.assembly"), 
+      price: t("pricingPage.addOns.prices.assembly") 
+    },
+    { 
+      service: t("pricingPage.addOns.items.cleaning"), 
+      price: t("pricingPage.addOns.prices.cleaning") 
+    },
+    { 
+      service: t("pricingPage.addOns.items.storage"), 
+      price: t("pricingPage.addOns.prices.storage") 
     },
   ];
 
@@ -45,13 +90,13 @@ const Pricing = () => {
           <div className="container mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
             <div className="text-center max-w-3xl mx-auto">
               <h1 className="text-4xl sm:text-5xl lg:text-6xl font-heading font-bold text-foreground mb-6">
-                Transparent Pricing
+                {t("pricingPage.hero.title")}
               </h1>
               <p className="text-lg sm:text-xl text-muted-foreground mb-8 leading-relaxed">
-                No hidden fees. Get instant quotes and compare prices from verified movers.
+                {t("pricingPage.hero.subtitle")}
               </p>
               <Button asChild variant="hero" size="lg">
-                <Link to="/quote">Get Your Free Quote</Link>
+                <Link to="/quote">{t("pricingPage.hero.cta")}</Link>
               </Button>
             </div>
           </div>
@@ -62,10 +107,10 @@ const Pricing = () => {
           <div className="container mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-16">
               <h2 className="text-3xl sm:text-4xl font-heading font-bold text-foreground mb-4">
-                What Affects Moving Costs?
+                {t("pricingPage.factors.title")}
               </h2>
               <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-                Several factors influence the final price of your move
+                {t("pricingPage.factors.subtitle")}
               </p>
             </div>
 
@@ -95,10 +140,10 @@ const Pricing = () => {
           <div className="container mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-16">
               <h2 className="text-3xl sm:text-4xl font-heading font-bold text-foreground mb-4">
-                Estimated Price Ranges
+                {t("pricingPage.estimates.title")}
               </h2>
               <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-                Get an idea of what your move might cost (prices vary by specific details)
+                {t("pricingPage.estimates.subtitle")}
               </p>
             </div>
 
@@ -113,7 +158,7 @@ const Pricing = () => {
                   {estimate.popular && (
                     <div className="absolute -top-4 left-1/2 transform -translate-x-1/2">
                       <span className="bg-primary text-primary-foreground text-xs font-semibold px-4 py-1 rounded-full shadow-medium">
-                        Most Popular
+                        {t("pricingPage.estimates.mostPopular")}
                       </span>
                     </div>
                   )}
@@ -124,17 +169,17 @@ const Pricing = () => {
 
                   <div className="space-y-4 mb-6">
                     <div className="text-center">
-                      <p className="text-sm text-muted-foreground mb-1">Local Move</p>
+                      <p className="text-sm text-muted-foreground mb-1">{t("pricingPage.estimates.localMove")}</p>
                       <p className="text-2xl font-heading font-bold text-primary">{estimate.local}</p>
                     </div>
                     <div className="text-center">
-                      <p className="text-sm text-muted-foreground mb-1">Long Distance</p>
+                      <p className="text-sm text-muted-foreground mb-1">{t("pricingPage.estimates.longDistance")}</p>
                       <p className="text-2xl font-heading font-bold text-primary">{estimate.distance}</p>
                     </div>
                   </div>
 
                   <div className="pt-6 border-t border-border">
-                    <p className="text-sm font-medium text-foreground mb-3">Typically includes:</p>
+                    <p className="text-sm font-medium text-foreground mb-3">{t("pricingPage.estimates.typicallyIncludes")}</p>
                     <ul className="space-y-2">
                       {estimate.features.map((feature, idx) => (
                         <li key={idx} className="flex items-center text-sm text-muted-foreground">
@@ -149,7 +194,7 @@ const Pricing = () => {
             </div>
 
             <p className="text-sm text-center text-muted-foreground mt-8 max-w-2xl mx-auto">
-              * Prices are estimates and may vary based on specific requirements, distance, and additional services. Get an accurate quote by filling out our form.
+              {t("pricingPage.estimates.disclaimer")}
             </p>
           </div>
         </section>
@@ -159,19 +204,12 @@ const Pricing = () => {
           <div className="container mx-auto max-w-5xl px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-12">
               <h2 className="text-3xl sm:text-4xl font-heading font-bold text-foreground mb-4">
-                Add-On Services
+                {t("pricingPage.addOns.title")}
               </h2>
             </div>
 
             <div className="grid sm:grid-cols-2 gap-4">
-              {[
-                { service: "Professional Packing", price: "CHF 80 - 200" },
-                { service: "Unpacking Service", price: "CHF 60 - 140" },
-                { service: "Packing Materials", price: "CHF 40 - 120" },
-                { service: "Furniture Assembly", price: "CHF 60 - 160" },
-                { service: "Post-Move Cleaning", price: "CHF 100 - 240" },
-                { service: "Storage (per month)", price: "CHF 120 - 320" },
-              ].map((item, index) => (
+              {addOnServices.map((item, index) => (
                 <div
                   key={index}
                   className="flex justify-between items-center p-4 rounded-lg bg-muted border border-border"
@@ -188,17 +226,17 @@ const Pricing = () => {
         <section className="py-20 lg:py-28 bg-gradient-to-br from-primary to-accent">
           <div className="container mx-auto max-w-4xl px-4 sm:px-6 lg:px-8 text-center">
             <h2 className="text-3xl sm:text-4xl font-heading font-bold text-primary-foreground mb-4">
-              Ready for Your Exact Quote?
+              {t("pricingPage.cta.title")}
             </h2>
             <p className="text-lg text-primary-foreground/90 mb-8 max-w-2xl mx-auto">
-              Get personalized quotes from multiple movers in minutes — completely free
+              {t("pricingPage.cta.subtitle")}
             </p>
             <Button
               asChild
               size="lg"
               className="bg-background text-primary hover:bg-background/90 shadow-lift"
             >
-              <Link to="/quote">Get Free Quotes Now</Link>
+              <Link to="/quote">{t("pricingPage.cta.button")}</Link>
             </Button>
           </div>
         </section>

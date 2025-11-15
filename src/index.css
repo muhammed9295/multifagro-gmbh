@@ -17,9 +17,9 @@ All colors MUST be HSL.
     --popover: 0 0% 100%;
     --popover-foreground: 217 33% 17%;
 
-    --primary: 174 100% 27%;
+    --primary: 238 100% 66%;
     --primary-foreground: 0 0% 100%;
-    --primary-hover: 174 100% 20%;
+    --primary-hover: 238 100% 58%;
 
     --secondary: 180 25% 98%;
     --secondary-foreground: 217 33% 17%;
@@ -27,7 +27,7 @@ All colors MUST be HSL.
     --muted: 180 25% 98%;
     --muted-foreground: 215 16% 47%;
 
-    --accent: 174 63% 40%;
+    --accent: 238 85% 72%;
     --accent-foreground: 0 0% 100%;
 
     --destructive: 4 76% 57%;
@@ -41,7 +41,7 @@ All colors MUST be HSL.
 
     --border: 214 32% 91%;
     --input: 214 32% 91%;
-    --ring: 174 100% 27%;
+    --ring: 238 100% 66%;
 
     --radius: 0.5rem;
 
@@ -76,9 +76,9 @@ All colors MUST be HSL.
     --popover: 217 33% 17%;
     --popover-foreground: 0 0% 100%;
 
-    --primary: 174 63% 40%;
+    --primary: 238 100% 70%;
     --primary-foreground: 0 0% 100%;
-    --primary-hover: 174 63% 35%;
+    --primary-hover: 238 100% 62%;
 
     --secondary: 217 33% 22%;
     --secondary-foreground: 0 0% 100%;
@@ -86,7 +86,7 @@ All colors MUST be HSL.
     --muted: 217 33% 22%;
     --muted-foreground: 215 16% 65%;
 
-    --accent: 174 63% 45%;
+    --accent: 238 85% 75%;
     --accent-foreground: 0 0% 100%;
 
     --destructive: 4 76% 57%;
@@ -100,7 +100,7 @@ All colors MUST be HSL.
 
     --border: 217 33% 25%;
     --input: 217 33% 25%;
-    --ring: 174 63% 40%;
+    --ring: 238 100% 70%;
 
     --shadow-soft: 0 2px 8px -2px hsl(0 0% 0% / 0.3);
     --shadow-medium: 0 4px 16px -4px hsl(0 0% 0% / 0.4);
@@ -109,6 +109,10 @@ All colors MUST be HSL.
 }
 
 @layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
   * {
     @apply border-border;
   }

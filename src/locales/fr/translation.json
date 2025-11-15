@@ -1,0 +1,526 @@
+{
+  "navbar": {
+    "services": "Services",
+    "howItWorks": "Comment ça marche",
+    "pricing": "Tarifs",
+    "about": "À propos",
+    "contact": "Contact",
+    "getFreeQuotes": "Obtenir des devis gratuits"
+  },
+  "hero": {
+    "title": "Déménagez avec",
+    "titleHighlight": "Confiance",
+    "subtitle": "Obtenez des devis instantanés de déménageurs vérifiés. Comparez les prix, lisez les avis et réservez votre partenaire de déménagement idéal en quelques minutes.",
+    "trustBadges": {
+      "fullyInsured": "Entièrement assuré",
+      "verifiedPartners": "Partenaires vérifiés",
+      "movesPerMonth": "500+ déménagements/mois"
+    },
+    "form": {
+      "title": "Obtenez votre devis gratuit",
+      "movingFrom": "Déménager de",
+      "movingTo": "Déménager vers",
+      "fromPlaceholder": "ex. Zurich",
+      "toPlaceholder": "ex. Genève",
+      "compareOffers": "Comparer les offres de déménagement",
+      "disclaimer": "Devis gratuits • Sans engagement • Comparaison instantanée"
+    },
+    "stats": {
+      "satisfaction": "Satisfaction",
+      "support": "Support",
+      "moves": "Déménagements"
+    }
+  },
+  "howItWorks": {
+    "title": "Comment ça marche",
+    "subtitle": "Trouver votre partenaire de déménagement idéal est simple et sans stress",
+    "steps": {
+      "step1": {
+        "title": "Demandez votre déménagement",
+        "description": "Remplissez un formulaire simple avec les détails de votre déménagement. Prend moins de 2 minutes."
+      },
+      "step2": {
+        "title": "Comparez les offres",
+        "description": "Recevez des devis de déménageurs vérifiés. Comparez les prix, les avis et les services."
+      },
+      "step3": {
+        "title": "Réservez et détendez-vous",
+        "description": "Choisissez votre déménageur préféré et confirmez. Nous nous occupons du reste."
+      }
+    }
+  },
+  "services": {
+    "title": "Nos services",
+    "subtitle": "Solutions de déménagement complètes adaptées à vos besoins",
+    "viewAll": "Voir tous les services",
+    "items": {
+      "homeMoving": {
+        "title": "Déménagement résidentiel",
+        "description": "Services de déménagement résidentiel complets avec manipulation soigneuse de vos biens.",
+        "features": ["Aide à l'emballage", "Démontage de meubles", "Transport sécurisé"]
+      },
+      "officeMoving": {
+        "title": "Déménagement de bureau",
+        "description": "Minimisez les temps d'arrêt avec nos services efficaces de relocalisation d'entreprise.",
+        "features": ["Déménagement après heures", "Soin de l'équipement informatique", "Planification de la disposition"]
+      },
+      "packing": {
+        "title": "Services d'emballage",
+        "description": "Emballage professionnel avec des matériaux de qualité pour protéger vos articles.",
+        "features": ["Matériaux de qualité", "Emballage expert", "Système d'étiquetage"]
+      },
+      "storage": {
+        "title": "Solutions de stockage",
+        "description": "Stockage sécurisé et climatisé pour des besoins à court ou long terme.",
+        "features": ["Sécurité 24/7", "Contrôle climatique", "Conditions flexibles"]
+      },
+      "assembly": {
+        "title": "Montage de meubles",
+        "description": "Assemblage et démontage expert de meubles et d'équipements.",
+        "features": ["Tous types de meubles", "Outils fournis", "Service rapide"]
+      },
+      "cleaning": {
+        "title": "Nettoyage après déménagement",
+        "description": "Laissez votre ancien lieu impeccable avec notre service de nettoyage approfondi.",
+        "features": ["Nettoyage approfondi", "Produits écologiques", "Prêt pour le départ"]
+      }
+    }
+  },
+  "footer": {
+    "description": "Services professionnels de déménagement et d'emballage avec tarification transparente et partenaires vérifiés dans toute la Suisse.",
+    "services": "Services",
+    "company": "Entreprise",
+    "contactUs": "Contactez-nous",
+    "allRightsReserved": "Tous droits réservés",
+    "servicesLinks": {
+      "homeMoving": "Déménagement résidentiel",
+      "officeRelocation": "Déménagement de bureau",
+      "packingServices": "Services d'emballage",
+      "storageSolutions": "Solutions de stockage",
+      "furnitureAssembly": "Montage de meubles"
+    },
+    "companyLinks": {
+      "aboutUs": "À propos de nous",
+      "pricing": "Tarifs",
+      "contact": "Contact",
+      "terms": "Conditions générales",
+      "privacy": "Politique de confidentialité"
+    },
+    "bottomLinks": {
+      "terms": "Conditions",
+      "privacy": "Confidentialité",
+      "cookies": "Cookies"
+    }
+  },
+  "contact": {
+    "title": "Contactez-nous",
+    "subtitle": "Vous avez des questions ? Nous sommes là pour vous aider. Contactez-nous et nous répondrons dans les plus brefs délais.",
+    "phone": "Téléphone",
+    "email": "E-mail",
+    "locations": "Emplacements",
+    "locationsText": "Zurich • Genève • Bâle",
+    "businessHours": "Heures d'ouverture",
+    "mondayFriday": "Lundi - Vendredi",
+    "saturdaySunday": "Samedi - Dimanche",
+    "closed": "Fermé",
+    "hours": "8h - 18h",
+    "form": {
+      "title": "Envoyez-nous un message",
+      "fullName": "Nom complet",
+      "emailAddress": "Adresse e-mail",
+      "phoneNumber": "Numéro de téléphone (Optionnel)",
+      "subject": "Sujet (Optionnel)",
+      "message": "Message",
+      "sendMessage": "Envoyer le message",
+      "placeholders": {
+        "name": "Jean Dupont",
+        "email": "jean@exemple.com",
+        "phone": "078 XXX XX XX",
+        "subject": "Comment pouvons-nous vous aider ?",
+        "message": "Dites-nous-en plus sur votre demande..."
+      }
+    },
+    "faqLink": {
+      "title": "Vous cherchez des réponses rapides ?",
+      "subtitle": "Consultez notre section FAQ pour des réponses instantanées aux questions courantes",
+      "button": "Voir la FAQ"
+    }
+  },
+  "servicesPage": {
+    "hero": {
+      "title": "Services de déménagement complets",
+      "subtitle": "De l'emballage au déballage, du stockage à l'assemblage — nous gérons chaque aspect de votre déménagement avec professionnalisme et soin.",
+      "cta": "Obtenir des devis gratuits"
+    },
+    "services": {
+      "residential": {
+        "title": "Déménagement résidentiel",
+        "description": "Services de déménagement résidentiel sans stress avec des déménageurs expérimentés qui traitent vos biens avec soin.",
+        "features": [
+          "Emballage et déballage complets",
+          "Démontage et montage de meubles",
+          "Chargement et transport sécurisés",
+          "Couverture d'assurance incluse",
+          "Planification flexible"
+        ]
+      },
+      "office": {
+        "title": "Déménagement de bureau",
+        "description": "Minimisez les temps d'arrêt avec nos services efficaces de déménagement d'entreprise conçus pour les entreprises de toutes tailles.",
+        "features": [
+          "Déménagements après heures et week-end",
+          "Manipulation spécialisée de l'équipement informatique",
+          "Aménagement et planification de bureau",
+          "Perturbation minimale de l'entreprise",
+          "Coordinateur de déménagement dédié"
+        ]
+      },
+      "packing": {
+        "title": "Services d'emballage",
+        "description": "Emballage professionnel avec des matériaux de qualité pour garantir que vos articles arrivent en toute sécurité à votre nouvel emplacement.",
+        "features": [
+          "Matériaux d'emballage de haute qualité",
+          "Techniques d'emballage expertes",
+          "Système d'étiquetage systématique",
+          "Protection des articles fragiles",
+          "Services de déballage disponibles"
+        ]
+      },
+      "storage": {
+        "title": "Solutions de stockage",
+        "description": "Installations de stockage sécurisées et climatisées pour des besoins à court ou long terme pendant votre déménagement.",
+        "features": [
+          "Surveillance de sécurité 24/7",
+          "Unités climatisées",
+          "Conditions de location flexibles",
+          "Différentes tailles d'unités",
+          "Accès facile"
+        ]
+      },
+      "assembly": {
+        "title": "Montage de meubles",
+        "description": "Services experts d'assemblage et de démontage de meubles pour rendre votre déménagement plus facile et plus efficace.",
+        "features": [
+          "Tous types de meubles",
+          "Outils professionnels fournis",
+          "Rapide et efficace",
+          "Réassemblage à destination",
+          "Techniciens expérimentés"
+        ]
+      },
+      "cleaning": {
+        "title": "Nettoyage après déménagement",
+        "description": "Laissez votre ancien lieu impeccable avec notre service de nettoyage approfondi après votre départ.",
+        "features": [
+          "Nettoyage approfondi complet",
+          "Produits écologiques",
+          "Prêt pour l'inspection de départ",
+          "Focus sur la cuisine et la salle de bain",
+          "Garantie de satisfaction"
+        ]
+      }
+    },
+    "whyChoose": {
+      "title": "Pourquoi choisir Movu",
+      "subtitle": "Nous nous engageons à rendre votre déménagement aussi fluide et sans stress que possible",
+      "items": {
+        "licensed": {
+          "title": "Entièrement autorisé et assuré",
+          "description": "Tous nos déménageurs sont des professionnels autorisés avec une couverture d'assurance complète."
+        },
+        "pricing": {
+          "title": "Tarification transparente",
+          "description": "Devis clairs et préalables sans frais cachés. Ce que vous voyez est ce que vous payez."
+        },
+        "guarantee": {
+          "title": "Garantie de ponctualité",
+          "description": "Nous valorisons votre temps. Nos déménageurs arrivent à l'heure, à chaque fois."
+        }
+      }
+    },
+    "cta": {
+      "title": "Prêt à commencer ?",
+      "subtitle": "Obtenez des devis instantanés de déménageurs vérifiés et réservez votre partenaire de déménagement idéal aujourd'hui",
+      "button": "Demander des devis gratuits"
+    }
+  },
+  "pricingPage": {
+    "hero": {
+      "title": "Tarification transparente",
+      "subtitle": "Pas de frais cachés. Obtenez des devis instantanés et comparez les prix des déménageurs vérifiés.",
+      "cta": "Obtenez votre devis gratuit"
+    },
+    "factors": {
+      "title": "Qu'est-ce qui affecte les coûts de déménagement ?",
+      "subtitle": "Plusieurs facteurs influencent le prix final de votre déménagement",
+      "items": {
+        "distance": {
+          "title": "Distance",
+          "description": "Les déménagements locaux dans la même ville sont généralement moins chers que les relocalisations longue distance."
+        },
+        "volume": {
+          "title": "Volume",
+          "description": "La quantité d'articles et de meubles affecte directement la taille du camion et l'équipe nécessaires."
+        },
+        "accessibility": {
+          "title": "Accessibilité",
+          "description": "Les escaliers, les ascenseurs et la disponibilité du stationnement peuvent affecter le temps et le coût du déménagement."
+        },
+        "services": {
+          "title": "Services",
+          "description": "Les services supplémentaires comme l'emballage, le déballage et le stockage s'ajoutent au coût total."
+        },
+        "timing": {
+          "title": "Timing",
+          "description": "La saison de pointe (été) et les déménagements de week-end peuvent avoir des tarifs plus élevés que les périodes creuses."
+        }
+      }
+    },
+    "estimates": {
+      "title": "Gammes de prix estimées",
+      "subtitle": "Obtenez une idée de ce que pourrait coûter votre déménagement (les prix varient selon les détails spécifiques)",
+      "mostPopular": "Le plus populaire",
+      "localMove": "Déménagement local",
+      "longDistance": "Longue distance",
+      "typicallyIncludes": "Comprend généralement :",
+      "disclaimer": "* Les prix sont des estimations et peuvent varier selon les exigences spécifiques, la distance et les services supplémentaires. Obtenez un devis précis en remplissant notre formulaire.",
+      "sizes": {
+        "studio": {
+          "title": "Studio/1 chambre",
+          "local": "CHF 300 - 450",
+          "distance": "CHF 800 - 1,400",
+          "features": ["1-2 déménageurs", "Petit camion", "3-4 heures", "Assurance de base"]
+        },
+        "twoBedroom": {
+          "title": "2 chambres",
+          "local": "CHF 450 - 700",
+          "distance": "CHF 1,400 - 2,000",
+          "features": ["2-3 déménageurs", "Camion moyen", "4-6 heures", "Assurance complète"]
+        },
+        "threeFourBedroom": {
+          "title": "3-4 chambres",
+          "local": "CHF 700 - 1,100",
+          "distance": "CHF 2,000 - 3,200",
+          "features": ["3-4 déménageurs", "Grand camion", "6-8 heures", "Assurance premium"]
+        }
+      }
+    },
+    "addOns": {
+      "title": "Services complémentaires",
+      "items": {
+        "packing": "Emballage professionnel",
+        "unpacking": "Service de déballage",
+        "materials": "Matériaux d'emballage",
+        "assembly": "Montage de meubles",
+        "cleaning": "Nettoyage après déménagement",
+        "storage": "Stockage (par mois)"
+      },
+      "prices": {
+        "packing": "CHF 80 - 200",
+        "unpacking": "CHF 60 - 140",
+        "materials": "CHF 40 - 120",
+        "assembly": "CHF 60 - 160",
+        "cleaning": "CHF 100 - 240",
+        "storage": "CHF 120 - 320"
+      }
+    },
+    "cta": {
+      "title": "Prêt pour votre devis exact ?",
+      "subtitle": "Obtenez des devis personnalisés de plusieurs déménageurs en quelques minutes — entièrement gratuit",
+      "button": "Obtenir des devis gratuits maintenant"
+    }
+  },
+  "aboutPage": {
+    "hero": {
+      "title": "Rendre le déménagement simple",
+      "subtitle": "Nous avons pour mission de transformer l'expérience de déménagement en connectant les clients avec des déménageurs professionnels de confiance dans toute la Suisse."
+    },
+    "stats": {
+      "successfulMoves": "Déménagements réussis",
+      "verifiedPartners": "Partenaires vérifiés",
+      "satisfactionRate": "Taux de satisfaction",
+      "customerSupport": "Support client"
+    },
+    "story": {
+      "title": "Notre histoire",
+      "paragraph1": "Movu est né d'une simple observation : le déménagement ne devrait pas être stressant. Après avoir vécu les défis de la coordination des déménagements de première main, nos fondateurs ont réalisé qu'il devait y avoir une meilleure façon.",
+      "paragraph2": "Nous avons construit Movu pour être la plateforme de confiance qui apporte transparence, choix et tranquillité d'esprit à chaque déménagement. En vérifiant soigneusement nos partenaires et en fournissant des devis instantanés, nous avons aidé des milliers de familles et d'entreprises à déménager en toute confiance.",
+      "paragraph3": "Aujourd'hui, nous sommes fiers d'être la principale place de marché de déménagement en Suisse, connectant les clients avec les meilleurs déménageurs professionnels de l'industrie. Mais nous ne faisons que commencer."
+    },
+    "mission": {
+      "title": "Notre mission",
+      "description": "Rendre chaque déménagement simple, transparent et sans stress en connectant les gens avec des professionnels de confiance et des outils innovants qui rationalisent tout le processus de relocalisation."
+    },
+    "values": {
+      "title": "Nos valeurs",
+      "subtitle": "Ces principes guident tout ce que nous faisons",
+      "items": {
+        "customerFirst": {
+          "title": "Le client d'abord",
+          "description": "Votre satisfaction et votre tranquillité d'esprit sont nos priorités absolues à chaque déménagement."
+        },
+        "trust": {
+          "title": "Confiance et sécurité",
+          "description": "Nous vérifions chaque partenaire et assurons une couverture d'assurance complète pour votre protection."
+        },
+        "excellence": {
+          "title": "Excellence",
+          "description": "Nous nous engageons à fournir un service exceptionnel à chaque déménagement."
+        }
+      }
+    },
+    "different": {
+      "title": "Comment nous sommes différents",
+      "items": {
+        "verified": {
+          "title": "Partenaires vérifiés uniquement",
+          "description": "Chaque entreprise de déménagement est soigneusement vérifiée, autorisée et assurée avant de rejoindre notre plateforme."
+        },
+        "transparent": {
+          "title": "Tarification transparente",
+          "description": "Obtenez des devis détaillés à l'avance sans frais cachés. Comparez et choisissez en toute confiance."
+        },
+        "protection": {
+          "title": "Protection du client",
+          "description": "Tous les déménagements incluent une couverture d'assurance et notre garantie de satisfaction."
+        },
+        "support": {
+          "title": "Support 24/7",
+          "description": "Notre équipe est toujours disponible pour vous aider avant, pendant et après votre déménagement."
+        }
+      }
+    },
+    "cta": {
+      "title": "Prêt à découvrir la différence ?",
+      "subtitle": "Rejoignez des milliers de clients satisfaits qui ont choisi Movu pour leur relocalisation",
+      "button": "Commencer aujourd'hui"
+    }
+  },
+  "quotePage": {
+    "hero": {
+      "title": "Obtenez votre devis gratuit",
+      "subtitle": "Remplissez le formulaire pour recevoir des devis personnalisés de déménageurs vérifiés"
+    },
+    "steps": {
+      "details": "Détails",
+      "options": "Options",
+      "schedule": "Planification",
+      "contact": "Contact"
+    },
+    "step1": {
+      "title": "Détails du déménagement",
+      "movingFrom": "Déménager de",
+      "movingTo": "Déménager vers",
+      "fromPlaceholder": "ex. Oerlikon, Zurich",
+      "toPlaceholder": "ex. Plainpalais, Genève",
+      "moveSize": "Taille du déménagement",
+      "selectMoveSize": "Sélectionner la taille du déménagement",
+      "sizes": {
+        "studio": "Studio (1-2 pièces)",
+        "1bed": "1 chambre (2-3 pièces)",
+        "2bed": "2 chambres (3-4 pièces)",
+        "3bed": "3 chambres (4-5 pièces)",
+        "4bed+": "4+ chambres (6+ pièces)",
+        "office": "Espace de bureau"
+      },
+      "currentFloor": "Étage actuel",
+      "selectFloor": "Sélectionner l'étage",
+      "floors": {
+        "ground": "Rez-de-chaussée",
+        "1": "1er étage",
+        "2": "2e étage",
+        "3": "3e étage",
+        "4+": "4e étage ou plus"
+      },
+      "elevatorAvailable": "Ascenseur disponible"
+    },
+    "step2": {
+      "title": "Services supplémentaires",
+      "subtitle": "Sélectionnez tous les services supplémentaires dont vous avez besoin (optionnel)",
+      "services": {
+        "packing": {
+          "label": "Emballage professionnel",
+          "description": "Laissez notre équipe emballer vos biens en toute sécurité"
+        },
+        "unpacking": {
+          "label": "Service de déballage",
+          "description": "Nous déballerons et organiserons les articles dans votre nouveau lieu"
+        },
+        "boxes": {
+          "label": "Matériaux d'emballage",
+          "description": "Cartons, papier bulle, ruban adhésif et autres fournitures"
+        },
+        "cleaning": {
+          "label": "Nettoyage après déménagement",
+          "description": "Nettoyage approfondi de votre ancienne résidence"
+        },
+        "assembly": {
+          "label": "Montage de meubles",
+          "description": "Montage et démontage de meubles"
+        }
+      }
+    },
+    "step3": {
+      "title": "Planifiez votre déménagement",
+      "preferredMoveDate": "Date de déménagement préférée",
+      "preferredTimeWindow": "Fenêtre horaire préférée",
+      "selectTimeWindow": "Sélectionner la fenêtre horaire",
+      "timeWindows": {
+        "morning": "Matin (8h - 12h)",
+        "afternoon": "Après-midi (12h - 16h)",
+        "evening": "Soirée (16h - 20h)",
+        "flexible": "Flexible"
+      },
+      "additionalNotes": "Notes supplémentaires (Optionnel)",
+      "notesPlaceholder": "Des exigences particulières ou des articles nécessitant des soins spéciaux ?"
+    },
+    "step4": {
+      "title": "Informations de contact",
+      "fullName": "Nom complet",
+      "emailAddress": "Adresse e-mail",
+      "phoneNumber": "Numéro de téléphone",
+      "namePlaceholder": "Jean Dupont",
+      "emailPlaceholder": "jean@exemple.com",
+      "phonePlaceholder": "078 XXX XX XX",
+      "privacyNotice": "En soumettant ce formulaire, vous acceptez de recevoir des devis de partenaires de déménagement vérifiés. Vos informations sont sécurisées et ne seront pas partagées avec des tiers."
+    },
+    "validation": {
+      "movingFromRequired": "Déménager de est requis",
+      "movingToRequired": "Déménager vers est requis",
+      "moveSizeRequired": "La taille du déménagement est requise",
+      "floorsRequired": "Le nombre d'étages est requis",
+      "moveDateRequired": "La date de déménagement est requise",
+      "timeWindowRequired": "La fenêtre horaire est requise",
+      "nameRequired": "Le nom est requis",
+      "emailRequired": "L'e-mail est requis",
+      "phoneRequired": "Le téléphone est requis",
+      "invalidEmail": "Adresse e-mail invalide"
+    },
+    "buttons": {
+      "back": "Retour",
+      "continue": "Continuer",
+      "getMyQuotes": "Obtenir mes devis"
+    },
+    "success": {
+      "message": "Demande de devis soumise ! Redirection vers les offres..."
+    }
+  },
+  "common": {
+    "required": "*",
+    "optional": "(Optionnel)",
+    "loading": "Chargement...",
+    "error": "Erreur",
+    "success": "Succès",
+    "close": "Fermer",
+    "cancel": "Annuler",
+    "confirm": "Confirmer",
+    "save": "Enregistrer",
+    "delete": "Supprimer",
+    "edit": "Modifier",
+    "next": "Suivant",
+    "previous": "Précédent",
+    "back": "Retour",
+    "submit": "Soumettre"
+  }
+}
+

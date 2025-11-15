@@ -1,33 +1,55 @@
 import { Shield, Users, TrendingUp, Award, Heart, Target } from "lucide-react";
 import { Link } from "react-router-dom";
+import { useTranslation } from "react-i18next";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import { Button } from "@/components/ui/button";
 
 const About = () => {
+  const { t } = useTranslation();
+
   const values = [
     {
       icon: Heart,
-      title: "Customer First",
-      description: "Your satisfaction and peace of mind are our top priorities in every move.",
+      title: t("aboutPage.values.items.customerFirst.title"),
+      description: t("aboutPage.values.items.customerFirst.description"),
     },
     {
       icon: Shield,
-      title: "Trust & Safety",
-      description: "We vet every partner and ensure full insurance coverage for your protection.",
+      title: t("aboutPage.values.items.trust.title"),
+      description: t("aboutPage.values.items.trust.description"),
     },
     {
       icon: Target,
-      title: "Excellence",
-      description: "We're committed to delivering exceptional service on every single move.",
+      title: t("aboutPage.values.items.excellence.title"),
+      description: t("aboutPage.values.items.excellence.description"),
     },
   ];
 
   const stats = [
-    { number: "50,000+", label: "Successful Moves" },
-    { number: "500+", label: "Verified Partners" },
-    { number: "98%", label: "Satisfaction Rate" },
-    { number: "24/7", label: "Customer Support" },
+    { number: "50,000+", label: t("aboutPage.stats.successfulMoves") },
+    { number: "500+", label: t("aboutPage.stats.verifiedPartners") },
+    { number: "98%", label: t("aboutPage.stats.satisfactionRate") },
+    { number: "24/7", label: t("aboutPage.stats.customerSupport") },
+  ];
+
+  const differentItems = [
+    {
+      title: t("aboutPage.different.items.verified.title"),
+      description: t("aboutPage.different.items.verified.description"),
+    },
+    {
+      title: t("aboutPage.different.items.transparent.title"),
+      description: t("aboutPage.different.items.transparent.description"),
+    },
+    {
+      title: t("aboutPage.different.items.protection.title"),
+      description: t("aboutPage.different.items.protection.description"),
+    },
+    {
+      title: t("aboutPage.different.items.support.title"),
+      description: t("aboutPage.different.items.support.description"),
+    },
   ];
 
   return (
@@ -40,10 +62,10 @@ const About = () => {
           <div className="container mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
             <div className="text-center max-w-3xl mx-auto">
               <h1 className="text-4xl sm:text-5xl lg:text-6xl font-heading font-bold text-foreground mb-6">
-                Making Moving Simple
+                {t("aboutPage.hero.title")}
               </h1>
               <p className="text-lg sm:text-xl text-muted-foreground leading-relaxed">
-                We're on a mission to transform the moving experience by connecting customers with trusted, professional movers across Switzerland.
+                {t("aboutPage.hero.subtitle")}
               </p>
             </div>
           </div>
@@ -73,17 +95,17 @@ const About = () => {
             <div className="grid lg:grid-cols-2 gap-12 items-center">
               <div className="space-y-6">
                 <h2 className="text-3xl sm:text-4xl font-heading font-bold text-foreground">
-                  Our Story
+                  {t("aboutPage.story.title")}
                 </h2>
                 <div className="space-y-4 text-muted-foreground leading-relaxed">
                   <p>
-                    Movu was born from a simple observation: moving shouldn't be stressful. After experiencing the challenges of coordinating moves firsthand, our founders realized there had to be a better way.
+                    {t("aboutPage.story.paragraph1")}
                   </p>
                   <p>
-                    We built Movu to be the trusted platform that brings transparency, choice, and peace of mind to every move. By carefully vetting our partners and providing instant quotes, we've helped thousands of families and businesses relocate with confidence.
+                    {t("aboutPage.story.paragraph2")}
                   </p>
                   <p>
-                    Today, we're proud to be Switzerland's leading moving marketplace, connecting customers with the best professional movers in the industry. But we're just getting started.
+                    {t("aboutPage.story.paragraph3")}
                   </p>
                 </div>
               </div>
@@ -91,10 +113,10 @@ const About = () => {
               <div className="rounded-2xl bg-gradient-to-br from-primary to-accent p-1 shadow-lift">
                 <div className="bg-background rounded-xl p-8 lg:p-12">
                   <h3 className="text-2xl font-heading font-bold text-foreground mb-6">
-                    Our Mission
+                    {t("aboutPage.mission.title")}
                   </h3>
                   <p className="text-muted-foreground leading-relaxed">
-                    To make every move simple, transparent, and stress-free by connecting people with trusted professionals and innovative tools that streamline the entire relocation process.
+                    {t("aboutPage.mission.description")}
                   </p>
                 </div>
               </div>
@@ -107,10 +129,10 @@ const About = () => {
           <div className="container mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-16">
               <h2 className="text-3xl sm:text-4xl lg:text-5xl font-heading font-bold text-foreground mb-4">
-                Our Values
+                {t("aboutPage.values.title")}
               </h2>
               <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-                These principles guide everything we do
+                {t("aboutPage.values.subtitle")}
               </p>
             </div>
 
@@ -140,29 +162,12 @@ const About = () => {
           <div className="container mx-auto max-w-5xl px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-16">
               <h2 className="text-3xl sm:text-4xl font-heading font-bold text-foreground mb-4">
-                How We're Different
+                {t("aboutPage.different.title")}
               </h2>
             </div>
 
             <div className="grid md:grid-cols-2 gap-6">
-              {[
-                {
-                  title: "Verified Partners Only",
-                  description: "Every moving company is thoroughly vetted, licensed, and insured before joining our platform.",
-                },
-                {
-                  title: "Transparent Pricing",
-                  description: "Get detailed quotes upfront with no hidden fees. Compare and choose with confidence.",
-                },
-                {
-                  title: "Customer Protection",
-                  description: "All moves include insurance coverage and our satisfaction guarantee.",
-                },
-                {
-                  title: "24/7 Support",
-                  description: "Our team is always available to help before, during, and after your move.",
-                },
-              ].map((item, index) => (
+              {differentItems.map((item, index) => (
                 <div
                   key={index}
                   className="flex items-start space-x-4 p-6 rounded-xl bg-muted border border-border"
@@ -188,17 +193,17 @@ const About = () => {
         <section className="py-20 lg:py-28 bg-gradient-to-br from-primary to-accent">
           <div className="container mx-auto max-w-4xl px-4 sm:px-6 lg:px-8 text-center">
             <h2 className="text-3xl sm:text-4xl font-heading font-bold text-primary-foreground mb-4">
-              Ready to Experience the Difference?
+              {t("aboutPage.cta.title")}
             </h2>
             <p className="text-lg text-primary-foreground/90 mb-8 max-w-2xl mx-auto">
-              Join thousands of satisfied customers who chose Movu for their relocation
+              {t("aboutPage.cta.subtitle")}
             </p>
             <Button
               asChild
               size="lg"
               className="bg-background text-primary hover:bg-background/90 shadow-lift"
             >
-              <Link to="/quote">Get Started Today</Link>
+              <Link to="/quote">{t("aboutPage.cta.button")}</Link>
             </Button>
           </div>
         </section>

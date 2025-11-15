@@ -1,44 +1,46 @@
 import { Home, Building2, Package, Warehouse, Wrench, Sparkles } from "lucide-react";
 import { Link } from "react-router-dom";
+import { useTranslation } from "react-i18next";
 import { Button } from "@/components/ui/button";
 
 const Services = () => {
+  const { t } = useTranslation();
   const services = [
     {
       icon: Home,
-      title: "Home Moving",
-      description: "Complete residential moving services with careful handling of your belongings.",
-      features: ["Packing assistance", "Furniture disassembly", "Safe transport"],
+      title: t("services.items.homeMoving.title"),
+      description: t("services.items.homeMoving.description"),
+      features: t("services.items.homeMoving.features", { returnObjects: true }) as string[],
     },
     {
       icon: Building2,
-      title: "Office Moving",
-      description: "Minimize downtime with our efficient corporate relocation services.",
-      features: ["After-hours moving", "IT equipment care", "Layout planning"],
+      title: t("services.items.officeMoving.title"),
+      description: t("services.items.officeMoving.description"),
+      features: t("services.items.officeMoving.features", { returnObjects: true }) as string[],
     },
     {
       icon: Package,
-      title: "Packing Services",
-      description: "Professional packing with quality materials to protect your items.",
-      features: ["Quality materials", "Expert packers", "Labeling system"],
+      title: t("services.items.packing.title"),
+      description: t("services.items.packing.description"),
+      features: t("services.items.packing.features", { returnObjects: true }) as string[],
     },
     {
       icon: Warehouse,
-      title: "Storage Solutions",
-      description: "Secure, climate-controlled storage for short or long-term needs.",
-      features: ["24/7 security", "Climate control", "Flexible terms"],
+      title: t("services.items.storage.title"),
+      description: t("services.items.storage.description"),
+      features: t("services.items.storage.features", { returnObjects: true }) as string[],
     },
     {
       icon: Wrench,
-      title: "Furniture Assembly",
-      description: "Expert assembly and disassembly of furniture and equipment.",
-      features: ["All furniture types", "Tool provided", "Quick service"],
+      title: t("services.items.assembly.title"),
+      description: t("services.items.assembly.description"),
+      features: t("services.items.assembly.features", { returnObjects: true }) as string[],
     },
     {
       icon: Sparkles,
-      title: "Post-Move Cleaning",
-      description: "Leave your old place spotless with our thorough cleaning service.",
-      features: ["Deep cleaning", "Eco-friendly products", "Move-out ready"],
+      title: t("services.items.cleaning.title"),
+      description: t("services.items.cleaning.description"),
+      features: t("services.items.cleaning.features", { returnObjects: true }) as string[],
     },
   ];
 
@@ -48,10 +50,10 @@ const Services = () => {
         {/* Section Header */}
         <div className="text-center space-y-4 mb-16">
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-heading font-bold text-foreground">
-            Our Services
+            {t("services.title")}
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            Comprehensive moving solutions tailored to your needs
+            {t("services.subtitle")}
           </p>
         </div>
 
@@ -91,7 +93,7 @@ const Services = () => {
         {/* CTA */}
         <div className="text-center">
           <Button asChild variant="hero" size="lg">
-            <Link to="/services">View All Services</Link>
+            <Link to="/services">{t("services.viewAll")}</Link>
           </Button>
         </div>
       </div>

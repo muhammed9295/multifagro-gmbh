@@ -1,100 +1,67 @@
 import { Home, Building2, Package, Warehouse, Wrench, Sparkles, TrendingUp, Shield, Clock } from "lucide-react";
 import { Link } from "react-router-dom";
+import { useTranslation } from "react-i18next";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import { Button } from "@/components/ui/button";
 
 const Services = () => {
+  const { t } = useTranslation();
+
   const services = [
     {
       icon: Home,
-      title: "Residential Moving",
-      description: "Stress-free home relocation services with experienced movers who treat your belongings with care.",
-      features: [
-        "Complete packing and unpacking",
-        "Furniture disassembly and assembly",
-        "Safe loading and transport",
-        "Insurance coverage included",
-        "Flexible scheduling",
-      ],
+      title: t("servicesPage.services.residential.title"),
+      description: t("servicesPage.services.residential.description"),
+      features: t("servicesPage.services.residential.features", { returnObjects: true }) as string[],
     },
     {
       icon: Building2,
-      title: "Office Relocation",
-      description: "Minimize downtime with our efficient corporate moving services designed for businesses of all sizes.",
-      features: [
-        "After-hours and weekend moves",
-        "IT equipment specialized handling",
-        "Office layout and planning",
-        "Minimal business disruption",
-        "Dedicated move coordinator",
-      ],
+      title: t("servicesPage.services.office.title"),
+      description: t("servicesPage.services.office.description"),
+      features: t("servicesPage.services.office.features", { returnObjects: true }) as string[],
     },
     {
       icon: Package,
-      title: "Packing Services",
-      description: "Professional packing with quality materials to ensure your items arrive safely at your new location.",
-      features: [
-        "High-quality packing materials",
-        "Expert packing techniques",
-        "Systematic labeling system",
-        "Fragile item protection",
-        "Unpacking services available",
-      ],
+      title: t("servicesPage.services.packing.title"),
+      description: t("servicesPage.services.packing.description"),
+      features: t("servicesPage.services.packing.features", { returnObjects: true }) as string[],
     },
     {
       icon: Warehouse,
-      title: "Storage Solutions",
-      description: "Secure, climate-controlled storage facilities for short-term or long-term needs during your move.",
-      features: [
-        "24/7 security monitoring",
-        "Climate-controlled units",
-        "Flexible rental terms",
-        "Various unit sizes",
-        "Easy access",
-      ],
+      title: t("servicesPage.services.storage.title"),
+      description: t("servicesPage.services.storage.description"),
+      features: t("servicesPage.services.storage.features", { returnObjects: true }) as string[],
     },
     {
       icon: Wrench,
-      title: "Furniture Assembly",
-      description: "Expert furniture assembly and disassembly services to make your move easier and more efficient.",
-      features: [
-        "All furniture types",
-        "Professional tools provided",
-        "Quick and efficient",
-        "Reassembly at destination",
-        "Experienced technicians",
-      ],
+      title: t("servicesPage.services.assembly.title"),
+      description: t("servicesPage.services.assembly.description"),
+      features: t("servicesPage.services.assembly.features", { returnObjects: true }) as string[],
     },
     {
       icon: Sparkles,
-      title: "Post-Move Cleaning",
-      description: "Leave your old place spotless with our thorough deep cleaning service after you move out.",
-      features: [
-        "Complete deep cleaning",
-        "Eco-friendly products",
-        "Move-out inspection ready",
-        "Kitchen and bathroom focus",
-        "Satisfaction guaranteed",
-      ],
+      title: t("servicesPage.services.cleaning.title"),
+      description: t("servicesPage.services.cleaning.description"),
+      features: t("servicesPage.services.cleaning.features", { returnObjects: true }) as string[],
     },
   ];
 
   const whyChoose = [
     {
       icon: Shield,
-      title: "Fully Licensed & Insured",
-      description: "All our movers are licensed professionals with comprehensive insurance coverage.",
+      title: t("servicesPage.whyChoose.items.licensed.title"),
+      description: t("servicesPage.whyChoose.items.licensed.description"),
     },
     {
       icon: TrendingUp,
-      title: "Transparent Pricing",
-      description: "Clear, upfront quotes with no hidden fees. What you see is what you pay.",
+      title: t("servicesPage.whyChoose.items.pricing.title"),
+      description: t("servicesPage.whyChoose.items.pricing.description"),
     },
     {
       icon: Clock,
-      title: "On-Time Guarantee",
-      description: "We value your time. Our movers arrive on schedule, every time.",
+      title: t("servicesPage.whyChoose.items.guarantee.title"),
+      description: t("servicesPage.whyChoose.items.guarantee.description"),
     },
   ];
 
@@ -108,13 +75,13 @@ const Services = () => {
           <div className="container mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
             <div className="text-center max-w-3xl mx-auto">
               <h1 className="text-4xl sm:text-5xl lg:text-6xl font-heading font-bold text-foreground mb-6">
-                Comprehensive Moving Services
+                {t("servicesPage.hero.title")}
               </h1>
               <p className="text-lg sm:text-xl text-muted-foreground mb-8 leading-relaxed">
-                From packing to unpacking, storage to assembly — we handle every aspect of your move with professionalism and care.
+                {t("servicesPage.hero.subtitle")}
               </p>
               <Button asChild variant="hero" size="lg">
-                <Link to="/quote">Get Free Quotes</Link>
+                <Link to="/quote">{t("servicesPage.hero.cta")}</Link>
               </Button>
             </div>
           </div>
@@ -162,10 +129,10 @@ const Services = () => {
           <div className="container mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-16">
               <h2 className="text-3xl sm:text-4xl lg:text-5xl font-heading font-bold text-foreground mb-4">
-                Why Choose Movu
+                {t("servicesPage.whyChoose.title")}
               </h2>
               <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-                We're committed to making your move as smooth and stress-free as possible
+                {t("servicesPage.whyChoose.subtitle")}
               </p>
             </div>
 
@@ -194,17 +161,17 @@ const Services = () => {
         <section className="py-20 lg:py-28 bg-gradient-to-br from-primary to-accent">
           <div className="container mx-auto max-w-4xl px-4 sm:px-6 lg:px-8 text-center">
             <h2 className="text-3xl sm:text-4xl font-heading font-bold text-primary-foreground mb-4">
-              Ready to Get Started?
+              {t("servicesPage.cta.title")}
             </h2>
             <p className="text-lg text-primary-foreground/90 mb-8 max-w-2xl mx-auto">
-              Get instant quotes from verified movers and book your perfect moving partner today
+              {t("servicesPage.cta.subtitle")}
             </p>
             <Button
               asChild
               size="lg"
               className="bg-background text-primary hover:bg-background/90 shadow-lift"
             >
-              <Link to="/quote">Request Free Quotes</Link>
+              <Link to="/quote">{t("servicesPage.cta.button")}</Link>
             </Button>
           </div>
         </section>

@@ -1,14 +1,11 @@
 import { Link } from "react-router-dom";
 import { ArrowRight, CheckCircle } from "lucide-react";
+import { useTranslation } from "react-i18next";
 import { Button } from "@/components/ui/button";
 
 const FinalCTA = () => {
-  const benefits = [
-    "Free instant quotes",
-    "Compare verified movers",
-    "Book in minutes",
-    "Full insurance coverage",
-  ];
+  const { t } = useTranslation();
+  const benefits = t("finalCTA.benefits", { returnObjects: true }) as string[];
 
   return (
     <section className="py-20 lg:py-28 bg-gradient-to-br from-primary to-accent relative overflow-hidden">
@@ -23,10 +20,10 @@ const FinalCTA = () => {
           {/* Heading */}
           <div className="space-y-4">
             <h2 className="text-3xl sm:text-4xl lg:text-5xl font-heading font-bold text-primary-foreground">
-              Ready to Make Your Move?
+              {t("finalCTA.title")}
             </h2>
             <p className="text-lg sm:text-xl text-primary-foreground/90 max-w-2xl mx-auto leading-relaxed">
-              Join thousands of satisfied customers who chose Movu for their relocation needs
+              {t("finalCTA.subtitle")}
             </p>
           </div>
 
@@ -51,7 +48,7 @@ const FinalCTA = () => {
               className="bg-background text-primary hover:bg-background/90 shadow-lift text-base h-14 px-10 font-semibold"
             >
               <Link to="/quote">
-                Get Your Free Quotes Now
+                {t("finalCTA.button")}
                 <ArrowRight className="ml-2 h-5 w-5" />
               </Link>
             </Button>
@@ -59,7 +56,7 @@ const FinalCTA = () => {
 
           {/* Trust Text */}
           <p className="text-sm text-primary-foreground/80 pt-4">
-            No credit card required • Takes less than 2 minutes • 100% free
+            {t("finalCTA.trustText")}
           </p>
         </div>
       </div>

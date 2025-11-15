@@ -1,0 +1,578 @@
+{
+  "navbar": {
+    "services": "Services",
+    "howItWorks": "How it Works",
+    "pricing": "Pricing",
+    "about": "About",
+    "contact": "Contact",
+    "getFreeQuotes": "Get Free Quotes"
+  },
+  "hero": {
+    "title": "Move with",
+    "titleHighlight": "Confidence",
+    "subtitle": "Get instant quotes from verified movers. Compare prices, read reviews, and book your perfect moving partner in minutes.",
+    "trustBadges": {
+      "fullyInsured": "Fully Insured",
+      "verifiedPartners": "Verified Partners",
+      "movesPerMonth": "500+ Moves/Month"
+    },
+    "form": {
+      "title": "Get Your Free Quote",
+      "movingFrom": "Moving From",
+      "movingTo": "Moving To",
+      "fromPlaceholder": "e.g., Zurich",
+      "toPlaceholder": "e.g., Geneva",
+      "compareOffers": "Compare Moving Offers",
+      "disclaimer": "Free quotes • No commitment • Instant comparison"
+    },
+    "stats": {
+      "satisfaction": "Satisfaction",
+      "support": "Support",
+      "moves": "Moves"
+    }
+  },
+  "howItWorks": {
+    "title": "How It Works",
+    "subtitle": "Getting your perfect moving partner is simple and stress-free",
+    "steps": {
+      "step1": {
+        "title": "Request Your Move",
+        "description": "Fill out a simple form with your moving details. Takes less than 2 minutes."
+      },
+      "step2": {
+        "title": "Compare Offers",
+        "description": "Receive quotes from verified movers. Compare prices, reviews, and services."
+      },
+      "step3": {
+        "title": "Book & Relax",
+        "description": "Choose your preferred mover and confirm. We'll handle the rest."
+      }
+    }
+  },
+  "services": {
+    "title": "Our Services",
+    "subtitle": "Comprehensive moving solutions tailored to your needs",
+    "viewAll": "View All Services",
+    "items": {
+      "homeMoving": {
+        "title": "Home Moving",
+        "description": "Complete residential moving services with careful handling of your belongings.",
+        "features": ["Packing assistance", "Furniture disassembly", "Safe transport"]
+      },
+      "officeMoving": {
+        "title": "Office Moving",
+        "description": "Minimize downtime with our efficient corporate relocation services.",
+        "features": ["After-hours moving", "IT equipment care", "Layout planning"]
+      },
+      "packing": {
+        "title": "Packing Services",
+        "description": "Professional packing with quality materials to protect your items.",
+        "features": ["Quality materials", "Expert packers", "Labeling system"]
+      },
+      "storage": {
+        "title": "Storage Solutions",
+        "description": "Secure, climate-controlled storage for short or long-term needs.",
+        "features": ["24/7 security", "Climate control", "Flexible terms"]
+      },
+      "assembly": {
+        "title": "Furniture Assembly",
+        "description": "Expert assembly and disassembly of furniture and equipment.",
+        "features": ["All furniture types", "Tool provided", "Quick service"]
+      },
+      "cleaning": {
+        "title": "Post-Move Cleaning",
+        "description": "Leave your old place spotless with our thorough cleaning service.",
+        "features": ["Deep cleaning", "Eco-friendly products", "Move-out ready"]
+      }
+    }
+  },
+  "footer": {
+    "description": "Professional moving and packing services with transparent pricing and verified partners across Switzerland.",
+    "services": "Services",
+    "company": "Company",
+    "contactUs": "Contact Us",
+    "allRightsReserved": "All rights reserved",
+    "servicesLinks": {
+      "homeMoving": "Home Moving",
+      "officeRelocation": "Office Relocation",
+      "packingServices": "Packing Services",
+      "storageSolutions": "Storage Solutions",
+      "furnitureAssembly": "Furniture Assembly"
+    },
+    "companyLinks": {
+      "aboutUs": "About Us",
+      "pricing": "Pricing",
+      "contact": "Contact",
+      "terms": "Terms & Conditions",
+      "privacy": "Privacy Policy"
+    },
+    "bottomLinks": {
+      "terms": "Terms",
+      "privacy": "Privacy",
+      "cookies": "Cookies"
+    }
+  },
+  "contact": {
+    "title": "Get in Touch",
+    "subtitle": "Have questions? We're here to help. Reach out and we'll respond as soon as possible.",
+    "phone": "Phone",
+    "email": "Email",
+    "locations": "Locations",
+    "locationsText": "Zurich • Geneva • Basel",
+    "businessHours": "Business Hours",
+    "mondayFriday": "Monday - Friday",
+    "saturdaySunday": "Saturday - Sunday",
+    "closed": "Closed",
+    "hours": "8am - 6pm",
+    "form": {
+      "title": "Send Us a Message",
+      "fullName": "Full Name",
+      "emailAddress": "Email Address",
+      "phoneNumber": "Phone Number (Optional)",
+      "subject": "Subject (Optional)",
+      "message": "Message",
+      "sendMessage": "Send Message",
+      "placeholders": {
+        "name": "Ahmed Al-Rashid",
+        "email": "ahmed@example.com",
+        "phone": "078 XXX XX XX",
+        "subject": "How can we help?",
+        "message": "Tell us more about your inquiry..."
+      }
+    },
+    "faqLink": {
+      "title": "Looking for Quick Answers?",
+      "subtitle": "Check out our FAQ section for instant answers to common questions",
+      "button": "View FAQ"
+    }
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "subtitle": "Got questions? We've got answers.",
+    "stillHaveQuestions": "Still have questions?",
+    "contactSupport": "Contact our support team",
+    "items": {
+      "q1": {
+        "question": "How does Movu work?",
+        "answer": "Simply fill out our quick form with your moving details. You'll receive multiple quotes from verified movers within minutes. Compare prices, read reviews, and book directly through our platform. It's that easy!"
+      },
+      "q2": {
+        "question": "Are the movers insured?",
+        "answer": "Yes! All moving companies on our platform are fully licensed, insured, and background-checked. We only work with professional movers who meet our strict quality standards."
+      },
+      "q3": {
+        "question": "How much does a move cost?",
+        "answer": "Moving costs vary based on distance, volume, and services needed. Our platform shows transparent pricing from multiple movers so you can compare and choose the best option for your budget. Most local moves range from CHF 300-1,000."
+      },
+      "q4": {
+        "question": "Can I get help with packing?",
+        "answer": "Absolutely! Many of our partner movers offer professional packing services. You can add packing, unpacking, and packing materials when requesting your quote."
+      },
+      "q5": {
+        "question": "What if something gets damaged?",
+        "answer": "All our movers carry comprehensive insurance. In the rare event of damage, you're fully covered. Simply file a claim through our platform and we'll help facilitate the process."
+      },
+      "q6": {
+        "question": "How far in advance should I book?",
+        "answer": "We recommend booking 2-4 weeks in advance, especially during peak moving season (summer months). However, many movers can accommodate last-minute moves within 48 hours."
+      },
+      "q7": {
+        "question": "Do you serve my area?",
+        "answer": "We currently serve all major cities in Switzerland including Zurich, Geneva, Basel, Bern, Lausanne, and Lucerne. Enter your postcodes to see available movers in your area."
+      },
+      "q8": {
+        "question": "Can I reschedule my move?",
+        "answer": "Yes, most movers allow rescheduling with adequate notice (usually 48-72 hours). Cancellation policies vary by mover, so check the terms when booking."
+      }
+    }
+  },
+  "finalCTA": {
+    "title": "Ready to Make Your Move?",
+    "subtitle": "Join thousands of satisfied customers who chose Movu for their relocation needs",
+    "benefits": [
+      "Free instant quotes",
+      "Compare verified movers",
+      "Book in minutes",
+      "Full insurance coverage"
+    ],
+    "button": "Get Your Free Quotes Now",
+    "trustText": "No credit card required • Takes less than 2 minutes • 100% free"
+  },
+  "servicesPage": {
+    "hero": {
+      "title": "Comprehensive Moving Services",
+      "subtitle": "From packing to unpacking, storage to assembly — we handle every aspect of your move with professionalism and care.",
+      "cta": "Get Free Quotes"
+    },
+    "services": {
+      "residential": {
+        "title": "Residential Moving",
+        "description": "Stress-free home relocation services with experienced movers who treat your belongings with care.",
+        "features": [
+          "Complete packing and unpacking",
+          "Furniture disassembly and assembly",
+          "Safe loading and transport",
+          "Insurance coverage included",
+          "Flexible scheduling"
+        ]
+      },
+      "office": {
+        "title": "Office Relocation",
+        "description": "Minimize downtime with our efficient corporate moving services designed for businesses of all sizes.",
+        "features": [
+          "After-hours and weekend moves",
+          "IT equipment specialized handling",
+          "Office layout and planning",
+          "Minimal business disruption",
+          "Dedicated move coordinator"
+        ]
+      },
+      "packing": {
+        "title": "Packing Services",
+        "description": "Professional packing with quality materials to ensure your items arrive safely at your new location.",
+        "features": [
+          "High-quality packing materials",
+          "Expert packing techniques",
+          "Systematic labeling system",
+          "Fragile item protection",
+          "Unpacking services available"
+        ]
+      },
+      "storage": {
+        "title": "Storage Solutions",
+        "description": "Secure, climate-controlled storage facilities for short-term or long-term needs during your move.",
+        "features": [
+          "24/7 security monitoring",
+          "Climate-controlled units",
+          "Flexible rental terms",
+          "Various unit sizes",
+          "Easy access"
+        ]
+      },
+      "assembly": {
+        "title": "Furniture Assembly",
+        "description": "Expert furniture assembly and disassembly services to make your move easier and more efficient.",
+        "features": [
+          "All furniture types",
+          "Professional tools provided",
+          "Quick and efficient",
+          "Reassembly at destination",
+          "Experienced technicians"
+        ]
+      },
+      "cleaning": {
+        "title": "Post-Move Cleaning",
+        "description": "Leave your old place spotless with our thorough deep cleaning service after you move out.",
+        "features": [
+          "Complete deep cleaning",
+          "Eco-friendly products",
+          "Move-out inspection ready",
+          "Kitchen and bathroom focus",
+          "Satisfaction guaranteed"
+        ]
+      }
+    },
+    "whyChoose": {
+      "title": "Why Choose Movu",
+      "subtitle": "We're committed to making your move as smooth and stress-free as possible",
+      "items": {
+        "licensed": {
+          "title": "Fully Licensed & Insured",
+          "description": "All our movers are licensed professionals with comprehensive insurance coverage."
+        },
+        "pricing": {
+          "title": "Transparent Pricing",
+          "description": "Clear, upfront quotes with no hidden fees. What you see is what you pay."
+        },
+        "guarantee": {
+          "title": "On-Time Guarantee",
+          "description": "We value your time. Our movers arrive on schedule, every time."
+        }
+      }
+    },
+    "cta": {
+      "title": "Ready to Get Started?",
+      "subtitle": "Get instant quotes from verified movers and book your perfect moving partner today",
+      "button": "Request Free Quotes"
+    }
+  },
+  "pricingPage": {
+    "hero": {
+      "title": "Transparent Pricing",
+      "subtitle": "No hidden fees. Get instant quotes and compare prices from verified movers.",
+      "cta": "Get Your Free Quote"
+    },
+    "factors": {
+      "title": "What Affects Moving Costs?",
+      "subtitle": "Several factors influence the final price of your move",
+      "items": {
+        "distance": {
+          "title": "Distance",
+          "description": "Local moves within the same city are typically less expensive than long-distance relocations."
+        },
+        "volume": {
+          "title": "Volume",
+          "description": "The amount of items and furniture directly affects the truck size and crew needed."
+        },
+        "accessibility": {
+          "title": "Accessibility",
+          "description": "Stairs, elevators, and parking availability can impact the moving time and cost."
+        },
+        "services": {
+          "title": "Services",
+          "description": "Additional services like packing, unpacking, and storage add to the total cost."
+        },
+        "timing": {
+          "title": "Timing",
+          "description": "Peak season (summer) and weekend moves may have higher rates than off-peak times."
+        }
+      }
+    },
+    "estimates": {
+      "title": "Estimated Price Ranges",
+      "subtitle": "Get an idea of what your move might cost (prices vary by specific details)",
+      "mostPopular": "Most Popular",
+      "localMove": "Local Move",
+      "longDistance": "Long Distance",
+      "typicallyIncludes": "Typically includes:",
+      "disclaimer": "* Prices are estimates and may vary based on specific requirements, distance, and additional services. Get an accurate quote by filling out our form.",
+      "sizes": {
+        "studio": {
+          "title": "Studio/1 Bedroom",
+          "local": "CHF 300 - 450",
+          "distance": "CHF 800 - 1,400",
+          "features": ["1-2 movers", "Small truck", "3-4 hours", "Basic insurance"]
+        },
+        "twoBedroom": {
+          "title": "2 Bedroom",
+          "local": "CHF 450 - 700",
+          "distance": "CHF 1,400 - 2,000",
+          "features": ["2-3 movers", "Medium truck", "4-6 hours", "Full insurance"]
+        },
+        "threeFourBedroom": {
+          "title": "3-4 Bedroom",
+          "local": "CHF 700 - 1,100",
+          "distance": "CHF 2,000 - 3,200",
+          "features": ["3-4 movers", "Large truck", "6-8 hours", "Premium insurance"]
+        }
+      }
+    },
+    "addOns": {
+      "title": "Add-On Services",
+      "items": {
+        "packing": "Professional Packing",
+        "unpacking": "Unpacking Service",
+        "materials": "Packing Materials",
+        "assembly": "Furniture Assembly",
+        "cleaning": "Post-Move Cleaning",
+        "storage": "Storage (per month)"
+      },
+      "prices": {
+        "packing": "CHF 80 - 200",
+        "unpacking": "CHF 60 - 140",
+        "materials": "CHF 40 - 120",
+        "assembly": "CHF 60 - 160",
+        "cleaning": "CHF 100 - 240",
+        "storage": "CHF 120 - 320"
+      }
+    },
+    "cta": {
+      "title": "Ready for Your Exact Quote?",
+      "subtitle": "Get personalized quotes from multiple movers in minutes — completely free",
+      "button": "Get Free Quotes Now"
+    }
+  },
+  "aboutPage": {
+    "hero": {
+      "title": "Making Moving Simple",
+      "subtitle": "We're on a mission to transform the moving experience by connecting customers with trusted, professional movers across Switzerland."
+    },
+    "stats": {
+      "successfulMoves": "Successful Moves",
+      "verifiedPartners": "Verified Partners",
+      "satisfactionRate": "Satisfaction Rate",
+      "customerSupport": "Customer Support"
+    },
+    "story": {
+      "title": "Our Story",
+      "paragraph1": "Movu was born from a simple observation: moving shouldn't be stressful. After experiencing the challenges of coordinating moves firsthand, our founders realized there had to be a better way.",
+      "paragraph2": "We built Movu to be the trusted platform that brings transparency, choice, and peace of mind to every move. By carefully vetting our partners and providing instant quotes, we've helped thousands of families and businesses relocate with confidence.",
+      "paragraph3": "Today, we're proud to be Switzerland's leading moving marketplace, connecting customers with the best professional movers in the industry. But we're just getting started."
+    },
+    "mission": {
+      "title": "Our Mission",
+      "description": "To make every move simple, transparent, and stress-free by connecting people with trusted professionals and innovative tools that streamline the entire relocation process."
+    },
+    "values": {
+      "title": "Our Values",
+      "subtitle": "These principles guide everything we do",
+      "items": {
+        "customerFirst": {
+          "title": "Customer First",
+          "description": "Your satisfaction and peace of mind are our top priorities in every move."
+        },
+        "trust": {
+          "title": "Trust & Safety",
+          "description": "We vet every partner and ensure full insurance coverage for your protection."
+        },
+        "excellence": {
+          "title": "Excellence",
+          "description": "We're committed to delivering exceptional service on every single move."
+        }
+      }
+    },
+    "different": {
+      "title": "How We're Different",
+      "items": {
+        "verified": {
+          "title": "Verified Partners Only",
+          "description": "Every moving company is thoroughly vetted, licensed, and insured before joining our platform."
+        },
+        "transparent": {
+          "title": "Transparent Pricing",
+          "description": "Get detailed quotes upfront with no hidden fees. Compare and choose with confidence."
+        },
+        "protection": {
+          "title": "Customer Protection",
+          "description": "All moves include insurance coverage and our satisfaction guarantee."
+        },
+        "support": {
+          "title": "24/7 Support",
+          "description": "Our team is always available to help before, during, and after your move."
+        }
+      }
+    },
+    "cta": {
+      "title": "Ready to Experience the Difference?",
+      "subtitle": "Join thousands of satisfied customers who chose Movu for their relocation",
+      "button": "Get Started Today"
+    }
+  },
+  "quotePage": {
+    "hero": {
+      "title": "Get Your Free Quote",
+      "subtitle": "Complete the form to receive personalized quotes from verified movers"
+    },
+    "steps": {
+      "details": "Details",
+      "options": "Options",
+      "schedule": "Schedule",
+      "contact": "Contact"
+    },
+    "step1": {
+      "title": "Moving Details",
+      "movingFrom": "Moving From",
+      "movingTo": "Moving To",
+      "fromPlaceholder": "e.g., Oerlikon, Zurich",
+      "toPlaceholder": "e.g., Plainpalais, Geneva",
+      "moveSize": "Move Size",
+      "selectMoveSize": "Select move size",
+      "sizes": {
+        "studio": "Studio Apartment (1-2 rooms)",
+        "1bed": "1 Bedroom (2-3 rooms)",
+        "2bed": "2 Bedroom (3-4 rooms)",
+        "3bed": "3 Bedroom (4-5 rooms)",
+        "4bed+": "4+ Bedroom (6+ rooms)",
+        "office": "Office Space"
+      },
+      "currentFloor": "Current Floor",
+      "selectFloor": "Select floor",
+      "floors": {
+        "ground": "Ground Floor",
+        "1": "1st Floor",
+        "2": "2nd Floor",
+        "3": "3rd Floor",
+        "4+": "4th Floor or Higher"
+      },
+      "elevatorAvailable": "Elevator available"
+    },
+    "step2": {
+      "title": "Additional Services",
+      "subtitle": "Select any additional services you need (optional)",
+      "services": {
+        "packing": {
+          "label": "Professional Packing",
+          "description": "Let our team pack your belongings safely"
+        },
+        "unpacking": {
+          "label": "Unpacking Service",
+          "description": "We'll unpack and arrange items in your new place"
+        },
+        "boxes": {
+          "label": "Packing Materials",
+          "description": "Boxes, bubble wrap, tape, and other supplies"
+        },
+        "cleaning": {
+          "label": "Post-Move Cleaning",
+          "description": "Deep cleaning of your old residence"
+        },
+        "assembly": {
+          "label": "Furniture Assembly",
+          "description": "Assembly and disassembly of furniture"
+        }
+      }
+    },
+    "step3": {
+      "title": "Schedule Your Move",
+      "preferredMoveDate": "Preferred Move Date",
+      "preferredTimeWindow": "Preferred Time Window",
+      "selectTimeWindow": "Select time window",
+      "timeWindows": {
+        "morning": "Morning (8am - 12pm)",
+        "afternoon": "Afternoon (12pm - 4pm)",
+        "evening": "Evening (4pm - 8pm)",
+        "flexible": "Flexible"
+      },
+      "additionalNotes": "Additional Notes (Optional)",
+      "notesPlaceholder": "Any special requirements or items that need extra care?"
+    },
+    "step4": {
+      "title": "Contact Information",
+      "fullName": "Full Name",
+      "emailAddress": "Email Address",
+      "phoneNumber": "Phone Number",
+      "namePlaceholder": "Ahmed Al-Rashid",
+      "emailPlaceholder": "ahmed@example.com",
+      "phonePlaceholder": "078 XXX XX XX",
+      "privacyNotice": "By submitting this form, you agree to receive quotes from verified moving partners. Your information is secure and will not be shared with third parties."
+    },
+    "validation": {
+      "movingFromRequired": "Moving from is required",
+      "movingToRequired": "Moving to is required",
+      "moveSizeRequired": "Move size is required",
+      "floorsRequired": "Number of floors is required",
+      "moveDateRequired": "Move date is required",
+      "timeWindowRequired": "Time window is required",
+      "nameRequired": "Name is required",
+      "emailRequired": "Email is required",
+      "phoneRequired": "Phone is required",
+      "invalidEmail": "Invalid email address"
+    },
+    "buttons": {
+      "back": "Back",
+      "continue": "Continue",
+      "getMyQuotes": "Get My Quotes"
+    },
+    "success": {
+      "message": "Quote request submitted! Redirecting to offers..."
+    }
+  },
+  "common": {
+    "required": "*",
+    "optional": "(Optional)",
+    "loading": "Loading...",
+    "error": "Error",
+    "success": "Success",
+    "close": "Close",
+    "cancel": "Cancel",
+    "confirm": "Confirm",
+    "save": "Save",
+    "delete": "Delete",
+    "edit": "Edit",
+    "next": "Next",
+    "previous": "Previous",
+    "back": "Back",
+    "submit": "Submit"
+  }
+}
+

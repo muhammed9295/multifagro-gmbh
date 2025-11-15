@@ -1,0 +1,526 @@
+{
+  "navbar": {
+    "services": "Servizi",
+    "howItWorks": "Come funziona",
+    "pricing": "Prezzi",
+    "about": "Chi siamo",
+    "contact": "Contatti",
+    "getFreeQuotes": "Ottieni preventivi gratuiti"
+  },
+  "hero": {
+    "title": "Traslochi con",
+    "titleHighlight": "Fiducia",
+    "subtitle": "Ottieni preventivi istantanei da traslocatori verificati. Confronta prezzi, leggi recensioni e prenota il tuo partner di trasloco perfetto in pochi minuti.",
+    "trustBadges": {
+      "fullyInsured": "Completamente assicurato",
+      "verifiedPartners": "Partner verificati",
+      "movesPerMonth": "500+ traslochi/mese"
+    },
+    "form": {
+      "title": "Ottieni il tuo preventivo gratuito",
+      "movingFrom": "Trasloco da",
+      "movingTo": "Trasloco verso",
+      "fromPlaceholder": "es. Zurigo",
+      "toPlaceholder": "es. Ginevra",
+      "compareOffers": "Confronta offerte di trasloco",
+      "disclaimer": "Preventivi gratuiti • Nessun impegno • Confronto istantaneo"
+    },
+    "stats": {
+      "satisfaction": "Soddisfazione",
+      "support": "Supporto",
+      "moves": "Traslochi"
+    }
+  },
+  "howItWorks": {
+    "title": "Come funziona",
+    "subtitle": "Trovare il tuo partner di trasloco perfetto è semplice e senza stress",
+    "steps": {
+      "step1": {
+        "title": "Richiedi il tuo trasloco",
+        "description": "Compila un semplice modulo con i dettagli del tuo trasloco. Richiede meno di 2 minuti."
+      },
+      "step2": {
+        "title": "Confronta le offerte",
+        "description": "Ricevi preventivi da traslocatori verificati. Confronta prezzi, recensioni e servizi."
+      },
+      "step3": {
+        "title": "Prenota e rilassati",
+        "description": "Scegli il tuo traslocatore preferito e conferma. Noi ci occuperemo del resto."
+      }
+    }
+  },
+  "services": {
+    "title": "I nostri servizi",
+    "subtitle": "Soluzioni di trasloco complete su misura per le tue esigenze",
+    "viewAll": "Visualizza tutti i servizi",
+    "items": {
+      "homeMoving": {
+        "title": "Traslochi residenziali",
+        "description": "Servizi completi di trasloco residenziale con gestione attenta dei tuoi beni.",
+        "features": ["Assistenza imballaggio", "Smontaggio mobili", "Trasporto sicuro"]
+      },
+      "officeMoving": {
+        "title": "Traslochi uffici",
+        "description": "Riduci al minimo i tempi di inattività con i nostri efficienti servizi di trasloco aziendale.",
+        "features": ["Traslochi fuori orario", "Cura attrezzature IT", "Pianificazione layout"]
+      },
+      "packing": {
+        "title": "Servizi di imballaggio",
+        "description": "Imballaggio professionale con materiali di qualità per proteggere i tuoi oggetti.",
+        "features": ["Materiali di qualità", "Imballatori esperti", "Sistema di etichettatura"]
+      },
+      "storage": {
+        "title": "Soluzioni di stoccaggio",
+        "description": "Stoccaggio sicuro e climatizzato per esigenze a breve o lungo termine.",
+        "features": ["Sicurezza 24/7", "Controllo clima", "Termini flessibili"]
+      },
+      "assembly": {
+        "title": "Montaggio mobili",
+        "description": "Montaggio e smontaggio esperto di mobili e attrezzature.",
+        "features": ["Tutti i tipi di mobili", "Strumenti forniti", "Servizio rapido"]
+      },
+      "cleaning": {
+        "title": "Pulizia post-trasloco",
+        "description": "Lascia il tuo vecchio posto immacolato con il nostro servizio di pulizia approfondita.",
+        "features": ["Pulizia approfondita", "Prodotti ecologici", "Pronto per la partenza"]
+      }
+    }
+  },
+  "footer": {
+    "description": "Servizi professionali di trasloco e imballaggio con prezzi trasparenti e partner verificati in tutta la Svizzera.",
+    "services": "Servizi",
+    "company": "Azienda",
+    "contactUs": "Contattaci",
+    "allRightsReserved": "Tutti i diritti riservati",
+    "servicesLinks": {
+      "homeMoving": "Traslochi residenziali",
+      "officeRelocation": "Traslochi uffici",
+      "packingServices": "Servizi di imballaggio",
+      "storageSolutions": "Soluzioni di stoccaggio",
+      "furnitureAssembly": "Montaggio mobili"
+    },
+    "companyLinks": {
+      "aboutUs": "Chi siamo",
+      "pricing": "Prezzi",
+      "contact": "Contatti",
+      "terms": "Termini e condizioni",
+      "privacy": "Informativa sulla privacy"
+    },
+    "bottomLinks": {
+      "terms": "Termini",
+      "privacy": "Privacy",
+      "cookies": "Cookie"
+    }
+  },
+  "contact": {
+    "title": "Contattaci",
+    "subtitle": "Hai domande? Siamo qui per aiutarti. Contattaci e risponderemo il prima possibile.",
+    "phone": "Telefono",
+    "email": "E-mail",
+    "locations": "Sedi",
+    "locationsText": "Zurigo • Ginevra • Basilea",
+    "businessHours": "Orari di apertura",
+    "mondayFriday": "Lunedì - Venerdì",
+    "saturdaySunday": "Sabato - Domenica",
+    "closed": "Chiuso",
+    "hours": "8:00 - 18:00",
+    "form": {
+      "title": "Inviaci un messaggio",
+      "fullName": "Nome completo",
+      "emailAddress": "Indirizzo e-mail",
+      "phoneNumber": "Numero di telefono (Opzionale)",
+      "subject": "Oggetto (Opzionale)",
+      "message": "Messaggio",
+      "sendMessage": "Invia messaggio",
+      "placeholders": {
+        "name": "Mario Rossi",
+        "email": "mario@esempio.com",
+        "phone": "078 XXX XX XX",
+        "subject": "Come possiamo aiutarti?",
+        "message": "Raccontaci di più sulla tua richiesta..."
+      }
+    },
+    "faqLink": {
+      "title": "Cerchi risposte rapide?",
+      "subtitle": "Consulta la nostra sezione FAQ per risposte istantanee alle domande comuni",
+      "button": "Visualizza FAQ"
+    }
+  },
+  "servicesPage": {
+    "hero": {
+      "title": "Servizi di trasloco completi",
+      "subtitle": "Dall'imballaggio al disimballaggio, dallo stoccaggio al montaggio — gestiamo ogni aspetto del tuo trasloco con professionalità e cura.",
+      "cta": "Ottieni preventivi gratuiti"
+    },
+    "services": {
+      "residential": {
+        "title": "Traslochi residenziali",
+        "description": "Servizi di trasloco residenziale senza stress con traslocatori esperti che trattano i tuoi beni con cura.",
+        "features": [
+          "Imballaggio e disimballaggio completi",
+          "Smontaggio e montaggio mobili",
+          "Caricamento e trasporto sicuri",
+          "Copertura assicurativa inclusa",
+          "Pianificazione flessibile"
+        ]
+      },
+      "office": {
+        "title": "Traslochi uffici",
+        "description": "Riduci al minimo i tempi di inattività con i nostri efficienti servizi di trasloco aziendale progettati per aziende di tutte le dimensioni.",
+        "features": [
+          "Traslochi fuori orario e nei fine settimana",
+          "Gestione specializzata delle attrezzature IT",
+          "Layout e pianificazione dell'ufficio",
+          "Interruzione minima dell'attività",
+          "Coordinatore trasloco dedicato"
+        ]
+      },
+      "packing": {
+        "title": "Servizi di imballaggio",
+        "description": "Imballaggio professionale con materiali di qualità per garantire che i tuoi oggetti arrivino sani e salvi nella nuova sede.",
+        "features": [
+          "Materiali di imballaggio di alta qualità",
+          "Tecniche di imballaggio esperte",
+          "Sistema di etichettatura sistematico",
+          "Protezione oggetti fragili",
+          "Servizi di disimballaggio disponibili"
+        ]
+      },
+      "storage": {
+        "title": "Soluzioni di stoccaggio",
+        "description": "Strutture di stoccaggio sicure e climatizzate per esigenze a breve o lungo termine durante il tuo trasloco.",
+        "features": [
+          "Monitoraggio sicurezza 24/7",
+          "Unità climatizzate",
+          "Termini di noleggio flessibili",
+          "Varie dimensioni delle unità",
+          "Accesso facile"
+        ]
+      },
+      "assembly": {
+        "title": "Montaggio mobili",
+        "description": "Servizi esperti di montaggio e smontaggio mobili per rendere il tuo trasloco più facile ed efficiente.",
+        "features": [
+          "Tutti i tipi di mobili",
+          "Strumenti professionali forniti",
+          "Veloce ed efficiente",
+          "Rimontaggio a destinazione",
+          "Tecnici esperti"
+        ]
+      },
+      "cleaning": {
+        "title": "Pulizia post-trasloco",
+        "description": "Lascia il tuo vecchio posto immacolato con il nostro servizio di pulizia approfondita dopo il tuo trasloco.",
+        "features": [
+          "Pulizia approfondita completa",
+          "Prodotti ecologici",
+          "Pronto per l'ispezione di uscita",
+          "Focus su cucina e bagno",
+          "Garanzia di soddisfazione"
+        ]
+      }
+    },
+    "whyChoose": {
+      "title": "Perché scegliere Movu",
+      "subtitle": "Ci impegniamo a rendere il tuo trasloco il più fluido e senza stress possibile",
+      "items": {
+        "licensed": {
+          "title": "Completamente autorizzato e assicurato",
+          "description": "Tutti i nostri traslocatori sono professionisti autorizzati con copertura assicurativa completa."
+        },
+        "pricing": {
+          "title": "Prezzi trasparenti",
+          "description": "Preventivi chiari e anticipati senza costi nascosti. Quello che vedi è quello che paghi."
+        },
+        "guarantee": {
+          "title": "Garanzia di puntualità",
+          "description": "Valorizziamo il tuo tempo. I nostri traslocatori arrivano in orario, ogni volta."
+        }
+      }
+    },
+    "cta": {
+      "title": "Pronto per iniziare?",
+      "subtitle": "Ottieni preventivi istantanei da traslocatori verificati e prenota il tuo partner di trasloco perfetto oggi",
+      "button": "Richiedi preventivi gratuiti"
+    }
+  },
+  "pricingPage": {
+    "hero": {
+      "title": "Prezzi trasparenti",
+      "subtitle": "Nessun costo nascosto. Ottieni preventivi istantanei e confronta i prezzi dei traslocatori verificati.",
+      "cta": "Ottieni il tuo preventivo gratuito"
+    },
+    "factors": {
+      "title": "Cosa influisce sui costi di trasloco?",
+      "subtitle": "Diversi fattori influenzano il prezzo finale del tuo trasloco",
+      "items": {
+        "distance": {
+          "title": "Distanza",
+          "description": "I traslochi locali all'interno della stessa città sono tipicamente meno costosi delle relocalizzazioni a lunga distanza."
+        },
+        "volume": {
+          "title": "Volume",
+          "description": "La quantità di oggetti e mobili influisce direttamente sulla dimensione del camion e sull'equipaggio necessari."
+        },
+        "accessibility": {
+          "title": "Accessibilità",
+          "description": "Scale, ascensori e disponibilità di parcheggio possono influenzare il tempo e il costo del trasloco."
+        },
+        "services": {
+          "title": "Servizi",
+          "description": "Servizi aggiuntivi come imballaggio, disimballaggio e stoccaggio si aggiungono al costo totale."
+        },
+        "timing": {
+          "title": "Tempistica",
+          "description": "La stagione di punta (estate) e i traslochi nei fine settimana possono avere tariffe più elevate rispetto ai periodi di bassa stagione."
+        }
+      }
+    },
+    "estimates": {
+      "title": "Fasce di prezzo stimate",
+      "subtitle": "Fatti un'idea di quanto potrebbe costare il tuo trasloco (i prezzi variano in base ai dettagli specifici)",
+      "mostPopular": "Più popolare",
+      "localMove": "Trasloco locale",
+      "longDistance": "Lunga distanza",
+      "typicallyIncludes": "Include tipicamente:",
+      "disclaimer": "* I prezzi sono stime e possono variare in base a requisiti specifici, distanza e servizi aggiuntivi. Ottieni un preventivo accurato compilando il nostro modulo.",
+      "sizes": {
+        "studio": {
+          "title": "Monolocale/1 camera da letto",
+          "local": "CHF 300 - 450",
+          "distance": "CHF 800 - 1,400",
+          "features": ["1-2 traslocatori", "Piccolo camion", "3-4 ore", "Assicurazione base"]
+        },
+        "twoBedroom": {
+          "title": "2 camere da letto",
+          "local": "CHF 450 - 700",
+          "distance": "CHF 1,400 - 2,000",
+          "features": ["2-3 traslocatori", "Camion medio", "4-6 ore", "Assicurazione completa"]
+        },
+        "threeFourBedroom": {
+          "title": "3-4 camere da letto",
+          "local": "CHF 700 - 1,100",
+          "distance": "CHF 2,000 - 3,200",
+          "features": ["3-4 traslocatori", "Grande camion", "6-8 ore", "Assicurazione premium"]
+        }
+      }
+    },
+    "addOns": {
+      "title": "Servizi aggiuntivi",
+      "items": {
+        "packing": "Imballaggio professionale",
+        "unpacking": "Servizio di disimballaggio",
+        "materials": "Materiali di imballaggio",
+        "assembly": "Montaggio mobili",
+        "cleaning": "Pulizia post-trasloco",
+        "storage": "Stoccaggio (al mese)"
+      },
+      "prices": {
+        "packing": "CHF 80 - 200",
+        "unpacking": "CHF 60 - 140",
+        "materials": "CHF 40 - 120",
+        "assembly": "CHF 60 - 160",
+        "cleaning": "CHF 100 - 240",
+        "storage": "CHF 120 - 320"
+      }
+    },
+    "cta": {
+      "title": "Pronto per il tuo preventivo esatto?",
+      "subtitle": "Ottieni preventivi personalizzati da più traslocatori in pochi minuti — completamente gratuito",
+      "button": "Ottieni preventivi gratuiti ora"
+    }
+  },
+  "aboutPage": {
+    "hero": {
+      "title": "Rendere i traslochi semplici",
+      "subtitle": "Abbiamo la missione di trasformare l'esperienza di trasloco collegando i clienti con traslocatori professionali fidati in tutta la Svizzera."
+    },
+    "stats": {
+      "successfulMoves": "Traslochi riusciti",
+      "verifiedPartners": "Partner verificati",
+      "satisfactionRate": "Tasso di soddisfazione",
+      "customerSupport": "Supporto clienti"
+    },
+    "story": {
+      "title": "La nostra storia",
+      "paragraph1": "Movu è nato da una semplice osservazione: i traslochi non dovrebbero essere stressanti. Dopo aver sperimentato in prima persona le sfide del coordinamento dei traslochi, i nostri fondatori hanno capito che doveva esserci un modo migliore.",
+      "paragraph2": "Abbiamo costruito Movu per essere la piattaforma fidata che porta trasparenza, scelta e tranquillità in ogni trasloco. Verificando attentamente i nostri partner e fornendo preventivi istantanei, abbiamo aiutato migliaia di famiglie e aziende a traslocare con fiducia.",
+      "paragraph3": "Oggi siamo orgogliosi di essere la principale piattaforma di traslochi in Svizzera, collegando i clienti con i migliori traslocatori professionali del settore. Ma stiamo solo iniziando."
+    },
+    "mission": {
+      "title": "La nostra missione",
+      "description": "Rendere ogni trasloco semplice, trasparente e senza stress collegando le persone con professionisti fidati e strumenti innovativi che semplificano l'intero processo di relocalizzazione."
+    },
+    "values": {
+      "title": "I nostri valori",
+      "subtitle": "Questi principi guidano tutto ciò che facciamo",
+      "items": {
+        "customerFirst": {
+          "title": "Il cliente prima di tutto",
+          "description": "La tua soddisfazione e la tua tranquillità sono le nostre massime priorità in ogni trasloco."
+        },
+        "trust": {
+          "title": "Fiducia e sicurezza",
+          "description": "Verifichiamo ogni partner e assicuriamo una copertura assicurativa completa per la tua protezione."
+        },
+        "excellence": {
+          "title": "Eccellenza",
+          "description": "Ci impegniamo a fornire un servizio eccezionale in ogni singolo trasloco."
+        }
+      }
+    },
+    "different": {
+      "title": "Come siamo diversi",
+      "items": {
+        "verified": {
+          "title": "Solo partner verificati",
+          "description": "Ogni azienda di traslochi è accuratamente verificata, autorizzata e assicurata prima di unirsi alla nostra piattaforma."
+        },
+        "transparent": {
+          "title": "Prezzi trasparenti",
+          "description": "Ottieni preventivi dettagliati in anticipo senza costi nascosti. Confronta e scegli con fiducia."
+        },
+        "protection": {
+          "title": "Protezione del cliente",
+          "description": "Tutti i traslochi includono copertura assicurativa e la nostra garanzia di soddisfazione."
+        },
+        "support": {
+          "title": "Supporto 24/7",
+          "description": "Il nostro team è sempre disponibile per aiutarti prima, durante e dopo il tuo trasloco."
+        }
+      }
+    },
+    "cta": {
+      "title": "Pronto a sperimentare la differenza?",
+      "subtitle": "Unisciti a migliaia di clienti soddisfatti che hanno scelto Movu per la loro relocalizzazione",
+      "button": "Inizia oggi"
+    }
+  },
+  "quotePage": {
+    "hero": {
+      "title": "Ottieni il tuo preventivo gratuito",
+      "subtitle": "Compila il modulo per ricevere preventivi personalizzati da traslocatori verificati"
+    },
+    "steps": {
+      "details": "Dettagli",
+      "options": "Opzioni",
+      "schedule": "Programma",
+      "contact": "Contatti"
+    },
+    "step1": {
+      "title": "Dettagli del trasloco",
+      "movingFrom": "Trasloco da",
+      "movingTo": "Trasloco verso",
+      "fromPlaceholder": "es. Oerlikon, Zurigo",
+      "toPlaceholder": "es. Plainpalais, Ginevra",
+      "moveSize": "Dimensione del trasloco",
+      "selectMoveSize": "Seleziona la dimensione del trasloco",
+      "sizes": {
+        "studio": "Monolocale (1-2 stanze)",
+        "1bed": "1 camera da letto (2-3 stanze)",
+        "2bed": "2 camere da letto (3-4 stanze)",
+        "3bed": "3 camere da letto (4-5 stanze)",
+        "4bed+": "4+ camere da letto (6+ stanze)",
+        "office": "Spazio ufficio"
+      },
+      "currentFloor": "Piano attuale",
+      "selectFloor": "Seleziona il piano",
+      "floors": {
+        "ground": "Piano terra",
+        "1": "1° piano",
+        "2": "2° piano",
+        "3": "3° piano",
+        "4+": "4° piano o superiore"
+      },
+      "elevatorAvailable": "Ascensore disponibile"
+    },
+    "step2": {
+      "title": "Servizi aggiuntivi",
+      "subtitle": "Seleziona tutti i servizi aggiuntivi di cui hai bisogno (opzionale)",
+      "services": {
+        "packing": {
+          "label": "Imballaggio professionale",
+          "description": "Lascia che il nostro team imballi i tuoi beni in sicurezza"
+        },
+        "unpacking": {
+          "label": "Servizio di disimballaggio",
+          "description": "Svuoteremo e organizzeremo gli oggetti nella tua nuova casa"
+        },
+        "boxes": {
+          "label": "Materiali di imballaggio",
+          "description": "Scatole, pluriball, nastro adesivo e altri materiali"
+        },
+        "cleaning": {
+          "label": "Pulizia post-trasloco",
+          "description": "Pulizia approfondita della tua vecchia residenza"
+        },
+        "assembly": {
+          "label": "Montaggio mobili",
+          "description": "Montaggio e smontaggio di mobili"
+        }
+      }
+    },
+    "step3": {
+      "title": "Programma il tuo trasloco",
+      "preferredMoveDate": "Data di trasloco preferita",
+      "preferredTimeWindow": "Fascia oraria preferita",
+      "selectTimeWindow": "Seleziona la fascia oraria",
+      "timeWindows": {
+        "morning": "Mattina (8:00 - 12:00)",
+        "afternoon": "Pomeriggio (12:00 - 16:00)",
+        "evening": "Sera (16:00 - 20:00)",
+        "flexible": "Flessibile"
+      },
+      "additionalNotes": "Note aggiuntive (Opzionale)",
+      "notesPlaceholder": "Requisiti speciali o oggetti che necessitano di cure particolari?"
+    },
+    "step4": {
+      "title": "Informazioni di contatto",
+      "fullName": "Nome completo",
+      "emailAddress": "Indirizzo e-mail",
+      "phoneNumber": "Numero di telefono",
+      "namePlaceholder": "Mario Rossi",
+      "emailPlaceholder": "mario@esempio.com",
+      "phonePlaceholder": "078 XXX XX XX",
+      "privacyNotice": "Inviando questo modulo, accetti di ricevere preventivi da partner di traslochi verificati. Le tue informazioni sono sicure e non saranno condivise con terze parti."
+    },
+    "validation": {
+      "movingFromRequired": "Trasloco da è richiesto",
+      "movingToRequired": "Trasloco verso è richiesto",
+      "moveSizeRequired": "La dimensione del trasloco è richiesta",
+      "floorsRequired": "Il numero di piani è richiesto",
+      "moveDateRequired": "La data del trasloco è richiesta",
+      "timeWindowRequired": "La fascia oraria è richiesta",
+      "nameRequired": "Il nome è richiesto",
+      "emailRequired": "L'e-mail è richiesta",
+      "phoneRequired": "Il telefono è richiesto",
+      "invalidEmail": "Indirizzo e-mail non valido"
+    },
+    "buttons": {
+      "back": "Indietro",
+      "continue": "Continua",
+      "getMyQuotes": "Ottieni i miei preventivi"
+    },
+    "success": {
+      "message": "Richiesta di preventivo inviata! Reindirizzamento alle offerte..."
+    }
+  },
+  "common": {
+    "required": "*",
+    "optional": "(Opzionale)",
+    "loading": "Caricamento...",
+    "error": "Errore",
+    "success": "Successo",
+    "close": "Chiudi",
+    "cancel": "Annulla",
+    "confirm": "Conferma",
+    "save": "Salva",
+    "delete": "Elimina",
+    "edit": "Modifica",
+    "next": "Avanti",
+    "previous": "Indietro",
+    "back": "Indietro",
+    "submit": "Invia"
+  }
+}
+

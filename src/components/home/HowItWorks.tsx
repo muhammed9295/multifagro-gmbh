@@ -1,23 +1,25 @@
 import { ClipboardList, Search, CheckCircle } from "lucide-react";
+import { useTranslation } from "react-i18next";
 
 const HowItWorks = () => {
+  const { t } = useTranslation();
   const steps = [
     {
       icon: ClipboardList,
-      title: "Request Your Move",
-      description: "Fill out a simple form with your moving details. Takes less than 2 minutes.",
+      title: t("howItWorks.steps.step1.title"),
+      description: t("howItWorks.steps.step1.description"),
       step: "01",
     },
     {
       icon: Search,
-      title: "Compare Offers",
-      description: "Receive quotes from verified movers. Compare prices, reviews, and services.",
+      title: t("howItWorks.steps.step2.title"),
+      description: t("howItWorks.steps.step2.description"),
       step: "02",
     },
     {
       icon: CheckCircle,
-      title: "Book & Relax",
-      description: "Choose your preferred mover and confirm. We'll handle the rest.",
+      title: t("howItWorks.steps.step3.title"),
+      description: t("howItWorks.steps.step3.description"),
       step: "03",
     },
   ];
@@ -28,10 +30,10 @@ const HowItWorks = () => {
         {/* Section Header */}
         <div className="text-center space-y-4 mb-16">
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-heading font-bold text-foreground">
-            How It Works
+            {t("howItWorks.title")}
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            Getting your perfect moving partner is simple and stress-free
+            {t("howItWorks.subtitle")}
           </p>
         </div>
 

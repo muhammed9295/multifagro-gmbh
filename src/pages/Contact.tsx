@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { Mail, Phone, MapPin, Send } from "lucide-react";
+import { useTranslation } from "react-i18next";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import { Button } from "@/components/ui/button";
@@ -9,6 +10,7 @@ import { Textarea } from "@/components/ui/textarea";
 import { toast } from "sonner";
 
 const Contact = () => {
+  const { t } = useTranslation();
   const [formData, setFormData] = useState({
     name: "",
     email: "",
@@ -55,20 +57,20 @@ const Contact = () => {
   const contactInfo = [
     {
       icon: Phone,
-      title: "Phone",
-      detail: "+966 12 345 6789",
-      link: "tel:+966123456789",
+      title: t("contact.phone"),
+      detail: "078 217 77 60",
+      link: "tel:0782177760",
     },
     {
       icon: Mail,
-      title: "Email",
-      detail: "support@movu.ch",
-      link: "mailto:support@movu.ch",
+      title: t("contact.email"),
+      detail: "multifagroumzug@gmail.com",
+      link: "mailto:multifagroumzug@gmail.com",
     },
     {
       icon: MapPin,
-      title: "Locations",
-      detail: "Zurich • Geneva • Basel",
+      title: t("contact.locations"),
+      detail: t("contact.locationsText"),
       link: null,
     },
   ];
@@ -83,10 +85,10 @@ const Contact = () => {
           <div className="container mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
             <div className="text-center max-w-3xl mx-auto">
               <h1 className="text-4xl sm:text-5xl lg:text-6xl font-heading font-bold text-foreground mb-6">
-                Get in Touch
+                {t("contact.title")}
               </h1>
               <p className="text-lg sm:text-xl text-muted-foreground">
-                Have questions? We're here to help. Reach out and we'll respond as soon as possible.
+                {t("contact.subtitle")}
               </p>
             </div>
           </div>
@@ -129,16 +131,16 @@ const Contact = () => {
                 {/* Business Hours */}
                 <div className="bg-background rounded-2xl p-6 shadow-soft border border-border">
                   <h3 className="font-heading font-semibold text-foreground mb-4">
-                    Business Hours
+                    {t("contact.businessHours")}
                   </h3>
                   <div className="space-y-2 text-sm">
                     <div className="flex justify-between">
-                      <span className="text-muted-foreground">Saturday - Thursday</span>
-                      <span className="text-foreground font-medium">8am - 8pm</span>
+                      <span className="text-muted-foreground">{t("contact.mondayFriday")}</span>
+                      <span className="text-foreground font-medium">{t("contact.hours")}</span>
                     </div>
                     <div className="flex justify-between">
-                      <span className="text-muted-foreground">Friday</span>
-                      <span className="text-foreground font-medium">10am - 6pm</span>
+                      <span className="text-muted-foreground">{t("contact.saturdaySunday")}</span>
+                      <span className="text-foreground font-medium">{t("contact.closed")}</span>
                     </div>
                   </div>
                 </div>
@@ -148,18 +150,18 @@ const Contact = () => {
               <div className="lg:col-span-2">
                 <div className="bg-background rounded-2xl p-8 lg:p-10 shadow-medium border border-border">
                   <h2 className="text-2xl font-heading font-semibold text-foreground mb-6">
-                    Send Us a Message
+                    {t("contact.form.title")}
                   </h2>
                   
                   <form onSubmit={handleSubmit} className="space-y-6">
                     <div className="grid sm:grid-cols-2 gap-6">
                       <div className="space-y-2">
                         <Label htmlFor="name">
-                          Full Name *
+                          {t("contact.form.fullName")} {t("common.required")}
                         </Label>
                         <Input
                           id="name"
-                          placeholder="Ahmed Al-Rashid"
+                          placeholder={t("contact.form.placeholders.name")}
                           value={formData.name}
                           onChange={(e) => setFormData({ ...formData, name: e.target.value })}
                           className={errors.name ? "border-destructive" : ""}
@@ -171,12 +173,12 @@ const Contact = () => {
 
                       <div className="space-y-2">
                         <Label htmlFor="email">
-                          Email Address *
+                          {t("contact.form.emailAddress")} {t("common.required")}
                         </Label>
                         <Input
                           id="email"
                           type="email"
-                          placeholder="ahmed@example.com"
+                          placeholder={t("contact.form.placeholders.email")}
                           value={formData.email}
                           onChange={(e) => setFormData({ ...formData, email: e.target.value })}
                           className={errors.email ? "border-destructive" : ""}
@@ -190,12 +192,12 @@ const Contact = () => {
                     <div className="grid sm:grid-cols-2 gap-6">
                       <div className="space-y-2">
                         <Label htmlFor="phone">
-                          Phone Number (Optional)
+                          {t("contact.form.phoneNumber")} {t("common.optional")}
                         </Label>
                         <Input
                           id="phone"
                           type="tel"
-                          placeholder="+966 5X XXX XXXX"
+                          placeholder={t("contact.form.placeholders.phone")}
                           value={formData.phone}
                           onChange={(e) => setFormData({ ...formData, phone: e.target.value })}
                         />
@@ -203,11 +205,11 @@ const Contact = () => {
 
                       <div className="space-y-2">
                         <Label htmlFor="subject">
-                          Subject (Optional)
+                          {t("contact.form.subject")} {t("common.optional")}
                         </Label>
                         <Input
                           id="subject"
-                          placeholder="How can we help?"
+                          placeholder={t("contact.form.placeholders.subject")}
                           value={formData.subject}
                           onChange={(e) => setFormData({ ...formData, subject: e.target.value })}
                         />
@@ -216,11 +218,11 @@ const Contact = () => {
 
                     <div className="space-y-2">
                       <Label htmlFor="message">
-                        Message *
+                        {t("contact.form.message")} {t("common.required")}
                       </Label>
                       <Textarea
                         id="message"
-                        placeholder="Tell us more about your inquiry..."
+                        placeholder={t("contact.form.placeholders.message")}
                         value={formData.message}
                         onChange={(e) => setFormData({ ...formData, message: e.target.value })}
                         className={errors.message ? "border-destructive" : ""}
@@ -232,7 +234,7 @@ const Contact = () => {
                     </div>
 
                     <Button type="submit" variant="hero" size="lg" className="w-full">
-                      Send Message
+                      {t("contact.form.sendMessage")}
                       <Send className="ml-2 h-4 w-4" />
                     </Button>
                   </form>
@@ -246,13 +248,13 @@ const Contact = () => {
         <section className="py-16 bg-muted">
           <div className="container mx-auto max-w-4xl px-4 sm:px-6 lg:px-8 text-center">
             <h2 className="text-2xl font-heading font-semibold text-foreground mb-3">
-              Looking for Quick Answers?
+              {t("contact.faqLink.title")}
             </h2>
             <p className="text-muted-foreground mb-6">
-              Check out our FAQ section for instant answers to common questions
+              {t("contact.faqLink.subtitle")}
             </p>
             <Button variant="outline" asChild>
-              <a href="/#faq">View FAQ</a>
+              <a href="/#faq">{t("contact.faqLink.button")}</a>
             </Button>
           </div>
         </section>

@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+import { useTranslation } from "react-i18next";
 import {
   Accordion,
   AccordionContent,
@@ -6,51 +8,53 @@ import {
 } from "@/components/ui/accordion";
 
 const FAQ = () => {
+  const { t } = useTranslation();
+
   const faqs = [
     {
-      question: "How does Movu work?",
-      answer: "Simply fill out our quick form with your moving details. You'll receive multiple quotes from verified movers within minutes. Compare prices, read reviews, and book directly through our platform. It's that easy!",
+      question: t("faq.items.q1.question"),
+      answer: t("faq.items.q1.answer"),
     },
     {
-      question: "Are the movers insured?",
-      answer: "Yes! All moving companies on our platform are fully licensed, insured, and background-checked. We only work with professional movers who meet our strict quality standards.",
+      question: t("faq.items.q2.question"),
+      answer: t("faq.items.q2.answer"),
     },
     {
-      question: "How much does a move cost?",
-      answer: "Moving costs vary based on distance, volume, and services needed. Our platform shows transparent pricing from multiple movers so you can compare and choose the best option for your budget. Most local moves range from CHF 300-1,000.",
+      question: t("faq.items.q3.question"),
+      answer: t("faq.items.q3.answer"),
     },
     {
-      question: "Can I get help with packing?",
-      answer: "Absolutely! Many of our partner movers offer professional packing services. You can add packing, unpacking, and packing materials when requesting your quote.",
+      question: t("faq.items.q4.question"),
+      answer: t("faq.items.q4.answer"),
     },
     {
-      question: "What if something gets damaged?",
-      answer: "All our movers carry comprehensive insurance. In the rare event of damage, you're fully covered. Simply file a claim through our platform and we'll help facilitate the process.",
+      question: t("faq.items.q5.question"),
+      answer: t("faq.items.q5.answer"),
     },
     {
-      question: "How far in advance should I book?",
-      answer: "We recommend booking 2-4 weeks in advance, especially during peak moving season (summer months). However, many movers can accommodate last-minute moves within 48 hours.",
+      question: t("faq.items.q6.question"),
+      answer: t("faq.items.q6.answer"),
     },
     {
-      question: "Do you serve my area?",
-      answer: "We currently serve all major cities in Switzerland including Zurich, Geneva, Basel, Bern, Lausanne, and Lucerne. Enter your postcodes to see available movers in your area.",
+      question: t("faq.items.q7.question"),
+      answer: t("faq.items.q7.answer"),
     },
     {
-      question: "Can I reschedule my move?",
-      answer: "Yes, most movers allow rescheduling with adequate notice (usually 48-72 hours). Cancellation policies vary by mover, so check the terms when booking.",
+      question: t("faq.items.q8.question"),
+      answer: t("faq.items.q8.answer"),
     },
   ];
 
   return (
-    <section className="py-20 lg:py-28 bg-background">
+    <section id="faq" className="py-20 lg:py-28 bg-background">
       <div className="container mx-auto max-w-4xl px-4 sm:px-6 lg:px-8">
         {/* Section Header */}
         <div className="text-center space-y-4 mb-16">
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-heading font-bold text-foreground">
-            Frequently Asked Questions
+            {t("faq.title")}
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            Got questions? We've got answers.
+            {t("faq.subtitle")}
           </p>
         </div>
 
@@ -75,14 +79,14 @@ const FAQ = () => {
         {/* Contact CTA */}
         <div className="mt-12 text-center">
           <p className="text-muted-foreground mb-4">
-            Still have questions?
+            {t("faq.stillHaveQuestions")}
           </p>
-          <a
-            href="/contact"
+          <Link
+            to="/contact"
             className="text-primary font-medium hover:text-primary-hover transition-colors underline-offset-4 hover:underline"
           >
-            Contact our support team →
-          </a>
+            {t("faq.contactSupport")} →
+          </Link>
         </div>
       </div>
     </section>

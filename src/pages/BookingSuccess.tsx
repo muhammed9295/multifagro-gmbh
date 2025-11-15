@@ -162,13 +162,13 @@ const BookingSuccess = () => {
               Contact our support team for any modifications to your booking
             </p>
             <div className="flex flex-wrap justify-center gap-4">
-              <a href="tel:+966123456789" className="flex items-center text-primary hover:text-primary-hover transition-colors">
+              <a href="tel:0782177760" className="flex items-center text-primary hover:text-primary-hover transition-colors">
                 <Phone className="h-4 w-4 mr-2" />
-                <span className="font-medium">+966 12 345 6789</span>
+                <span className="font-medium">078 217 77 60</span>
               </a>
-              <a href="mailto:support@movu.ch" className="flex items-center text-primary hover:text-primary-hover transition-colors">
+              <a href="mailto:multifagroumzug@gmail.com" className="flex items-center text-primary hover:text-primary-hover transition-colors">
                 <Mail className="h-4 w-4 mr-2" />
-                <span className="font-medium">support@movu.ch</span>
+                <span className="font-medium">multifagroumzug@gmail.com</span>
               </a>
             </div>
           </div>
