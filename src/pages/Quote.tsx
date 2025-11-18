@@ -92,9 +92,49 @@ const Quote = () => {
 
   const handleSubmit = () => {
     localStorage.setItem("quoteRequest", JSON.stringify(formData));
+    
+    // Generate mock booking data for success page
+    const bookingId = `MOV-${Date.now().toString().slice(-8)}`;
+    
+    // Calculate estimated price based on move size
+    const priceMap: Record<string, number> = {
+      studio: 350,
+      "1bed": 550,
+      "2bed": 750,
+      "3bed": 1100,
+      "4bed+": 1500,
+      office: 2000,
+    };
+    
+    let basePrice = priceMap[formData.moveSize] || 750;
+    
+    // Add service costs
+    if (formData.packing) basePrice += 150;
+    if (formData.unpacking) basePrice += 100;
+    if (formData.boxes) basePrice += 80;
+    if (formData.cleaning) basePrice += 200;
+    if (formData.assembly) basePrice += 120;
+    
+    const mockOffer = {
+      id: 1,
+      company: "Royal Movers",
+      rating: 4.9,
+      reviews: 342,
+      price: basePrice,
+      avatar: "RM",
+      color: "from-primary to-accent",
+    };
+    
+    const bookingData = {
+      bookingId,
+      quoteData: formData,
+      offer: mockOffer,
+      total: basePrice,
+    };
+    
     toast.success(t("quotePage.success.message"));
     setTimeout(() => {
-      navigate("/offers", { state: formData });
+      navigate("/booking-success", { state: bookingData });
     }, 1500);
   };
 

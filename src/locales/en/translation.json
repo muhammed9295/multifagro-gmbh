@@ -153,7 +153,7 @@
     "contactSupport": "Contact our support team",
     "items": {
       "q1": {
-        "question": "How does Movu work?",
+        "question": "How does Multifagro work?",
         "answer": "Simply fill out our quick form with your moving details. You'll receive multiple quotes from verified movers within minutes. Compare prices, read reviews, and book directly through our platform. It's that easy!"
       },
       "q2": {
@@ -188,7 +188,7 @@
   },
   "finalCTA": {
     "title": "Ready to Make Your Move?",
-    "subtitle": "Join thousands of satisfied customers who chose Movu for their relocation needs",
+    "subtitle": "Join thousands of satisfied customers who chose Multifagro for their relocation needs",
     "benefits": [
       "Free instant quotes",
       "Compare verified movers",
@@ -273,7 +273,7 @@
       }
     },
     "whyChoose": {
-      "title": "Why Choose Movu",
+      "title": "Why Choose Multifagro",
       "subtitle": "We're committed to making your move as smooth and stress-free as possible",
       "items": {
         "licensed": {
@@ -395,8 +395,8 @@
     },
     "story": {
       "title": "Our Story",
-      "paragraph1": "Movu was born from a simple observation: moving shouldn't be stressful. After experiencing the challenges of coordinating moves firsthand, our founders realized there had to be a better way.",
-      "paragraph2": "We built Movu to be the trusted platform that brings transparency, choice, and peace of mind to every move. By carefully vetting our partners and providing instant quotes, we've helped thousands of families and businesses relocate with confidence.",
+      "paragraph1": "Multifagro was born from a simple observation: moving shouldn't be stressful. After experiencing the challenges of coordinating moves firsthand, our founders realized there had to be a better way.",
+      "paragraph2": "We built Multifagro to be the trusted platform that brings transparency, choice, and peace of mind to every move. By carefully vetting our partners and providing instant quotes, we've helped thousands of families and businesses relocate with confidence.",
       "paragraph3": "Today, we're proud to be Switzerland's leading moving marketplace, connecting customers with the best professional movers in the industry. But we're just getting started."
     },
     "mission": {
@@ -444,7 +444,7 @@
     },
     "cta": {
       "title": "Ready to Experience the Difference?",
-      "subtitle": "Join thousands of satisfied customers who chose Movu for their relocation",
+      "subtitle": "Join thousands of satisfied customers who chose Multifagro for their relocation",
       "button": "Get Started Today"
     }
   },

@@ -138,7 +138,7 @@ const Footer = () => {
         <div className="pt-8 border-t border-border">
           <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
             <p className="text-sm text-muted-foreground text-center md:text-left">
-              © {currentYear} Movu. {t("footer.allRightsReserved")}.
+              © {currentYear} Multifagro. {t("footer.allRightsReserved")}.
             </p>
             <div className="flex flex-wrap justify-center gap-4">
               <Link to="/legal/terms" className="text-sm text-muted-foreground hover:text-primary transition-colors">

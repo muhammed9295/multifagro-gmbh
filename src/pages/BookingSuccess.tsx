@@ -57,7 +57,7 @@ const BookingSuccess = () => {
               <ol className="space-y-3">
                 {[
                   "You'll receive a confirmation email with all booking details",
-                  `${bookingData.offer.company} will contact you 24-48 hours before the move`,
+                  "A moving company will contact you 24-48 hours before the move",
                   "Our team will be available 24/7 if you have any questions",
                   "On moving day, the crew will arrive during your selected time window",
                 ].map((step, idx) => (
@@ -102,42 +102,6 @@ const BookingSuccess = () => {
                   <p className="font-medium text-foreground">{bookingData.quoteData.toAddress}</p>
                 </div>
               </div>
-            </div>
-
-            {/* Company Info */}
-            <div className="pt-6 border-t border-border">
-              <h3 className="font-heading font-semibold text-foreground mb-4">
-                Your Moving Company
-              </h3>
-              <div className="flex items-center space-x-4">
-                <div className={`w-16 h-16 rounded-xl bg-gradient-to-br ${bookingData.offer.color} flex items-center justify-center text-primary-foreground font-heading font-bold text-xl shadow-soft`}>
-                  {bookingData.offer.avatar}
-                </div>
-                <div>
-                  <p className="font-heading font-semibold text-foreground text-lg">
-                    {bookingData.offer.company}
-                  </p>
-                  <p className="text-sm text-muted-foreground">
-                    {bookingData.offer.rating} ★ • {bookingData.offer.reviews} reviews
-                  </p>
-                </div>
-              </div>
-            </div>
-
-            {/* Payment Summary */}
-            <div className="pt-6 border-t border-border">
-              <h3 className="font-heading font-semibold text-foreground mb-4">
-                Payment Summary
-              </h3>
-              <div className="flex justify-between items-center">
-                <span className="text-muted-foreground">Total Amount</span>
-                <span className="text-2xl font-heading font-bold text-primary">
-                  CHF {bookingData.total.toLocaleString()}
-                </span>
-              </div>
-              <p className="text-xs text-muted-foreground mt-2">
-                Payment will be collected on moving day after service completion
-              </p>
             </div>
           </div>
 
