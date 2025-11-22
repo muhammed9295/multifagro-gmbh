@@ -18,6 +18,7 @@ i18n
 			fr: { translation: frTranslations },
 			it: { translation: itTranslations },
 		},
+		lng: 'de',
 		fallbackLng: 'en',
 		debug: false,
 		interpolation: {
@@ -26,6 +27,7 @@ i18n
 		detection: {
 			order: ['localStorage', 'navigator'],
 			caches: ['localStorage'],
+			lookupLocalStorage: 'i18nextLng',
 		},
 	})
 
