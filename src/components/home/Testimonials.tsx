@@ -7,28 +7,28 @@ const Testimonials = () => {
 
   const testimonials = [
     {
-      name: "Ahmed Al-Rashid",
+      name: "Klaus Huber",
       city: "Zurich",
       rating: 5,
       text: "Moving with Multifagro was seamless. The movers were professional, punctual, and handled everything with care. Highly recommended!",
       date: "2 weeks ago",
     },
     {
-      name: "Sarah Mueller",
+      name: "Séverine Moreau",
       city: "Geneva",
       rating: 5,
       text: "I was dreading the move, but Multifagro made it so easy! Got multiple quotes instantly and found the perfect mover within my budget.",
       date: "1 month ago",
     },
     {
-      name: "Khalid bin Salman",
-      city: "Dammam",
+      name: "Giovanna Bianchi",
+      city: "Zurich",
       rating: 5,
       text: "Excellent service from start to finish. The packing team was meticulous, and nothing was damaged. Best moving experience ever.",
       date: "3 weeks ago",
     },
     {
-      name: "Fatima Hassan",
+      name: "Dr. Anja Keller",
       city: "Basel",
       rating: 5,
       text: "Professional, reliable, and affordable. The customer support team was always available to answer my questions. Thank you Multifagro!",
