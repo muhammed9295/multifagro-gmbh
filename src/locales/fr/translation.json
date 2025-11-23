@@ -243,6 +243,17 @@
       "wouldRecommend": "Recommanderait"
     }
   },
+  "finalCTA": {
+    "title": "Prêt à déménager ?",
+    "subtitle": "Rejoignez des milliers de clients satisfaits qui ont choisi Multifagro pour leurs besoins de déménagement",
+    "benefits": [
+      "Devis instantanés gratuits",
+      "Réservez en quelques minutes",
+      "Couverture d'assurance complète"
+    ],
+    "button": "Obtenez vos devis gratuits maintenant",
+    "trustText": "Aucune carte de crédit requise • Prend moins de 2 minutes • 100% gratuit"
+  },
   "servicesPage": {
     "hero": {
       "title": "Services de déménagement complets",

@@ -243,6 +243,17 @@
       "wouldRecommend": "Würden empfehlen"
     }
   },
+  "finalCTA": {
+    "title": "Bereit für Ihren Umzug?",
+    "subtitle": "Schließen Sie sich Tausenden von zufriedenen Kunden an, die Multifagro für ihre Umzugsbedürfnisse gewählt haben",
+    "benefits": [
+      "Kostenlose sofortige Angebote",
+      "Buchen Sie in Minuten",
+      "Vollständige Versicherungsabdeckung"
+    ],
+    "button": "Jetzt kostenlose Angebote erhalten",
+    "trustText": "Keine Kreditkarte erforderlich • Dauert weniger als 2 Minuten • 100% kostenlos"
+  },
   "servicesPage": {
     "hero": {
       "title": "Umfassende Umzugsdienstleistungen",

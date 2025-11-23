@@ -243,6 +243,17 @@
       "wouldRecommend": "Consiglierebbe"
     }
   },
+  "finalCTA": {
+    "title": "Pronto per il tuo trasloco?",
+    "subtitle": "Unisciti a migliaia di clienti soddisfatti che hanno scelto Multifagro per le loro esigenze di trasloco",
+    "benefits": [
+      "Preventivi istantanei gratuiti",
+      "Prenota in pochi minuti",
+      "Copertura assicurativa completa"
+    ],
+    "button": "Ottieni i tuoi preventivi gratuiti ora",
+    "trustText": "Nessuna carta di credito richiesta • Richiede meno di 2 minuti • 100% gratuito"
+  },
   "servicesPage": {
     "hero": {
       "title": "Servizi di trasloco completi",
