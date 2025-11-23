@@ -1,26 +1,29 @@
 import { Shield, DollarSign, Users, Headphones } from "lucide-react";
+import { useTranslation } from "react-i18next";
 
 const ValueProps = () => {
+  const { t } = useTranslation();
+
   const props = [
     {
       icon: Shield,
-      title: "Fully Insured Crews",
-      description: "All our partner movers are vetted, licensed, and fully insured for your peace of mind.",
+      title: t("valueProps.items.insured.title"),
+      description: t("valueProps.items.insured.description"),
     },
     {
       icon: DollarSign,
-      title: "Transparent Pricing",
-      description: "No hidden fees. Get detailed quotes upfront with clear breakdowns of all costs.",
+      title: t("valueProps.items.pricing.title"),
+      description: t("valueProps.items.pricing.description"),
     },
     {
       icon: Users,
-      title: "Verified Partners",
-      description: "Every moving company on our platform is background-checked and customer-reviewed.",
+      title: t("valueProps.items.verified.title"),
+      description: t("valueProps.items.verified.description"),
     },
     {
       icon: Headphones,
-      title: "24/7 Support",
-      description: "Our customer support team is always available to help with any questions or concerns.",
+      title: t("valueProps.items.support.title"),
+      description: t("valueProps.items.support.description"),
     },
   ];
 
@@ -30,10 +33,10 @@ const ValueProps = () => {
         {/* Section Header */}
         <div className="text-center space-y-4 mb-16">
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-heading font-bold text-foreground">
-            Why Choose Movu
+            {t("valueProps.title")}
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            We make moving simple, safe, and stress-free
+            {t("valueProps.subtitle")}
           </p>
         </div>
 

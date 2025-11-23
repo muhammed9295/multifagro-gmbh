@@ -86,6 +86,28 @@
       }
     }
   },
+  "valueProps": {
+    "title": "Why Choose Multifagro",
+    "subtitle": "We make moving simple, safe, and stress-free",
+    "items": {
+      "insured": {
+        "title": "Fully Insured Crews",
+        "description": "All our partner movers are vetted, licensed, and fully insured for your peace of mind."
+      },
+      "pricing": {
+        "title": "Transparent Pricing",
+        "description": "No hidden fees. Get detailed quotes upfront with clear breakdowns of all costs."
+      },
+      "verified": {
+        "title": "Verified Partners",
+        "description": "Every moving company on our platform is background-checked and customer-reviewed."
+      },
+      "support": {
+        "title": "24/7 Support",
+        "description": "Our customer support team is always available to help with any questions or concerns."
+      }
+    }
+  },
   "footer": {
     "description": "Professional moving and packing services with transparent pricing and verified partners across Switzerland.",
     "services": "Services",

@@ -414,7 +414,7 @@ const Quote = () => {
                   </Label>
                   <Input
                     id="name"
-                    placeholder="John Doe"
+                    placeholder={t("quotePage.step4.namePlaceholder")}
                     value={formData.name}
                     onChange={(e) => setFormData({ ...formData, name: e.target.value })}
                     className={errors.name ? "border-destructive" : ""}

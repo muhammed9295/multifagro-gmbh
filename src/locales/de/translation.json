@@ -86,6 +86,28 @@
       }
     }
   },
+  "valueProps": {
+    "title": "Warum Multifagro wählen",
+    "subtitle": "Wir machen Umzüge einfach, sicher und stressfrei",
+    "items": {
+      "insured": {
+        "title": "Vollständig versicherte Teams",
+        "description": "Alle unsere Partner-Umzugsunternehmen sind geprüft, lizenziert und vollständig versichert für Ihr Seelenfrieden."
+      },
+      "pricing": {
+        "title": "Transparente Preise",
+        "description": "Keine versteckten Gebühren. Erhalten Sie detaillierte Angebote im Voraus mit klaren Aufschlüsselungen aller Kosten."
+      },
+      "verified": {
+        "title": "Geprüfte Partner",
+        "description": "Jedes Umzugsunternehmen auf unserer Plattform wird überprüft und von Kunden bewertet."
+      },
+      "support": {
+        "title": "24/7 Support",
+        "description": "Unser Kundensupport-Team ist immer verfügbar, um bei Fragen oder Bedenken zu helfen."
+      }
+    }
+  },
   "footer": {
     "description": "Professionelle Umzugs- und Verpackungsdienstleistungen mit transparenten Preisen und geprüften Partnern in der gesamten Schweiz.",
     "services": "Dienstleistungen",

@@ -86,6 +86,28 @@
       }
     }
   },
+  "valueProps": {
+    "title": "Pourquoi choisir Multifagro",
+    "subtitle": "Nous rendons le déménagement simple, sûr et sans stress",
+    "items": {
+      "insured": {
+        "title": "Équipes entièrement assurées",
+        "description": "Tous nos déménageurs partenaires sont vérifiés, autorisés et entièrement assurés pour votre tranquillité d'esprit."
+      },
+      "pricing": {
+        "title": "Tarification transparente",
+        "description": "Aucun frais caché. Obtenez des devis détaillés à l'avance avec des répartitions claires de tous les coûts."
+      },
+      "verified": {
+        "title": "Partenaires vérifiés",
+        "description": "Chaque entreprise de déménagement sur notre plateforme est vérifiée et évaluée par les clients."
+      },
+      "support": {
+        "title": "Support 24/7",
+        "description": "Notre équipe de support client est toujours disponible pour vous aider avec toutes vos questions ou préoccupations."
+      }
+    }
+  },
   "footer": {
     "description": "Services professionnels de déménagement et d'emballage avec tarification transparente et partenaires vérifiés dans toute la Suisse.",
     "services": "Services",

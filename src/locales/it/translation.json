@@ -86,6 +86,28 @@
       }
     }
   },
+  "valueProps": {
+    "title": "Perché scegliere Multifagro",
+    "subtitle": "Rendiamo i traslochi semplici, sicuri e senza stress",
+    "items": {
+      "insured": {
+        "title": "Squadre completamente assicurate",
+        "description": "Tutti i nostri partner traslocatori sono verificati, autorizzati e completamente assicurati per la vostra tranquillità."
+      },
+      "pricing": {
+        "title": "Prezzi trasparenti",
+        "description": "Nessun costo nascosto. Ricevete preventivi dettagliati in anticipo con una chiara suddivisione di tutti i costi."
+      },
+      "verified": {
+        "title": "Partner verificati",
+        "description": "Ogni azienda di traslochi sulla nostra piattaforma è verificata e recensita dai clienti."
+      },
+      "support": {
+        "title": "Supporto 24/7",
+        "description": "Il nostro team di supporto clienti è sempre disponibile per aiutarvi con qualsiasi domanda o preoccupazione."
+      }
+    }
+  },
   "footer": {
     "description": "Servizi professionali di trasloco e imballaggio con prezzi trasparenti e partner verificati in tutta la Svizzera.",
     "services": "Servizi",
