@@ -15,7 +15,7 @@ const Footer = () => {
             <div className="flex items-center">
               <img
                 src="/logo.png"
-                alt="Movu Logo"
+                alt="Multifagro Logo"
                 className="h-14 w-auto"
               />
             </div>
@@ -26,15 +26,15 @@ const Footer = () => {
               <a href="#" className="p-2 rounded-lg bg-background hover:bg-primary hover:text-primary-foreground transition-colors shadow-soft">
                 <Facebook className="h-4 w-4" />
               </a>
-              <a href="#" className="p-2 rounded-lg bg-background hover:bg-primary hover:text-primary-foreground transition-colors shadow-soft">
+              {/* <a href="#" className="p-2 rounded-lg bg-background hover:bg-primary hover:text-primary-foreground transition-colors shadow-soft">
                 <Twitter className="h-4 w-4" />
-              </a>
+              </a> */}
               <a href="#" className="p-2 rounded-lg bg-background hover:bg-primary hover:text-primary-foreground transition-colors shadow-soft">
                 <Instagram className="h-4 w-4" />
               </a>
-              <a href="#" className="p-2 rounded-lg bg-background hover:bg-primary hover:text-primary-foreground transition-colors shadow-soft">
+              {/* <a href="#" className="p-2 rounded-lg bg-background hover:bg-primary hover:text-primary-foreground transition-colors shadow-soft">
                 <Linkedin className="h-4 w-4" />
-              </a>
+              </a> */}
             </div>
           </div>
 
@@ -55,16 +55,6 @@ const Footer = () => {
               <li>
                 <Link to="/services" className="text-sm text-muted-foreground hover:text-primary transition-colors">
                   {t("footer.servicesLinks.packingServices")}
-                </Link>
-              </li>
-              <li>
-                <Link to="/services" className="text-sm text-muted-foreground hover:text-primary transition-colors">
-                  {t("footer.servicesLinks.storageSolutions")}
-                </Link>
-              </li>
-              <li>
-                <Link to="/services" className="text-sm text-muted-foreground hover:text-primary transition-colors">
-                  {t("footer.servicesLinks.furnitureAssembly")}
                 </Link>
               </li>
             </ul>

@@ -1,4 +1,4 @@
-import { Home, Building2, Package, Warehouse, Wrench, Sparkles } from "lucide-react";
+import { Home, Building2, Package, Sparkles } from "lucide-react";
 import { Link } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 import { Button } from "@/components/ui/button";
@@ -23,18 +23,6 @@ const Services = () => {
       title: t("services.items.packing.title"),
       description: t("services.items.packing.description"),
       features: t("services.items.packing.features", { returnObjects: true }) as string[],
-    },
-    {
-      icon: Warehouse,
-      title: t("services.items.storage.title"),
-      description: t("services.items.storage.description"),
-      features: t("services.items.storage.features", { returnObjects: true }) as string[],
-    },
-    {
-      icon: Wrench,
-      title: t("services.items.assembly.title"),
-      description: t("services.items.assembly.description"),
-      features: t("services.items.assembly.features", { returnObjects: true }) as string[],
     },
     {
       icon: Sparkles,

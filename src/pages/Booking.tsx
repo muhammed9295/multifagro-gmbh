@@ -25,7 +25,6 @@ const Booking = () => {
     { name: "Unpacking Service", selected: quoteData.unpacking, price: 200 },
     { name: "Packing Materials", selected: quoteData.boxes, price: 150 },
     { name: "Post-Move Cleaning", selected: quoteData.cleaning, price: 300 },
-    { name: "Furniture Assembly", selected: quoteData.assembly, price: 180 },
   ];
 
   const selectedAddOns = addOns.filter((addon) => addon.selected);

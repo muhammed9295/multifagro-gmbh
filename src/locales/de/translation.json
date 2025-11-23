@@ -10,7 +10,7 @@
   "hero": {
     "title": "Umziehen mit",
     "titleHighlight": "Vertrauen",
-    "subtitle": "Erhalten Sie sofortige Angebote von geprüften Umzugsunternehmen. Vergleichen Sie Preise, lesen Sie Bewertungen und buchen Sie Ihren perfekten Umzugspartner in Minuten.",
+    "subtitle": "Erhalten Sie sofortige Angebote. Vergleichen Sie Preise, lesen Sie Bewertungen und buchen Sie Ihren perfekten Umzugspartner in Minuten.",
     "trustBadges": {
       "fullyInsured": "Vollständig versichert",
       "verifiedPartners": "Geprüfte Partner",
@@ -41,7 +41,7 @@
       },
       "step2": {
         "title": "Angebote vergleichen",
-        "description": "Erhalten Sie Angebote von geprüften Umzugsunternehmen. Vergleichen Sie Preise, Bewertungen und Dienstleistungen."
+        "description": "Erhalten Sie Angebote von Umzugsunternehmen. Vergleichen Sie Preise, Bewertungen und Dienstleistungen."
       },
       "step3": {
         "title": "Buchen & Entspannen",
@@ -62,17 +62,12 @@
       "officeMoving": {
         "title": "Büroumzug",
         "description": "Minimieren Sie Ausfallzeiten mit unseren effizienten Firmenumzugsdienstleistungen.",
-        "features": ["Umzüge außerhalb der Geschäftszeiten", "IT-Ausrüstungspflege", "Grundrissplanung"]
+        "features": ["Umzüge außerhalb der Geschäftszeiten"]
       },
       "packing": {
         "title": "Verpackungsservice",
         "description": "Professionelle Verpackung mit hochwertigen Materialien zum Schutz Ihrer Gegenstände.",
         "features": ["Hochwertige Materialien", "Erfahrene Packer", "Beschriftungssystem"]
-      },
-      "storage": {
-        "title": "Lagerlösungen",
-        "description": "Sichere, klimatisierte Lagerung für kurzfristige oder langfristige Bedürfnisse.",
-        "features": ["24/7 Sicherheit", "Klimakontrolle", "Flexible Bedingungen"]
       },
       "assembly": {
         "title": "Möbelmontage",
@@ -117,9 +112,7 @@
     "servicesLinks": {
       "homeMoving": "Wohnungsumzug",
       "officeRelocation": "Büroumzug",
-      "packingServices": "Verpackungsservice",
-      "storageSolutions": "Lagerlösungen",
-      "furnitureAssembly": "Möbelmontage"
+      "packingServices": "Verpackungsservice"
     },
     "companyLinks": {
       "aboutUs": "Über uns",
@@ -176,7 +169,7 @@
     "items": {
       "q1": {
         "question": "Wie funktioniert Multifagro?",
-        "answer": "Füllen Sie einfach unser schnelles Formular mit Ihren Umzugsdetails aus. Sie erhalten innerhalb von Minuten mehrere Angebote von geprüften Umzugsunternehmen. Vergleichen Sie Preise, lesen Sie Bewertungen und buchen Sie direkt über unsere Plattform. So einfach ist das!"
+        "answer": "Füllen Sie einfach unser schnelles Formular mit Ihren Umzugsdetails aus. Sie erhalten innerhalb von Minuten mehrere Angebote von Umzugsunternehmen. Vergleichen Sie Preise, lesen Sie Bewertungen und buchen Sie direkt über unsere Plattform. So einfach ist das!"
       },
       "q2": {
         "question": "Sind die Umzugsunternehmen versichert?",
@@ -257,7 +250,7 @@
   "servicesPage": {
     "hero": {
       "title": "Umfassende Umzugsdienstleistungen",
-      "subtitle": "Von der Verpackung bis zum Auspacken, von der Lagerung bis zur Montage — wir kümmern uns mit Professionalität und Sorgfalt um jeden Aspekt Ihres Umzugs.",
+      "subtitle": "Von der Verpackung bis zum Auspacken — wir kümmern uns mit Professionalität und Sorgfalt um jeden Aspekt Ihres Umzugs.",
       "cta": "Kostenlose Angebote"
     },
     "services": {
@@ -277,8 +270,6 @@
         "description": "Minimieren Sie Ausfallzeiten mit unseren effizienten Firmenumzugsdienstleistungen für Unternehmen jeder Größe.",
         "features": [
           "Umzüge außerhalb der Geschäftszeiten und am Wochenende",
-          "Spezialisierte Handhabung von IT-Ausrüstung",
-          "Bürolayout und -planung",
           "Minimale Geschäftsunterbrechung",
           "Dedizierter Umzugskoordinator"
         ]
@@ -292,28 +283,6 @@
           "Systematisches Beschriftungssystem",
           "Schutz für zerbrechliche Gegenstände",
           "Auspackservice verfügbar"
-        ]
-      },
-      "storage": {
-        "title": "Lagerlösungen",
-        "description": "Sichere, klimatisierte Lagerungsanlagen für kurzfristige oder langfristige Bedürfnisse während Ihres Umzugs.",
-        "features": [
-          "24/7 Sicherheitsüberwachung",
-          "Klimatisierte Einheiten",
-          "Flexible Mietbedingungen",
-          "Verschiedene Einheitsgrößen",
-          "Einfacher Zugang"
-        ]
-      },
-      "assembly": {
-        "title": "Möbelmontage",
-        "description": "Fachmännische Möbelmontage- und -demontagedienstleistungen, um Ihren Umzug einfacher und effizienter zu gestalten.",
-        "features": [
-          "Alle Möbeltypen",
-          "Professionelle Werkzeuge bereitgestellt",
-          "Schnell und effizient",
-          "Wiedermontage am Zielort",
-          "Erfahrene Techniker"
         ]
       },
       "cleaning": {
@@ -348,14 +317,14 @@
     },
     "cta": {
       "title": "Bereit loszulegen?",
-      "subtitle": "Erhalten Sie sofortige Angebote von geprüften Umzugsunternehmen und buchen Sie noch heute Ihren perfekten Umzugspartner",
+      "subtitle": "Erhalten Sie sofortige Angebote von Umzugsunternehmen und buchen Sie noch heute Ihren perfekten Umzugspartner",
       "button": "Kostenlose Angebote anfordern"
     }
   },
   "pricingPage": {
     "hero": {
       "title": "Transparente Preise",
-      "subtitle": "Keine versteckten Gebühren. Erhalten Sie sofortige Angebote und vergleichen Sie Preise von geprüften Umzugsunternehmen.",
+      "subtitle": "Keine versteckten Gebühren. Erhalten Sie sofortige Angebote und vergleichen Sie Preise von Umzugsunternehmen.",
       "cta": "Kostenloses Angebot erhalten"
     },
     "factors": {
@@ -419,17 +388,13 @@
         "packing": "Professionelle Verpackung",
         "unpacking": "Auspackservice",
         "materials": "Verpackungsmaterialien",
-        "assembly": "Möbelmontage",
-        "cleaning": "Reinigung nach Umzug",
-        "storage": "Lagerung (pro Monat)"
+        "cleaning": "Reinigung nach Umzug"
       },
       "prices": {
         "packing": "CHF 80 - 200",
         "unpacking": "CHF 60 - 140",
         "materials": "CHF 40 - 120",
-        "assembly": "CHF 60 - 160",
-        "cleaning": "CHF 100 - 240",
-        "storage": "CHF 120 - 320"
+        "cleaning": "CHF 100 - 240"
       }
     },
     "cta": {
@@ -507,7 +472,7 @@
   "quotePage": {
     "hero": {
       "title": "Kostenloses Angebot erhalten",
-      "subtitle": "Füllen Sie das Formular aus, um personalisierte Angebote von geprüften Umzugsunternehmen zu erhalten"
+      "subtitle": "Füllen Sie das Formular aus, um personalisierte Angebote von Umzugsunternehmen zu erhalten"
     },
     "steps": {
       "details": "Details",

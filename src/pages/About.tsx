@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import FinalCTA from "@/components/home/FinalCTA";
 import { Button } from "@/components/ui/button";
 
 const About = () => {
@@ -189,26 +190,9 @@ const About = () => {
           </div>
         </section>
 
-        {/* CTA Section */}
-        <section className="py-20 lg:py-28 bg-gradient-to-br from-primary to-accent">
-          <div className="container mx-auto max-w-4xl px-4 sm:px-6 lg:px-8 text-center">
-            <h2 className="text-3xl sm:text-4xl font-heading font-bold text-primary-foreground mb-4">
-              {t("aboutPage.cta.title")}
-            </h2>
-            <p className="text-lg text-primary-foreground/90 mb-8 max-w-2xl mx-auto">
-              {t("aboutPage.cta.subtitle")}
-            </p>
-            <Button
-              asChild
-              size="lg"
-              className="bg-background text-primary hover:bg-background/90 shadow-lift"
-            >
-              <Link to="/quote">{t("aboutPage.cta.button")}</Link>
-            </Button>
-          </div>
-        </section>
       </main>
 
+      <FinalCTA />
       <Footer />
     </div>
   );

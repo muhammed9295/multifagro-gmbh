@@ -10,7 +10,7 @@
   "hero": {
     "title": "Move with",
     "titleHighlight": "Confidence",
-    "subtitle": "Get instant quotes from verified movers. Compare prices, read reviews, and book your perfect moving partner in minutes.",
+    "subtitle": "Get instant quotes. Compare prices, read reviews, and book your perfect moving partner in minutes.",
     "trustBadges": {
       "fullyInsured": "Fully Insured",
       "verifiedPartners": "Verified Partners",
@@ -41,7 +41,7 @@
       },
       "step2": {
         "title": "Compare Offers",
-        "description": "Receive quotes from verified movers. Compare prices, reviews, and services."
+        "description": "Receive quotes from movers. Compare prices, reviews, and services."
       },
       "step3": {
         "title": "Book & Relax",
@@ -62,17 +62,12 @@
       "officeMoving": {
         "title": "Office Moving",
         "description": "Minimize downtime with our efficient corporate relocation services.",
-        "features": ["After-hours moving", "IT equipment care", "Layout planning"]
+        "features": ["After-hours moving"]
       },
       "packing": {
         "title": "Packing Services",
         "description": "Professional packing with quality materials to protect your items.",
         "features": ["Quality materials", "Expert packers", "Labeling system"]
-      },
-      "storage": {
-        "title": "Storage Solutions",
-        "description": "Secure, climate-controlled storage for short or long-term needs.",
-        "features": ["24/7 security", "Climate control", "Flexible terms"]
       },
       "assembly": {
         "title": "Furniture Assembly",
@@ -117,9 +112,7 @@
     "servicesLinks": {
       "homeMoving": "Home Moving",
       "officeRelocation": "Office Relocation",
-      "packingServices": "Packing Services",
-      "storageSolutions": "Storage Solutions",
-      "furnitureAssembly": "Furniture Assembly"
+      "packingServices": "Packing Services"
     },
     "companyLinks": {
       "aboutUs": "About Us",
@@ -176,7 +169,7 @@
     "items": {
       "q1": {
         "question": "How does Multifagro work?",
-        "answer": "Simply fill out our quick form with your moving details. You'll receive multiple quotes from verified movers within minutes. Compare prices, read reviews, and book directly through our platform. It's that easy!"
+        "answer": "Simply fill out our quick form with your moving details. You'll receive multiple quotes from movers within minutes. Compare prices, read reviews, and book directly through our platform. It's that easy!"
       },
       "q2": {
         "question": "Are the movers insured?",
@@ -257,7 +250,7 @@
   "servicesPage": {
     "hero": {
       "title": "Comprehensive Moving Services",
-      "subtitle": "From packing to unpacking, storage to assembly — we handle every aspect of your move with professionalism and care.",
+      "subtitle": "From packing to unpacking — we handle every aspect of your move with professionalism and care.",
       "cta": "Get Free Quotes"
     },
     "services": {
@@ -277,8 +270,6 @@
         "description": "Minimize downtime with our efficient corporate moving services designed for businesses of all sizes.",
         "features": [
           "After-hours and weekend moves",
-          "IT equipment specialized handling",
-          "Office layout and planning",
           "Minimal business disruption",
           "Dedicated move coordinator"
         ]
@@ -292,28 +283,6 @@
           "Systematic labeling system",
           "Fragile item protection",
           "Unpacking services available"
-        ]
-      },
-      "storage": {
-        "title": "Storage Solutions",
-        "description": "Secure, climate-controlled storage facilities for short-term or long-term needs during your move.",
-        "features": [
-          "24/7 security monitoring",
-          "Climate-controlled units",
-          "Flexible rental terms",
-          "Various unit sizes",
-          "Easy access"
-        ]
-      },
-      "assembly": {
-        "title": "Furniture Assembly",
-        "description": "Expert furniture assembly and disassembly services to make your move easier and more efficient.",
-        "features": [
-          "All furniture types",
-          "Professional tools provided",
-          "Quick and efficient",
-          "Reassembly at destination",
-          "Experienced technicians"
         ]
       },
       "cleaning": {
@@ -348,14 +317,14 @@
     },
     "cta": {
       "title": "Ready to Get Started?",
-      "subtitle": "Get instant quotes from verified movers and book your perfect moving partner today",
+      "subtitle": "Get instant quotes from movers and book your perfect moving partner today",
       "button": "Request Free Quotes"
     }
   },
   "pricingPage": {
     "hero": {
       "title": "Transparent Pricing",
-      "subtitle": "No hidden fees. Get instant quotes and compare prices from verified movers.",
+      "subtitle": "No hidden fees. Get instant quotes and compare prices from movers.",
       "cta": "Get Your Free Quote"
     },
     "factors": {
@@ -419,17 +388,13 @@
         "packing": "Professional Packing",
         "unpacking": "Unpacking Service",
         "materials": "Packing Materials",
-        "assembly": "Furniture Assembly",
-        "cleaning": "Post-Move Cleaning",
-        "storage": "Storage (per month)"
+        "cleaning": "Post-Move Cleaning"
       },
       "prices": {
         "packing": "CHF 80 - 200",
         "unpacking": "CHF 60 - 140",
         "materials": "CHF 40 - 120",
-        "assembly": "CHF 60 - 160",
-        "cleaning": "CHF 100 - 240",
-        "storage": "CHF 120 - 320"
+        "cleaning": "CHF 100 - 240"
       }
     },
     "cta": {
@@ -507,7 +472,7 @@
   "quotePage": {
     "hero": {
       "title": "Get Your Free Quote",
-      "subtitle": "Complete the form to receive personalized quotes from verified movers"
+      "subtitle": "Complete the form to receive personalized quotes from movers"
     },
     "steps": {
       "details": "Details",

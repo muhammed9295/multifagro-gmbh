@@ -10,7 +10,7 @@
   "hero": {
     "title": "Déménagez avec",
     "titleHighlight": "Confiance",
-    "subtitle": "Obtenez des devis instantanés de déménageurs vérifiés. Comparez les prix, lisez les avis et réservez votre partenaire de déménagement idéal en quelques minutes.",
+    "subtitle": "Obtenez des devis instantanés. Comparez les prix, lisez les avis et réservez votre partenaire de déménagement idéal en quelques minutes.",
     "trustBadges": {
       "fullyInsured": "Entièrement assuré",
       "verifiedPartners": "Partenaires vérifiés",
@@ -41,7 +41,7 @@
       },
       "step2": {
         "title": "Comparez les offres",
-        "description": "Recevez des devis de déménageurs vérifiés. Comparez les prix, les avis et les services."
+        "description": "Recevez des devis de déménageurs. Comparez les prix, les avis et les services."
       },
       "step3": {
         "title": "Réservez et détendez-vous",
@@ -62,17 +62,12 @@
       "officeMoving": {
         "title": "Déménagement de bureau",
         "description": "Minimisez les temps d'arrêt avec nos services efficaces de relocalisation d'entreprise.",
-        "features": ["Déménagement après heures", "Soin de l'équipement informatique", "Planification de la disposition"]
+        "features": ["Déménagement après heures"]
       },
       "packing": {
         "title": "Services d'emballage",
         "description": "Emballage professionnel avec des matériaux de qualité pour protéger vos articles.",
         "features": ["Matériaux de qualité", "Emballage expert", "Système d'étiquetage"]
-      },
-      "storage": {
-        "title": "Solutions de stockage",
-        "description": "Stockage sécurisé et climatisé pour des besoins à court ou long terme.",
-        "features": ["Sécurité 24/7", "Contrôle climatique", "Conditions flexibles"]
       },
       "assembly": {
         "title": "Montage de meubles",
@@ -117,9 +112,7 @@
     "servicesLinks": {
       "homeMoving": "Déménagement résidentiel",
       "officeRelocation": "Déménagement de bureau",
-      "packingServices": "Services d'emballage",
-      "storageSolutions": "Solutions de stockage",
-      "furnitureAssembly": "Montage de meubles"
+      "packingServices": "Services d'emballage"
     },
     "companyLinks": {
       "aboutUs": "À propos de nous",
@@ -176,7 +169,7 @@
     "items": {
       "q1": {
         "question": "Comment fonctionne Multifagro ?",
-        "answer": "Remplissez simplement notre formulaire rapide avec les détails de votre déménagement. Vous recevrez plusieurs devis de déménageurs vérifiés en quelques minutes. Comparez les prix, lisez les avis et réservez directement via notre plateforme. C'est aussi simple que ça !"
+        "answer": "Remplissez simplement notre formulaire rapide avec les détails de votre déménagement. Vous recevrez plusieurs devis de déménageurs en quelques minutes. Comparez les prix, lisez les avis et réservez directement via notre plateforme. C'est aussi simple que ça !"
       },
       "q2": {
         "question": "Les déménageurs sont-ils assurés ?",
@@ -257,7 +250,7 @@
   "servicesPage": {
     "hero": {
       "title": "Services de déménagement complets",
-      "subtitle": "De l'emballage au déballage, du stockage à l'assemblage — nous gérons chaque aspect de votre déménagement avec professionnalisme et soin.",
+      "subtitle": "De l'emballage au déballage — nous gérons chaque aspect de votre déménagement avec professionnalisme et soin.",
       "cta": "Obtenir des devis gratuits"
     },
     "services": {
@@ -277,8 +270,6 @@
         "description": "Minimisez les temps d'arrêt avec nos services efficaces de déménagement d'entreprise conçus pour les entreprises de toutes tailles.",
         "features": [
           "Déménagements après heures et week-end",
-          "Manipulation spécialisée de l'équipement informatique",
-          "Aménagement et planification de bureau",
           "Perturbation minimale de l'entreprise",
           "Coordinateur de déménagement dédié"
         ]
@@ -292,28 +283,6 @@
           "Système d'étiquetage systématique",
           "Protection des articles fragiles",
           "Services de déballage disponibles"
-        ]
-      },
-      "storage": {
-        "title": "Solutions de stockage",
-        "description": "Installations de stockage sécurisées et climatisées pour des besoins à court ou long terme pendant votre déménagement.",
-        "features": [
-          "Surveillance de sécurité 24/7",
-          "Unités climatisées",
-          "Conditions de location flexibles",
-          "Différentes tailles d'unités",
-          "Accès facile"
-        ]
-      },
-      "assembly": {
-        "title": "Montage de meubles",
-        "description": "Services experts d'assemblage et de démontage de meubles pour rendre votre déménagement plus facile et plus efficace.",
-        "features": [
-          "Tous types de meubles",
-          "Outils professionnels fournis",
-          "Rapide et efficace",
-          "Réassemblage à destination",
-          "Techniciens expérimentés"
         ]
       },
       "cleaning": {
@@ -348,14 +317,14 @@
     },
     "cta": {
       "title": "Prêt à commencer ?",
-      "subtitle": "Obtenez des devis instantanés de déménageurs vérifiés et réservez votre partenaire de déménagement idéal aujourd'hui",
+      "subtitle": "Obtenez des devis instantanés de déménageurs et réservez votre partenaire de déménagement idéal aujourd'hui",
       "button": "Demander des devis gratuits"
     }
   },
   "pricingPage": {
     "hero": {
       "title": "Tarification transparente",
-      "subtitle": "Pas de frais cachés. Obtenez des devis instantanés et comparez les prix des déménageurs vérifiés.",
+      "subtitle": "Pas de frais cachés. Obtenez des devis instantanés et comparez les prix des déménageurs.",
       "cta": "Obtenez votre devis gratuit"
     },
     "factors": {
@@ -419,17 +388,13 @@
         "packing": "Emballage professionnel",
         "unpacking": "Service de déballage",
         "materials": "Matériaux d'emballage",
-        "assembly": "Montage de meubles",
-        "cleaning": "Nettoyage après déménagement",
-        "storage": "Stockage (par mois)"
+        "cleaning": "Nettoyage après déménagement"
       },
       "prices": {
         "packing": "CHF 80 - 200",
         "unpacking": "CHF 60 - 140",
         "materials": "CHF 40 - 120",
-        "assembly": "CHF 60 - 160",
-        "cleaning": "CHF 100 - 240",
-        "storage": "CHF 120 - 320"
+        "cleaning": "CHF 100 - 240"
       }
     },
     "cta": {
@@ -507,7 +472,7 @@
   "quotePage": {
     "hero": {
       "title": "Obtenez votre devis gratuit",
-      "subtitle": "Remplissez le formulaire pour recevoir des devis personnalisés de déménageurs vérifiés"
+      "subtitle": "Remplissez le formulaire pour recevoir des devis personnalisés de déménageurs"
     },
     "steps": {
       "details": "Détails",

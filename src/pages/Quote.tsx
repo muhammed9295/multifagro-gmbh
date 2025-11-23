@@ -32,7 +32,6 @@ const Quote = () => {
     unpacking: false,
     boxes: false,
     cleaning: false,
-    assembly: false,
     
     // Step 3: Date & Time
     moveDate: "",
@@ -113,7 +112,6 @@ const Quote = () => {
     if (formData.unpacking) basePrice += 100;
     if (formData.boxes) basePrice += 80;
     if (formData.cleaning) basePrice += 200;
-    if (formData.assembly) basePrice += 120;
     
     const mockOffer = {
       id: 1,
@@ -313,7 +311,6 @@ const Quote = () => {
                     { id: "unpacking", key: "unpacking" },
                     { id: "boxes", key: "boxes" },
                     { id: "cleaning", key: "cleaning" },
-                    { id: "assembly", key: "assembly" },
                   ].map((service) => (
                     <div
                       key={service.id}

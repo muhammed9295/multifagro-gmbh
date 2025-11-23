@@ -10,7 +10,7 @@
   "hero": {
     "title": "Traslochi con",
     "titleHighlight": "Fiducia",
-    "subtitle": "Ottieni preventivi istantanei da traslocatori verificati. Confronta prezzi, leggi recensioni e prenota il tuo partner di trasloco perfetto in pochi minuti.",
+    "subtitle": "Ottieni preventivi istantanei. Confronta prezzi, leggi recensioni e prenota il tuo partner di trasloco perfetto in pochi minuti.",
     "trustBadges": {
       "fullyInsured": "Completamente assicurato",
       "verifiedPartners": "Partner verificati",
@@ -41,7 +41,7 @@
       },
       "step2": {
         "title": "Confronta le offerte",
-        "description": "Ricevi preventivi da traslocatori verificati. Confronta prezzi, recensioni e servizi."
+        "description": "Ricevi preventivi da traslocatori. Confronta prezzi, recensioni e servizi."
       },
       "step3": {
         "title": "Prenota e rilassati",
@@ -62,17 +62,12 @@
       "officeMoving": {
         "title": "Traslochi uffici",
         "description": "Riduci al minimo i tempi di inattività con i nostri efficienti servizi di trasloco aziendale.",
-        "features": ["Traslochi fuori orario", "Cura attrezzature IT", "Pianificazione layout"]
+        "features": ["Traslochi fuori orario"]
       },
       "packing": {
         "title": "Servizi di imballaggio",
         "description": "Imballaggio professionale con materiali di qualità per proteggere i tuoi oggetti.",
         "features": ["Materiali di qualità", "Imballatori esperti", "Sistema di etichettatura"]
-      },
-      "storage": {
-        "title": "Soluzioni di stoccaggio",
-        "description": "Stoccaggio sicuro e climatizzato per esigenze a breve o lungo termine.",
-        "features": ["Sicurezza 24/7", "Controllo clima", "Termini flessibili"]
       },
       "assembly": {
         "title": "Montaggio mobili",
@@ -117,9 +112,7 @@
     "servicesLinks": {
       "homeMoving": "Traslochi residenziali",
       "officeRelocation": "Traslochi uffici",
-      "packingServices": "Servizi di imballaggio",
-      "storageSolutions": "Soluzioni di stoccaggio",
-      "furnitureAssembly": "Montaggio mobili"
+      "packingServices": "Servizi di imballaggio"
     },
     "companyLinks": {
       "aboutUs": "Chi siamo",
@@ -176,7 +169,7 @@
     "items": {
       "q1": {
         "question": "Come funziona Multifagro?",
-        "answer": "Compila semplicemente il nostro modulo rapido con i dettagli del tuo trasloco. Riceverai più preventivi da traslocatori verificati in pochi minuti. Confronta i prezzi, leggi le recensioni e prenota direttamente tramite la nostra piattaforma. È così semplice!"
+        "answer": "Compila semplicemente il nostro modulo rapido con i dettagli del tuo trasloco. Riceverai più preventivi da traslocatori in pochi minuti. Confronta i prezzi, leggi le recensioni e prenota direttamente tramite la nostra piattaforma. È così semplice!"
       },
       "q2": {
         "question": "I traslocatori sono assicurati?",
@@ -257,7 +250,7 @@
   "servicesPage": {
     "hero": {
       "title": "Servizi di trasloco completi",
-      "subtitle": "Dall'imballaggio al disimballaggio, dallo stoccaggio al montaggio — gestiamo ogni aspetto del tuo trasloco con professionalità e cura.",
+      "subtitle": "Dall'imballaggio al disimballaggio — gestiamo ogni aspetto del tuo trasloco con professionalità e cura.",
       "cta": "Ottieni preventivi gratuiti"
     },
     "services": {
@@ -277,8 +270,6 @@
         "description": "Riduci al minimo i tempi di inattività con i nostri efficienti servizi di trasloco aziendale progettati per aziende di tutte le dimensioni.",
         "features": [
           "Traslochi fuori orario e nei fine settimana",
-          "Gestione specializzata delle attrezzature IT",
-          "Layout e pianificazione dell'ufficio",
           "Interruzione minima dell'attività",
           "Coordinatore trasloco dedicato"
         ]
@@ -292,28 +283,6 @@
           "Sistema di etichettatura sistematico",
           "Protezione oggetti fragili",
           "Servizi di disimballaggio disponibili"
-        ]
-      },
-      "storage": {
-        "title": "Soluzioni di stoccaggio",
-        "description": "Strutture di stoccaggio sicure e climatizzate per esigenze a breve o lungo termine durante il tuo trasloco.",
-        "features": [
-          "Monitoraggio sicurezza 24/7",
-          "Unità climatizzate",
-          "Termini di noleggio flessibili",
-          "Varie dimensioni delle unità",
-          "Accesso facile"
-        ]
-      },
-      "assembly": {
-        "title": "Montaggio mobili",
-        "description": "Servizi esperti di montaggio e smontaggio mobili per rendere il tuo trasloco più facile ed efficiente.",
-        "features": [
-          "Tutti i tipi di mobili",
-          "Strumenti professionali forniti",
-          "Veloce ed efficiente",
-          "Rimontaggio a destinazione",
-          "Tecnici esperti"
         ]
       },
       "cleaning": {
@@ -348,14 +317,14 @@
     },
     "cta": {
       "title": "Pronto per iniziare?",
-      "subtitle": "Ottieni preventivi istantanei da traslocatori verificati e prenota il tuo partner di trasloco perfetto oggi",
+      "subtitle": "Ottieni preventivi istantanei da traslocatori e prenota il tuo partner di trasloco perfetto oggi",
       "button": "Richiedi preventivi gratuiti"
     }
   },
   "pricingPage": {
     "hero": {
       "title": "Prezzi trasparenti",
-      "subtitle": "Nessun costo nascosto. Ottieni preventivi istantanei e confronta i prezzi dei traslocatori verificati.",
+      "subtitle": "Nessun costo nascosto. Ottieni preventivi istantanei e confronta i prezzi dei traslocatori.",
       "cta": "Ottieni il tuo preventivo gratuito"
     },
     "factors": {
@@ -419,17 +388,13 @@
         "packing": "Imballaggio professionale",
         "unpacking": "Servizio di disimballaggio",
         "materials": "Materiali di imballaggio",
-        "assembly": "Montaggio mobili",
-        "cleaning": "Pulizia post-trasloco",
-        "storage": "Stoccaggio (al mese)"
+        "cleaning": "Pulizia post-trasloco"
       },
       "prices": {
         "packing": "CHF 80 - 200",
         "unpacking": "CHF 60 - 140",
         "materials": "CHF 40 - 120",
-        "assembly": "CHF 60 - 160",
-        "cleaning": "CHF 100 - 240",
-        "storage": "CHF 120 - 320"
+        "cleaning": "CHF 100 - 240"
       }
     },
     "cta": {
@@ -507,7 +472,7 @@
   "quotePage": {
     "hero": {
       "title": "Ottieni il tuo preventivo gratuito",
-      "subtitle": "Compila il modulo per ricevere preventivi personalizzati da traslocatori verificati"
+      "subtitle": "Compila il modulo per ricevere preventivi personalizzati da traslocatori"
     },
     "steps": {
       "details": "Dettagli",

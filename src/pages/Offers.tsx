@@ -88,7 +88,7 @@ const Offers = () => {
               Available Offers
             </h1>
             <p className="text-muted-foreground">
-              We found {mockOffers.length} verified movers for your route
+              We found {mockOffers.length} movers for your route
             </p>
             <div className="mt-4 p-4 bg-background rounded-lg border border-border inline-flex items-center space-x-2 text-sm">
               <span className="text-muted-foreground">Moving from</span>

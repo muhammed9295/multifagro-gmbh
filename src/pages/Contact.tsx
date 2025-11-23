@@ -3,6 +3,7 @@ import { Mail, Phone, MapPin, Send } from "lucide-react";
 import { useTranslation } from "react-i18next";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import FinalCTA from "@/components/home/FinalCTA";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
@@ -244,22 +245,9 @@ const Contact = () => {
           </div>
         </section>
 
-        {/* FAQ Link Section */}
-        <section className="py-16 bg-muted">
-          <div className="container mx-auto max-w-4xl px-4 sm:px-6 lg:px-8 text-center">
-            <h2 className="text-2xl font-heading font-semibold text-foreground mb-3">
-              {t("contact.faqLink.title")}
-            </h2>
-            <p className="text-muted-foreground mb-6">
-              {t("contact.faqLink.subtitle")}
-            </p>
-            <Button variant="outline" asChild>
-              <a href="/#faq">{t("contact.faqLink.button")}</a>
-            </Button>
-          </div>
-        </section>
       </main>
 
+      <FinalCTA />
       <Footer />
     </div>
   );
