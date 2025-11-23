@@ -28,8 +28,8 @@ const About = () => {
   ];
 
   const stats = [
-    { number: "50,000+", label: t("aboutPage.stats.successfulMoves") },
-    { number: "500+", label: t("aboutPage.stats.verifiedPartners") },
+    { number: "5000+", label: t("aboutPage.stats.successfulMoves") },
+    { number: "50+", label: t("aboutPage.stats.verifiedPartners") },
     { number: "98%", label: t("aboutPage.stats.satisfactionRate") },
     { number: "24/7", label: t("aboutPage.stats.customerSupport") },
   ];

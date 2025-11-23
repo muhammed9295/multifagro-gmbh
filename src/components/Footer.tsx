@@ -116,7 +116,7 @@ const Footer = () => {
                 <MapPin className="h-5 w-5 text-primary mt-0.5 flex-shrink-0" />
                 <div>
                   <p className="text-sm text-muted-foreground">
-                    Zurich, Geneva, Basel<br />Switzerland
+                    Zurich, Geneva, Basel, Bern<br />Switzerland
                   </p>
                 </div>
               </li>
