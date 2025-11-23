@@ -18,49 +18,49 @@ const Offers = () => {
   const mockOffers = [
     {
       id: 1,
-      company: "Royal Movers",
+      company: "Multifagro Standard",
       rating: 4.9,
       reviews: 342,
       price: 1250,
       earliestSlot: "Tomorrow",
       badges: ["Top Rated", "Insured"],
-      inclusions: ["2 Professional Movers", "Moving Truck", "Basic Insurance", "Loading/Unloading"],
+      inclusions: ["2 Team Members", "Moving Truck", "Basic Insurance", "Loading/Unloading"],
       avatar: "RM",
       color: "from-primary to-accent",
     },
     {
       id: 2,
-      company: "Swift Relocations",
+      company: "Multifagro Express",
       rating: 4.8,
       reviews: 289,
       price: 1150,
       earliestSlot: "In 2 days",
       badges: ["Best Value", "Fast"],
-      inclusions: ["3 Professional Movers", "Moving Truck", "Basic Insurance", "Packing Materials"],
+      inclusions: ["3 Team Members", "Moving Truck", "Basic Insurance", "Packing Materials"],
       avatar: "SR",
       color: "from-accent to-primary",
     },
     {
       id: 3,
-      company: "Premium Movers Co.",
+      company: "Multifagro Premium",
       rating: 5.0,
       reviews: 156,
       price: 1450,
       earliestSlot: "Tomorrow",
       badges: ["Premium", "Insured"],
-      inclusions: ["4 Professional Movers", "Large Truck", "Full Insurance", "Packing Service", "Furniture Protection"],
+      inclusions: ["4 Team Members", "Large Truck", "Full Insurance", "Packing Service", "Furniture Protection"],
       avatar: "PM",
       color: "from-primary to-primary-hover",
     },
     {
       id: 4,
-      company: "City Packers",
+      company: "Multifagro Basic",
       rating: 4.7,
       reviews: 421,
       price: 1050,
       earliestSlot: "In 3 days",
       badges: ["Budget Friendly"],
-      inclusions: ["2 Professional Movers", "Moving Van", "Basic Insurance"],
+      inclusions: ["2 Team Members", "Moving Van", "Basic Insurance"],
       avatar: "CP",
       color: "from-accent to-primary",
     },
@@ -88,7 +88,7 @@ const Offers = () => {
               Available Offers
             </h1>
             <p className="text-muted-foreground">
-              We found {mockOffers.length} movers for your route
+              We have {mockOffers.length} service options for your route
             </p>
             <div className="mt-4 p-4 bg-background rounded-lg border border-border inline-flex items-center space-x-2 text-sm">
               <span className="text-muted-foreground">Moving from</span>
@@ -204,7 +204,7 @@ const Offers = () => {
               Need Help Choosing?
             </h3>
             <p className="text-sm text-muted-foreground mb-4">
-              Our team is here to help you find the perfect mover for your needs
+              Our team is here to help you find the perfect service package for your needs
             </p>
             <Button variant="outline" asChild>
               <a href="/contact">Contact Support</a>

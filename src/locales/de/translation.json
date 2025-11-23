@@ -10,10 +10,10 @@
   "hero": {
     "title": "Umziehen mit",
     "titleHighlight": "Vertrauen",
-    "subtitle": "Erhalten Sie sofortige Angebote. Vergleichen Sie Preise, lesen Sie Bewertungen und buchen Sie Ihren perfekten Umzugspartner in Minuten.",
+    "subtitle": "Erhalten Sie sofortige Angebote. Vergleichen Sie Preise, lesen Sie Bewertungen und buchen Sie Ihren Umzug in Minuten.",
     "trustBadges": {
       "fullyInsured": "Vollständig versichert",
-      "verifiedPartners": "Geprüfte Partner",
+      "verifiedPartners": "Professionelles Team",
       "movesPerMonth": "500+ Umzüge/Monat"
     },
     "form": {
@@ -33,7 +33,7 @@
   },
   "howItWorks": {
     "title": "So funktioniert's",
-    "subtitle": "Ihren perfekten Umzugspartner zu finden ist einfach und stressfrei",
+    "subtitle": "Ihren Umzug zu buchen ist einfach und stressfrei",
     "steps": {
       "step1": {
         "title": "Umzug anfordern",
@@ -41,11 +41,11 @@
       },
       "step2": {
         "title": "Angebote vergleichen",
-        "description": "Erhalten Sie Angebote von Umzugsunternehmen. Vergleichen Sie Preise, Bewertungen und Dienstleistungen."
+        "description": "Erhalten Sie Ihr Angebot von Multifagro mit transparenten Preisen und Dienstleistungsdetails."
       },
       "step3": {
         "title": "Buchen & Entspannen",
-        "description": "Wählen Sie Ihren bevorzugten Umzugsunternehmer und bestätigen Sie. Wir kümmern uns um den Rest."
+        "description": "Bestätigen Sie Ihre Buchung. Wir kümmern uns um den Rest."
       }
     }
   },
@@ -87,15 +87,15 @@
     "items": {
       "insured": {
         "title": "Vollständig versicherte Teams",
-        "description": "Alle unsere Partner-Umzugsunternehmen sind geprüft, lizenziert und vollständig versichert für Ihr Seelenfrieden."
+        "description": "Unser Team ist lizenziert, vollständig versichert und professionell ausgebildet für Ihr Seelenfrieden."
       },
       "pricing": {
         "title": "Transparente Preise",
         "description": "Keine versteckten Gebühren. Erhalten Sie detaillierte Angebote im Voraus mit klaren Aufschlüsselungen aller Kosten."
       },
       "verified": {
-        "title": "Geprüfte Partner",
-        "description": "Jedes Umzugsunternehmen auf unserer Plattform wird überprüft und von Kunden bewertet."
+        "title": "Professionelles Team",
+        "description": "Unser Team besteht aus lizenzierten Fachleuten, die überprüft und von Kunden bewertet werden."
       },
       "support": {
         "title": "24/7 Support",
@@ -104,7 +104,7 @@
     }
   },
   "footer": {
-    "description": "Professionelle Umzugs- und Verpackungsdienstleistungen mit transparenten Preisen und geprüften Partnern in der gesamten Schweiz.",
+    "description": "Professionelle Umzugs- und Verpackungsdienstleistungen mit transparenten Preisen in der gesamten Schweiz.",
     "services": "Dienstleistungen",
     "company": "Unternehmen",
     "contactUs": "Kontaktieren Sie uns",
@@ -169,35 +169,35 @@
     "items": {
       "q1": {
         "question": "Wie funktioniert Multifagro?",
-        "answer": "Füllen Sie einfach unser schnelles Formular mit Ihren Umzugsdetails aus. Sie erhalten innerhalb von Minuten mehrere Angebote von Umzugsunternehmen. Vergleichen Sie Preise, lesen Sie Bewertungen und buchen Sie direkt über unsere Plattform. So einfach ist das!"
+        "answer": "Füllen Sie einfach unser schnelles Formular mit Ihren Umzugsdetails aus. Sie erhalten innerhalb von Minuten ein detailliertes Angebot von Multifagro. Überprüfen Sie die Preise und buchen Sie direkt über unsere Plattform. So einfach ist das!"
       },
       "q2": {
-        "question": "Sind die Umzugsunternehmen versichert?",
-        "answer": "Ja! Alle Umzugsunternehmen auf unserer Plattform sind vollständig lizenziert, versichert und überprüft. Wir arbeiten nur mit professionellen Umzugsunternehmen zusammen, die unsere strengen Qualitätsstandards erfüllen."
+        "question": "Ist Multifagro versichert?",
+        "answer": "Ja! Multifagro ist vollständig lizenziert, versichert und unsere Teammitglieder sind überprüft. Wir halten strenge Qualitätsstandards für alle unsere Dienstleistungen ein."
       },
       "q3": {
         "question": "Wie viel kostet ein Umzug?",
-        "answer": "Die Umzugskosten variieren je nach Entfernung, Volumen und benötigten Dienstleistungen. Unsere Plattform zeigt transparente Preise von mehreren Umzugsunternehmen, sodass Sie vergleichen und die beste Option für Ihr Budget wählen können. Die meisten lokalen Umzüge liegen zwischen CHF 300-1.000."
+        "answer": "Die Umzugskosten variieren je nach Entfernung, Volumen und benötigten Dienstleistungen. Wir bieten transparente Preise im Voraus, sodass Sie genau wissen, was Sie zahlen werden. Die meisten lokalen Umzüge liegen zwischen CHF 300-1.000."
       },
       "q4": {
         "question": "Kann ich Hilfe beim Verpacken bekommen?",
-        "answer": "Absolut! Viele unserer Partner-Umzugsunternehmen bieten professionelle Verpackungsdienstleistungen an. Sie können Verpackung, Auspackung und Verpackungsmaterialien hinzufügen, wenn Sie Ihr Angebot anfordern."
+        "answer": "Absolut! Multifagro bietet professionelle Verpackungsdienstleistungen an. Sie können Verpackung, Auspackung und Verpackungsmaterialien hinzufügen, wenn Sie Ihr Angebot anfordern."
       },
       "q5": {
         "question": "Was ist, wenn etwas beschädigt wird?",
-        "answer": "Alle unsere Umzugsunternehmen verfügen über eine umfassende Versicherung. Im seltenen Fall einer Beschädigung sind Sie vollständig abgedeckt. Reichen Sie einfach eine Schadensmeldung über unsere Plattform ein und wir helfen Ihnen bei der Abwicklung."
+        "answer": "Multifagro verfügt über eine umfassende Versicherung. Im seltenen Fall einer Beschädigung sind Sie vollständig abgedeckt. Kontaktieren Sie uns einfach und wir helfen Ihnen bei der Abwicklung."
       },
       "q6": {
         "question": "Wie weit im Voraus sollte ich buchen?",
-        "answer": "Wir empfehlen, 2-4 Wochen im Voraus zu buchen, insbesondere während der Hauptumzugssaison (Sommermonate). Viele Umzugsunternehmen können jedoch auch Last-Minute-Umzüge innerhalb von 48 Stunden durchführen."
+        "answer": "Wir empfehlen, 2-4 Wochen im Voraus zu buchen, insbesondere während der Hauptumzugssaison (Sommermonate). Wir können jedoch oft auch Last-Minute-Umzüge innerhalb von 48 Stunden durchführen."
       },
       "q7": {
         "question": "Bedienen Sie mein Gebiet?",
-        "answer": "Wir bedienen derzeit alle großen Städte in der Schweiz, einschließlich Zürich, Genf, Basel, Bern, Lausanne und Luzern. Geben Sie Ihre Postleitzahlen ein, um verfügbare Umzugsunternehmen in Ihrer Nähe zu sehen."
+        "answer": "Wir bedienen derzeit alle großen Städte in der Schweiz, einschließlich Zürich, Genf, Basel, Bern, Lausanne und Luzern. Geben Sie Ihre Postleitzahlen ein, um zu prüfen, ob wir Ihr Gebiet bedienen."
       },
       "q8": {
         "question": "Kann ich meinen Umzug umbuchen?",
-        "answer": "Ja, die meisten Umzugsunternehmen erlauben eine Umbuchung mit angemessener Vorankündigung (normalerweise 48-72 Stunden). Die Stornierungsrichtlinien variieren je nach Umzugsunternehmen, daher sollten Sie die Bedingungen bei der Buchung überprüfen."
+        "answer": "Ja, wir erlauben eine Umbuchung mit angemessener Vorankündigung (normalerweise 48-72 Stunden). Überprüfen Sie unsere Allgemeinen Geschäftsbedingungen für detaillierte Stornierungsrichtlinien."
       }
     }
   },
@@ -208,13 +208,13 @@
       "testimonial1": {
         "name": "Klaus Huber",
         "city": "Zürich",
-        "text": "Der Umzug mit Multifagro war nahtlos. Die Umzugsunternehmen waren professionell, pünktlich und haben alles mit Sorgfalt behandelt. Sehr empfehlenswert!",
+        "text": "Der Umzug mit Multifagro war nahtlos. Das Team war professionell, pünktlich und hat alles mit Sorgfalt behandelt. Sehr empfehlenswert!",
         "date": "vor 2 Wochen"
       },
       "testimonial2": {
         "name": "Séverine Moreau",
         "city": "Genf",
-        "text": "Ich hatte Angst vor dem Umzug, aber Multifagro hat es so einfach gemacht! Habe sofort mehrere Angebote erhalten und den perfekten Umzugsunternehmen innerhalb meines Budgets gefunden.",
+        "text": "Ich hatte Angst vor dem Umzug, aber Multifagro hat es so einfach gemacht! Habe sofort ein Angebot erhalten und der Service war perfekt für mein Budget.",
         "date": "vor 1 Monat"
       },
       "testimonial3": {
@@ -256,7 +256,7 @@
     "services": {
       "residential": {
         "title": "Wohnungsumzug",
-        "description": "Stressfreie Umzugsdienstleistungen für Wohnungen mit erfahrenen Umzugsunternehmen, die Ihre Habseligkeiten sorgfältig behandeln.",
+        "description": "Stressfreie Umzugsdienstleistungen für Wohnungen mit unserem erfahrenen Team, das Ihre Habseligkeiten sorgfältig behandelt.",
         "features": [
           "Komplettes Packen und Auspacken",
           "Möbelmontage und -demontage",
@@ -303,7 +303,7 @@
       "items": {
         "licensed": {
           "title": "Vollständig lizenziert & versichert",
-          "description": "Alle unsere Umzugsunternehmen sind lizenzierte Fachkräfte mit umfassendem Versicherungsschutz."
+          "description": "Unser Team besteht aus lizenzierten Fachkräften mit umfassendem Versicherungsschutz."
         },
         "pricing": {
           "title": "Transparente Preise",
@@ -311,20 +311,20 @@
         },
         "guarantee": {
           "title": "Pünktlichkeitsgarantie",
-          "description": "Wir schätzen Ihre Zeit. Unsere Umzugsunternehmen kommen pünktlich, jedes Mal."
+          "description": "Wir schätzen Ihre Zeit. Unser Team kommt pünktlich, jedes Mal."
         }
       }
     },
     "cta": {
       "title": "Bereit loszulegen?",
-      "subtitle": "Erhalten Sie sofortige Angebote von Umzugsunternehmen und buchen Sie noch heute Ihren perfekten Umzugspartner",
+      "subtitle": "Erhalten Sie sofortige Angebote und buchen Sie noch heute Ihren Umzug",
       "button": "Kostenlose Angebote anfordern"
     }
   },
   "pricingPage": {
     "hero": {
       "title": "Transparente Preise",
-      "subtitle": "Keine versteckten Gebühren. Erhalten Sie sofortige Angebote und vergleichen Sie Preise von Umzugsunternehmen.",
+      "subtitle": "Keine versteckten Gebühren. Erhalten Sie sofortige Angebote mit transparenten Preisen.",
       "cta": "Kostenloses Angebot erhalten"
     },
     "factors": {
@@ -366,19 +366,19 @@
           "title": "Studio/1 Schlafzimmer",
           "local": "CHF 300 - 450",
           "distance": "CHF 800 - 1,400",
-          "features": ["1-2 Umzugshelfer", "Kleiner Lkw", "3-4 Stunden", "Grundversicherung"]
+          "features": ["1-2 Teammitglieder", "Kleiner Lkw", "3-4 Stunden", "Grundversicherung"]
         },
         "twoBedroom": {
           "title": "2 Schlafzimmer",
           "local": "CHF 450 - 700",
           "distance": "CHF 1,400 - 2,000",
-          "features": ["2-3 Umzugshelfer", "Mittlerer Lkw", "4-6 Stunden", "Vollversicherung"]
+          "features": ["2-3 Teammitglieder", "Mittlerer Lkw", "4-6 Stunden", "Vollversicherung"]
         },
         "threeFourBedroom": {
           "title": "3-4 Schlafzimmer",
           "local": "CHF 700 - 1,100",
           "distance": "CHF 2,000 - 3,200",
-          "features": ["3-4 Umzugshelfer", "Großer Lkw", "6-8 Stunden", "Premium-Versicherung"]
+          "features": ["3-4 Teammitglieder", "Großer Lkw", "6-8 Stunden", "Premium-Versicherung"]
         }
       }
     },
@@ -399,26 +399,26 @@
     },
     "cta": {
       "title": "Bereit für Ihr genaues Angebot?",
-      "subtitle": "Erhalten Sie personalisierte Angebote von mehreren Umzugsunternehmen in Minuten — völlig kostenlos",
+      "subtitle": "Erhalten Sie personalisierte Angebote in Minuten — völlig kostenlos",
       "button": "Jetzt kostenlose Angebote erhalten"
     }
   },
   "aboutPage": {
     "hero": {
       "title": "Umzüge einfach machen",
-      "subtitle": "Wir haben es uns zur Aufgabe gemacht, das Umzugserlebnis zu transformieren, indem wir Kunden mit vertrauenswürdigen, professionellen Umzugsunternehmen in der gesamten Schweiz verbinden."
+      "subtitle": "Wir haben es uns zur Aufgabe gemacht, das Umzugserlebnis zu transformieren, indem wir vertrauenswürdige, professionelle Umzugsdienstleistungen in der gesamten Schweiz anbieten."
     },
     "stats": {
       "successfulMoves": "Erfolgreiche Umzüge",
-      "verifiedPartners": "Geprüfte Partner",
+      "verifiedPartners": "Professionelles Team",
       "satisfactionRate": "Zufriedenheitsrate",
       "customerSupport": "Kundensupport"
     },
     "story": {
       "title": "Unsere Geschichte",
       "paragraph1": "Multifagro wurde aus einer einfachen Beobachtung geboren: Umzüge sollten nicht stressig sein. Nachdem unsere Gründer die Herausforderungen der Umzugskoordination aus erster Hand erlebt hatten, erkannten sie, dass es einen besseren Weg geben musste.",
-      "paragraph2": "Wir haben Multifagro als vertrauenswürdige Plattform aufgebaut, die Transparenz, Wahlfreiheit und Seelenfrieden in jeden Umzug bringt. Durch sorgfältige Überprüfung unserer Partner und die Bereitstellung sofortiger Angebote haben wir Tausenden von Familien und Unternehmen geholfen, mit Vertrauen umzuziehen.",
-      "paragraph3": "Heute sind wir stolz darauf, die führende Umzugsplattform der Schweiz zu sein, die Kunden mit den besten professionellen Umzugsunternehmen der Branche verbindet. Aber wir fangen gerade erst an."
+      "paragraph2": "Wir haben Multifagro als vertrauenswürdigen Service aufgebaut, der Transparenz, Zuverlässigkeit und Seelenfrieden in jeden Umzug bringt. Durch hohe Standards und die Bereitstellung sofortiger Angebote haben wir Tausenden von Familien und Unternehmen geholfen, mit Vertrauen umzuziehen.",
+      "paragraph3": "Heute sind wir stolz darauf, der führende Umzugsdienstleister der Schweiz zu sein, der professionelle Umzugsdienstleistungen im ganzen Land anbietet. Aber wir fangen gerade erst an."
     },
     "mission": {
       "title": "Unsere Mission",
@@ -434,7 +434,7 @@
         },
         "trust": {
           "title": "Vertrauen & Sicherheit",
-          "description": "Wir überprüfen jeden Partner und stellen einen vollständigen Versicherungsschutz zu Ihrem Schutz sicher."
+          "description": "Wir stellen einen vollständigen Versicherungsschutz zu Ihrem Schutz sicher."
         },
         "excellence": {
           "title": "Exzellenz",
@@ -446,8 +446,8 @@
       "title": "Wie wir uns unterscheiden",
       "items": {
         "verified": {
-          "title": "Nur geprüfte Partner",
-          "description": "Jedes Umzugsunternehmen wird gründlich überprüft, lizenziert und versichert, bevor es unserer Plattform beitritt."
+          "title": "Professionelles Team",
+          "description": "Unser Team wird gründlich überprüft, ist lizenziert und versichert. Wir halten die höchsten Standards für alle unsere Dienstleistungen ein."
         },
         "transparent": {
           "title": "Transparente Preise",
@@ -472,7 +472,7 @@
   "quotePage": {
     "hero": {
       "title": "Kostenloses Angebot erhalten",
-      "subtitle": "Füllen Sie das Formular aus, um personalisierte Angebote von Umzugsunternehmen zu erhalten"
+      "subtitle": "Füllen Sie das Formular aus, um Ihr personalisiertes Angebot zu erhalten"
     },
     "steps": {
       "details": "Details",
@@ -555,7 +555,7 @@
       "namePlaceholder": "Max Mustermann",
       "emailPlaceholder": "max@beispiel.com",
       "phonePlaceholder": "078 XXX XX XX",
-      "privacyNotice": "Durch das Absenden dieses Formulars stimmen Sie zu, Angebote von geprüften Umzugspartnern zu erhalten. Ihre Informationen sind sicher und werden nicht an Dritte weitergegeben."
+      "privacyNotice": "Durch das Absenden dieses Formulars stimmen Sie zu, Angebote von Multifagro zu erhalten. Ihre Informationen sind sicher und werden nicht an Dritte weitergegeben."
     },
     "validation": {
       "movingFromRequired": "Umzug von ist erforderlich",

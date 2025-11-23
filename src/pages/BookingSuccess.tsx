@@ -57,7 +57,7 @@ const BookingSuccess = () => {
               <ol className="space-y-3">
                 {[
                   "You'll receive a confirmation email with all booking details",
-                  "A moving company will contact you 24-48 hours before the move",
+                  "Multifagro will contact you 24-48 hours before the move",
                   "Our team will be available 24/7 if you have any questions",
                   "On moving day, the crew will arrive during your selected time window",
                 ].map((step, idx) => (

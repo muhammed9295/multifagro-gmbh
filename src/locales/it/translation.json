@@ -10,10 +10,10 @@
   "hero": {
     "title": "Traslochi con",
     "titleHighlight": "Fiducia",
-    "subtitle": "Ottieni preventivi istantanei. Confronta prezzi, leggi recensioni e prenota il tuo partner di trasloco perfetto in pochi minuti.",
+    "subtitle": "Ottieni preventivi istantanei. Confronta prezzi, leggi recensioni e prenota il tuo trasloco in pochi minuti.",
     "trustBadges": {
       "fullyInsured": "Completamente assicurato",
-      "verifiedPartners": "Partner verificati",
+      "verifiedPartners": "Team professionale",
       "movesPerMonth": "500+ traslochi/mese"
     },
     "form": {
@@ -33,7 +33,7 @@
   },
   "howItWorks": {
     "title": "Come funziona",
-    "subtitle": "Trovare il tuo partner di trasloco perfetto è semplice e senza stress",
+    "subtitle": "Prenotare il tuo trasloco è semplice e senza stress",
     "steps": {
       "step1": {
         "title": "Richiedi il tuo trasloco",
@@ -41,11 +41,11 @@
       },
       "step2": {
         "title": "Confronta le offerte",
-        "description": "Ricevi preventivi da traslocatori. Confronta prezzi, recensioni e servizi."
+        "description": "Ricevi il tuo preventivo da Multifagro con prezzi trasparenti e dettagli del servizio."
       },
       "step3": {
         "title": "Prenota e rilassati",
-        "description": "Scegli il tuo traslocatore preferito e conferma. Noi ci occuperemo del resto."
+        "description": "Conferma la tua prenotazione. Noi ci occuperemo del resto."
       }
     }
   },
@@ -87,15 +87,15 @@
     "items": {
       "insured": {
         "title": "Squadre completamente assicurate",
-        "description": "Tutti i nostri partner traslocatori sono verificati, autorizzati e completamente assicurati per la vostra tranquillità."
+        "description": "Il nostro team è autorizzato, completamente assicurato e professionalmente formato per la vostra tranquillità."
       },
       "pricing": {
         "title": "Prezzi trasparenti",
         "description": "Nessun costo nascosto. Ricevete preventivi dettagliati in anticipo con una chiara suddivisione di tutti i costi."
       },
       "verified": {
-        "title": "Partner verificati",
-        "description": "Ogni azienda di traslochi sulla nostra piattaforma è verificata e recensita dai clienti."
+        "title": "Team professionale",
+        "description": "Il nostro team è composto da professionisti autorizzati che sono verificati e recensiti dai clienti."
       },
       "support": {
         "title": "Supporto 24/7",
@@ -104,7 +104,7 @@
     }
   },
   "footer": {
-    "description": "Servizi professionali di trasloco e imballaggio con prezzi trasparenti e partner verificati in tutta la Svizzera.",
+    "description": "Servizi professionali di trasloco e imballaggio con prezzi trasparenti in tutta la Svizzera.",
     "services": "Servizi",
     "company": "Azienda",
     "contactUs": "Contattaci",
@@ -169,35 +169,35 @@
     "items": {
       "q1": {
         "question": "Come funziona Multifagro?",
-        "answer": "Compila semplicemente il nostro modulo rapido con i dettagli del tuo trasloco. Riceverai più preventivi da traslocatori in pochi minuti. Confronta i prezzi, leggi le recensioni e prenota direttamente tramite la nostra piattaforma. È così semplice!"
+        "answer": "Compila semplicemente il nostro modulo rapido con i dettagli del tuo trasloco. Riceverai un preventivo dettagliato da Multifagro in pochi minuti. Esamina i prezzi e prenota direttamente tramite la nostra piattaforma. È così semplice!"
       },
       "q2": {
-        "question": "I traslocatori sono assicurati?",
-        "answer": "Sì! Tutte le aziende di traslochi sulla nostra piattaforma sono completamente autorizzate, assicurate e verificate. Lavoriamo solo con traslocatori professionisti che soddisfano i nostri rigorosi standard di qualità."
+        "question": "Multifagro è assicurato?",
+        "answer": "Sì! Multifagro è completamente autorizzato, assicurato e i membri del nostro team sono verificati. Manteniamo rigorosi standard di qualità per tutti i nostri servizi."
       },
       "q3": {
         "question": "Quanto costa un trasloco?",
-        "answer": "I costi del trasloco variano in base alla distanza, al volume e ai servizi necessari. La nostra piattaforma mostra prezzi trasparenti da più traslocatori in modo da poter confrontare e scegliere l'opzione migliore per il tuo budget. La maggior parte dei traslochi locali costa tra CHF 300-1.000."
+        "answer": "I costi del trasloco variano in base alla distanza, al volume e ai servizi necessari. Forniamo prezzi trasparenti in anticipo in modo che tu sappia esattamente cosa pagherai. La maggior parte dei traslochi locali costa tra CHF 300-1.000."
       },
       "q4": {
         "question": "Posso ottenere aiuto con l'imballaggio?",
-        "answer": "Assolutamente! Molti dei nostri partner traslocatori offrono servizi di imballaggio professionali. Puoi aggiungere imballaggio, disimballaggio e materiali di imballaggio quando richiedi il preventivo."
+        "answer": "Assolutamente! Multifagro offre servizi di imballaggio professionali. Puoi aggiungere imballaggio, disimballaggio e materiali di imballaggio quando richiedi il preventivo."
       },
       "q5": {
         "question": "E se qualcosa viene danneggiato?",
-        "answer": "Tutti i nostri traslocatori hanno un'assicurazione completa. Nel raro caso di danni, sei completamente coperto. Presenta semplicemente un reclamo tramite la nostra piattaforma e ti aiuteremo a facilitare il processo."
+        "answer": "Multifagro ha un'assicurazione completa. Nel raro caso di danni, sei completamente coperto. Contattaci semplicemente e ti aiuteremo a facilitare il processo."
       },
       "q6": {
         "question": "Con quanto anticipo dovrei prenotare?",
-        "answer": "Raccomandiamo di prenotare 2-4 settimane prima, soprattutto durante la stagione di punta dei traslochi (mesi estivi). Tuttavia, molti traslocatori possono accogliere traslochi dell'ultimo minuto entro 48 ore."
+        "answer": "Raccomandiamo di prenotare 2-4 settimane prima, soprattutto durante la stagione di punta dei traslochi (mesi estivi). Tuttavia, possiamo spesso accogliere traslochi dell'ultimo minuto entro 48 ore."
       },
       "q7": {
         "question": "Servite la mia zona?",
-        "answer": "Attualmente serviamo tutte le principali città della Svizzera, tra cui Zurigo, Ginevra, Basilea, Berna, Losanna e Lucerna. Inserisci i tuoi codici postali per vedere i traslocatori disponibili nella tua zona."
+        "answer": "Attualmente serviamo tutte le principali città della Svizzera, tra cui Zurigo, Ginevra, Basilea, Berna, Losanna e Lucerna. Inserisci i tuoi codici postali per verificare se serviamo la tua zona."
       },
       "q8": {
         "question": "Posso riprogrammare il mio trasloco?",
-        "answer": "Sì, la maggior parte dei traslocatori consente la riprogrammazione con un preavviso adeguato (di solito 48-72 ore). Le politiche di cancellazione variano in base al traslocatore, quindi controlla i termini al momento della prenotazione."
+        "answer": "Sì, consentiamo la riprogrammazione con un preavviso adeguato (di solito 48-72 ore). Controlla i nostri termini e condizioni per le politiche di cancellazione dettagliate."
       }
     }
   },
@@ -208,13 +208,13 @@
       "testimonial1": {
         "name": "Klaus Huber",
         "city": "Zurigo",
-        "text": "Traslocare con Multifagro è stato senza problemi. I traslocatori erano professionali, puntuali e hanno gestito tutto con cura. Altamente raccomandato!",
+        "text": "Traslocare con Multifagro è stato senza problemi. Il team era professionale, puntuale e ha gestito tutto con cura. Altamente raccomandato!",
         "date": "2 settimane fa"
       },
       "testimonial2": {
         "name": "Séverine Moreau",
         "city": "Ginevra",
-        "text": "Temevo il trasloco, ma Multifagro l'ha reso così facile! Ho ricevuto più preventivi istantaneamente e ho trovato il traslocatore perfetto nel mio budget.",
+        "text": "Temevo il trasloco, ma Multifagro l'ha reso così facile! Ho ricevuto un preventivo istantaneamente e il servizio era perfetto per il mio budget.",
         "date": "1 mese fa"
       },
       "testimonial3": {
@@ -256,7 +256,7 @@
     "services": {
       "residential": {
         "title": "Traslochi residenziali",
-        "description": "Servizi di trasloco residenziale senza stress con traslocatori esperti che trattano i tuoi beni con cura.",
+        "description": "Servizi di trasloco residenziale senza stress con il nostro team esperto che tratta i tuoi beni con cura.",
         "features": [
           "Imballaggio e disimballaggio completi",
           "Smontaggio e montaggio mobili",
@@ -303,7 +303,7 @@
       "items": {
         "licensed": {
           "title": "Completamente autorizzato e assicurato",
-          "description": "Tutti i nostri traslocatori sono professionisti autorizzati con copertura assicurativa completa."
+          "description": "Il nostro team è composto da professionisti autorizzati con copertura assicurativa completa."
         },
         "pricing": {
           "title": "Prezzi trasparenti",
@@ -311,20 +311,20 @@
         },
         "guarantee": {
           "title": "Garanzia di puntualità",
-          "description": "Valorizziamo il tuo tempo. I nostri traslocatori arrivano in orario, ogni volta."
+          "description": "Valorizziamo il tuo tempo. Il nostro team arriva in orario, ogni volta."
         }
       }
     },
     "cta": {
       "title": "Pronto per iniziare?",
-      "subtitle": "Ottieni preventivi istantanei da traslocatori e prenota il tuo partner di trasloco perfetto oggi",
+      "subtitle": "Ottieni preventivi istantanei e prenota il tuo trasloco oggi",
       "button": "Richiedi preventivi gratuiti"
     }
   },
   "pricingPage": {
     "hero": {
       "title": "Prezzi trasparenti",
-      "subtitle": "Nessun costo nascosto. Ottieni preventivi istantanei e confronta i prezzi dei traslocatori.",
+      "subtitle": "Nessun costo nascosto. Ottieni preventivi istantanei con prezzi trasparenti.",
       "cta": "Ottieni il tuo preventivo gratuito"
     },
     "factors": {
@@ -366,19 +366,19 @@
           "title": "Monolocale/1 camera da letto",
           "local": "CHF 300 - 450",
           "distance": "CHF 800 - 1,400",
-          "features": ["1-2 traslocatori", "Piccolo camion", "3-4 ore", "Assicurazione base"]
+          "features": ["1-2 membri del team", "Piccolo camion", "3-4 ore", "Assicurazione base"]
         },
         "twoBedroom": {
           "title": "2 camere da letto",
           "local": "CHF 450 - 700",
           "distance": "CHF 1,400 - 2,000",
-          "features": ["2-3 traslocatori", "Camion medio", "4-6 ore", "Assicurazione completa"]
+          "features": ["2-3 membri del team", "Camion medio", "4-6 ore", "Assicurazione completa"]
         },
         "threeFourBedroom": {
           "title": "3-4 camere da letto",
           "local": "CHF 700 - 1,100",
           "distance": "CHF 2,000 - 3,200",
-          "features": ["3-4 traslocatori", "Grande camion", "6-8 ore", "Assicurazione premium"]
+          "features": ["3-4 membri del team", "Grande camion", "6-8 ore", "Assicurazione premium"]
         }
       }
     },
@@ -399,26 +399,26 @@
     },
     "cta": {
       "title": "Pronto per il tuo preventivo esatto?",
-      "subtitle": "Ottieni preventivi personalizzati da più traslocatori in pochi minuti — completamente gratuito",
+      "subtitle": "Ottieni preventivi personalizzati in pochi minuti — completamente gratuito",
       "button": "Ottieni preventivi gratuiti ora"
     }
   },
   "aboutPage": {
     "hero": {
       "title": "Rendere i traslochi semplici",
-      "subtitle": "Abbiamo la missione di trasformare l'esperienza di trasloco collegando i clienti con traslocatori professionali fidati in tutta la Svizzera."
+      "subtitle": "Abbiamo la missione di trasformare l'esperienza di trasloco fornendo servizi di trasloco professionali fidati in tutta la Svizzera."
     },
     "stats": {
       "successfulMoves": "Traslochi riusciti",
-      "verifiedPartners": "Partner verificati",
+      "verifiedPartners": "Team professionale",
       "satisfactionRate": "Tasso di soddisfazione",
       "customerSupport": "Supporto clienti"
     },
     "story": {
       "title": "La nostra storia",
       "paragraph1": "Multifagro è nato da una semplice osservazione: i traslochi non dovrebbero essere stressanti. Dopo aver sperimentato in prima persona le sfide del coordinamento dei traslochi, i nostri fondatori hanno capito che doveva esserci un modo migliore.",
-      "paragraph2": "Abbiamo costruito Multifagro per essere la piattaforma fidata che porta trasparenza, scelta e tranquillità in ogni trasloco. Verificando attentamente i nostri partner e fornendo preventivi istantanei, abbiamo aiutato migliaia di famiglie e aziende a traslocare con fiducia.",
-      "paragraph3": "Oggi siamo orgogliosi di essere la principale piattaforma di traslochi in Svizzera, collegando i clienti con i migliori traslocatori professionali del settore. Ma stiamo solo iniziando."
+      "paragraph2": "Abbiamo costruito Multifagro per essere il servizio fidato che porta trasparenza, affidabilità e tranquillità in ogni trasloco. Mantenendo standard elevati e fornendo preventivi istantanei, abbiamo aiutato migliaia di famiglie e aziende a traslocare con fiducia.",
+      "paragraph3": "Oggi siamo orgogliosi di essere il principale fornitore di servizi di trasloco in Svizzera, offrendo servizi di trasloco professionali in tutto il paese. Ma stiamo solo iniziando."
     },
     "mission": {
       "title": "La nostra missione",
@@ -434,7 +434,7 @@
         },
         "trust": {
           "title": "Fiducia e sicurezza",
-          "description": "Verifichiamo ogni partner e assicuriamo una copertura assicurativa completa per la tua protezione."
+          "description": "Assicuriamo una copertura assicurativa completa per la tua protezione."
         },
         "excellence": {
           "title": "Eccellenza",
@@ -472,7 +472,7 @@
   "quotePage": {
     "hero": {
       "title": "Ottieni il tuo preventivo gratuito",
-      "subtitle": "Compila il modulo per ricevere preventivi personalizzati da traslocatori"
+      "subtitle": "Compila il modulo per ricevere il tuo preventivo personalizzato"
     },
     "steps": {
       "details": "Dettagli",
@@ -555,7 +555,7 @@
       "namePlaceholder": "Mario Rossi",
       "emailPlaceholder": "mario@esempio.com",
       "phonePlaceholder": "078 XXX XX XX",
-      "privacyNotice": "Inviando questo modulo, accetti di ricevere preventivi da partner di traslochi verificati. Le tue informazioni sono sicure e non saranno condivise con terze parti."
+      "privacyNotice": "Inviando questo modulo, accetti di ricevere preventivi da Multifagro. Le tue informazioni sono sicure e non saranno condivise con terze parti."
     },
     "validation": {
       "movingFromRequired": "Trasloco da è richiesto",

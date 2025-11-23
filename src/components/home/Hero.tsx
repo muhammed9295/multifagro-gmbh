@@ -115,7 +115,7 @@ const Hero = () => {
             <div className="absolute inset-0 rounded-3xl overflow-hidden shadow-lift">
               <img
                 src={heroImage}
-                alt="Professional movers loading boxes"
+                alt="Professional moving team loading boxes"
                 className="w-full h-full object-cover"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-foreground/10 to-transparent"></div>

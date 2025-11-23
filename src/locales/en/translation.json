@@ -10,10 +10,10 @@
   "hero": {
     "title": "Move with",
     "titleHighlight": "Confidence",
-    "subtitle": "Get instant quotes. Compare prices, read reviews, and book your perfect moving partner in minutes.",
+    "subtitle": "Get instant quotes. Compare prices, read reviews, and book your moving in minutes.",
     "trustBadges": {
       "fullyInsured": "Fully Insured",
-      "verifiedPartners": "Verified Partners",
+      "verifiedPartners": "Professional Team",
       "movesPerMonth": "500+ Moves/Month"
     },
     "form": {
@@ -33,7 +33,7 @@
   },
   "howItWorks": {
     "title": "How It Works",
-    "subtitle": "Getting your perfect moving partner is simple and stress-free",
+    "subtitle": "Getting your move booked is simple and stress-free",
     "steps": {
       "step1": {
         "title": "Request Your Move",
@@ -41,11 +41,11 @@
       },
       "step2": {
         "title": "Compare Offers",
-        "description": "Receive quotes from movers. Compare prices, reviews, and services."
+        "description": "Receive your quote from Multifagro with transparent pricing and service details."
       },
       "step3": {
         "title": "Book & Relax",
-        "description": "Choose your preferred mover and confirm. We'll handle the rest."
+        "description": "Confirm your booking. We'll handle the rest."
       }
     }
   },
@@ -87,15 +87,15 @@
     "items": {
       "insured": {
         "title": "Fully Insured Crews",
-        "description": "All our partner movers are vetted, licensed, and fully insured for your peace of mind."
+        "description": "Our team is licensed, fully insured, and professionally trained for your peace of mind."
       },
       "pricing": {
         "title": "Transparent Pricing",
         "description": "No hidden fees. Get detailed quotes upfront with clear breakdowns of all costs."
       },
       "verified": {
-        "title": "Verified Partners",
-        "description": "Every moving company on our platform is background-checked and customer-reviewed."
+        "title": "Professional Team",
+        "description": "Our team consists of licensed professionals who are background-checked and customer-reviewed."
       },
       "support": {
         "title": "24/7 Support",
@@ -104,7 +104,7 @@
     }
   },
   "footer": {
-    "description": "Professional moving and packing services with transparent pricing and verified partners across Switzerland.",
+    "description": "Professional moving and packing services with transparent pricing across Switzerland.",
     "services": "Services",
     "company": "Company",
     "contactUs": "Contact Us",
@@ -169,35 +169,35 @@
     "items": {
       "q1": {
         "question": "How does Multifagro work?",
-        "answer": "Simply fill out our quick form with your moving details. You'll receive multiple quotes from movers within minutes. Compare prices, read reviews, and book directly through our platform. It's that easy!"
+        "answer": "Simply fill out our quick form with your moving details. You'll receive a detailed quote from Multifagro within minutes. Review the pricing and book directly through our platform. It's that easy!"
       },
       "q2": {
-        "question": "Are the movers insured?",
-        "answer": "Yes! All moving companies on our platform are fully licensed, insured, and background-checked. We only work with professional movers who meet our strict quality standards."
+        "question": "Is Multifagro insured?",
+        "answer": "Yes! Multifagro is fully licensed, insured, and our team members are background-checked. We maintain strict quality standards for all our services."
       },
       "q3": {
         "question": "How much does a move cost?",
-        "answer": "Moving costs vary based on distance, volume, and services needed. Our platform shows transparent pricing from multiple movers so you can compare and choose the best option for your budget. Most local moves range from CHF 300-1,000."
+        "answer": "Moving costs vary based on distance, volume, and services needed. We provide transparent pricing upfront so you know exactly what you'll pay. Most local moves range from CHF 300-1,000."
       },
       "q4": {
         "question": "Can I get help with packing?",
-        "answer": "Absolutely! Many of our partner movers offer professional packing services. You can add packing, unpacking, and packing materials when requesting your quote."
+        "answer": "Absolutely! Multifagro offers professional packing services. You can add packing, unpacking, and packing materials when requesting your quote."
       },
       "q5": {
         "question": "What if something gets damaged?",
-        "answer": "All our movers carry comprehensive insurance. In the rare event of damage, you're fully covered. Simply file a claim through our platform and we'll help facilitate the process."
+        "answer": "Multifagro carries comprehensive insurance. In the rare event of damage, you're fully covered. Simply contact us and we'll help facilitate the process."
       },
       "q6": {
         "question": "How far in advance should I book?",
-        "answer": "We recommend booking 2-4 weeks in advance, especially during peak moving season (summer months). However, many movers can accommodate last-minute moves within 48 hours."
+        "answer": "We recommend booking 2-4 weeks in advance, especially during peak moving season (summer months). However, we can often accommodate last-minute moves within 48 hours."
       },
       "q7": {
         "question": "Do you serve my area?",
-        "answer": "We currently serve all major cities in Switzerland including Zurich, Geneva, Basel, Bern, Lausanne, and Lucerne. Enter your postcodes to see available movers in your area."
+        "answer": "We currently serve all major cities in Switzerland including Zurich, Geneva, Basel, Bern, Lausanne, and Lucerne. Enter your postcodes to check if we serve your area."
       },
       "q8": {
         "question": "Can I reschedule my move?",
-        "answer": "Yes, most movers allow rescheduling with adequate notice (usually 48-72 hours). Cancellation policies vary by mover, so check the terms when booking."
+        "answer": "Yes, we allow rescheduling with adequate notice (usually 48-72 hours). Check our terms and conditions for detailed cancellation policies."
       }
     }
   },
@@ -219,13 +219,13 @@
       "testimonial1": {
         "name": "Klaus Huber",
         "city": "Zurich",
-        "text": "Moving with Multifagro was seamless. The movers were professional, punctual, and handled everything with care. Highly recommended!",
+        "text": "Moving with Multifagro was seamless. The team was professional, punctual, and handled everything with care. Highly recommended!",
         "date": "2 weeks ago"
       },
       "testimonial2": {
         "name": "Séverine Moreau",
         "city": "Geneva",
-        "text": "I was dreading the move, but Multifagro made it so easy! Got multiple quotes instantly and found the perfect mover within my budget.",
+        "text": "I was dreading the move, but Multifagro made it so easy! Got a quote instantly and the service was perfect for my budget.",
         "date": "1 month ago"
       },
       "testimonial3": {
@@ -256,7 +256,7 @@
     "services": {
       "residential": {
         "title": "Residential Moving",
-        "description": "Stress-free home relocation services with experienced movers who treat your belongings with care.",
+        "description": "Stress-free home relocation services with our experienced team who treat your belongings with care.",
         "features": [
           "Complete packing and unpacking",
           "Furniture disassembly and assembly",
@@ -303,7 +303,7 @@
       "items": {
         "licensed": {
           "title": "Fully Licensed & Insured",
-          "description": "All our movers are licensed professionals with comprehensive insurance coverage."
+          "description": "Our team consists of licensed professionals with comprehensive insurance coverage."
         },
         "pricing": {
           "title": "Transparent Pricing",
@@ -311,20 +311,20 @@
         },
         "guarantee": {
           "title": "On-Time Guarantee",
-          "description": "We value your time. Our movers arrive on schedule, every time."
+          "description": "We value your time. Our team arrives on schedule, every time."
         }
       }
     },
     "cta": {
       "title": "Ready to Get Started?",
-      "subtitle": "Get instant quotes from movers and book your perfect moving partner today",
+      "subtitle": "Get instant quotes and book your move today",
       "button": "Request Free Quotes"
     }
   },
   "pricingPage": {
     "hero": {
       "title": "Transparent Pricing",
-      "subtitle": "No hidden fees. Get instant quotes and compare prices from movers.",
+      "subtitle": "No hidden fees. Get instant quotes with transparent pricing.",
       "cta": "Get Your Free Quote"
     },
     "factors": {
@@ -366,19 +366,19 @@
           "title": "Studio/1 Bedroom",
           "local": "CHF 300 - 450",
           "distance": "CHF 800 - 1,400",
-          "features": ["1-2 movers", "Small truck", "3-4 hours", "Basic insurance"]
+          "features": ["1-2 team members", "Small truck", "3-4 hours", "Basic insurance"]
         },
         "twoBedroom": {
           "title": "2 Bedroom",
           "local": "CHF 450 - 700",
           "distance": "CHF 1,400 - 2,000",
-          "features": ["2-3 movers", "Medium truck", "4-6 hours", "Full insurance"]
+          "features": ["2-3 team members", "Medium truck", "4-6 hours", "Full insurance"]
         },
         "threeFourBedroom": {
           "title": "3-4 Bedroom",
           "local": "CHF 700 - 1,100",
           "distance": "CHF 2,000 - 3,200",
-          "features": ["3-4 movers", "Large truck", "6-8 hours", "Premium insurance"]
+          "features": ["3-4 team members", "Large truck", "6-8 hours", "Premium insurance"]
         }
       }
     },
@@ -399,26 +399,26 @@
     },
     "cta": {
       "title": "Ready for Your Exact Quote?",
-      "subtitle": "Get personalized quotes from multiple movers in minutes — completely free",
+      "subtitle": "Get personalized quotes in minutes — completely free",
       "button": "Get Free Quotes Now"
     }
   },
   "aboutPage": {
     "hero": {
       "title": "Making Moving Simple",
-      "subtitle": "We're on a mission to transform the moving experience by connecting customers with trusted, professional movers across Switzerland."
+      "subtitle": "We're on a mission to transform the moving experience by providing trusted, professional moving services across Switzerland."
     },
     "stats": {
       "successfulMoves": "Successful Moves",
-      "verifiedPartners": "Verified Partners",
+      "verifiedPartners": "Professional Team",
       "satisfactionRate": "Satisfaction Rate",
       "customerSupport": "Customer Support"
     },
     "story": {
       "title": "Our Story",
       "paragraph1": "Multifagro was born from a simple observation: moving shouldn't be stressful. After experiencing the challenges of coordinating moves firsthand, our founders realized there had to be a better way.",
-      "paragraph2": "We built Multifagro to be the trusted platform that brings transparency, choice, and peace of mind to every move. By carefully vetting our partners and providing instant quotes, we've helped thousands of families and businesses relocate with confidence.",
-      "paragraph3": "Today, we're proud to be Switzerland's leading moving marketplace, connecting customers with the best professional movers in the industry. But we're just getting started."
+      "paragraph2": "We built Multifagro to be the trusted service that brings transparency, reliability, and peace of mind to every move. By maintaining high standards and providing instant quotes, we've helped thousands of families and businesses relocate with confidence.",
+      "paragraph3": "Today, we're proud to be Switzerland's leading moving service provider, delivering professional moving services across the country. But we're just getting started."
     },
     "mission": {
       "title": "Our Mission",
@@ -446,8 +446,8 @@
       "title": "How We're Different",
       "items": {
         "verified": {
-          "title": "Verified Partners Only",
-          "description": "Every moving company is thoroughly vetted, licensed, and insured before joining our platform."
+          "title": "Professional Team",
+          "description": "Our team is thoroughly vetted, licensed, and insured. We maintain the highest standards for all our services."
         },
         "transparent": {
           "title": "Transparent Pricing",
@@ -555,7 +555,7 @@
       "namePlaceholder": "John Doe",
       "emailPlaceholder": "ahmed@example.com",
       "phonePlaceholder": "078 XXX XX XX",
-      "privacyNotice": "By submitting this form, you agree to receive quotes from verified moving partners. Your information is secure and will not be shared with third parties."
+      "privacyNotice": "By submitting this form, you agree to receive quotes from Multifagro. Your information is secure and will not be shared with third parties."
     },
     "validation": {
       "movingFromRequired": "Moving from is required",

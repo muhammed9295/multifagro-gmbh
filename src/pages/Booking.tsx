@@ -145,7 +145,7 @@ const Booking = () => {
               <div className="bg-background rounded-2xl p-6 lg:p-8 shadow-soft border border-border">
                 <h2 className="text-xl font-heading font-semibold text-foreground mb-6 flex items-center">
                   <Package className="h-5 w-5 mr-2 text-primary" />
-                  Your Selected Mover
+                  Your Selected Service
                 </h2>
                 
                 <div className="flex items-center space-x-4">

@@ -115,7 +115,7 @@ const Quote = () => {
     
     const mockOffer = {
       id: 1,
-      company: "Royal Movers",
+      company: "Multifagro",
       rating: 4.9,
       reviews: 342,
       price: basePrice,

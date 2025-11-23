@@ -10,10 +10,10 @@
   "hero": {
     "title": "Déménagez avec",
     "titleHighlight": "Confiance",
-    "subtitle": "Obtenez des devis instantanés. Comparez les prix, lisez les avis et réservez votre partenaire de déménagement idéal en quelques minutes.",
+    "subtitle": "Obtenez des devis instantanés. Comparez les prix, lisez les avis et réservez votre déménagement en quelques minutes.",
     "trustBadges": {
       "fullyInsured": "Entièrement assuré",
-      "verifiedPartners": "Partenaires vérifiés",
+      "verifiedPartners": "Équipe professionnelle",
       "movesPerMonth": "500+ déménagements/mois"
     },
     "form": {
@@ -33,7 +33,7 @@
   },
   "howItWorks": {
     "title": "Comment ça marche",
-    "subtitle": "Trouver votre partenaire de déménagement idéal est simple et sans stress",
+    "subtitle": "Réserver votre déménagement est simple et sans stress",
     "steps": {
       "step1": {
         "title": "Demandez votre déménagement",
@@ -41,11 +41,11 @@
       },
       "step2": {
         "title": "Comparez les offres",
-        "description": "Recevez des devis de déménageurs. Comparez les prix, les avis et les services."
+        "description": "Recevez votre devis de Multifagro avec des prix transparents et des détails de service."
       },
       "step3": {
         "title": "Réservez et détendez-vous",
-        "description": "Choisissez votre déménageur préféré et confirmez. Nous nous occupons du reste."
+        "description": "Confirmez votre réservation. Nous nous occupons du reste."
       }
     }
   },
@@ -87,15 +87,15 @@
     "items": {
       "insured": {
         "title": "Équipes entièrement assurées",
-        "description": "Tous nos déménageurs partenaires sont vérifiés, autorisés et entièrement assurés pour votre tranquillité d'esprit."
+        "description": "Notre équipe est autorisée, entièrement assurée et professionnellement formée pour votre tranquillité d'esprit."
       },
       "pricing": {
         "title": "Tarification transparente",
         "description": "Aucun frais caché. Obtenez des devis détaillés à l'avance avec des répartitions claires de tous les coûts."
       },
       "verified": {
-        "title": "Partenaires vérifiés",
-        "description": "Chaque entreprise de déménagement sur notre plateforme est vérifiée et évaluée par les clients."
+        "title": "Équipe professionnelle",
+        "description": "Notre équipe est composée de professionnels autorisés qui sont vérifiés et évalués par les clients."
       },
       "support": {
         "title": "Support 24/7",
@@ -104,7 +104,7 @@
     }
   },
   "footer": {
-    "description": "Services professionnels de déménagement et d'emballage avec tarification transparente et partenaires vérifiés dans toute la Suisse.",
+    "description": "Services professionnels de déménagement et d'emballage avec tarification transparente dans toute la Suisse.",
     "services": "Services",
     "company": "Entreprise",
     "contactUs": "Contactez-nous",
@@ -169,35 +169,35 @@
     "items": {
       "q1": {
         "question": "Comment fonctionne Multifagro ?",
-        "answer": "Remplissez simplement notre formulaire rapide avec les détails de votre déménagement. Vous recevrez plusieurs devis de déménageurs en quelques minutes. Comparez les prix, lisez les avis et réservez directement via notre plateforme. C'est aussi simple que ça !"
+        "answer": "Remplissez simplement notre formulaire rapide avec les détails de votre déménagement. Vous recevrez un devis détaillé de Multifagro en quelques minutes. Examinez les prix et réservez directement via notre plateforme. C'est aussi simple que ça !"
       },
       "q2": {
-        "question": "Les déménageurs sont-ils assurés ?",
-        "answer": "Oui ! Toutes les entreprises de déménagement sur notre plateforme sont entièrement autorisées, assurées et vérifiées. Nous ne travaillons qu'avec des déménageurs professionnels qui répondent à nos normes de qualité strictes."
+        "question": "Multifagro est-il assuré ?",
+        "answer": "Oui ! Multifagro est entièrement autorisé, assuré et nos membres de l'équipe sont vérifiés. Nous maintenons des normes de qualité strictes pour tous nos services."
       },
       "q3": {
         "question": "Combien coûte un déménagement ?",
-        "answer": "Les coûts de déménagement varient selon la distance, le volume et les services nécessaires. Notre plateforme affiche des prix transparents de plusieurs déménageurs afin que vous puissiez comparer et choisir la meilleure option pour votre budget. La plupart des déménagements locaux coûtent entre 300 et 1 000 CHF."
+        "answer": "Les coûts de déménagement varient selon la distance, le volume et les services nécessaires. Nous fournissons des prix transparents à l'avance afin que vous sachiez exactement ce que vous paierez. La plupart des déménagements locaux coûtent entre 300 et 1 000 CHF."
       },
       "q4": {
         "question": "Puis-je obtenir de l'aide pour l'emballage ?",
-        "answer": "Absolument ! Beaucoup de nos déménageurs partenaires offrent des services d'emballage professionnels. Vous pouvez ajouter l'emballage, le déballage et les matériaux d'emballage lors de la demande de devis."
+        "answer": "Absolument ! Multifagro offre des services d'emballage professionnels. Vous pouvez ajouter l'emballage, le déballage et les matériaux d'emballage lors de la demande de devis."
       },
       "q5": {
         "question": "Et si quelque chose est endommagé ?",
-        "answer": "Tous nos déménageurs ont une assurance complète. En cas de dommage rare, vous êtes entièrement couvert. Déposez simplement une réclamation via notre plateforme et nous vous aiderons à faciliter le processus."
+        "answer": "Multifagro a une assurance complète. En cas de dommage rare, vous êtes entièrement couvert. Contactez-nous simplement et nous vous aiderons à faciliter le processus."
       },
       "q6": {
         "question": "Combien de temps à l'avance dois-je réserver ?",
-        "answer": "Nous recommandons de réserver 2 à 4 semaines à l'avance, surtout pendant la haute saison de déménagement (mois d'été). Cependant, de nombreux déménageurs peuvent accommoder des déménagements de dernière minute dans les 48 heures."
+        "answer": "Nous recommandons de réserver 2 à 4 semaines à l'avance, surtout pendant la haute saison de déménagement (mois d'été). Cependant, nous pouvons souvent accommoder des déménagements de dernière minute dans les 48 heures."
       },
       "q7": {
         "question": "Desservez-vous ma région ?",
-        "answer": "Nous desservons actuellement toutes les grandes villes de Suisse, notamment Zurich, Genève, Bâle, Berne, Lausanne et Lucerne. Entrez vos codes postaux pour voir les déménageurs disponibles dans votre région."
+        "answer": "Nous desservons actuellement toutes les grandes villes de Suisse, notamment Zurich, Genève, Bâle, Berne, Lausanne et Lucerne. Entrez vos codes postaux pour vérifier si nous desservons votre région."
       },
       "q8": {
         "question": "Puis-je reporter mon déménagement ?",
-        "answer": "Oui, la plupart des déménageurs permettent de reporter avec un préavis suffisant (généralement 48 à 72 heures). Les politiques d'annulation varient selon le déménageur, alors vérifiez les conditions lors de la réservation."
+        "answer": "Oui, nous permettons de reporter avec un préavis suffisant (généralement 48 à 72 heures). Vérifiez nos conditions générales pour les politiques d'annulation détaillées."
       }
     }
   },
@@ -208,13 +208,13 @@
       "testimonial1": {
         "name": "Klaus Huber",
         "city": "Zurich",
-        "text": "Déménager avec Multifagro a été sans accroc. Les déménageurs étaient professionnels, ponctuels et ont tout géré avec soin. Fortement recommandé !",
+        "text": "Déménager avec Multifagro a été sans accroc. L'équipe était professionnelle, ponctuelle et a tout géré avec soin. Fortement recommandé !",
         "date": "il y a 2 semaines"
       },
       "testimonial2": {
         "name": "Séverine Moreau",
         "city": "Genève",
-        "text": "Je redoutais le déménagement, mais Multifagro l'a rendu si facile ! J'ai reçu plusieurs devis instantanément et trouvé le déménageur parfait dans mon budget.",
+        "text": "Je redoutais le déménagement, mais Multifagro l'a rendu si facile ! J'ai reçu un devis instantanément et le service était parfait pour mon budget.",
         "date": "il y a 1 mois"
       },
       "testimonial3": {
@@ -256,7 +256,7 @@
     "services": {
       "residential": {
         "title": "Déménagement résidentiel",
-        "description": "Services de déménagement résidentiel sans stress avec des déménageurs expérimentés qui traitent vos biens avec soin.",
+        "description": "Services de déménagement résidentiel sans stress avec notre équipe expérimentée qui traite vos biens avec soin.",
         "features": [
           "Emballage et déballage complets",
           "Démontage et montage de meubles",
@@ -303,7 +303,7 @@
       "items": {
         "licensed": {
           "title": "Entièrement autorisé et assuré",
-          "description": "Tous nos déménageurs sont des professionnels autorisés avec une couverture d'assurance complète."
+          "description": "Notre équipe est composée de professionnels autorisés avec une couverture d'assurance complète."
         },
         "pricing": {
           "title": "Tarification transparente",
@@ -311,20 +311,20 @@
         },
         "guarantee": {
           "title": "Garantie de ponctualité",
-          "description": "Nous valorisons votre temps. Nos déménageurs arrivent à l'heure, à chaque fois."
+          "description": "Nous valorisons votre temps. Notre équipe arrive à l'heure, à chaque fois."
         }
       }
     },
     "cta": {
       "title": "Prêt à commencer ?",
-      "subtitle": "Obtenez des devis instantanés de déménageurs et réservez votre partenaire de déménagement idéal aujourd'hui",
+      "subtitle": "Obtenez des devis instantanés et réservez votre déménagement aujourd'hui",
       "button": "Demander des devis gratuits"
     }
   },
   "pricingPage": {
     "hero": {
       "title": "Tarification transparente",
-      "subtitle": "Pas de frais cachés. Obtenez des devis instantanés et comparez les prix des déménageurs.",
+      "subtitle": "Pas de frais cachés. Obtenez des devis instantanés avec des prix transparents.",
       "cta": "Obtenez votre devis gratuit"
     },
     "factors": {
@@ -366,19 +366,19 @@
           "title": "Studio/1 chambre",
           "local": "CHF 300 - 450",
           "distance": "CHF 800 - 1,400",
-          "features": ["1-2 déménageurs", "Petit camion", "3-4 heures", "Assurance de base"]
+          "features": ["1-2 membres d'équipe", "Petit camion", "3-4 heures", "Assurance de base"]
         },
         "twoBedroom": {
           "title": "2 chambres",
           "local": "CHF 450 - 700",
           "distance": "CHF 1,400 - 2,000",
-          "features": ["2-3 déménageurs", "Camion moyen", "4-6 heures", "Assurance complète"]
+          "features": ["2-3 membres d'équipe", "Camion moyen", "4-6 heures", "Assurance complète"]
         },
         "threeFourBedroom": {
           "title": "3-4 chambres",
           "local": "CHF 700 - 1,100",
           "distance": "CHF 2,000 - 3,200",
-          "features": ["3-4 déménageurs", "Grand camion", "6-8 heures", "Assurance premium"]
+          "features": ["3-4 membres d'équipe", "Grand camion", "6-8 heures", "Assurance premium"]
         }
       }
     },
@@ -399,26 +399,26 @@
     },
     "cta": {
       "title": "Prêt pour votre devis exact ?",
-      "subtitle": "Obtenez des devis personnalisés de plusieurs déménageurs en quelques minutes — entièrement gratuit",
+      "subtitle": "Obtenez des devis personnalisés en quelques minutes — entièrement gratuit",
       "button": "Obtenir des devis gratuits maintenant"
     }
   },
   "aboutPage": {
     "hero": {
       "title": "Rendre le déménagement simple",
-      "subtitle": "Nous avons pour mission de transformer l'expérience de déménagement en connectant les clients avec des déménageurs professionnels de confiance dans toute la Suisse."
+      "subtitle": "Nous avons pour mission de transformer l'expérience de déménagement en fournissant des services de déménagement professionnels de confiance dans toute la Suisse."
     },
     "stats": {
       "successfulMoves": "Déménagements réussis",
-      "verifiedPartners": "Partenaires vérifiés",
+      "verifiedPartners": "Équipe professionnelle",
       "satisfactionRate": "Taux de satisfaction",
       "customerSupport": "Support client"
     },
     "story": {
       "title": "Notre histoire",
       "paragraph1": "Multifagro est né d'une simple observation : le déménagement ne devrait pas être stressant. Après avoir vécu les défis de la coordination des déménagements de première main, nos fondateurs ont réalisé qu'il devait y avoir une meilleure façon.",
-      "paragraph2": "Nous avons construit Multifagro pour être la plateforme de confiance qui apporte transparence, choix et tranquillité d'esprit à chaque déménagement. En vérifiant soigneusement nos partenaires et en fournissant des devis instantanés, nous avons aidé des milliers de familles et d'entreprises à déménager en toute confiance.",
-      "paragraph3": "Aujourd'hui, nous sommes fiers d'être la principale place de marché de déménagement en Suisse, connectant les clients avec les meilleurs déménageurs professionnels de l'industrie. Mais nous ne faisons que commencer."
+      "paragraph2": "Nous avons construit Multifagro pour être le service de confiance qui apporte transparence, fiabilité et tranquillité d'esprit à chaque déménagement. En maintenant des normes élevées et en fournissant des devis instantanés, nous avons aidé des milliers de familles et d'entreprises à déménager en toute confiance.",
+      "paragraph3": "Aujourd'hui, nous sommes fiers d'être le principal fournisseur de services de déménagement en Suisse, offrant des services de déménagement professionnels dans tout le pays. Mais nous ne faisons que commencer."
     },
     "mission": {
       "title": "Notre mission",
@@ -434,7 +434,7 @@
         },
         "trust": {
           "title": "Confiance et sécurité",
-          "description": "Nous vérifions chaque partenaire et assurons une couverture d'assurance complète pour votre protection."
+          "description": "Nous assurons une couverture d'assurance complète pour votre protection."
         },
         "excellence": {
           "title": "Excellence",
@@ -472,7 +472,7 @@
   "quotePage": {
     "hero": {
       "title": "Obtenez votre devis gratuit",
-      "subtitle": "Remplissez le formulaire pour recevoir des devis personnalisés de déménageurs"
+      "subtitle": "Remplissez le formulaire pour recevoir votre devis personnalisé"
     },
     "steps": {
       "details": "Détails",
@@ -555,7 +555,7 @@
       "namePlaceholder": "Jean Dupont",
       "emailPlaceholder": "jean@exemple.com",
       "phonePlaceholder": "078 XXX XX XX",
-      "privacyNotice": "En soumettant ce formulaire, vous acceptez de recevoir des devis de partenaires de déménagement vérifiés. Vos informations sont sécurisées et ne seront pas partagées avec des tiers."
+      "privacyNotice": "En soumettant ce formulaire, vous acceptez de recevoir des devis de Multifagro. Vos informations sont sécurisées et ne seront pas partagées avec des tiers."
     },
     "validation": {
       "movingFromRequired": "Déménager de est requis",
