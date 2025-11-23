@@ -168,6 +168,81 @@
       "button": "Visualizza FAQ"
     }
   },
+  "faq": {
+    "title": "Domande frequenti",
+    "subtitle": "Hai domande? Abbiamo risposte.",
+    "stillHaveQuestions": "Hai ancora domande?",
+    "contactSupport": "Contatta il nostro team di supporto",
+    "items": {
+      "q1": {
+        "question": "Come funziona Multifagro?",
+        "answer": "Compila semplicemente il nostro modulo rapido con i dettagli del tuo trasloco. Riceverai più preventivi da traslocatori verificati in pochi minuti. Confronta i prezzi, leggi le recensioni e prenota direttamente tramite la nostra piattaforma. È così semplice!"
+      },
+      "q2": {
+        "question": "I traslocatori sono assicurati?",
+        "answer": "Sì! Tutte le aziende di traslochi sulla nostra piattaforma sono completamente autorizzate, assicurate e verificate. Lavoriamo solo con traslocatori professionisti che soddisfano i nostri rigorosi standard di qualità."
+      },
+      "q3": {
+        "question": "Quanto costa un trasloco?",
+        "answer": "I costi del trasloco variano in base alla distanza, al volume e ai servizi necessari. La nostra piattaforma mostra prezzi trasparenti da più traslocatori in modo da poter confrontare e scegliere l'opzione migliore per il tuo budget. La maggior parte dei traslochi locali costa tra CHF 300-1.000."
+      },
+      "q4": {
+        "question": "Posso ottenere aiuto con l'imballaggio?",
+        "answer": "Assolutamente! Molti dei nostri partner traslocatori offrono servizi di imballaggio professionali. Puoi aggiungere imballaggio, disimballaggio e materiali di imballaggio quando richiedi il preventivo."
+      },
+      "q5": {
+        "question": "E se qualcosa viene danneggiato?",
+        "answer": "Tutti i nostri traslocatori hanno un'assicurazione completa. Nel raro caso di danni, sei completamente coperto. Presenta semplicemente un reclamo tramite la nostra piattaforma e ti aiuteremo a facilitare il processo."
+      },
+      "q6": {
+        "question": "Con quanto anticipo dovrei prenotare?",
+        "answer": "Raccomandiamo di prenotare 2-4 settimane prima, soprattutto durante la stagione di punta dei traslochi (mesi estivi). Tuttavia, molti traslocatori possono accogliere traslochi dell'ultimo minuto entro 48 ore."
+      },
+      "q7": {
+        "question": "Servite la mia zona?",
+        "answer": "Attualmente serviamo tutte le principali città della Svizzera, tra cui Zurigo, Ginevra, Basilea, Berna, Losanna e Lucerna. Inserisci i tuoi codici postali per vedere i traslocatori disponibili nella tua zona."
+      },
+      "q8": {
+        "question": "Posso riprogrammare il mio trasloco?",
+        "answer": "Sì, la maggior parte dei traslocatori consente la riprogrammazione con un preavviso adeguato (di solito 48-72 ore). Le politiche di cancellazione variano in base al traslocatore, quindi controlla i termini al momento della prenotazione."
+      }
+    }
+  },
+  "testimonials": {
+    "title": "Cosa dicono i nostri clienti",
+    "subtitle": "Unisciti a migliaia di clienti soddisfatti che si sono fidati di noi per il loro trasloco",
+    "items": {
+      "testimonial1": {
+        "name": "Klaus Huber",
+        "city": "Zurigo",
+        "text": "Traslocare con Multifagro è stato senza problemi. I traslocatori erano professionali, puntuali e hanno gestito tutto con cura. Altamente raccomandato!",
+        "date": "2 settimane fa"
+      },
+      "testimonial2": {
+        "name": "Séverine Moreau",
+        "city": "Ginevra",
+        "text": "Temevo il trasloco, ma Multifagro l'ha reso così facile! Ho ricevuto più preventivi istantaneamente e ho trovato il traslocatore perfetto nel mio budget.",
+        "date": "1 mese fa"
+      },
+      "testimonial3": {
+        "name": "Giovanna Bianchi",
+        "city": "Zurigo",
+        "text": "Servizio eccellente dall'inizio alla fine. Il team di imballaggio è stato meticoloso e nulla è stato danneggiato. La migliore esperienza di trasloco mai vissuta.",
+        "date": "3 settimane fa"
+      },
+      "testimonial4": {
+        "name": "Dr. Anja Keller",
+        "city": "Basilea",
+        "text": "Professionale, affidabile e conveniente. Il team di supporto clienti era sempre disponibile per rispondere alle mie domande. Grazie Multifagro!",
+        "date": "2 mesi fa"
+      }
+    },
+    "stats": {
+      "averageRating": "Valutazione media",
+      "happyCustomers": "Clienti soddisfatti",
+      "wouldRecommend": "Consiglierebbe"
+    }
+  },
   "servicesPage": {
     "hero": {
       "title": "Servizi di trasloco completi",

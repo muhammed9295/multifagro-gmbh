@@ -168,6 +168,81 @@
       "button": "FAQ anzeigen"
     }
   },
+  "faq": {
+    "title": "Häufig gestellte Fragen",
+    "subtitle": "Haben Sie Fragen? Wir haben Antworten.",
+    "stillHaveQuestions": "Haben Sie noch Fragen?",
+    "contactSupport": "Kontaktieren Sie unser Support-Team",
+    "items": {
+      "q1": {
+        "question": "Wie funktioniert Multifagro?",
+        "answer": "Füllen Sie einfach unser schnelles Formular mit Ihren Umzugsdetails aus. Sie erhalten innerhalb von Minuten mehrere Angebote von geprüften Umzugsunternehmen. Vergleichen Sie Preise, lesen Sie Bewertungen und buchen Sie direkt über unsere Plattform. So einfach ist das!"
+      },
+      "q2": {
+        "question": "Sind die Umzugsunternehmen versichert?",
+        "answer": "Ja! Alle Umzugsunternehmen auf unserer Plattform sind vollständig lizenziert, versichert und überprüft. Wir arbeiten nur mit professionellen Umzugsunternehmen zusammen, die unsere strengen Qualitätsstandards erfüllen."
+      },
+      "q3": {
+        "question": "Wie viel kostet ein Umzug?",
+        "answer": "Die Umzugskosten variieren je nach Entfernung, Volumen und benötigten Dienstleistungen. Unsere Plattform zeigt transparente Preise von mehreren Umzugsunternehmen, sodass Sie vergleichen und die beste Option für Ihr Budget wählen können. Die meisten lokalen Umzüge liegen zwischen CHF 300-1.000."
+      },
+      "q4": {
+        "question": "Kann ich Hilfe beim Verpacken bekommen?",
+        "answer": "Absolut! Viele unserer Partner-Umzugsunternehmen bieten professionelle Verpackungsdienstleistungen an. Sie können Verpackung, Auspackung und Verpackungsmaterialien hinzufügen, wenn Sie Ihr Angebot anfordern."
+      },
+      "q5": {
+        "question": "Was ist, wenn etwas beschädigt wird?",
+        "answer": "Alle unsere Umzugsunternehmen verfügen über eine umfassende Versicherung. Im seltenen Fall einer Beschädigung sind Sie vollständig abgedeckt. Reichen Sie einfach eine Schadensmeldung über unsere Plattform ein und wir helfen Ihnen bei der Abwicklung."
+      },
+      "q6": {
+        "question": "Wie weit im Voraus sollte ich buchen?",
+        "answer": "Wir empfehlen, 2-4 Wochen im Voraus zu buchen, insbesondere während der Hauptumzugssaison (Sommermonate). Viele Umzugsunternehmen können jedoch auch Last-Minute-Umzüge innerhalb von 48 Stunden durchführen."
+      },
+      "q7": {
+        "question": "Bedienen Sie mein Gebiet?",
+        "answer": "Wir bedienen derzeit alle großen Städte in der Schweiz, einschließlich Zürich, Genf, Basel, Bern, Lausanne und Luzern. Geben Sie Ihre Postleitzahlen ein, um verfügbare Umzugsunternehmen in Ihrer Nähe zu sehen."
+      },
+      "q8": {
+        "question": "Kann ich meinen Umzug umbuchen?",
+        "answer": "Ja, die meisten Umzugsunternehmen erlauben eine Umbuchung mit angemessener Vorankündigung (normalerweise 48-72 Stunden). Die Stornierungsrichtlinien variieren je nach Umzugsunternehmen, daher sollten Sie die Bedingungen bei der Buchung überprüfen."
+      }
+    }
+  },
+  "testimonials": {
+    "title": "Was unsere Kunden sagen",
+    "subtitle": "Schließen Sie sich Tausenden von zufriedenen Kunden an, die uns mit ihrem Umzug vertraut haben",
+    "items": {
+      "testimonial1": {
+        "name": "Klaus Huber",
+        "city": "Zürich",
+        "text": "Der Umzug mit Multifagro war nahtlos. Die Umzugsunternehmen waren professionell, pünktlich und haben alles mit Sorgfalt behandelt. Sehr empfehlenswert!",
+        "date": "vor 2 Wochen"
+      },
+      "testimonial2": {
+        "name": "Séverine Moreau",
+        "city": "Genf",
+        "text": "Ich hatte Angst vor dem Umzug, aber Multifagro hat es so einfach gemacht! Habe sofort mehrere Angebote erhalten und den perfekten Umzugsunternehmen innerhalb meines Budgets gefunden.",
+        "date": "vor 1 Monat"
+      },
+      "testimonial3": {
+        "name": "Giovanna Bianchi",
+        "city": "Zürich",
+        "text": "Ausgezeichneter Service von Anfang bis Ende. Das Verpackungsteam war sorgfältig und nichts wurde beschädigt. Beste Umzugserfahrung überhaupt.",
+        "date": "vor 3 Wochen"
+      },
+      "testimonial4": {
+        "name": "Dr. Anja Keller",
+        "city": "Basel",
+        "text": "Professionell, zuverlässig und erschwinglich. Das Kundensupport-Team war immer verfügbar, um meine Fragen zu beantworten. Vielen Dank Multifagro!",
+        "date": "vor 2 Monaten"
+      }
+    },
+    "stats": {
+      "averageRating": "Durchschnittliche Bewertung",
+      "happyCustomers": "Zufriedene Kunden",
+      "wouldRecommend": "Würden empfehlen"
+    }
+  },
   "servicesPage": {
     "hero": {
       "title": "Umfassende Umzugsdienstleistungen",

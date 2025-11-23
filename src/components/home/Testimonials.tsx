@@ -1,38 +1,40 @@
 import { useState } from "react";
 import { Star, ChevronLeft, ChevronRight, Quote } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import { useTranslation } from "react-i18next";
 
 const Testimonials = () => {
+  const { t } = useTranslation();
   const [currentIndex, setCurrentIndex] = useState(0);
 
   const testimonials = [
     {
-      name: "Klaus Huber",
-      city: "Zurich",
+      name: t("testimonials.items.testimonial1.name"),
+      city: t("testimonials.items.testimonial1.city"),
       rating: 5,
-      text: "Moving with Multifagro was seamless. The movers were professional, punctual, and handled everything with care. Highly recommended!",
-      date: "2 weeks ago",
+      text: t("testimonials.items.testimonial1.text"),
+      date: t("testimonials.items.testimonial1.date"),
     },
     {
-      name: "Séverine Moreau",
-      city: "Geneva",
+      name: t("testimonials.items.testimonial2.name"),
+      city: t("testimonials.items.testimonial2.city"),
       rating: 5,
-      text: "I was dreading the move, but Multifagro made it so easy! Got multiple quotes instantly and found the perfect mover within my budget.",
-      date: "1 month ago",
+      text: t("testimonials.items.testimonial2.text"),
+      date: t("testimonials.items.testimonial2.date"),
     },
     {
-      name: "Giovanna Bianchi",
-      city: "Zurich",
+      name: t("testimonials.items.testimonial3.name"),
+      city: t("testimonials.items.testimonial3.city"),
       rating: 5,
-      text: "Excellent service from start to finish. The packing team was meticulous, and nothing was damaged. Best moving experience ever.",
-      date: "3 weeks ago",
+      text: t("testimonials.items.testimonial3.text"),
+      date: t("testimonials.items.testimonial3.date"),
     },
     {
-      name: "Dr. Anja Keller",
-      city: "Basel",
+      name: t("testimonials.items.testimonial4.name"),
+      city: t("testimonials.items.testimonial4.city"),
       rating: 5,
-      text: "Professional, reliable, and affordable. The customer support team was always available to answer my questions. Thank you Multifagro!",
-      date: "2 months ago",
+      text: t("testimonials.items.testimonial4.text"),
+      date: t("testimonials.items.testimonial4.date"),
     },
   ];
 
@@ -50,10 +52,10 @@ const Testimonials = () => {
         {/* Section Header */}
         <div className="text-center space-y-4 mb-16">
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-heading font-bold text-foreground">
-            What Our Customers Say
+            {t("testimonials.title")}
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            Join thousands of satisfied customers who trusted us with their move
+            {t("testimonials.subtitle")}
           </p>
         </div>
 
@@ -131,15 +133,15 @@ const Testimonials = () => {
           <div className="grid grid-cols-3 gap-4 mt-12">
             <div className="text-center">
               <div className="text-3xl font-heading font-bold text-primary">4.9/5</div>
-              <div className="text-sm text-muted-foreground">Average Rating</div>
+              <div className="text-sm text-muted-foreground">{t("testimonials.stats.averageRating")}</div>
             </div>
             <div className="text-center">
               <div className="text-3xl font-heading font-bold text-primary">500+</div>
-              <div className="text-sm text-muted-foreground">Happy Customers</div>
+              <div className="text-sm text-muted-foreground">{t("testimonials.stats.happyCustomers")}</div>
             </div>
             <div className="text-center">
               <div className="text-3xl font-heading font-bold text-primary">98%</div>
-              <div className="text-sm text-muted-foreground">Would Recommend</div>
+              <div className="text-sm text-muted-foreground">{t("testimonials.stats.wouldRecommend")}</div>
             </div>
           </div>
         </div>

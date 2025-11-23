@@ -220,6 +220,41 @@
     "button": "Get Your Free Quotes Now",
     "trustText": "No credit card required • Takes less than 2 minutes • 100% free"
   },
+  "testimonials": {
+    "title": "What Our Customers Say",
+    "subtitle": "Join thousands of satisfied customers who trusted us with their move",
+    "items": {
+      "testimonial1": {
+        "name": "Klaus Huber",
+        "city": "Zurich",
+        "text": "Moving with Multifagro was seamless. The movers were professional, punctual, and handled everything with care. Highly recommended!",
+        "date": "2 weeks ago"
+      },
+      "testimonial2": {
+        "name": "Séverine Moreau",
+        "city": "Geneva",
+        "text": "I was dreading the move, but Multifagro made it so easy! Got multiple quotes instantly and found the perfect mover within my budget.",
+        "date": "1 month ago"
+      },
+      "testimonial3": {
+        "name": "Giovanna Bianchi",
+        "city": "Zurich",
+        "text": "Excellent service from start to finish. The packing team was meticulous, and nothing was damaged. Best moving experience ever.",
+        "date": "3 weeks ago"
+      },
+      "testimonial4": {
+        "name": "Dr. Anja Keller",
+        "city": "Basel",
+        "text": "Professional, reliable, and affordable. The customer support team was always available to answer my questions. Thank you Multifagro!",
+        "date": "2 months ago"
+      }
+    },
+    "stats": {
+      "averageRating": "Average Rating",
+      "happyCustomers": "Happy Customers",
+      "wouldRecommend": "Would Recommend"
+    }
+  },
   "servicesPage": {
     "hero": {
       "title": "Comprehensive Moving Services",

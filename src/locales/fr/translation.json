@@ -168,6 +168,81 @@
       "button": "Voir la FAQ"
     }
   },
+  "faq": {
+    "title": "Questions fréquemment posées",
+    "subtitle": "Vous avez des questions ? Nous avons des réponses.",
+    "stillHaveQuestions": "Vous avez encore des questions ?",
+    "contactSupport": "Contactez notre équipe de support",
+    "items": {
+      "q1": {
+        "question": "Comment fonctionne Multifagro ?",
+        "answer": "Remplissez simplement notre formulaire rapide avec les détails de votre déménagement. Vous recevrez plusieurs devis de déménageurs vérifiés en quelques minutes. Comparez les prix, lisez les avis et réservez directement via notre plateforme. C'est aussi simple que ça !"
+      },
+      "q2": {
+        "question": "Les déménageurs sont-ils assurés ?",
+        "answer": "Oui ! Toutes les entreprises de déménagement sur notre plateforme sont entièrement autorisées, assurées et vérifiées. Nous ne travaillons qu'avec des déménageurs professionnels qui répondent à nos normes de qualité strictes."
+      },
+      "q3": {
+        "question": "Combien coûte un déménagement ?",
+        "answer": "Les coûts de déménagement varient selon la distance, le volume et les services nécessaires. Notre plateforme affiche des prix transparents de plusieurs déménageurs afin que vous puissiez comparer et choisir la meilleure option pour votre budget. La plupart des déménagements locaux coûtent entre 300 et 1 000 CHF."
+      },
+      "q4": {
+        "question": "Puis-je obtenir de l'aide pour l'emballage ?",
+        "answer": "Absolument ! Beaucoup de nos déménageurs partenaires offrent des services d'emballage professionnels. Vous pouvez ajouter l'emballage, le déballage et les matériaux d'emballage lors de la demande de devis."
+      },
+      "q5": {
+        "question": "Et si quelque chose est endommagé ?",
+        "answer": "Tous nos déménageurs ont une assurance complète. En cas de dommage rare, vous êtes entièrement couvert. Déposez simplement une réclamation via notre plateforme et nous vous aiderons à faciliter le processus."
+      },
+      "q6": {
+        "question": "Combien de temps à l'avance dois-je réserver ?",
+        "answer": "Nous recommandons de réserver 2 à 4 semaines à l'avance, surtout pendant la haute saison de déménagement (mois d'été). Cependant, de nombreux déménageurs peuvent accommoder des déménagements de dernière minute dans les 48 heures."
+      },
+      "q7": {
+        "question": "Desservez-vous ma région ?",
+        "answer": "Nous desservons actuellement toutes les grandes villes de Suisse, notamment Zurich, Genève, Bâle, Berne, Lausanne et Lucerne. Entrez vos codes postaux pour voir les déménageurs disponibles dans votre région."
+      },
+      "q8": {
+        "question": "Puis-je reporter mon déménagement ?",
+        "answer": "Oui, la plupart des déménageurs permettent de reporter avec un préavis suffisant (généralement 48 à 72 heures). Les politiques d'annulation varient selon le déménageur, alors vérifiez les conditions lors de la réservation."
+      }
+    }
+  },
+  "testimonials": {
+    "title": "Ce que disent nos clients",
+    "subtitle": "Rejoignez des milliers de clients satisfaits qui nous ont fait confiance pour leur déménagement",
+    "items": {
+      "testimonial1": {
+        "name": "Klaus Huber",
+        "city": "Zurich",
+        "text": "Déménager avec Multifagro a été sans accroc. Les déménageurs étaient professionnels, ponctuels et ont tout géré avec soin. Fortement recommandé !",
+        "date": "il y a 2 semaines"
+      },
+      "testimonial2": {
+        "name": "Séverine Moreau",
+        "city": "Genève",
+        "text": "Je redoutais le déménagement, mais Multifagro l'a rendu si facile ! J'ai reçu plusieurs devis instantanément et trouvé le déménageur parfait dans mon budget.",
+        "date": "il y a 1 mois"
+      },
+      "testimonial3": {
+        "name": "Giovanna Bianchi",
+        "city": "Zurich",
+        "text": "Excellent service du début à la fin. L'équipe d'emballage était méticuleuse et rien n'a été endommagé. La meilleure expérience de déménagement jamais vécue.",
+        "date": "il y a 3 semaines"
+      },
+      "testimonial4": {
+        "name": "Dr. Anja Keller",
+        "city": "Bâle",
+        "text": "Professionnel, fiable et abordable. L'équipe de support client était toujours disponible pour répondre à mes questions. Merci Multifagro !",
+        "date": "il y a 2 mois"
+      }
+    },
+    "stats": {
+      "averageRating": "Note moyenne",
+      "happyCustomers": "Clients satisfaits",
+      "wouldRecommend": "Recommanderait"
+    }
+  },
   "servicesPage": {
     "hero": {
       "title": "Services de déménagement complets",
