@@ -31,7 +31,6 @@ const About = () => {
     { number: "5000+", label: t("aboutPage.stats.successfulMoves") },
     { number: "50+", label: t("aboutPage.stats.verifiedPartners") },
     { number: "98%", label: t("aboutPage.stats.satisfactionRate") },
-    { number: "24/7", label: t("aboutPage.stats.customerSupport") },
   ];
 
   const differentItems = [
@@ -75,7 +74,7 @@ const About = () => {
         {/* Stats Section */}
         <section className="py-16 bg-background border-y border-border">
           <div className="container mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-            <div className="grid grid-cols-2 lg:grid-cols-4 gap-8">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-8 justify-items-center max-w-4xl mx-auto">
               {stats.map((stat, index) => (
                 <div key={index} className="text-center">
                   <div className="text-4xl lg:text-5xl font-heading font-bold text-primary mb-2">
