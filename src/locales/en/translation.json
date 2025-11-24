@@ -385,7 +385,7 @@
       }
     },
     "estimates": {
-      "title": "Estimated Price Ranges",
+      "title": "Estimated Price Ranges - Moving Services",
       "subtitle": "Get an idea of what your move might cost (prices vary by specific details)",
       "mostPopular": "Most Popular",
       "localMove": "Local Move",
@@ -410,6 +410,31 @@
           "local": "CHF 700 - 1,100",
           "distance": "CHF 1'540 - 2'000",
           "features": ["3-4 team members", "Large truck", "6-8 hours"]
+        }
+      }
+    },
+    "cleaningEstimates": {
+      "title": "Estimated Price Ranges - Cleaning Services",
+      "subtitle": "Professional cleaning services pricing (prices vary by property size and requirements)",
+      "mostPopular": "Most Popular",
+      "priceLabel": "Between",
+      "typicallyIncludes": "Typically includes:",
+      "disclaimer": "* Prices are estimates and may vary based on property size, condition, and specific cleaning requirements. Get an accurate quote by contacting us.",
+      "sizes": {
+        "studio": {
+          "title": "From 1 - 2.5 Room",
+          "price": "CHF 660 - 990",
+          "features": ["Deep cleaning", "Kitchen & bathroom focus", "Eco-friendly products", "Acceptance guaranteed"]
+        },
+        "twoBedroom": {
+          "title": "From 3 - 4.5 Room",
+          "price": "CHF 1'210 - 1'800",
+          "features": ["Complete deep cleaning", "All rooms included", "Window cleaning", "Move-out ready"]
+        },
+        "threeFourBedroom": {
+          "title": "5 Room or More",
+          "price": "CHF 2'240 - 2'800",
+          "features": ["Full property cleaning", "Balcony/terrace cleaning", "Final inspection ready", "Satisfaction guaranteed"]
         }
       }
     },

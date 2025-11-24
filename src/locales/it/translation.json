@@ -385,7 +385,7 @@
       }
     },
     "estimates": {
-      "title": "Fasce di prezzo stimate",
+      "title": "Fasce di prezzo stimate - Servizi di trasloco",
       "subtitle": "Fatti un'idea di quanto potrebbe costare il tuo trasloco (i prezzi variano in base ai dettagli specifici)",
       "mostPopular": "Più popolare",
       "localMove": "Trasloco locale",
@@ -410,6 +410,31 @@
           "local": "CHF 700 - 1,100",
           "distance": "CHF 1'540 - 2'000",
           "features": ["3-4 membri del team", "Grande camion", "6-8 ore"]
+        }
+      }
+    },
+    "cleaningEstimates": {
+      "title": "Fasce di prezzo stimate - Servizi di pulizia",
+      "subtitle": "Prezzi per servizi di pulizia professionale (i prezzi variano in base alle dimensioni della proprietà e ai requisiti)",
+      "mostPopular": "Più popolare",
+      "priceLabel": "Tra",
+      "typicallyIncludes": "Include tipicamente:",
+      "disclaimer": "* I prezzi sono stime e possono variare in base alle dimensioni della proprietà, alle condizioni e ai requisiti di pulizia specifici. Ottieni un preventivo accurato contattandoci.",
+      "sizes": {
+        "studio": {
+          "title": "Da 1 - 2,5 stanze",
+          "price": "CHF 660 - 990",
+          "features": ["Pulizia approfondita", "Focus su cucina e bagno", "Prodotti ecologici", "Accettazione garantita"]
+        },
+        "twoBedroom": {
+          "title": "Da 3 - 4,5 stanze",
+          "price": "CHF 1'210 - 1'800",
+          "features": ["Pulizia approfondita completa", "Tutte le stanze incluse", "Pulizia finestre", "Pronto per la partenza"]
+        },
+        "threeFourBedroom": {
+          "title": "5 stanze o più",
+          "price": "CHF 2'240 - 2'800",
+          "features": ["Pulizia completa della proprietà", "Pulizia balcone/terrazza", "Pronto per ispezione finale", "Garanzia di soddisfazione"]
         }
       }
     },

@@ -385,7 +385,7 @@
       }
     },
     "estimates": {
-      "title": "Gammes de prix estimées",
+      "title": "Gammes de prix estimées - Services de déménagement",
       "subtitle": "Obtenez une idée de ce que pourrait coûter votre déménagement (les prix varient selon les détails spécifiques)",
       "mostPopular": "Le plus populaire",
       "localMove": "Déménagement local",
@@ -410,6 +410,31 @@
           "local": "CHF 700 - 1,100",
           "distance": "CHF 1'540 - 2'000",
           "features": ["3-4 membres d'équipe", "Grand camion", "6-8 heures"]
+        }
+      }
+    },
+    "cleaningEstimates": {
+      "title": "Gammes de prix estimées - Services de nettoyage",
+      "subtitle": "Tarification des services de nettoyage professionnel (les prix varient selon la taille du bien et les exigences)",
+      "mostPopular": "Le plus populaire",
+      "priceLabel": "Entre",
+      "typicallyIncludes": "Comprend généralement :",
+      "disclaimer": "* Les prix sont des estimations et peuvent varier selon la taille du bien, l'état et les exigences de nettoyage spécifiques. Obtenez un devis précis en nous contactant.",
+      "sizes": {
+        "studio": {
+          "title": "De 1 - 2,5 pièces",
+          "price": "CHF 660 - 990",
+          "features": ["Nettoyage approfondi", "Focus cuisine et salle de bain", "Produits écologiques", "Acceptation garantie"]
+        },
+        "twoBedroom": {
+          "title": "De 3 - 4,5 pièces",
+          "price": "CHF 1'210 - 1'800",
+          "features": ["Nettoyage approfondi complet", "Toutes les pièces incluses", "Nettoyage des fenêtres", "Prêt pour le départ"]
+        },
+        "threeFourBedroom": {
+          "title": "5 pièces ou plus",
+          "price": "CHF 2'240 - 2'800",
+          "features": ["Nettoyage complet du bien", "Nettoyage balcon/terrasse", "Prêt pour inspection finale", "Garantie de satisfaction"]
         }
       }
     },

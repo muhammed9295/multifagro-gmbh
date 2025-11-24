@@ -51,6 +51,25 @@ const Pricing = () => {
     },
   ];
 
+  const cleaningEstimates = [
+    {
+      size: t("pricingPage.cleaningEstimates.sizes.studio.title"),
+      price: t("pricingPage.cleaningEstimates.sizes.studio.price"),
+      features: t("pricingPage.cleaningEstimates.sizes.studio.features", { returnObjects: true }) as string[],
+    },
+    {
+      size: t("pricingPage.cleaningEstimates.sizes.twoBedroom.title"),
+      price: t("pricingPage.cleaningEstimates.sizes.twoBedroom.price"),
+      features: t("pricingPage.cleaningEstimates.sizes.twoBedroom.features", { returnObjects: true }) as string[],
+      popular: true,
+    },
+    {
+      size: t("pricingPage.cleaningEstimates.sizes.threeFourBedroom.title"),
+      price: t("pricingPage.cleaningEstimates.sizes.threeFourBedroom.price"),
+      features: t("pricingPage.cleaningEstimates.sizes.threeFourBedroom.features", { returnObjects: true }) as string[],
+    },
+  ];
+
   const addOnServices = [
     { 
       service: t("pricingPage.addOns.items.packing"), 
@@ -125,8 +144,68 @@ const Pricing = () => {
           </div>
         </section>
 
-        {/* Price Estimates */}
+        {/* Price Estimates Cleaning */}
         <section className="py-20 lg:py-28 bg-secondary">
+          <div className="container mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+            <div className="text-center mb-16">
+              <h2 className="text-3xl sm:text-4xl font-heading font-bold text-foreground mb-4">
+                {t("pricingPage.cleaningEstimates.title")}
+              </h2>
+              <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
+                {t("pricingPage.cleaningEstimates.subtitle")}
+              </p>
+            </div>
+
+            <div className="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
+              {cleaningEstimates.map((estimate, index) => (
+                <div
+                  key={index}
+                  className={`bg-background rounded-2xl p-8 shadow-soft border-2 transition-all duration-300 hover:shadow-medium hover-lift relative ${
+                    estimate.popular ? "border-primary" : "border-border"
+                  }`}
+                >
+                  {estimate.popular && (
+                    <div className="absolute -top-4 left-1/2 transform -translate-x-1/2">
+                      <span className="bg-primary text-primary-foreground text-xs font-semibold px-4 py-1 rounded-full shadow-medium">
+                        {t("pricingPage.cleaningEstimates.mostPopular")}
+                      </span>
+                    </div>
+                  )}
+
+                  <h3 className="text-xl font-heading font-semibold text-foreground mb-6 text-center">
+                    {estimate.size}
+                  </h3>
+
+                  <div className="space-y-4 mb-6">
+                    <div className="text-center">
+                      <p className="text-sm text-muted-foreground mb-1">{t("pricingPage.cleaningEstimates.priceLabel")}</p>
+                      <p className="text-2xl font-heading font-bold text-primary">{estimate.price}</p>
+                    </div>
+                  </div>
+
+                  <div className="pt-6 border-t border-border">
+                    <p className="text-sm font-medium text-foreground mb-3">{t("pricingPage.cleaningEstimates.typicallyIncludes")}</p>
+                    <ul className="space-y-2">
+                      {estimate.features.map((feature, idx) => (
+                        <li key={idx} className="flex items-center text-sm text-muted-foreground">
+                          <Check className="h-4 w-4 text-success mr-2 flex-shrink-0" />
+                          {feature}
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+                </div>
+              ))}
+            </div>
+
+            <p className="text-sm text-center text-muted-foreground mt-8 max-w-2xl mx-auto">
+              {t("pricingPage.cleaningEstimates.disclaimer")}
+            </p>
+          </div>
+        </section>
+
+        {/* Price Estimates Moving */}
+        <section className="py-20 lg:py-28 bg-background">
           <div className="container mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-16">
               <h2 className="text-3xl sm:text-4xl font-heading font-bold text-foreground mb-4">

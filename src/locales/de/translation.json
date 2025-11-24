@@ -385,7 +385,7 @@
       }
     },
     "estimates": {
-      "title": "Geschätzte Preisbereiche",
+      "title": "Geschätzte Preisbereiche - Umzugsdienstleistungen",
       "subtitle": "Machen Sie sich ein Bild davon, was Ihr Umzug kosten könnte (Preise variieren je nach spezifischen Details)",
       "mostPopular": "Am beliebtesten",
       "localMove": "Lokaler Umzug",
@@ -410,6 +410,31 @@
           "local": "CHF 700 - 1,100",
           "distance": "CHF 1'540 - 2'000",
           "features": ["3-4 Teammitglieder", "Großer Lkw", "6-8 Stunden"]
+        }
+      }
+    },
+    "cleaningEstimates": {
+      "title": "Geschätzte Preisbereiche - Reinigungsdienstleistungen",
+      "subtitle": "Preisgestaltung für professionelle Reinigungsdienstleistungen (Preise variieren je nach Immobiliengröße und Anforderungen)",
+      "mostPopular": "Am beliebtesten",
+      "priceLabel": "Zwischen",
+      "typicallyIncludes": "Typischerweise enthalten:",
+      "disclaimer": "* Preise sind Schätzungen und können je nach Immobiliengröße, Zustand und spezifischen Reinigungsanforderungen variieren. Erhalten Sie ein genaues Angebot, indem Sie uns kontaktieren.",
+      "sizes": {
+        "studio": {
+          "title": "Von 1 - 2,5 Zimmer",
+          "price": "CHF 660 - 990",
+          "features": ["Tiefenreinigung", "Fokus Küche und Badezimmer", "Umweltfreundliche Produkte", "Akzeptanz garantiert"]
+        },
+        "twoBedroom": {
+          "title": "Von 3 - 4,5 Zimmer",
+          "price": "CHF 1'210 - 1'800",
+          "features": ["Komplette Tiefenreinigung", "Alle Zimmer enthalten", "Fensterreinigung", "Auszugsfähig"]
+        },
+        "threeFourBedroom": {
+          "title": "5 Zimmer oder mehr",
+          "price": "CHF 2'240 - 2'800",
+          "features": ["Vollständige Immobilienreinigung", "Balkon/Terrasse Reinigung", "Bereit für Endabnahme", "Zufriedenheitsgarantie"]
         }
       }
     },
