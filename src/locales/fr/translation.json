@@ -10,9 +10,9 @@
   "hero": {
     "title": "Déménagez avec",
     "titleHighlight": "Confiance",
-    "subtitle": "Obtenez des devis instantanés. Comparez les prix, lisez les avis et réservez votre déménagement en quelques minutes.",
+    "subtitle": "Obtenez des devis instantanés. Vérifiez nos prix, lisez les avis et réservez votre déménagement en quelques minutes.",
     "trustBadges": {
-      "fullyInsured": "Entièrement assuré",
+      "fullyInsured": "Entièrement fiable",
       "verifiedPartners": "Équipe professionnelle",
       "movesPerMonth": "500+ déménagements/mois"
     },
@@ -96,8 +96,8 @@
     "subtitle": "Nous rendons le déménagement simple, sûr et sans stress",
     "items": {
       "insured": {
-        "title": "Équipes entièrement assurées",
-        "description": "Notre équipe est autorisée, entièrement assurée et professionnellement formée pour votre tranquillité d'esprit."
+        "title": "Entièrement expérimenté",
+        "description": "Notre équipe est autorisée, entièrement expérimentée et professionnellement formée pour votre tranquillité d'esprit."
       },
       "pricing": {
         "title": "Tarification transparente",
@@ -252,7 +252,7 @@
     "benefits": [
       "Obtenir une offre",
       "Réservez en quelques minutes",
-      "Couverture d'assurance complète"
+      "Entièrement fiable"
     ],
     "button": "Obtenez vos devis gratuits maintenant",
     "trustText": "Aucune carte de crédit requise • Prend moins de 2 minutes • 100% gratuit"
@@ -271,7 +271,6 @@
           "Emballage et déballage complets",
           "Démontage et montage de meubles",
           "Chargement et transport sécurisés",
-          "Couverture d'assurance incluse",
           "Planification flexible"
         ]
       },
@@ -335,7 +334,7 @@
       "items": {
         "licensed": {
           "title": "Entièrement expérimenté",
-          "description": "Notre équipe est composée de professionnels expérimentés avec une couverture d'assurance complète."
+          "description": "Notre équipe est composée de professionnels expérimentés entièrement assurés."
         },
         "pricing": {
           "title": "Tarification transparente",
@@ -466,7 +465,7 @@
         },
         "trust": {
           "title": "Confiance et sécurité",
-          "description": "Nous assurons une couverture d'assurance complète pour votre protection."
+          "description": "Nous sélectionnons soigneusement chaque partenaire et assurons les normes de service de la plus haute qualité pour votre tranquillité d'esprit."
         },
         "excellence": {
           "title": "Excellence",
@@ -479,7 +478,7 @@
       "items": {
         "verified": {
           "title": "Partenaires vérifiés uniquement",
-          "description": "Chaque entreprise de déménagement est soigneusement vérifiée, autorisée et assurée avant de rejoindre notre plateforme."
+          "description": "Chaque entreprise de déménagement est soigneusement vérifiée, expérimentée et fiable avant de rejoindre notre plateforme."
         },
         "transparent": {
           "title": "Tarification transparente",
@@ -487,7 +486,7 @@
         },
         "protection": {
           "title": "Protection du client",
-          "description": "Tous les déménagements incluent une couverture d'assurance et notre garantie de satisfaction."
+          "description": "Tous les déménagements incluent une protection complète et notre garantie de satisfaction."
         },
         "support": {
           "title": "Support",

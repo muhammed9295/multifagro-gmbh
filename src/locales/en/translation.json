@@ -10,9 +10,9 @@
   "hero": {
     "title": "Move with",
     "titleHighlight": "Confidence",
-    "subtitle": "Get instant quotes. Compare prices, read reviews, and book your moving in minutes.",
+    "subtitle": "Get instant quotes. Check our prices, read reviews and book your moving in minutes.",
     "trustBadges": {
-      "fullyInsured": "Fully Insured",
+      "fullyInsured": "Fully Reliable",
       "verifiedPartners": "Professional Team",
       "movesPerMonth": "500+ Moves/Month"
     },
@@ -96,8 +96,8 @@
     "subtitle": "We make moving simple, safe, and stress-free",
     "items": {
       "insured": {
-        "title": "Fully Insured Crews",
-        "description": "Our team is licensed, fully insured, and professionally trained for your peace of mind."
+        "title": "Fully Experienced",
+        "description": "Our team is licensed, fully experienced, and professionally trained for your peace of mind."
       },
       "pricing": {
         "title": "Transparent Pricing",
@@ -217,7 +217,7 @@
     "benefits": [
       "Get offer",
       "Book in minutes",
-      "Full insurance coverage"
+      "Fully Reliable"
     ],
     "button": "Get Your Free Quotes Now",
     "trustText": "No credit card required • Takes less than 2 minutes • 100% free"
@@ -271,7 +271,6 @@
           "Complete packing and unpacking",
           "Furniture disassembly and assembly",
           "Safe loading and transport",
-          "Insurance coverage included",
           "Flexible scheduling"
         ]
       },
@@ -335,7 +334,7 @@
       "items": {
         "licensed": {
           "title": "Fully Experienced",
-          "description": "Our team consists of experienced professionals with comprehensive insurance coverage."
+          "description": "Our team consists of experienced professionals who are fully insured."
         },
         "pricing": {
           "title": "Transparent Pricing",
@@ -466,7 +465,7 @@
         },
         "trust": {
           "title": "Trust & Safety",
-          "description": "We vet every partner and ensure full insurance coverage for your protection."
+          "description": "We carefully select every partner and ensure the highest quality service standards for your peace of mind."
         },
         "excellence": {
           "title": "Excellence",
@@ -479,7 +478,7 @@
       "items": {
         "verified": {
           "title": "Professional Team",
-          "description": "Our team is thoroughly vetted, licensed, and insured. We maintain the highest standards for all our services."
+          "description": "Our team is thoroughly vetted, experienced, and reliable. We maintain the highest standards for all our services."
         },
         "transparent": {
           "title": "Transparent Pricing",
@@ -487,7 +486,7 @@
         },
         "protection": {
           "title": "Customer Protection",
-          "description": "All moves include insurance coverage and our satisfaction guarantee."
+          "description": "All moves include comprehensive protection and our satisfaction guarantee."
         },
         "support": {
           "title": "Support",

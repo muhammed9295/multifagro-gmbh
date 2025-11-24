@@ -10,9 +10,9 @@
   "hero": {
     "title": "Umziehen mit",
     "titleHighlight": "Vertrauen",
-    "subtitle": "Erhalten Sie sofortige Angebote. Vergleichen Sie Preise, lesen Sie Bewertungen und buchen Sie Ihren Umzug in Minuten.",
+    "subtitle": "Erhalten Sie sofortige Angebote. Überprüfen Sie unsere Preise, lesen Sie Bewertungen und buchen Sie Ihren Umzug in Minuten.",
     "trustBadges": {
-      "fullyInsured": "Vollständig versichert",
+      "fullyInsured": "Vollständig zuverlässig",
       "verifiedPartners": "Professionelles Team",
       "movesPerMonth": "500+ Umzüge/Monat"
     },
@@ -80,7 +80,7 @@
         "features": ["Tiefenreinigung", "Umweltfreundliche Produkte", "Auszugsfähig", "Akzeptanz garantiert"]
       },
       "constructionCleaning": {
-        "title": "Bauendreinigung",
+        "title": "Baureinigung",
         "description": "Professionelle Reinigungsdienstleistungen für Baustellen und Renovierungsprojekte.",
         "features": ["Nachbaureinigung", "Schuttentfernung", "Tiefenreinigung", "Bereit für Endabnahme"]
       },
@@ -96,8 +96,8 @@
     "subtitle": "Wir machen Umzüge einfach, sicher und stressfrei",
     "items": {
       "insured": {
-        "title": "Vollständig versicherte Teams",
-        "description": "Unser Team ist lizenziert, vollständig versichert und professionell ausgebildet für Ihr Seelenfrieden."
+        "title": "Vollständig erfahren",
+        "description": "Unser Team ist lizenziert, vollständig erfahren und professionell ausgebildet für Ihr Seelenfrieden."
       },
       "pricing": {
         "title": "Transparente Preise",
@@ -252,7 +252,7 @@
     "benefits": [
       "Angebot erhalten",
       "Buchen Sie in Minuten",
-      "Vollständige Versicherungsabdeckung"
+      "Vollständig zuverlässig"
     ],
     "button": "Jetzt kostenlose Angebote erhalten",
     "trustText": "Keine Kreditkarte erforderlich • Dauert weniger als 2 Minuten • 100% kostenlos"
@@ -271,7 +271,6 @@
           "Komplettes Packen und Auspacken",
           "Möbelmontage und -demontage",
           "Sicheres Laden und Transport",
-          "Versicherungsschutz inbegriffen",
           "Flexible Terminplanung"
         ]
       },
@@ -307,7 +306,7 @@
         ]
       },
       "constructionCleaning": {
-        "title": "Bauendreinigung",
+        "title": "Baureinigung",
         "description": "Professionelle Reinigungsdienstleistungen für Baustellen und Renovierungsprojekte, um sicherzustellen, dass Ihr Raum einsatzbereit ist.",
         "features": [
           "Nachbaureinigung",
@@ -335,7 +334,7 @@
       "items": {
         "licensed": {
           "title": "Vollständig erfahren",
-          "description": "Unser Team besteht aus erfahrenen Fachkräften mit umfassendem Versicherungsschutz."
+          "description": "Unser Team besteht aus erfahrenen Fachkräften, die vollständig versichert sind."
         },
         "pricing": {
           "title": "Transparente Preise",
@@ -466,7 +465,7 @@
         },
         "trust": {
           "title": "Vertrauen & Sicherheit",
-          "description": "Wir stellen einen vollständigen Versicherungsschutz zu Ihrem Schutz sicher."
+          "description": "Wir wählen jeden Partner sorgfältig aus und stellen die höchsten Qualitätsstandards für Ihren Seelenfrieden sicher."
         },
         "excellence": {
           "title": "Exzellenz",
@@ -479,7 +478,7 @@
       "items": {
         "verified": {
           "title": "Professionelles Team",
-          "description": "Unser Team wird gründlich überprüft, ist lizenziert und versichert. Wir halten die höchsten Standards für alle unsere Dienstleistungen ein."
+          "description": "Unser Team wird gründlich überprüft, ist erfahren und zuverlässig. Wir halten die höchsten Standards für alle unsere Dienstleistungen ein."
         },
         "transparent": {
           "title": "Transparente Preise",
@@ -487,7 +486,7 @@
         },
         "protection": {
           "title": "Kundenschutz",
-          "description": "Alle Umzüge umfassen Versicherungsschutz und unsere Zufriedenheitsgarantie."
+          "description": "Alle Umzüge umfassen umfassenden Schutz und unsere Zufriedenheitsgarantie."
         },
         "support": {
           "title": "Support",
