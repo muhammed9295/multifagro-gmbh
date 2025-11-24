@@ -35,20 +35,17 @@ const Pricing = () => {
   const estimates = [
     {
       size: t("pricingPage.estimates.sizes.studio.title"),
-      local: t("pricingPage.estimates.sizes.studio.local"),
       distance: t("pricingPage.estimates.sizes.studio.distance"),
       features: t("pricingPage.estimates.sizes.studio.features", { returnObjects: true }) as string[],
     },
     {
       size: t("pricingPage.estimates.sizes.twoBedroom.title"),
-      local: t("pricingPage.estimates.sizes.twoBedroom.local"),
       distance: t("pricingPage.estimates.sizes.twoBedroom.distance"),
       features: t("pricingPage.estimates.sizes.twoBedroom.features", { returnObjects: true }) as string[],
       popular: true,
     },
     {
       size: t("pricingPage.estimates.sizes.threeFourBedroom.title"),
-      local: t("pricingPage.estimates.sizes.threeFourBedroom.local"),
       distance: t("pricingPage.estimates.sizes.threeFourBedroom.distance"),
       features: t("pricingPage.estimates.sizes.threeFourBedroom.features", { returnObjects: true }) as string[],
     },
@@ -161,10 +158,6 @@ const Pricing = () => {
                   </h3>
 
                   <div className="space-y-4 mb-6">
-                    <div className="text-center">
-                      <p className="text-sm text-muted-foreground mb-1">{t("pricingPage.estimates.localMove")}</p>
-                      <p className="text-2xl font-heading font-bold text-primary">{estimate.local}</p>
-                    </div>
                     <div className="text-center">
                       <p className="text-sm text-muted-foreground mb-1">{t("pricingPage.estimates.longDistance")}</p>
                       <p className="text-2xl font-heading font-bold text-primary">{estimate.distance}</p>

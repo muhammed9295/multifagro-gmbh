@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { Facebook, Twitter, Instagram, Linkedin, Mail, Phone, MapPin } from "lucide-react";
+import { Facebook, Twitter, Instagram, Linkedin, Mail, Phone, MapPin, Building2 } from "lucide-react";
 import { useTranslation } from "react-i18next";
 
 const Footer = () => {
@@ -117,6 +117,14 @@ const Footer = () => {
                 <div>
                   <p className="text-sm text-muted-foreground">
                     Zurich, Geneva, Basel, Bern<br />Switzerland
+                  </p>
+                </div>
+              </li>
+              <li className="flex items-start space-x-3">
+                <Building2 className="h-5 w-5 text-primary mt-0.5 flex-shrink-0" />
+                <div>
+                  <p className="text-sm text-muted-foreground">
+                    Hohenstieglen 2, 8152 Opfikonzh
                   </p>
                 </div>
               </li>

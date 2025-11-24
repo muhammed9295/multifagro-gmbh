@@ -1,4 +1,4 @@
-import { Home, Building2, Package, Sparkles, TrendingUp, Shield, Clock } from "lucide-react";
+import { Home, Building2, Package, Sparkles, TrendingUp, Shield, Clock, Hammer, Trash2 } from "lucide-react";
 import { Link } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 import Navbar from "@/components/Navbar";
@@ -33,6 +33,18 @@ const Services = () => {
       title: t("servicesPage.services.cleaning.title"),
       description: t("servicesPage.services.cleaning.description"),
       features: t("servicesPage.services.cleaning.features", { returnObjects: true }) as string[],
+    },
+    {
+      icon: Hammer,
+      title: t("servicesPage.services.constructionCleaning.title"),
+      description: t("servicesPage.services.constructionCleaning.description"),
+      features: t("servicesPage.services.constructionCleaning.features", { returnObjects: true }) as string[],
+    },
+    {
+      icon: Trash2,
+      title: t("servicesPage.services.clearanceDisposal.title"),
+      description: t("servicesPage.services.clearanceDisposal.description"),
+      features: t("servicesPage.services.clearanceDisposal.features", { returnObjects: true }) as string[],
     },
   ];
 

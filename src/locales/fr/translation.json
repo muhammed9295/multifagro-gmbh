@@ -22,7 +22,7 @@
       "movingTo": "Déménager vers",
       "fromPlaceholder": "ex. Zurich",
       "toPlaceholder": "ex. Genève",
-      "compareOffers": "Comparer les offres de déménagement",
+      "compareOffers": "Obtenir un devis",
       "disclaimer": "Devis gratuits • Sans engagement • Comparaison instantanée"
     },
     "stats": {
@@ -40,7 +40,7 @@
         "description": "Remplissez un formulaire simple avec les détails de votre déménagement. Prend moins de 2 minutes."
       },
       "step2": {
-        "title": "Comparez les offres",
+        "title": "Obtenir un devis",
         "description": "Recevez votre devis de Multifagro avec des prix transparents et des détails de service."
       },
       "step3": {
@@ -57,7 +57,7 @@
       "homeMoving": {
         "title": "Déménagement résidentiel",
         "description": "Services de déménagement résidentiel complets avec manipulation soigneuse de vos biens.",
-        "features": ["Aide à l'emballage", "Démontage de meubles", "Transport sécurisé"]
+        "features": ["Aide à l'emballage", "Démontage de meubles", "Transport sécurisé", "Location gratuite de cartons de déménagement", "Livraison et collecte de matériaux d'emballage"]
       },
       "officeMoving": {
         "title": "Déménagement de bureau",
@@ -77,7 +77,17 @@
       "cleaning": {
         "title": "Nettoyage après déménagement",
         "description": "Laissez votre ancien lieu impeccable avec notre service de nettoyage approfondi.",
-        "features": ["Nettoyage approfondi", "Produits écologiques", "Prêt pour le départ"]
+        "features": ["Nettoyage approfondi", "Produits écologiques", "Prêt pour le départ", "Acceptation garantie"]
+      },
+      "constructionCleaning": {
+        "title": "Nettoyage de construction",
+        "description": "Services de nettoyage professionnels pour les chantiers de construction et les projets de rénovation.",
+        "features": ["Nettoyage post-construction", "Enlèvement des débris", "Nettoyage approfondi", "Prêt pour inspection finale"]
+      },
+      "clearanceDisposal": {
+        "title": "Débarras et élimination",
+        "description": "Services complets de débarras et d'élimination pour les articles et meubles indésirables.",
+        "features": ["Enlèvement d'articles", "Élimination écologique", "Options de recyclage", "Débarras complet"]
       }
     }
   },
@@ -95,10 +105,10 @@
       },
       "verified": {
         "title": "Équipe professionnelle",
-        "description": "Notre équipe est composée de professionnels autorisés qui sont vérifiés et évalués par les clients."
+        "description": "Notre équipe est composée de professionnels expérimentés qui sont vérifiés et évalués par les clients."
       },
       "support": {
-        "title": "Support 24/7",
+        "title": "Support",
         "description": "Notre équipe de support client est toujours disponible pour vous aider avec toutes vos questions ou préoccupations."
       }
     }
@@ -138,7 +148,7 @@
     "mondayFriday": "Lundi - Vendredi",
     "saturdaySunday": "Samedi - Dimanche",
     "closed": "Fermé",
-    "hours": "8h - 18h",
+    "hours": "08:00 AM - 05:00 PM",
     "form": {
       "title": "Envoyez-nous un message",
       "fullName": "Nom complet",
@@ -240,7 +250,7 @@
     "title": "Prêt à déménager ?",
     "subtitle": "Rejoignez des milliers de clients satisfaits qui ont choisi Multifagro pour leurs besoins de déménagement",
     "benefits": [
-      "Devis instantanés gratuits",
+      "Obtenir une offre",
       "Réservez en quelques minutes",
       "Couverture d'assurance complète"
     ],
@@ -295,6 +305,28 @@
           "Focus sur la cuisine et la salle de bain",
           "Garantie de satisfaction"
         ]
+      },
+      "constructionCleaning": {
+        "title": "Nettoyage de construction",
+        "description": "Services de nettoyage professionnels pour les chantiers de construction et les projets de rénovation pour garantir que votre espace est prêt à être utilisé.",
+        "features": [
+          "Nettoyage post-construction",
+          "Enlèvement des débris et de la poussière",
+          "Nettoyage approfondi de toutes les surfaces",
+          "Nettoyage des fenêtres et des équipements",
+          "Prêt pour inspection finale"
+        ]
+      },
+      "clearanceDisposal": {
+        "title": "Débarras et élimination",
+        "description": "Services complets de débarras et d'élimination pour les articles indésirables, les meubles et les déchets.",
+        "features": [
+          "Enlèvement complet d'articles",
+          "Méthodes d'élimination écologiques",
+          "Options de recyclage et de don",
+          "Gestion des gros articles",
+          "Gestion responsable des déchets"
+        ]
       }
     },
     "whyChoose": {
@@ -302,8 +334,8 @@
       "subtitle": "Nous nous engageons à rendre votre déménagement aussi fluide et sans stress que possible",
       "items": {
         "licensed": {
-          "title": "Entièrement autorisé et assuré",
-          "description": "Notre équipe est composée de professionnels autorisés avec une couverture d'assurance complète."
+          "title": "Entièrement expérimenté",
+          "description": "Notre équipe est composée de professionnels expérimentés avec une couverture d'assurance complète."
         },
         "pricing": {
           "title": "Tarification transparente",
@@ -349,7 +381,7 @@
         },
         "timing": {
           "title": "Timing",
-          "description": "La saison de pointe (été) et les déménagements de week-end peuvent avoir des tarifs plus élevés que les périodes creuses."
+          "description": "La saison et les déménagements de week-end peuvent avoir des tarifs plus élevés que les périodes creuses."
         }
       }
     },
@@ -358,27 +390,27 @@
       "subtitle": "Obtenez une idée de ce que pourrait coûter votre déménagement (les prix varient selon les détails spécifiques)",
       "mostPopular": "Le plus populaire",
       "localMove": "Déménagement local",
-      "longDistance": "Longue distance",
+      "longDistance": "Entre",
       "typicallyIncludes": "Comprend généralement :",
       "disclaimer": "* Les prix sont des estimations et peuvent varier selon les exigences spécifiques, la distance et les services supplémentaires. Obtenez un devis précis en remplissant notre formulaire.",
       "sizes": {
         "studio": {
-          "title": "Studio/1 chambre",
+          "title": "De 1 - 2,5 pièces",
           "local": "CHF 300 - 450",
-          "distance": "CHF 800 - 1,400",
-          "features": ["1-2 membres d'équipe", "Petit camion", "3-4 heures", "Assurance de base"]
+          "distance": "CHF 520 - 700",
+          "features": ["1-2 membres d'équipe", "Petit camion", "3-4 heures"]
         },
         "twoBedroom": {
-          "title": "2 chambres",
+          "title": "De 3 - 4,5 pièces",
           "local": "CHF 450 - 700",
-          "distance": "CHF 1,400 - 2,000",
-          "features": ["2-3 membres d'équipe", "Camion moyen", "4-6 heures", "Assurance complète"]
+          "distance": "CHF 880 - 1'200",
+          "features": ["2-3 membres d'équipe", "Camion moyen", "4-6 heures"]
         },
         "threeFourBedroom": {
-          "title": "3-4 chambres",
+          "title": "5 pièces ou plus",
           "local": "CHF 700 - 1,100",
-          "distance": "CHF 2,000 - 3,200",
-          "features": ["3-4 membres d'équipe", "Grand camion", "6-8 heures", "Assurance premium"]
+          "distance": "CHF 1'540 - 2'000",
+          "features": ["3-4 membres d'équipe", "Grand camion", "6-8 heures"]
         }
       }
     },
@@ -391,9 +423,9 @@
         "cleaning": "Nettoyage après déménagement"
       },
       "prices": {
-        "packing": "CHF 80 - 200",
-        "unpacking": "CHF 60 - 140",
-        "materials": "CHF 40 - 120",
+        "packing": "CHF 120 - 240",
+        "unpacking": "CHF 40 - 120",
+        "materials": "Gratuit",
         "cleaning": "CHF 100 - 240"
       }
     },
@@ -458,7 +490,7 @@
           "description": "Tous les déménagements incluent une couverture d'assurance et notre garantie de satisfaction."
         },
         "support": {
-          "title": "Support 24/7",
+          "title": "Support",
           "description": "Notre équipe est toujours disponible pour vous aider avant, pendant et après votre déménagement."
         }
       }
@@ -577,6 +609,70 @@
     "success": {
       "message": "Demande de devis soumise ! Redirection vers les offres..."
     }
+  },
+  "terms": {
+    "title": "Conditions générales",
+    "lastUpdated": "Dernière mise à jour : janvier 2024",
+    "carrierObligations": {
+      "title": "Obligations du transporteur",
+      "item1": "Le transporteur est tenu de fournir les moyens de transport nécessaires à l'exécution de la commande au moment convenu.",
+      "item2": "Le transporteur exécute la commande conformément au contrat et avec le soin nécessaire.",
+      "item3": "La livraison des marchandises à destination doit avoir lieu immédiatement après l'arrivée du transport ou par accord."
+    },
+    "clientObligations": {
+      "title": "Obligations du client",
+      "item1": "Le client est tenu d'informer le transporteur de la nature particulière des marchandises à transporter et de leur sensibilité aux dommages.",
+      "item2": "Le client doit se procurer les documents douaniers requis et est responsable de leur exactitude.",
+      "item3": "Le client est responsable de l'autorisation de stationnement et du blocage des places de parking 48 heures avant le début du déménagement.",
+      "item4": "Tous les coûts et frais supplémentaires qui résultent de l'acceptation tardive des marchandises transportées par le client sont à la charge du client."
+    },
+    "pricing": {
+      "title": "Tarifs",
+      "description": "Le prix est calculé selon l'effort ou forfaitairement. Pour l'effort horaire, un minimum de 3 heures est facturé.",
+      "notIncluded": "Les dépenses suivantes ne sont pas incluses dans le prix, sous réserve d'accords spéciaux :",
+      "items": {
+        "a": "L'emballage et le déballage des biens de déménagement.",
+        "b": "Transport spécial vers ou depuis les matériaux d'emballage ainsi que leur location ou achat ;",
+        "c": "Le démontage et le montage de meubles compliqués ou neufs qui nécessitent un temps spécial ou l'intervention d'un spécialiste ;",
+        "d": "Le transport de réfrigérateurs/congélateurs de plus de 200 litres, pianos, pianos à queue, coffres-forts et autres articles pesant plus de 100 kg ;",
+        "e": "Démontage/montage des lampes",
+        "f": "Effort supplémentaire pour les articles dont le transport doit être effectué par les fenêtres ou sur les balcons ;",
+        "g": "Dépenses supplémentaires ou services supplémentaires dans l'intérêt du déménagement même sans commande spéciale ;"
+      }
+    },
+    "cleaning": {
+      "title": "Nettoyage",
+      "description": "Le nettoyage est inclus avec garantie d'acceptation le même jour. Si l'acceptation n'est pas possible le jour du nettoyage, le deuxième voyage coûte un supplément selon la distance.",
+      "separateOrder": "Les éléments suivants doivent être commandés séparément :",
+      "items": {
+        "item1": "Nettoyage du balcon ou de la terrasse avec Kärcher",
+        "item2": "Nettoyage des joints très sales",
+        "item3": "Nettoyage de la galerie, du sous-sol et du garage.",
+        "item4": "Nettoyage du jardin d'hiver",
+        "item5": "Désherbage de l'herbe entre les dalles de jardin"
+      }
+    },
+    "furnitureLift": {
+      "title": "Monte-meubles",
+      "description": "Le monte-meubles sera installé en cas de besoin pour 350 CHF."
+    },
+    "insurance": {
+      "title": "Assurance",
+      "description": "Les dommages causés à vos meubles ou biens mobiliers par nos soins sont assurés jusqu'au montant maximum selon la réglementation suivante. Veuillez noter que notre assurance ne paie que la valeur actuelle des biens endommagés et non leur valeur neuve.",
+      "coverage": "Les tarifs mentionnés comprennent une assurance responsabilité civile professionnelle avec une responsabilité allant jusqu'à 10 000 000 CHF. La portée de la couverture de l'assurance transport est par camion de déménagement jusqu'à un maximum de 50 000 CHF.",
+      "reporting": "Le client s'engage à signaler le sinistre le jour du déménagement, au plus tard 2 jours plus tard. Les déclarations non faites à temps ne peuvent pas être traitées."
+    },
+    "cancellation": {
+      "title": "Annulation",
+      "description": "Si le client annule la commande pour une raison importante 15 jours avant le rendez-vous, aucun frais d'annulation ne sera facturé. Pour les annulations ultérieures, 50% du volume de commande sera facturé.",
+      "written": "L'annulation doit être faite par écrit dans tous les cas."
+    },
+    "payment": {
+      "title": "Paiement",
+      "description": "Les déménagements et nettoyages sont généralement à payer en espèces. Sont exclus les paiements effectués par une institution, comme les services sociaux, Pro Infirmis, entreprise, etc.",
+      "international": "Pour les transports à l'étranger, un acompte de 50% doit être versé."
+    },
+    "signature": "Date et signature du client"
   },
   "common": {
     "required": "*",

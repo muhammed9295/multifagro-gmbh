@@ -22,7 +22,7 @@
       "movingTo": "Moving To",
       "fromPlaceholder": "e.g., Zurich",
       "toPlaceholder": "e.g., Geneva",
-      "compareOffers": "Compare Moving Offers",
+      "compareOffers": "Get Quote",
       "disclaimer": "Free quotes • No commitment • Instant comparison"
     },
     "stats": {
@@ -40,7 +40,7 @@
         "description": "Fill out a simple form with your moving details. Takes less than 2 minutes."
       },
       "step2": {
-        "title": "Compare Offers",
+        "title": "Get Quote",
         "description": "Receive your quote from Multifagro with transparent pricing and service details."
       },
       "step3": {
@@ -57,7 +57,7 @@
       "homeMoving": {
         "title": "Home Moving",
         "description": "Complete residential moving services with careful handling of your belongings.",
-        "features": ["Packing assistance", "Furniture disassembly", "Safe transport"]
+        "features": ["Packing assistance", "Furniture disassembly", "Safe transport", "Free rental of moving boxes", "Delivery and collection of packaging materials"]
       },
       "officeMoving": {
         "title": "Office Moving",
@@ -77,7 +77,17 @@
       "cleaning": {
         "title": "Post-Move Cleaning",
         "description": "Leave your old place spotless with our thorough cleaning service.",
-        "features": ["Deep cleaning", "Eco-friendly products", "Move-out ready"]
+        "features": ["Deep cleaning", "Eco-friendly products", "Move-out ready", "Acceptance guaranteed"]
+      },
+      "constructionCleaning": {
+        "title": "Construction Cleaning",
+        "description": "Professional cleaning services for construction sites and renovation projects.",
+        "features": ["Post-construction cleanup", "Debris removal", "Deep cleaning", "Final inspection ready"]
+      },
+      "clearanceDisposal": {
+        "title": "Clearance and Disposal",
+        "description": "Complete clearance and disposal services for unwanted items and furniture.",
+        "features": ["Item removal", "Eco-friendly disposal", "Recycling options", "Complete clearance"]
       }
     }
   },
@@ -95,10 +105,10 @@
       },
       "verified": {
         "title": "Professional Team",
-        "description": "Our team consists of licensed professionals who are background-checked and customer-reviewed."
+        "description": "Our team consists of experienced professionals who are background-checked and customer-reviewed."
       },
       "support": {
-        "title": "24/7 Support",
+        "title": "Support",
         "description": "Our customer support team is always available to help with any questions or concerns."
       }
     }
@@ -138,7 +148,7 @@
     "mondayFriday": "Monday - Friday",
     "saturdaySunday": "Saturday - Sunday",
     "closed": "Closed",
-    "hours": "8am - 6pm",
+    "hours": "08:00 AM - 05:00 PM",
     "form": {
       "title": "Send Us a Message",
       "fullName": "Full Name",
@@ -205,7 +215,7 @@
     "title": "Ready to Make Your Move?",
     "subtitle": "Join thousands of satisfied customers who chose Multifagro for their relocation needs",
     "benefits": [
-      "Free instant quotes",
+      "Get offer",
       "Book in minutes",
       "Full insurance coverage"
     ],
@@ -295,6 +305,28 @@
           "Kitchen and bathroom focus",
           "Satisfaction guaranteed"
         ]
+      },
+      "constructionCleaning": {
+        "title": "Construction Cleaning",
+        "description": "Professional cleaning services for construction sites and renovation projects to ensure your space is ready for use.",
+        "features": [
+          "Post-construction cleanup",
+          "Debris and dust removal",
+          "Deep cleaning of all surfaces",
+          "Window and fixture cleaning",
+          "Final inspection ready"
+        ]
+      },
+      "clearanceDisposal": {
+        "title": "Clearance and Disposal",
+        "description": "Complete clearance and disposal services for unwanted items, furniture, and waste materials.",
+        "features": [
+          "Complete item removal",
+          "Eco-friendly disposal methods",
+          "Recycling and donation options",
+          "Large item handling",
+          "Responsible waste management"
+        ]
       }
     },
     "whyChoose": {
@@ -302,8 +334,8 @@
       "subtitle": "We're committed to making your move as smooth and stress-free as possible",
       "items": {
         "licensed": {
-          "title": "Fully Licensed & Insured",
-          "description": "Our team consists of licensed professionals with comprehensive insurance coverage."
+          "title": "Fully Experienced",
+          "description": "Our team consists of experienced professionals with comprehensive insurance coverage."
         },
         "pricing": {
           "title": "Transparent Pricing",
@@ -349,7 +381,7 @@
         },
         "timing": {
           "title": "Timing",
-          "description": "Peak season (summer) and weekend moves may have higher rates than off-peak times."
+          "description": "Season and weekend moves may have higher rates than off-peak times."
         }
       }
     },
@@ -358,27 +390,27 @@
       "subtitle": "Get an idea of what your move might cost (prices vary by specific details)",
       "mostPopular": "Most Popular",
       "localMove": "Local Move",
-      "longDistance": "Long Distance",
+      "longDistance": "Between",
       "typicallyIncludes": "Typically includes:",
       "disclaimer": "* Prices are estimates and may vary based on specific requirements, distance, and additional services. Get an accurate quote by filling out our form.",
       "sizes": {
         "studio": {
-          "title": "Studio/1 Bedroom",
+          "title": "From 1 - 2.5 Room",
           "local": "CHF 300 - 450",
-          "distance": "CHF 800 - 1,400",
-          "features": ["1-2 team members", "Small truck", "3-4 hours", "Basic insurance"]
+          "distance": "CHF 520 - 700",
+          "features": ["1-2 team members", "Small truck", "3-4 hours"]
         },
         "twoBedroom": {
-          "title": "2 Bedroom",
+          "title": "From 3 - 4.5 Room",
           "local": "CHF 450 - 700",
-          "distance": "CHF 1,400 - 2,000",
-          "features": ["2-3 team members", "Medium truck", "4-6 hours", "Full insurance"]
+          "distance": "CHF 880 - 1'200",
+          "features": ["2-3 team members", "Medium truck", "4-6 hours"]
         },
         "threeFourBedroom": {
-          "title": "3-4 Bedroom",
+          "title": "5 Room or More",
           "local": "CHF 700 - 1,100",
-          "distance": "CHF 2,000 - 3,200",
-          "features": ["3-4 team members", "Large truck", "6-8 hours", "Premium insurance"]
+          "distance": "CHF 1'540 - 2'000",
+          "features": ["3-4 team members", "Large truck", "6-8 hours"]
         }
       }
     },
@@ -391,9 +423,9 @@
         "cleaning": "Post-Move Cleaning"
       },
       "prices": {
-        "packing": "CHF 80 - 200",
-        "unpacking": "CHF 60 - 140",
-        "materials": "CHF 40 - 120",
+        "packing": "CHF 120 - 240",
+        "unpacking": "CHF 40 - 120",
+        "materials": "Free",
         "cleaning": "CHF 100 - 240"
       }
     },
@@ -458,7 +490,7 @@
           "description": "All moves include insurance coverage and our satisfaction guarantee."
         },
         "support": {
-          "title": "24/7 Support",
+          "title": "Support",
           "description": "Our team is always available to help before, during, and after your move."
         }
       }
@@ -577,6 +609,70 @@
     "success": {
       "message": "Quote request submitted! Redirecting to offers..."
     }
+  },
+  "terms": {
+    "title": "Terms and Conditions",
+    "lastUpdated": "Last updated: January 2024",
+    "carrierObligations": {
+      "title": "Carrier Obligations",
+      "item1": "The carrier is obligated to provide the necessary transport vehicles for the execution of the order at the agreed time.",
+      "item2": "The carrier executes the order in accordance with the contract and with the necessary care.",
+      "item3": "Delivery of the goods at the destination must take place immediately upon arrival of the transport or by agreement."
+    },
+    "clientObligations": {
+      "title": "Client Obligations",
+      "item1": "The client is obligated to inform the carrier about the special nature of the transport goods and their susceptibility to damage.",
+      "item2": "The client must procure the required customs documents and is responsible for their accuracy.",
+      "item3": "The client is responsible for the parking permit and the blocking of parking spaces 48 hours before the start of the move.",
+      "item4": "All additional costs and expenses that arise due to delayed acceptance of the transport goods by the client are to be borne by the client."
+    },
+    "pricing": {
+      "title": "Pricing",
+      "description": "The price is calculated according to effort or as a flat rate. For hourly effort, a minimum of 3 hours is charged.",
+      "notIncluded": "The following expenses are not included in the price, subject to special agreements:",
+      "items": {
+        "a": "The packing and unpacking of the moving goods.",
+        "b": "Special transport to or from the packing materials as well as their rental or purchase;",
+        "c": "The disassembly and assembly of complicated or new furniture that requires special time or the involvement of a specialist;",
+        "d": "The transport of refrigerators/freezers over 200 liters, pianos, grand pianos, safes and other items weighing more than 100 kg;",
+        "e": "Disassembly/assembly of lamps",
+        "f": "Additional effort for items whose transport must be carried out through windows or over balconies;",
+        "g": "Additional expenses or additional services in the interest of the move even without special order;"
+      }
+    },
+    "cleaning": {
+      "title": "Cleaning",
+      "description": "Cleaning is inclusive with acceptance guarantee on the same day. Should acceptance not be possible on the cleaning day, the second trip costs extra depending on distance.",
+      "separateOrder": "The following must be ordered separately:",
+      "items": {
+        "item1": "Cleaning of balcony or terrace with Kärcher",
+        "item2": "Cleaning of extra dirty joints",
+        "item3": "Cleaning of gallery, cellar and garage.",
+        "item4": "Cleaning of winter garden",
+        "item5": "Weeding grass between garden slabs"
+      }
+    },
+    "furnitureLift": {
+      "title": "Furniture Lift",
+      "description": "Furniture lift will be set up when needed for CHF 350.-"
+    },
+    "insurance": {
+      "title": "Insurance",
+      "description": "Damage to your furniture or movables caused by us is insured up to the maximum amount according to the following regulation. Please note that our insurance only pays the current value of the damaged goods and not their new value.",
+      "coverage": "The mentioned tariffs include business liability insurance with a liability of up to CHF 10,000,000.- The scope of coverage of the transport insurance is per moving truck up to max. CHF 50,000.-",
+      "reporting": "The customer is obligated to report the damage on the moving day, at the latest 2 days later. Reports not made in time cannot be processed."
+    },
+    "cancellation": {
+      "title": "Cancellation",
+      "description": "If the customer cancels the order for an important reason 15 days before the appointment, no cancellation fee will be charged. For later cancellations, 50% of the order volume will be charged.",
+      "written": "Cancellation must be made in writing in any case."
+    },
+    "payment": {
+      "title": "Payment",
+      "description": "Moves and cleaning are generally to be paid in cash. Excluded are payments through an institution, such as social services, Pro Infirmis, company, etc.",
+      "international": "For transports abroad, 50% advance payment must be made."
+    },
+    "signature": "Date and Signature of Client"
   },
   "common": {
     "required": "*",

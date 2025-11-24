@@ -22,7 +22,7 @@
       "movingTo": "Umzug nach",
       "fromPlaceholder": "z.B. Zürich",
       "toPlaceholder": "z.B. Genf",
-      "compareOffers": "Umzugsangebote vergleichen",
+      "compareOffers": "Angebot erhalten",
       "disclaimer": "Kostenlose Angebote • Keine Verpflichtung • Sofortiger Vergleich"
     },
     "stats": {
@@ -40,7 +40,7 @@
         "description": "Füllen Sie ein einfaches Formular mit Ihren Umzugsdetails aus. Dauert weniger als 2 Minuten."
       },
       "step2": {
-        "title": "Angebote vergleichen",
+        "title": "Angebot erhalten",
         "description": "Erhalten Sie Ihr Angebot von Multifagro mit transparenten Preisen und Dienstleistungsdetails."
       },
       "step3": {
@@ -57,7 +57,7 @@
       "homeMoving": {
         "title": "Wohnungsumzug",
         "description": "Komplette Umzugsdienstleistungen für Wohnungen mit sorgfältiger Behandlung Ihrer Habseligkeiten.",
-        "features": ["Packhilfe", "Möbelmontage", "Sicherer Transport"]
+        "features": ["Packhilfe", "Möbelmontage", "Sicherer Transport", "Kostenlose Miete von Umzugskartons", "Lieferung und Abholung von Verpackungsmaterialien"]
       },
       "officeMoving": {
         "title": "Büroumzug",
@@ -77,7 +77,17 @@
       "cleaning": {
         "title": "Reinigung nach Umzug",
         "description": "Hinterlassen Sie Ihre alte Wohnung makellos mit unserem gründlichen Reinigungsservice.",
-        "features": ["Tiefenreinigung", "Umweltfreundliche Produkte", "Auszugsfähig"]
+        "features": ["Tiefenreinigung", "Umweltfreundliche Produkte", "Auszugsfähig", "Akzeptanz garantiert"]
+      },
+      "constructionCleaning": {
+        "title": "Bauendreinigung",
+        "description": "Professionelle Reinigungsdienstleistungen für Baustellen und Renovierungsprojekte.",
+        "features": ["Nachbaureinigung", "Schuttentfernung", "Tiefenreinigung", "Bereit für Endabnahme"]
+      },
+      "clearanceDisposal": {
+        "title": "Räumung und Entsorgung",
+        "description": "Komplette Räumungs- und Entsorgungsdienstleistungen für unerwünschte Artikel und Möbel.",
+        "features": ["Artikelentfernung", "Umweltfreundliche Entsorgung", "Recycling-Optionen", "Komplette Räumung"]
       }
     }
   },
@@ -95,10 +105,10 @@
       },
       "verified": {
         "title": "Professionelles Team",
-        "description": "Unser Team besteht aus lizenzierten Fachleuten, die überprüft und von Kunden bewertet werden."
+        "description": "Unser Team besteht aus erfahrenen Fachleuten, die überprüft und von Kunden bewertet werden."
       },
       "support": {
-        "title": "24/7 Support",
+        "title": "Support",
         "description": "Unser Kundensupport-Team ist immer verfügbar, um bei Fragen oder Bedenken zu helfen."
       }
     }
@@ -138,7 +148,7 @@
     "mondayFriday": "Montag - Freitag",
     "saturdaySunday": "Samstag - Sonntag",
     "closed": "Geschlossen",
-    "hours": "8:00 - 18:00 Uhr",
+    "hours": "08:00 AM - 05:00 PM",
     "form": {
       "title": "Senden Sie uns eine Nachricht",
       "fullName": "Vollständiger Name",
@@ -240,7 +250,7 @@
     "title": "Bereit für Ihren Umzug?",
     "subtitle": "Schließen Sie sich Tausenden von zufriedenen Kunden an, die Multifagro für ihre Umzugsbedürfnisse gewählt haben",
     "benefits": [
-      "Kostenlose sofortige Angebote",
+      "Angebot erhalten",
       "Buchen Sie in Minuten",
       "Vollständige Versicherungsabdeckung"
     ],
@@ -295,6 +305,28 @@
           "Fokus auf Küche und Badezimmer",
           "Zufriedenheitsgarantie"
         ]
+      },
+      "constructionCleaning": {
+        "title": "Bauendreinigung",
+        "description": "Professionelle Reinigungsdienstleistungen für Baustellen und Renovierungsprojekte, um sicherzustellen, dass Ihr Raum einsatzbereit ist.",
+        "features": [
+          "Nachbaureinigung",
+          "Schutt- und Staubentfernung",
+          "Tiefenreinigung aller Oberflächen",
+          "Fenster- und Ausstattungsreinigung",
+          "Bereit für Endabnahme"
+        ]
+      },
+      "clearanceDisposal": {
+        "title": "Räumung und Entsorgung",
+        "description": "Komplette Räumungs- und Entsorgungsdienstleistungen für unerwünschte Artikel, Möbel und Abfallmaterialien.",
+        "features": [
+          "Komplette Artikelentfernung",
+          "Umweltfreundliche Entsorgungsmethoden",
+          "Recycling- und Spendenoptionen",
+          "Handhabung großer Artikel",
+          "Verantwortungsvolles Abfallmanagement"
+        ]
       }
     },
     "whyChoose": {
@@ -302,8 +334,8 @@
       "subtitle": "Wir sind bestrebt, Ihren Umzug so reibungslos und stressfrei wie möglich zu gestalten",
       "items": {
         "licensed": {
-          "title": "Vollständig lizenziert & versichert",
-          "description": "Unser Team besteht aus lizenzierten Fachkräften mit umfassendem Versicherungsschutz."
+          "title": "Vollständig erfahren",
+          "description": "Unser Team besteht aus erfahrenen Fachkräften mit umfassendem Versicherungsschutz."
         },
         "pricing": {
           "title": "Transparente Preise",
@@ -349,7 +381,7 @@
         },
         "timing": {
           "title": "Timing",
-          "description": "Hauptsaison (Sommer) und Wochenendumzüge können höhere Tarife haben als Nebensaisonzeiten."
+          "description": "Saison und Wochenendumzüge können höhere Tarife haben als Nebensaisonzeiten."
         }
       }
     },
@@ -358,27 +390,27 @@
       "subtitle": "Machen Sie sich ein Bild davon, was Ihr Umzug kosten könnte (Preise variieren je nach spezifischen Details)",
       "mostPopular": "Am beliebtesten",
       "localMove": "Lokaler Umzug",
-      "longDistance": "Fernumzug",
+      "longDistance": "Zwischen",
       "typicallyIncludes": "Typischerweise enthalten:",
       "disclaimer": "* Preise sind Schätzungen und können je nach spezifischen Anforderungen, Entfernung und zusätzlichen Dienstleistungen variieren. Erhalten Sie ein genaues Angebot, indem Sie unser Formular ausfüllen.",
       "sizes": {
         "studio": {
-          "title": "Studio/1 Schlafzimmer",
+          "title": "Von 1 - 2,5 Zimmer",
           "local": "CHF 300 - 450",
-          "distance": "CHF 800 - 1,400",
-          "features": ["1-2 Teammitglieder", "Kleiner Lkw", "3-4 Stunden", "Grundversicherung"]
+          "distance": "CHF 520 - 700",
+          "features": ["1-2 Teammitglieder", "Kleiner Lkw", "3-4 Stunden"]
         },
         "twoBedroom": {
-          "title": "2 Schlafzimmer",
+          "title": "Von 3 - 4,5 Zimmer",
           "local": "CHF 450 - 700",
-          "distance": "CHF 1,400 - 2,000",
-          "features": ["2-3 Teammitglieder", "Mittlerer Lkw", "4-6 Stunden", "Vollversicherung"]
+          "distance": "CHF 880 - 1'200",
+          "features": ["2-3 Teammitglieder", "Mittlerer Lkw", "4-6 Stunden"]
         },
         "threeFourBedroom": {
-          "title": "3-4 Schlafzimmer",
+          "title": "5 Zimmer oder mehr",
           "local": "CHF 700 - 1,100",
-          "distance": "CHF 2,000 - 3,200",
-          "features": ["3-4 Teammitglieder", "Großer Lkw", "6-8 Stunden", "Premium-Versicherung"]
+          "distance": "CHF 1'540 - 2'000",
+          "features": ["3-4 Teammitglieder", "Großer Lkw", "6-8 Stunden"]
         }
       }
     },
@@ -391,9 +423,9 @@
         "cleaning": "Reinigung nach Umzug"
       },
       "prices": {
-        "packing": "CHF 80 - 200",
-        "unpacking": "CHF 60 - 140",
-        "materials": "CHF 40 - 120",
+        "packing": "CHF 120 - 240",
+        "unpacking": "CHF 40 - 120",
+        "materials": "Kostenlos",
         "cleaning": "CHF 100 - 240"
       }
     },
@@ -458,7 +490,7 @@
           "description": "Alle Umzüge umfassen Versicherungsschutz und unsere Zufriedenheitsgarantie."
         },
         "support": {
-          "title": "24/7 Support",
+          "title": "Support",
           "description": "Unser Team ist immer verfügbar, um Ihnen vor, während und nach Ihrem Umzug zu helfen."
         }
       }
@@ -577,6 +609,70 @@
     "success": {
       "message": "Angebotsanfrage übermittelt! Weiterleitung zu den Angeboten..."
     }
+  },
+  "terms": {
+    "title": "Allgemeine Vertragsbestimmungen",
+    "lastUpdated": "Letzte Aktualisierung: Januar 2024",
+    "carrierObligations": {
+      "title": "Pflichten des Frachtführers",
+      "item1": "Der Frachtführer ist dazu verpflichtet, die für die Ausführung des Auftrages notwendigen Transportmittel auf den vereinbarten Zeitpunkt bereitzustellen.",
+      "item2": "Der Frachtführer führt den Auftrag vertragsgemäss und mit der notwendigen Sorgfalt aus.",
+      "item3": "Die Ablieferung des Frachtgutes am Bestimmungsort hat sofort nach Ankunft des Transportes oder nach Vereinbarung zu erfolgen."
+    },
+    "clientObligations": {
+      "title": "Pflichten des Auftraggebers",
+      "item1": "Der Auftraggeber ist verpflichtet, den Frachtführer auf die besondere Beschaffenheit des Transportgutes und dessen Schadenanfälligkeit aufmerksam zu machen.",
+      "item2": "Der Auftraggeber hat für die Beschaffung der erforderlichen Zolldokumente besorgt zu sein und ist für deren Richtigkeit verantwortlich.",
+      "item3": "Der Auftragsgeber ist verantwortlich für die Parkbewilligung und die Absperrung von Parkplätze 48 Stunde vor dem Umzugsbeginn.",
+      "item4": "Für alle Umtriebe und Mehrkosten, die infolge verspäteter Abnahme des Transportgutes durch den Auftraggeber entstehen, sind durch den Auftragsgeber zu übernehmen."
+    },
+    "pricing": {
+      "title": "Preise",
+      "description": "Der Preis berechnet sich nach Aufwand oder pauschal. Beim Stundenaufwand ist Mindestes 3 Stunden zu verrechnen.",
+      "notIncluded": "Im Preis nicht eingeschlossen sind dagegen, besondere Vereinbarungen vorbehalten, folgende Aufwendungen:",
+      "items": {
+        "a": "Das Ein- und Auspacken des Umzugsgutes.",
+        "b": "Spezieller Hin- oder Rücktransport von Packmaterial sowie dessen Miete oder Kauf;",
+        "c": "Das Demontieren und Montieren von komplizierten oder neuen Möbeln, die besonderen Zeitaufwand oder den Beizug eines Spezialisten benötigen;",
+        "d": "Der Transport von Kühlschränken/Truhen von über 200 l, Klavieren, Flügeln, Kassenschränken und anderen Gegenständen vom mehr als 100 kg Eigengewicht;",
+        "e": "Demontage/Montage von Lampen",
+        "f": "Der Mehraufwand für Gegenstände, deren Transport durch Fenster oder über Balkone zu erfolgen hat;",
+        "g": "Mehraufwendungen bzw. Mehrleistungen im Interesse des Umzuges auch ohne besonderen Auftrag;"
+      }
+    },
+    "cleaning": {
+      "title": "Reinigung",
+      "description": "Die Reinigung ist inklusiv Abnahmegarantie am selben Tag. Sollte die Abnahme nicht am Reinigungstag möglich sein, kostet die zweite Fahrt zusätzlich je nach Distanz.",
+      "separateOrder": "Folgendes Muss separat beauftrag werden:",
+      "items": {
+        "item1": "Reinigung von Balkon oder Terrasse mit Kärcher",
+        "item2": "Reinigung von extra schmutzigen Fugen",
+        "item3": "Reinigung von Galerie, Keller und Garage.",
+        "item4": "Reinigung von Wintergarten",
+        "item5": "Jäten von Gras zwischen Gartenplatten"
+      }
+    },
+    "furnitureLift": {
+      "title": "Möbellift",
+      "description": "Möbellift wird beim Bedarf zu SFr.350.- aufgestellt."
+    },
+    "insurance": {
+      "title": "Versicherung",
+      "description": "Durch uns verursachte Schäden an Ihrem Mobiliar oder Mobilien sind bis zu dem Maximalbetrag gemäss nachfolgender Regelung versichert. Beachten Sie unbedingt, dass unsere Versicherung nur den Zeitwert des beschädigten Gutes bezahlt und nicht deren Neuwert.",
+      "coverage": "In den erwähnten Tarifen ist eine Betriebshaftpflichtversicherung mit einer Haftung von bis SFr. 10'000'000.- eingeschlossen. Deckungsumfang der Transportversicherung beträgt pro Möbelwagen bis max. SFr. 50'000.-",
+      "reporting": "Der Kunde verpflichtet sich am Umzugstag, spätestens 2 Tage später den Schadenfall zu melden. Nicht rechtzeitig gemachte Meldungen können nicht bearbeitet werden."
+    },
+    "cancellation": {
+      "title": "Annullierung",
+      "description": "Storniert der Kunde den Auftrag aus einem wichtigen Grund 15 Tage vor dem Termin, so wird keine Umtriebsentschädigung erhoben, bei späterer Stornierung werden 50% des Auftragsvolumens verrechnet.",
+      "written": "Die Stornierung muss in jedem Fall schriftlich erfolgen."
+    },
+    "payment": {
+      "title": "Bezahlung",
+      "description": "Umzüge und Reinigungen sind grundsätzlich bar zu bezahlen. Ausgenommen sind die Zahlungen durch eine Intuition, wie Sozialdienst, Pro Infirmis, Firma usw.",
+      "international": "Bei Transporten ins Ausland ist 50% Voraus- Zahlung zu leisten."
+    },
+    "signature": "Datum und Unterschrift Auftragsgeber"
   },
   "common": {
     "required": "*",

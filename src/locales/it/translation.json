@@ -22,7 +22,7 @@
       "movingTo": "Trasloco verso",
       "fromPlaceholder": "es. Zurigo",
       "toPlaceholder": "es. Ginevra",
-      "compareOffers": "Confronta offerte di trasloco",
+      "compareOffers": "Ottieni preventivo",
       "disclaimer": "Preventivi gratuiti • Nessun impegno • Confronto istantaneo"
     },
     "stats": {
@@ -40,7 +40,7 @@
         "description": "Compila un semplice modulo con i dettagli del tuo trasloco. Richiede meno di 2 minuti."
       },
       "step2": {
-        "title": "Confronta le offerte",
+        "title": "Ottieni preventivo",
         "description": "Ricevi il tuo preventivo da Multifagro con prezzi trasparenti e dettagli del servizio."
       },
       "step3": {
@@ -57,7 +57,7 @@
       "homeMoving": {
         "title": "Traslochi residenziali",
         "description": "Servizi completi di trasloco residenziale con gestione attenta dei tuoi beni.",
-        "features": ["Assistenza imballaggio", "Smontaggio mobili", "Trasporto sicuro"]
+        "features": ["Assistenza imballaggio", "Smontaggio mobili", "Trasporto sicuro", "Noleggio gratuito di scatole per traslochi", "Consegna e ritiro di materiali di imballaggio"]
       },
       "officeMoving": {
         "title": "Traslochi uffici",
@@ -77,7 +77,17 @@
       "cleaning": {
         "title": "Pulizia post-trasloco",
         "description": "Lascia il tuo vecchio posto immacolato con il nostro servizio di pulizia approfondita.",
-        "features": ["Pulizia approfondita", "Prodotti ecologici", "Pronto per la partenza"]
+        "features": ["Pulizia approfondita", "Prodotti ecologici", "Pronto per la partenza", "Accettazione garantita"]
+      },
+      "constructionCleaning": {
+        "title": "Pulizia post-costruzione",
+        "description": "Servizi di pulizia professionale per cantieri edili e progetti di ristrutturazione.",
+        "features": ["Pulizia post-costruzione", "Rimozione detriti", "Pulizia approfondita", "Pronto per ispezione finale"]
+      },
+      "clearanceDisposal": {
+        "title": "Sgombero e smaltimento",
+        "description": "Servizi completi di sgombero e smaltimento per articoli e mobili indesiderati.",
+        "features": ["Rimozione articoli", "Smaltimento ecologico", "Opzioni di riciclaggio", "Sgombero completo"]
       }
     }
   },
@@ -95,10 +105,10 @@
       },
       "verified": {
         "title": "Team professionale",
-        "description": "Il nostro team è composto da professionisti autorizzati che sono verificati e recensiti dai clienti."
+        "description": "Il nostro team è composto da professionisti esperti che sono verificati e recensiti dai clienti."
       },
       "support": {
-        "title": "Supporto 24/7",
+        "title": "Supporto",
         "description": "Il nostro team di supporto clienti è sempre disponibile per aiutarvi con qualsiasi domanda o preoccupazione."
       }
     }
@@ -138,7 +148,7 @@
     "mondayFriday": "Lunedì - Venerdì",
     "saturdaySunday": "Sabato - Domenica",
     "closed": "Chiuso",
-    "hours": "8:00 - 18:00",
+    "hours": "08:00 AM - 05:00 PM",
     "form": {
       "title": "Inviaci un messaggio",
       "fullName": "Nome completo",
@@ -240,7 +250,7 @@
     "title": "Pronto per il tuo trasloco?",
     "subtitle": "Unisciti a migliaia di clienti soddisfatti che hanno scelto Multifagro per le loro esigenze di trasloco",
     "benefits": [
-      "Preventivi istantanei gratuiti",
+      "Ottieni offerta",
       "Prenota in pochi minuti",
       "Copertura assicurativa completa"
     ],
@@ -295,6 +305,28 @@
           "Focus su cucina e bagno",
           "Garanzia di soddisfazione"
         ]
+      },
+      "constructionCleaning": {
+        "title": "Pulizia post-costruzione",
+        "description": "Servizi di pulizia professionale per cantieri edili e progetti di ristrutturazione per garantire che il tuo spazio sia pronto per l'uso.",
+        "features": [
+          "Pulizia post-costruzione",
+          "Rimozione detriti e polvere",
+          "Pulizia approfondita di tutte le superfici",
+          "Pulizia finestre e attrezzature",
+          "Pronto per ispezione finale"
+        ]
+      },
+      "clearanceDisposal": {
+        "title": "Sgombero e smaltimento",
+        "description": "Servizi completi di sgombero e smaltimento per articoli indesiderati, mobili e materiali di scarto.",
+        "features": [
+          "Rimozione completa articoli",
+          "Metodi di smaltimento ecologici",
+          "Opzioni di riciclaggio e donazione",
+          "Gestione di articoli di grandi dimensioni",
+          "Gestione responsabile dei rifiuti"
+        ]
       }
     },
     "whyChoose": {
@@ -302,8 +334,8 @@
       "subtitle": "Ci impegniamo a rendere il tuo trasloco il più fluido e senza stress possibile",
       "items": {
         "licensed": {
-          "title": "Completamente autorizzato e assicurato",
-          "description": "Il nostro team è composto da professionisti autorizzati con copertura assicurativa completa."
+          "title": "Completamente esperto",
+          "description": "Il nostro team è composto da professionisti esperti con copertura assicurativa completa."
         },
         "pricing": {
           "title": "Prezzi trasparenti",
@@ -349,7 +381,7 @@
         },
         "timing": {
           "title": "Tempistica",
-          "description": "La stagione di punta (estate) e i traslochi nei fine settimana possono avere tariffe più elevate rispetto ai periodi di bassa stagione."
+          "description": "La stagione e i traslochi nei fine settimana possono avere tariffe più elevate rispetto ai periodi di bassa stagione."
         }
       }
     },
@@ -358,27 +390,27 @@
       "subtitle": "Fatti un'idea di quanto potrebbe costare il tuo trasloco (i prezzi variano in base ai dettagli specifici)",
       "mostPopular": "Più popolare",
       "localMove": "Trasloco locale",
-      "longDistance": "Lunga distanza",
+      "longDistance": "Tra",
       "typicallyIncludes": "Include tipicamente:",
       "disclaimer": "* I prezzi sono stime e possono variare in base a requisiti specifici, distanza e servizi aggiuntivi. Ottieni un preventivo accurato compilando il nostro modulo.",
       "sizes": {
         "studio": {
-          "title": "Monolocale/1 camera da letto",
+          "title": "Da 1 - 2,5 stanze",
           "local": "CHF 300 - 450",
-          "distance": "CHF 800 - 1,400",
-          "features": ["1-2 membri del team", "Piccolo camion", "3-4 ore", "Assicurazione base"]
+          "distance": "CHF 520 - 700",
+          "features": ["1-2 membri del team", "Piccolo camion", "3-4 ore"]
         },
         "twoBedroom": {
-          "title": "2 camere da letto",
+          "title": "Da 3 - 4,5 stanze",
           "local": "CHF 450 - 700",
-          "distance": "CHF 1,400 - 2,000",
-          "features": ["2-3 membri del team", "Camion medio", "4-6 ore", "Assicurazione completa"]
+          "distance": "CHF 880 - 1'200",
+          "features": ["2-3 membri del team", "Camion medio", "4-6 ore"]
         },
         "threeFourBedroom": {
-          "title": "3-4 camere da letto",
+          "title": "5 stanze o più",
           "local": "CHF 700 - 1,100",
-          "distance": "CHF 2,000 - 3,200",
-          "features": ["3-4 membri del team", "Grande camion", "6-8 ore", "Assicurazione premium"]
+          "distance": "CHF 1'540 - 2'000",
+          "features": ["3-4 membri del team", "Grande camion", "6-8 ore"]
         }
       }
     },
@@ -391,9 +423,9 @@
         "cleaning": "Pulizia post-trasloco"
       },
       "prices": {
-        "packing": "CHF 80 - 200",
-        "unpacking": "CHF 60 - 140",
-        "materials": "CHF 40 - 120",
+        "packing": "CHF 120 - 240",
+        "unpacking": "CHF 40 - 120",
+        "materials": "Gratuito",
         "cleaning": "CHF 100 - 240"
       }
     },
@@ -458,7 +490,7 @@
           "description": "Tutti i traslochi includono copertura assicurativa e la nostra garanzia di soddisfazione."
         },
         "support": {
-          "title": "Supporto 24/7",
+          "title": "Supporto",
           "description": "Il nostro team è sempre disponibile per aiutarti prima, durante e dopo il tuo trasloco."
         }
       }
@@ -577,6 +609,70 @@
     "success": {
       "message": "Richiesta di preventivo inviata! Reindirizzamento alle offerte..."
     }
+  },
+  "terms": {
+    "title": "Termini e condizioni",
+    "lastUpdated": "Ultimo aggiornamento: gennaio 2024",
+    "carrierObligations": {
+      "title": "Obblighi del trasportatore",
+      "item1": "Il trasportatore è obbligato a fornire i mezzi di trasporto necessari per l'esecuzione dell'ordine al momento concordato.",
+      "item2": "Il trasportatore esegue l'ordine conformemente al contratto e con la cura necessaria.",
+      "item3": "La consegna delle merci a destinazione deve avvenire immediatamente dopo l'arrivo del trasporto o per accordo."
+    },
+    "clientObligations": {
+      "title": "Obblighi del cliente",
+      "item1": "Il cliente è obbligato a informare il trasportatore sulla natura particolare delle merci da trasportare e sulla loro suscettibilità ai danni.",
+      "item2": "Il cliente deve procurarsi i documenti doganali richiesti ed è responsabile della loro accuratezza.",
+      "item3": "Il cliente è responsabile del permesso di parcheggio e del blocco dei parcheggi 48 ore prima dell'inizio del trasloco.",
+      "item4": "Tutti i costi e le spese aggiuntive che derivano dall'accettazione tardiva delle merci trasportate da parte del cliente sono a carico del cliente."
+    },
+    "pricing": {
+      "title": "Prezzi",
+      "description": "Il prezzo è calcolato in base allo sforzo o forfettariamente. Per lo sforzo orario, viene addebitato un minimo di 3 ore.",
+      "notIncluded": "Le seguenti spese non sono incluse nel prezzo, salvo accordi speciali:",
+      "items": {
+        "a": "L'imballaggio e il disimballaggio dei beni di trasloco.",
+        "b": "Trasporto speciale verso o dai materiali di imballaggio nonché il loro noleggio o acquisto;",
+        "c": "Lo smontaggio e il montaggio di mobili complicati o nuovi che richiedono tempo speciale o l'intervento di uno specialista;",
+        "d": "Il trasporto di frigoriferi/congelatori oltre 200 litri, pianoforti, pianoforti a coda, casseforti e altri articoli del peso superiore a 100 kg;",
+        "e": "Smontaggio/montaggio delle lampade",
+        "f": "Sforzo aggiuntivo per gli articoli il cui trasporto deve essere effettuato attraverso finestre o su balconi;",
+        "g": "Spese aggiuntive o servizi aggiuntivi nell'interesse del trasloco anche senza ordine speciale;"
+      }
+    },
+    "cleaning": {
+      "title": "Pulizia",
+      "description": "La pulizia è inclusa con garanzia di accettazione lo stesso giorno. Se l'accettazione non è possibile il giorno della pulizia, il secondo viaggio costa un supplemento a seconda della distanza.",
+      "separateOrder": "I seguenti elementi devono essere ordinati separatamente:",
+      "items": {
+        "item1": "Pulizia del balcone o della terrazza con Kärcher",
+        "item2": "Pulizia di giunti molto sporchi",
+        "item3": "Pulizia della galleria, del seminterrato e del garage.",
+        "item4": "Pulizia del giardino d'inverno",
+        "item5": "Diserbo dell'erba tra le lastre del giardino"
+      }
+    },
+    "furnitureLift": {
+      "title": "Montamobili",
+      "description": "Il montamobili sarà installato quando necessario per 350 CHF."
+    },
+    "insurance": {
+      "title": "Assicurazione",
+      "description": "I danni causati ai vostri mobili o beni mobili da parte nostra sono assicurati fino all'importo massimo secondo la seguente regolamentazione. Si prega di notare che la nostra assicurazione paga solo il valore attuale dei beni danneggiati e non il loro valore nuovo.",
+      "coverage": "Le tariffe menzionate includono un'assicurazione di responsabilità civile professionale con una responsabilità fino a 10.000.000 CHF. La portata della copertura dell'assicurazione trasporti è per camion di trasloco fino a un massimo di 50.000 CHF.",
+      "reporting": "Il cliente si impegna a segnalare il sinistro il giorno del trasloco, al più tardi 2 giorni dopo. Le segnalazioni non fatte in tempo non possono essere elaborate."
+    },
+    "cancellation": {
+      "title": "Annullamento",
+      "description": "Se il cliente annulla l'ordine per un motivo importante 15 giorni prima dell'appuntamento, non verrà addebitato alcun costo di annullamento. Per le cancellazioni successive, verrà addebitato il 50% del volume dell'ordine.",
+      "written": "L'annullamento deve essere fatto per iscritto in ogni caso."
+    },
+    "payment": {
+      "title": "Pagamento",
+      "description": "I traslochi e le pulizie sono generalmente da pagare in contanti. Sono esclusi i pagamenti effettuati tramite un'istituzione, come servizi sociali, Pro Infirmis, azienda, ecc.",
+      "international": "Per i trasporti all'estero, deve essere effettuato un anticipo del 50%."
+    },
+    "signature": "Data e firma del cliente"
   },
   "common": {
     "required": "*",
