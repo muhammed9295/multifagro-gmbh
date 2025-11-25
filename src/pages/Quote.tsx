@@ -89,51 +89,176 @@ const Quote = () => {
     setErrors({});
   };
 
-  const handleSubmit = () => {
-    localStorage.setItem("quoteRequest", JSON.stringify(formData));
-    
-    // Generate mock booking data for success page
-    const bookingId = `MOV-${Date.now().toString().slice(-8)}`;
-    
-    // Calculate estimated price based on move size
-    const priceMap: Record<string, number> = {
-      studio: 350,
-      "1bed": 550,
-      "2bed": 750,
-      "3bed": 1100,
-      "4bed+": 1500,
-      office: 2000,
-    };
-    
-    let basePrice = priceMap[formData.moveSize] || 750;
-    
-    // Add service costs
-    if (formData.packing) basePrice += 150;
-    if (formData.unpacking) basePrice += 100;
-    if (formData.boxes) basePrice += 80;
-    if (formData.cleaning) basePrice += 200;
-    
-    const mockOffer = {
-      id: 1,
-      company: "Multifagro",
-      rating: 4.9,
-      reviews: 342,
-      price: basePrice,
-      avatar: "RM",
-      color: "from-primary to-accent",
-    };
-    
-    const bookingData = {
-      bookingId,
-      quoteData: formData,
-      offer: mockOffer,
-      total: basePrice,
-    };
-    
-    toast.success(t("quotePage.success.message"));
-    setTimeout(() => {
-      navigate("/booking-success", { state: bookingData });
-    }, 1500);
+  const handleSubmit = async () => {
+    try {
+      // Show loading state
+      const loadingToast = toast.loading('Sending your request...');
+
+      let bookingId = `MOV-${Date.now().toString().slice(-8)}`;
+
+      // Prepare webhook data (same format as Netlify function sends)
+      const webhookData = {
+        bookingId,
+        timestamp: new Date().toISOString(),
+        name: formData.name,
+        email: formData.email,
+        phone: formData.phone,
+        fromAddress: formData.fromAddress,
+        toAddress: formData.toAddress,
+        moveSize: formData.moveSize,
+        floors: formData.floors,
+        elevator: formData.elevator,
+        packing: formData.packing,
+        unpacking: formData.unpacking,
+        boxes: formData.boxes,
+        cleaning: formData.cleaning,
+        moveDate: formData.moveDate,
+        timeWindow: formData.timeWindow,
+        notes: formData.notes || '',
+      };
+
+      // Send to webhook
+      if (import.meta.env.PROD) {
+        // Production: Use Netlify function
+        try {
+          const response = await fetch('/.netlify/functions/send-quote', {
+            method: 'POST',
+            headers: {
+              'Content-Type': 'application/json',
+            },
+            body: JSON.stringify(formData),
+          });
+
+          const result = await response.json();
+          
+          if (response.ok) {
+            if (result.bookingId) {
+              bookingId = result.bookingId;
+            }
+            console.log('Webhook sent successfully via Netlify function:', result);
+          } else {
+            // Even if response is not OK, check if webhook was sent
+            console.error('Netlify function error:', result);
+            if (result.error) {
+              console.error('Error details:', result.error);
+            }
+            // Still proceed with form submission
+          }
+        } catch (error) {
+          console.error('Failed to send via Netlify function:', error);
+        }
+      } else {
+        // Development: Try Netlify CLI first, then fallback to direct webhook call
+        let webhookSent = false;
+
+        // First, try Netlify function (if Netlify CLI is running)
+        try {
+          const response = await fetch('http://localhost:8888/.netlify/functions/send-quote', {
+            method: 'POST',
+            headers: {
+              'Content-Type': 'application/json',
+            },
+            body: JSON.stringify(formData),
+          });
+
+          const result = await response.json();
+          
+          if (response.ok) {
+            if (result.bookingId) {
+              bookingId = result.bookingId;
+            }
+            console.log('Webhook sent successfully via Netlify CLI:', result);
+            webhookSent = true;
+          } else {
+            // Even if response is not OK, check if webhook was sent
+            console.error('Netlify CLI function error:', result);
+            if (result.error) {
+              console.error('Error details:', result.error);
+            }
+            // Still proceed with form submission
+          }
+        } catch (error) {
+          // Netlify CLI not running, try direct webhook call
+          console.log('Netlify CLI not running, trying direct webhook call...');
+          
+          try {
+            const webhookUrl = import.meta.env.VITE_WEBHOOK_URL;
+            if (!webhookUrl) {
+              throw new Error('VITE_WEBHOOK_URL environment variable is not set');
+            }
+            const response = await fetch(webhookUrl, {
+              method: 'POST',
+              headers: {
+                'Content-Type': 'application/json',
+              },
+              body: JSON.stringify(webhookData),
+            });
+
+            if (response.ok) {
+              console.log('Webhook sent successfully directly:', await response.json().catch(() => ({})));
+              webhookSent = true;
+            } else {
+              console.warn('Webhook response not OK:', response.status);
+            }
+          } catch (webhookError: any) {
+            // CORS or other error - log but don't block form submission
+            if (webhookError.message?.includes('CORS') || webhookError.message?.includes('Failed to fetch')) {
+              console.warn('Direct webhook call blocked (CORS). Deploy to Netlify or run "npm run dev:netlify" to test webhook.');
+            } else {
+              console.error('Failed to send webhook directly:', webhookError);
+            }
+          }
+        }
+      }
+
+      // Dismiss loading toast
+      toast.dismiss(loadingToast);
+
+      // Store in localStorage
+      localStorage.setItem("quoteRequest", JSON.stringify(formData));
+      
+      // Calculate estimated price based on move size
+      const priceMap: Record<string, number> = {
+        studio: 350,
+        "1bed": 550,
+        "2bed": 750,
+        "3bed": 1100,
+        "4bed+": 1500,
+        office: 2000,
+      };
+      
+      let basePrice = priceMap[formData.moveSize] || 750;
+      
+      // Add service costs
+      if (formData.packing) basePrice += 150;
+      if (formData.unpacking) basePrice += 100;
+      if (formData.boxes) basePrice += 80;
+      if (formData.cleaning) basePrice += 200;
+      
+      const mockOffer = {
+        id: 1,
+        company: "Multifagro",
+        rating: 4.9,
+        reviews: 342,
+        price: basePrice,
+        avatar: "RM",
+        color: "from-primary to-accent",
+      };
+      
+      const bookingData = {
+        bookingId,
+        quoteData: formData,
+        offer: mockOffer,
+        total: basePrice,
+      };
+      
+      toast.success(t("quotePage.success.message"));
+      setTimeout(() => {
+        navigate("/booking-success", { state: bookingData });
+      }, 1500);
+    } catch (error) {
+      toast.error('Failed to send quote request. Please try again or contact us directly.');
+    }
   };
 
   const steps = [

@@ -1,5 +1,5 @@
 import { useLocation, Link } from "react-router-dom";
-import { CheckCircle, Calendar, Mail, Phone, Download } from "lucide-react";
+import { CheckCircle, Calendar, Mail, Phone } from "lucide-react";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import { Button } from "@/components/ui/button";
@@ -37,13 +37,10 @@ const BookingSuccess = () => {
               <CheckCircle className="h-12 w-12 text-success" />
             </div>
             <h1 className="text-3xl sm:text-4xl font-heading font-bold text-foreground mb-3">
-              Booking Confirmed!
+              Request Sent!
             </h1>
-            <p className="text-lg text-muted-foreground mb-2">
-              Your move is scheduled and confirmed
-            </p>
-            <p className="text-sm text-muted-foreground">
-              Booking ID: <span className="font-mono font-semibold text-foreground">{bookingData.bookingId}</span>
+            <p className="text-lg text-muted-foreground">
+              We've received your quote request and will get back to you shortly
             </p>
           </div>
 
@@ -56,10 +53,10 @@ const BookingSuccess = () => {
               </h2>
               <ol className="space-y-3">
                 {[
-                  "You'll receive a confirmation email with all booking details",
-                  "Multifagro will contact you 24-48 hours before the move",
-                  "Our team will be available 24/7 if you have any questions",
-                  "On moving day, the crew will arrive during your selected time window",
+                  "Our team will review your quote request",
+                  "We'll contact you within 24 hours with a detailed quote",
+                  "You can ask any questions or request modifications",
+                  "Once approved, we'll schedule your move",
                 ].map((step, idx) => (
                   <li key={idx} className="flex items-start text-sm">
                     <span className="flex-shrink-0 w-6 h-6 rounded-full bg-primary text-primary-foreground flex items-center justify-center text-xs font-semibold mr-3 mt-0.5">
@@ -103,18 +100,6 @@ const BookingSuccess = () => {
                 </div>
               </div>
             </div>
-          </div>
-
-          {/* Action Buttons */}
-          <div className="grid sm:grid-cols-2 gap-4 mb-8">
-            <Button variant="outline" size="lg" className="w-full">
-              <Mail className="mr-2 h-5 w-5" />
-              Email Confirmation
-            </Button>
-            <Button variant="outline" size="lg" className="w-full">
-              <Download className="mr-2 h-5 w-5" />
-              Download Receipt
-            </Button>
           </div>
 
           {/* Contact Support */}
