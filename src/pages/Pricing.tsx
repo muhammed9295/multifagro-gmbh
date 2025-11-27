@@ -83,10 +83,6 @@ const Pricing = () => {
       service: t("pricingPage.addOns.items.materials"), 
       price: t("pricingPage.addOns.prices.materials") 
     },
-    { 
-      service: t("pricingPage.addOns.items.cleaning"), 
-      price: t("pricingPage.addOns.prices.cleaning") 
-    },
   ];
 
   return (
@@ -273,7 +269,7 @@ const Pricing = () => {
               </h2>
             </div>
 
-            <div className="grid sm:grid-cols-2 gap-4">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
               {addOnServices.map((item, index) => (
                 <div
                   key={index}
