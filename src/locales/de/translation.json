@@ -143,7 +143,7 @@
     "phone": "Telefon",
     "email": "E-Mail",
     "locations": "Standorte",
-    "locationsText": "Hohenstieglen 2, 8152 Opfikon Zh",
+    "locationsText": "Hohenstieglen 2, 8152 Opfikon ZH",
     "businessHours": "Geschäftszeiten",
     "mondayFriday": "Montag - Freitag",
     "saturdaySunday": "Samstag - Sonntag",
@@ -697,6 +697,27 @@
       "international": "Bei Transporten ins Ausland ist 50% Voraus- Zahlung zu leisten."
     },
     "signature": "Datum und Unterschrift Auftragsgeber"
+  },
+  "bookingSuccess": {
+    "noBookingData": "Keine Buchungsdaten gefunden",
+    "returnHome": "Zur Startseite zurückkehren",
+    "title": "Anfrage gesendet!",
+    "subtitle": "Wir haben Ihre Angebotsanfrage erhalten und werden uns in Kürze bei Ihnen melden",
+    "whatHappensNext": "Was passiert als Nächstes?",
+    "steps": {
+      "step1": "Unser Team wird Ihre Angebotsanfrage überprüfen",
+      "step2": "Wir werden Sie innerhalb von 24 Stunden mit einem detaillierten Angebot kontaktieren",
+      "step3": "Sie können Fragen stellen oder Änderungen anfordern",
+      "step4": "Nach Genehmigung planen wir Ihren Umzug"
+    },
+    "yourMoveDetails": "Ihre Umzugsdetails",
+    "date": "Datum",
+    "time": "Uhrzeit",
+    "from": "Von",
+    "to": "Nach",
+    "needToMakeChanges": "Müssen Sie Änderungen vornehmen?",
+    "contactSupport": "Kontaktieren Sie unser Support-Team für Änderungen an Ihrer Buchung",
+    "returnToHome": "Zur Startseite zurückkehren"
   },
   "common": {
     "required": "*",

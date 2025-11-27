@@ -116,7 +116,7 @@ const Footer = () => {
                 <MapPin className="h-5 w-5 text-primary mt-0.5 flex-shrink-0" />
                 <div>
                   <p className="text-sm text-muted-foreground">
-                    Hohenstieglen 2, 8152 Opfikon Zh
+                    {t("contact.locationsText")}
                   </p>
                 </div>
               </li>

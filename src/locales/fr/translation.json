@@ -143,7 +143,7 @@
     "phone": "Téléphone",
     "email": "E-mail",
     "locations": "Emplacements",
-    "locationsText": "Hohenstieglen 2, 8152 Opfikon Zh",
+    "locationsText": "Hohenstieglen 2, 8152 Opfikon ZH",
     "businessHours": "Heures d'ouverture",
     "mondayFriday": "Lundi - Vendredi",
     "saturdaySunday": "Samedi - Dimanche",
@@ -697,6 +697,27 @@
       "international": "Pour les transports à l'étranger, un acompte de 50% doit être versé."
     },
     "signature": "Date et signature du client"
+  },
+  "bookingSuccess": {
+    "noBookingData": "Aucune donnée de réservation trouvée",
+    "returnHome": "Retour à l'accueil",
+    "title": "Demande envoyée !",
+    "subtitle": "Nous avons reçu votre demande de devis et vous répondrons sous peu",
+    "whatHappensNext": "Que se passe-t-il ensuite ?",
+    "steps": {
+      "step1": "Notre équipe examinera votre demande de devis",
+      "step2": "Nous vous contacterons dans les 24 heures avec un devis détaillé",
+      "step3": "Vous pouvez poser des questions ou demander des modifications",
+      "step4": "Une fois approuvé, nous planifierons votre déménagement"
+    },
+    "yourMoveDetails": "Détails de votre déménagement",
+    "date": "Date",
+    "time": "Heure",
+    "from": "De",
+    "to": "Vers",
+    "needToMakeChanges": "Besoin de faire des modifications ?",
+    "contactSupport": "Contactez notre équipe de support pour toute modification à votre réservation",
+    "returnToHome": "Retour à l'accueil"
   },
   "common": {
     "required": "*",

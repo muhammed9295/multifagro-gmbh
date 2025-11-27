@@ -1,10 +1,12 @@
 import { useLocation, Link } from "react-router-dom";
+import { useTranslation } from "react-i18next";
 import { CheckCircle, Calendar, Mail, Phone } from "lucide-react";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import { Button } from "@/components/ui/button";
 
 const BookingSuccess = () => {
+  const { t, i18n } = useTranslation();
   const location = useLocation();
   const bookingData = location.state;
 
@@ -14,9 +16,9 @@ const BookingSuccess = () => {
         <Navbar />
         <div className="flex-1 flex items-center justify-center">
           <div className="text-center">
-            <p className="text-muted-foreground mb-4">No booking data found</p>
+            <p className="text-muted-foreground mb-4">{t("bookingSuccess.noBookingData")}</p>
             <Button asChild>
-              <Link to="/">Return Home</Link>
+              <Link to="/">{t("bookingSuccess.returnHome")}</Link>
             </Button>
           </div>
         </div>
@@ -24,6 +26,13 @@ const BookingSuccess = () => {
       </div>
     );
   }
+
+  const steps = [
+    t("bookingSuccess.steps.step1"),
+    t("bookingSuccess.steps.step2"),
+    t("bookingSuccess.steps.step3"),
+    t("bookingSuccess.steps.step4"),
+  ];
 
   return (
     <div className="min-h-screen flex flex-col bg-secondary">
@@ -37,10 +46,10 @@ const BookingSuccess = () => {
               <CheckCircle className="h-12 w-12 text-success" />
             </div>
             <h1 className="text-3xl sm:text-4xl font-heading font-bold text-foreground mb-3">
-              Request Sent!
+              {t("bookingSuccess.title")}
             </h1>
             <p className="text-lg text-muted-foreground">
-              We've received your quote request and will get back to you shortly
+              {t("bookingSuccess.subtitle")}
             </p>
           </div>
 
@@ -49,15 +58,10 @@ const BookingSuccess = () => {
             {/* Next Steps */}
             <div>
               <h2 className="text-xl font-heading font-semibold text-foreground mb-4">
-                What Happens Next?
+                {t("bookingSuccess.whatHappensNext")}
               </h2>
               <ol className="space-y-3">
-                {[
-                  "Our team will review your quote request",
-                  "We'll contact you within 24 hours with a detailed quote",
-                  "You can ask any questions or request modifications",
-                  "Once approved, we'll schedule your move",
-                ].map((step, idx) => (
+                {steps.map((step, idx) => (
                   <li key={idx} className="flex items-start text-sm">
                     <span className="flex-shrink-0 w-6 h-6 rounded-full bg-primary text-primary-foreground flex items-center justify-center text-xs font-semibold mr-3 mt-0.5">
                       {idx + 1}
@@ -72,13 +76,13 @@ const BookingSuccess = () => {
             <div className="pt-6 border-t border-border">
               <h3 className="font-heading font-semibold text-foreground mb-4 flex items-center">
                 <Calendar className="h-5 w-5 mr-2 text-primary" />
-                Your Move Details
+                {t("bookingSuccess.yourMoveDetails")}
               </h3>
               <div className="grid sm:grid-cols-2 gap-4 text-sm">
                 <div>
-                  <p className="text-muted-foreground mb-1">Date</p>
+                  <p className="text-muted-foreground mb-1">{t("bookingSuccess.date")}</p>
                   <p className="font-medium text-foreground">
-                    {new Date(bookingData.quoteData.moveDate).toLocaleDateString("en-GB", {
+                    {new Date(bookingData.quoteData.moveDate).toLocaleDateString(i18n.language === "de" ? "de-CH" : i18n.language === "fr" ? "fr-CH" : i18n.language === "it" ? "it-CH" : "en-GB", {
                       weekday: "long",
                       year: "numeric",
                       month: "long",
@@ -87,15 +91,17 @@ const BookingSuccess = () => {
                   </p>
                 </div>
                 <div>
-                  <p className="text-muted-foreground mb-1">Time</p>
-                  <p className="font-medium text-foreground capitalize">{bookingData.quoteData.timeWindow}</p>
+                  <p className="text-muted-foreground mb-1">{t("bookingSuccess.time")}</p>
+                  <p className="font-medium text-foreground capitalize">
+                    {t(`quotePage.step3.timeWindows.${bookingData.quoteData.timeWindow}`)}
+                  </p>
                 </div>
                 <div>
-                  <p className="text-muted-foreground mb-1">From</p>
+                  <p className="text-muted-foreground mb-1">{t("bookingSuccess.from")}</p>
                   <p className="font-medium text-foreground">{bookingData.quoteData.fromAddress}</p>
                 </div>
                 <div>
-                  <p className="text-muted-foreground mb-1">To</p>
+                  <p className="text-muted-foreground mb-1">{t("bookingSuccess.to")}</p>
                   <p className="font-medium text-foreground">{bookingData.quoteData.toAddress}</p>
                 </div>
               </div>
@@ -105,10 +111,10 @@ const BookingSuccess = () => {
           {/* Contact Support */}
           <div className="bg-muted rounded-xl p-6 text-center">
             <h3 className="font-heading font-semibold text-foreground mb-2">
-              Need to Make Changes?
+              {t("bookingSuccess.needToMakeChanges")}
             </h3>
             <p className="text-sm text-muted-foreground mb-4">
-              Contact our support team for any modifications to your booking
+              {t("bookingSuccess.contactSupport")}
             </p>
             <div className="flex flex-wrap justify-center gap-4">
               <a href="tel:0782177760" className="flex items-center text-primary hover:text-primary-hover transition-colors">
@@ -125,7 +131,7 @@ const BookingSuccess = () => {
           {/* Return Home */}
           <div className="text-center mt-8">
             <Button asChild variant="default" size="lg">
-              <Link to="/">Return to Home</Link>
+              <Link to="/">{t("bookingSuccess.returnToHome")}</Link>
             </Button>
           </div>
         </div>
