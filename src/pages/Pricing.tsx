@@ -269,7 +269,7 @@ const Pricing = () => {
               </h2>
             </div>
 
-            <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
+            <div className="grid grid-cols-1 gap-4 max-w-2xl mx-auto">
               {addOnServices.map((item, index) => (
                 <div
                   key={index}
