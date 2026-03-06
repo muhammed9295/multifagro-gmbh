@@ -36,22 +36,46 @@ const Contact = () => {
     return Object.keys(newErrors).length === 0;
   };
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    
+
     if (validateForm()) {
-      // Here you would typically send the data to your backend
-      console.log("Form submitted:", formData);
-      toast.success("Message sent! We'll get back to you soon.");
-      
-      // Reset form
-      setFormData({
-        name: "",
-        email: "",
-        phone: "",
-        subject: "",
-        message: "",
-      });
+      const loadingToast = toast.loading('Sending your message...');
+
+      const encode = (data: any) => {
+        return Object.keys(data)
+          .map(key => encodeURIComponent(key) + "=" + encodeURIComponent(data[key]))
+          .join("&");
+      };
+
+      try {
+        if (window.location.hostname === "localhost" || window.location.hostname === "127.0.0.1") {
+          console.log("Local development detected. Mocking Netlify Form submission.", formData);
+          // Simulate a small delay
+          await new Promise(resolve => setTimeout(resolve, 500));
+        } else {
+          await fetch("/", {
+            method: "POST",
+            headers: { "Content-Type": "application/x-www-form-urlencoded" },
+            body: encode({ "form-name": "contact-form", ...formData }),
+          });
+        }
+
+        toast.dismiss(loadingToast);
+        toast.success("Message sent! We'll get back to you soon.");
+
+        // Reset form
+        setFormData({
+          name: "",
+          email: "",
+          phone: "",
+          subject: "",
+          message: "",
+        });
+      } catch (error) {
+        toast.dismiss(loadingToast);
+        toast.error("Failed to send message. Please try again or contact us directly.");
+      }
     }
   };
 
@@ -79,7 +103,7 @@ const Contact = () => {
   return (
     <div className="min-h-screen flex flex-col">
       <Navbar />
-      
+
       <main className="flex-1 bg-secondary">
         {/* Hero Section */}
         <section className="bg-gradient-to-b from-secondary to-background py-16 lg:py-20">
@@ -153,7 +177,7 @@ const Contact = () => {
                   <h2 className="text-2xl font-heading font-semibold text-foreground mb-6">
                     {t("contact.form.title")}
                   </h2>
-                  
+
                   <form onSubmit={handleSubmit} className="space-y-6">
                     <div className="grid sm:grid-cols-2 gap-6">
                       <div className="space-y-2">

@@ -18,6 +18,7 @@ import Terms from "./pages/Terms";
 import NotFound from "./pages/NotFound";
 import ScrollToTop from "./components/ScrollToTop";
 import PageTransition from "./components/PageTransition";
+import NetlifyForms from "./components/NetlifyForms";
 
 const queryClient = new QueryClient();
 
@@ -49,6 +50,7 @@ const AnimatedRoutes = () => {
 const App = () => (
 	<QueryClientProvider client={queryClient}>
 		<TooltipProvider>
+			<NetlifyForms />
 			<Toaster />
 			<Sonner />
 			<BrowserRouter>

@@ -26,18 +26,18 @@ const Quote = () => {
     moveSize: "",
     floors: "",
     elevator: false,
-    
+
     // Step 2: Add-ons
     packing: false,
     unpacking: false,
     boxes: false,
     cleaning: false,
-    
+
     // Step 3: Date & Time
     moveDate: "",
     timeWindow: "",
     notes: "",
-    
+
     // Step 4: Contact
     name: "",
     email: "",
@@ -94,129 +94,34 @@ const Quote = () => {
       // Show loading state
       const loadingToast = toast.loading('Sending your request...');
 
-      let bookingId = `MOV-${Date.now().toString().slice(-8)}`;
-
-      // Prepare webhook data (same format as Netlify function sends)
-      const webhookData = {
-        bookingId,
-        timestamp: new Date().toISOString(),
-        name: formData.name,
-        email: formData.email,
-        phone: formData.phone,
-        fromAddress: formData.fromAddress,
-        toAddress: formData.toAddress,
-        moveSize: formData.moveSize,
-        floors: formData.floors,
-        elevator: formData.elevator,
-        packing: formData.packing,
-        unpacking: formData.unpacking,
-        boxes: formData.boxes,
-        cleaning: formData.cleaning,
-        moveDate: formData.moveDate,
-        timeWindow: formData.timeWindow,
-        notes: formData.notes || '',
+      // Submit to Netlify Forms
+      const encode = (data: any) => {
+        return Object.keys(data)
+          .map(key => encodeURIComponent(key) + "=" + encodeURIComponent(data[key]))
+          .join("&");
       };
 
-      // Send to webhook
-      if (import.meta.env.PROD) {
-        // Production: Use Netlify function
-        try {
-          const response = await fetch('/.netlify/functions/send-quote', {
-            method: 'POST',
-            headers: {
-              'Content-Type': 'application/json',
-            },
-            body: JSON.stringify(formData),
-          });
-
-          const result = await response.json();
-          
-          if (response.ok) {
-            if (result.bookingId) {
-              bookingId = result.bookingId;
-            }
-            console.log('Webhook sent successfully via Netlify function:', result);
-          } else {
-            // Even if response is not OK, check if webhook was sent
-            console.error('Netlify function error:', result);
-            if (result.error) {
-              console.error('Error details:', result.error);
-            }
-            // Still proceed with form submission
-          }
-        } catch (error) {
-          console.error('Failed to send via Netlify function:', error);
-        }
+      if (window.location.hostname === "localhost" || window.location.hostname === "127.0.0.1") {
+        console.log("Local development detected. Mocking Netlify Form submission.", formData);
+        // Simulate a small delay
+        await new Promise(resolve => setTimeout(resolve, 500));
       } else {
-        // Development: Try Netlify CLI first, then fallback to direct webhook call
-        let webhookSent = false;
-
-        // First, try Netlify function (if Netlify CLI is running)
-        try {
-          const response = await fetch('http://localhost:8888/.netlify/functions/send-quote', {
-            method: 'POST',
-            headers: {
-              'Content-Type': 'application/json',
-            },
-            body: JSON.stringify(formData),
-          });
-
-          const result = await response.json();
-          
-          if (response.ok) {
-            if (result.bookingId) {
-              bookingId = result.bookingId;
-            }
-            console.log('Webhook sent successfully via Netlify CLI:', result);
-            webhookSent = true;
-          } else {
-            // Even if response is not OK, check if webhook was sent
-            console.error('Netlify CLI function error:', result);
-            if (result.error) {
-              console.error('Error details:', result.error);
-            }
-            // Still proceed with form submission
-          }
-        } catch (error) {
-          // Netlify CLI not running, try direct webhook call
-          console.log('Netlify CLI not running, trying direct webhook call...');
-          
-          try {
-            const webhookUrl = import.meta.env.VITE_WEBHOOK_URL;
-            if (!webhookUrl) {
-              throw new Error('VITE_WEBHOOK_URL environment variable is not set');
-            }
-            const response = await fetch(webhookUrl, {
-              method: 'POST',
-              headers: {
-                'Content-Type': 'application/json',
-              },
-              body: JSON.stringify(webhookData),
-            });
-
-            if (response.ok) {
-              console.log('Webhook sent successfully directly:', await response.json().catch(() => ({})));
-              webhookSent = true;
-            } else {
-              console.warn('Webhook response not OK:', response.status);
-            }
-          } catch (webhookError: any) {
-            // CORS or other error - log but don't block form submission
-            if (webhookError.message?.includes('CORS') || webhookError.message?.includes('Failed to fetch')) {
-              console.warn('Direct webhook call blocked (CORS). Deploy to Netlify or run "npm run dev:netlify" to test webhook.');
-            } else {
-              console.error('Failed to send webhook directly:', webhookError);
-            }
-          }
-        }
+        await fetch("/", {
+          method: "POST",
+          headers: { "Content-Type": "application/x-www-form-urlencoded" },
+          body: encode({ "form-name": "quote-request", ...formData }),
+        });
+        console.log('Submitted to Netlify Forms');
       }
 
       // Dismiss loading toast
       toast.dismiss(loadingToast);
 
+      const bookingId = `MOV-${Date.now().toString().slice(-8)}`;
+
       // Store in localStorage
       localStorage.setItem("quoteRequest", JSON.stringify(formData));
-      
+
       // Calculate estimated price based on move size
       const priceMap: Record<string, number> = {
         studio: 350,
@@ -226,15 +131,15 @@ const Quote = () => {
         "4bed+": 1500,
         office: 2000,
       };
-      
+
       let basePrice = priceMap[formData.moveSize] || 750;
-      
+
       // Add service costs
       if (formData.packing) basePrice += 150;
       if (formData.unpacking) basePrice += 100;
       if (formData.boxes) basePrice += 80;
       if (formData.cleaning) basePrice += 200;
-      
+
       const mockOffer = {
         id: 1,
         company: "Multifagro",
@@ -244,14 +149,14 @@ const Quote = () => {
         avatar: "RM",
         color: "from-primary to-accent",
       };
-      
+
       const bookingData = {
         bookingId,
         quoteData: formData,
         offer: mockOffer,
         total: basePrice,
       };
-      
+
       toast.success(t("quotePage.success.message"));
       setTimeout(() => {
         navigate("/booking-success", { state: bookingData });
@@ -271,7 +176,7 @@ const Quote = () => {
   return (
     <div className="min-h-screen flex flex-col bg-secondary">
       <Navbar />
-      
+
       <main className="flex-1 py-12 lg:py-16">
         <div className="container mx-auto max-w-4xl px-4 sm:px-6 lg:px-8">
           {/* Header */}
@@ -291,27 +196,24 @@ const Quote = () => {
                 <div key={s.number} className="flex items-center flex-1">
                   <div className="flex flex-col items-center flex-1">
                     <div
-                      className={`w-10 h-10 rounded-full flex items-center justify-center font-semibold text-sm transition-all ${
-                        step >= s.number
-                          ? "bg-primary text-primary-foreground shadow-medium"
-                          : "bg-background text-muted-foreground border-2 border-border"
-                      }`}
+                      className={`w-10 h-10 rounded-full flex items-center justify-center font-semibold text-sm transition-all ${step >= s.number
+                        ? "bg-primary text-primary-foreground shadow-medium"
+                        : "bg-background text-muted-foreground border-2 border-border"
+                        }`}
                     >
                       {s.number}
                     </div>
                     <span
-                      className={`text-xs mt-2 font-medium ${
-                        step >= s.number ? "text-primary" : "text-muted-foreground"
-                      }`}
+                      className={`text-xs mt-2 font-medium ${step >= s.number ? "text-primary" : "text-muted-foreground"
+                        }`}
                     >
                       {s.title}
                     </span>
                   </div>
                   {index < steps.length - 1 && (
                     <div
-                      className={`h-0.5 flex-1 mx-2 transition-all ${
-                        step > s.number ? "bg-primary" : "bg-border"
-                      }`}
+                      className={`h-0.5 flex-1 mx-2 transition-all ${step > s.number ? "bg-primary" : "bg-border"
+                        }`}
                     />
                   )}
                 </div>
@@ -327,7 +229,7 @@ const Quote = () => {
                 <h2 className="text-2xl font-heading font-semibold text-foreground mb-6">
                   {t("quotePage.step1.title")}
                 </h2>
-                
+
                 <div className="grid md:grid-cols-2 gap-6">
                   <div className="space-y-2">
                     <Label htmlFor="fromAddress" className="flex items-center space-x-2">
@@ -598,7 +500,7 @@ const Quote = () => {
               ) : (
                 <div></div>
               )}
-              
+
               <Button variant="hero" onClick={handleNext}>
                 {step === 4 ? t("quotePage.buttons.getMyQuotes") : t("quotePage.buttons.continue")}
                 <ArrowRight className="ml-2 h-4 w-4" />
