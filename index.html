@@ -21,6 +21,33 @@
   </head>
 
   <body>
+    <!-- Hidden forms for Netlify bot detection -->
+    <form name="quote-request" data-netlify="true" hidden>
+      <input type="text" name="fromAddress" />
+      <input type="text" name="toAddress" />
+      <input type="text" name="moveSize" />
+      <input type="text" name="floors" />
+      <input type="checkbox" name="elevator" />
+      <input type="checkbox" name="packing" />
+      <input type="checkbox" name="unpacking" />
+      <input type="checkbox" name="boxes" />
+      <input type="checkbox" name="cleaning" />
+      <input type="date" name="moveDate" />
+      <input type="text" name="timeWindow" />
+      <textarea name="notes"></textarea>
+      <input type="text" name="name" />
+      <input type="email" name="email" />
+      <input type="tel" name="phone" />
+    </form>
+
+    <form name="contact-form" data-netlify="true" hidden>
+      <input type="text" name="name" />
+      <input type="email" name="email" />
+      <input type="tel" name="phone" />
+      <input type="text" name="subject" />
+      <textarea name="message"></textarea>
+    </form>
+
     <div id="root"></div>
     <script type="module" src="/src/main.tsx"></script>
   </body>
