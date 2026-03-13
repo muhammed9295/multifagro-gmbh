@@ -83,8 +83,8 @@ const Contact = () => {
     {
       icon: Phone,
       title: t("contact.phone"),
-      detail: "078 217 77 60",
-      link: "tel:0782177760",
+      detail: "079 900 01 92",
+      link: "tel:0799000192",
     },
     {
       icon: Mail,

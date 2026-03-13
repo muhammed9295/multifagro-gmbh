@@ -37,7 +37,7 @@ const BookingSuccess = () => {
   return (
     <div className="min-h-screen flex flex-col bg-secondary">
       <Navbar />
-      
+
       <main className="flex-1 py-12 lg:py-16">
         <div className="container mx-auto max-w-3xl px-4 sm:px-6 lg:px-8">
           {/* Success Message */}
@@ -117,9 +117,9 @@ const BookingSuccess = () => {
               {t("bookingSuccess.contactSupport")}
             </p>
             <div className="flex flex-wrap justify-center gap-4">
-              <a href="tel:0782177760" className="flex items-center text-primary hover:text-primary-hover transition-colors">
+              <a href="tel:0799000192" className="flex items-center text-primary hover:text-primary-hover transition-colors">
                 <Phone className="h-4 w-4 mr-2" />
-                <span className="font-medium">078 217 77 60</span>
+                <span className="font-medium">079 900 01 92</span>
               </a>
               <a href="mailto:multifagroumzug@gmail.com" className="flex items-center text-primary hover:text-primary-hover transition-colors">
                 <Mail className="h-4 w-4 mr-2" />

@@ -28,7 +28,7 @@ const Navbar = () => {
     if (path.startsWith("/#")) {
       e.preventDefault();
       const hash = path.substring(1);
-      
+
       if (location.pathname === "/") {
         const element = document.querySelector(hash);
         if (element) {
@@ -82,11 +82,10 @@ const Navbar = () => {
                 <Link
                   key={link.path}
                   to={link.path}
-                  className={`px-4 py-2 rounded-lg text-sm font-medium transition-colors ${
-                    isActive(link.path)
-                      ? "text-primary bg-muted"
-                      : "text-muted-foreground hover:text-foreground hover:bg-muted"
-                  }`}
+                  className={`px-4 py-2 rounded-lg text-sm font-medium transition-colors ${isActive(link.path)
+                    ? "text-primary bg-muted"
+                    : "text-muted-foreground hover:text-foreground hover:bg-muted"
+                    }`}
                 >
                   {link.name}
                 </Link>
@@ -96,9 +95,9 @@ const Navbar = () => {
 
           {/* CTA Buttons */}
           <div className="hidden md:flex md:items-center md:space-x-3">
-            <a href="tel:0782177760" className="flex items-center space-x-2 text-muted-foreground hover:text-primary transition-colors">
+            <a href="tel:0799000192" className="flex items-center space-x-2 text-muted-foreground hover:text-primary transition-colors">
               <Phone className="h-4 w-4" />
-              <span className="text-sm font-medium">078 217 77 60</span>
+              <span className="text-sm font-medium">079 900 01 92</span>
             </a>
             <LanguageSwitcher />
             <Button asChild variant="hero" size="default">
@@ -134,20 +133,19 @@ const Navbar = () => {
                   key={link.path}
                   to={link.path}
                   onClick={() => setIsOpen(false)}
-                  className={`block px-4 py-2 rounded-lg text-sm font-medium transition-colors ${
-                    isActive(link.path)
-                      ? "text-primary bg-muted"
-                      : "text-muted-foreground hover:text-foreground hover:bg-muted"
-                  }`}
+                  className={`block px-4 py-2 rounded-lg text-sm font-medium transition-colors ${isActive(link.path)
+                    ? "text-primary bg-muted"
+                    : "text-muted-foreground hover:text-foreground hover:bg-muted"
+                    }`}
                 >
                   {link.name}
                 </Link>
               )
             ))}
             <div className="pt-4 space-y-3">
-              <a href="tel:0782177760" className="flex items-center space-x-2 px-4 py-2 text-muted-foreground">
+              <a href="tel:0799000192" className="flex items-center space-x-2 px-4 py-2 text-muted-foreground">
                 <Phone className="h-4 w-4" />
-                <span className="text-sm font-medium">078 217 77 60</span>
+                <span className="text-sm font-medium">079 900 01 92</span>
               </a>
               <div className="px-4 space-y-2">
                 <div className="flex justify-center">
